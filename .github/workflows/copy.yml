@@ -11,6 +11,10 @@ jobs:
   copy:
     # The type of runner that the job will run on
     runs-on: macos-latest
+    
+    # Env variable needed for devtools::install_github() to work
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 
     # Load repo and install R
     steps:
@@ -21,7 +25,6 @@ jobs:
     - name: Install packages
       run: |
         R -e 'install.packages("devtools")'
-        R -e 'Sys.unsetenv("GITHUB_PAT")'
         R -e 'devtools::install_github("GreenpeaceSchweiz/weblatetools")'
     # Run R script
     - name: Copy
