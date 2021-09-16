@@ -21,6 +21,7 @@ jobs:
     - name: Install packages
       run: |
         R -e 'install.packages("devtools")'
+        R -e 'Sys.unsetenv("GITHUB_PAT")'
         R -e 'devtools::install_github("GreenpeaceSchweiz/weblatetools")'
     # Run R script
     - name: Copy
