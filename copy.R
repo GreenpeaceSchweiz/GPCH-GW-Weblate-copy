@@ -16,6 +16,8 @@ setup(api.url = "https://translate.getopensocial.com/api/",
 # the source project, it will simply be skipped.
 components <- getComponents("gpch")
 
+cat("=== GERMANY ===")
+
 copyTranslations(components = components$slugs,
                  to.language = "de_CH",
                  from.project = "gpde",
@@ -25,6 +27,9 @@ copyTranslations(components = components$slugs,
                                                replace = c("ss"))),
                  verbose = TRUE)
 
+
+cat("=== FRANCE ===")
+
 copyTranslations(components = components$slugs,
                  to.language = "fr_CH",
                  from.project = "gpfr",
@@ -33,6 +38,9 @@ copyTranslations(components = components$slugs,
 #                replace = as.data.frame(cbind(pattern = c("ß"),
 #                                              replace = c("ss"))),
                  verbose = TRUE)
+
+
+cat("=== ITALY ===")
 
 copyTranslations(components = components$slugs,
                  to.language = "it_CH",
