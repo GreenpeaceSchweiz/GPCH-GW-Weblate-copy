@@ -1,0 +1,5 @@
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"src/LanguageAccessPermissions.php:50","Access language @language","","","False","","",""
+"language_access.info.yml:0","Language Access","","","False","","",""
+"language_access.info.yml:0","Multilingual","","","False","","",""
+"language_access.info.yml:0","Provide access permissions by language.","","","False","","",""

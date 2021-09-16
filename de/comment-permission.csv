@@ -1,0 +1,6 @@
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"comment_permission.info.yml:0","Comment Permission","","","False","","",""
+"comment_permission.info.yml:0","Custom","Benutzerdefiniert","","False","","",""
+"src/CommentPermissions.php:47","Post comments: %field_id","","","False","","",""
+"comment_permission.info.yml:0","Provides ability to regulate permission to comments based on a field name","","","False","","",""
+"src/CommentPermissions.php:44","View comments: %field_id","","","False","","",""
