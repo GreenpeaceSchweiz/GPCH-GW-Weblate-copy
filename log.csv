@@ -1,0 +1,4 @@
+"timestamp","source","destination","not.found","skipped","accepted","total","result","count"
+"2021-09-16 17:28:08","gpit it","gpch it_CH","0","136","0","152","0","152"
+"2021-09-16 17:28:07","gpfr fr","gpch fr_CH","0","122","0","152","0","152"
+"2021-09-16 17:28:06","gpde de","gpch de_CH","0","51","0","152","0","152"
