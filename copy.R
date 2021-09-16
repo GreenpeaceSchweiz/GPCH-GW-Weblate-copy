@@ -18,7 +18,7 @@ components <- getComponents("gpch")
 
 cat("=== GERMANY ===========================\n")
 
-copyTranslations(components = components$slugs,
+copyTranslations(components = "address",
                  to.language = "de_CH",
                  from.project = "gpde",
                  from.language = "de",
@@ -30,7 +30,7 @@ copyTranslations(components = components$slugs,
 
 cat("=== FRANCE ===========================\n")
 
-copyTranslations(components = components$slugs,
+copyTranslations(components = "address",
                  to.language = "fr_CH",
                  from.project = "gpfr",
                  from.language = "fr",
@@ -42,7 +42,7 @@ copyTranslations(components = components$slugs,
 
 cat("=== ITALY ===========================\n")
 
-copyTranslations(components = components$slugs,
+copyTranslations(components = "address",
                  to.language = "it_CH",
                  from.project = "gpit",
                  from.language = "it",
