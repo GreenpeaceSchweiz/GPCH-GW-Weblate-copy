@@ -16,7 +16,7 @@ setup(api.url = "https://translate.getopensocial.com/api/",
 # the source project, it will simply be skipped.
 components <- getComponents("gpch")
 
-cat("=== GERMANY ===")
+cat("=== GERMANY ===========================\n")
 
 copyTranslations(components = components$slugs,
                  to.language = "de_CH",
@@ -28,7 +28,7 @@ copyTranslations(components = components$slugs,
                  verbose = TRUE)
 
 
-cat("=== FRANCE ===")
+cat("=== FRANCE ===========================\n")
 
 copyTranslations(components = components$slugs,
                  to.language = "fr_CH",
@@ -40,7 +40,7 @@ copyTranslations(components = components$slugs,
                  verbose = TRUE)
 
 
-cat("=== ITALY ===")
+cat("=== ITALY ===========================\n")
 
 copyTranslations(components = components$slugs,
                  to.language = "it_CH",
