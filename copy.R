@@ -24,3 +24,21 @@ copyTranslations(components = components$slugs,
                  replace = as.data.frame(cbind(pattern = c("ß"),
                                                replace = c("ss"))),
                  verbose = TRUE)
+
+copyTranslations(components = components$slugs,
+                 to.language = "fr_CH",
+                 from.project = "gpfr",
+                 from.language = "fr",
+                 filter = "weGreen",
+#                replace = as.data.frame(cbind(pattern = c("ß"),
+#                                              replace = c("ss"))),
+                 verbose = TRUE)
+
+copyTranslations(components = components$slugs,
+                 to.language = "it_CH",
+                 from.project = "gpit",
+                 from.language = "it",
+                 filter = "Standup",
+#                replace = as.data.frame(cbind(pattern = c("ß"),
+#                                              replace = c("ss"))),
+                 verbose = TRUE)
