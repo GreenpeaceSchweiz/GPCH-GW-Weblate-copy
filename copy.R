@@ -18,35 +18,37 @@ components <- getComponents("gpch")
 
 cat("=== GERMANY ===========================\n")
 
-copyTranslations(components = components$slugs,
-                 to.language = "de_CH",
-                 from.project = "gpde",
-                 from.language = "de",
-#                filter = "filter this translation",
-                 replace = as.data.frame(cbind(pattern = c("ß"),
-                                               replace = c("ss"))),
-                 verbose = TRUE)
+new_de <- copyTranslations(components = components$slugs,
+                           to.language = "de_CH",
+                           from.project = "gpde",
+                           from.language = "de",
+#                          filter = "filter this translation",
+                           replace = as.data.frame(cbind(pattern = c("ß"),
+                                                         replace = c("ss"))),
+                           verbose = TRUE)
 
 
 cat("=== FRANCE ===========================\n")
 
-copyTranslations(components = components$slugs,
-                 to.language = "fr_CH",
-                 from.project = "gpfr",
-                 from.language = "fr",
-                 filter = "weGreen",
-#                replace = as.data.frame(cbind(pattern = c("ß"),
-#                                              replace = c("ss"))),
-                 verbose = TRUE)
+new_fr <- copyTranslations(components = components$slugs,
+                           to.language = "fr_CH",
+                           from.project = "gpfr",
+                           from.language = "fr",
+                           filter = "weGreen",
+#                          replace = as.data.frame(cbind(pattern = c("ß"),
+#                                                        replace = c("ss"))),
+                           verbose = TRUE)
 
 
 cat("=== ITALY ===========================\n")
 
-copyTranslations(components = components$slugs,
-                 to.language = "it_CH",
-                 from.project = "gpit",
-                 from.language = "it",
-                 filter = "Standup",
-#                replace = as.data.frame(cbind(pattern = c("ß"),
-#                                              replace = c("ss"))),
-                 verbose = TRUE)
+new_it <- copyTranslations(components = components$slugs,
+                           to.language = "it_CH",
+                           from.project = "gpit",
+                           from.language = "it",
+                           filter = "Standup",
+#                          replace = as.data.frame(cbind(pattern = c("ß"),
+#                                                        replace = c("ss"))),
+                           verbose = TRUE)
+
+Sys.setenv(NEW_DE = new_de, NEW_FR = new_fr, NEW_IT = new_it)
