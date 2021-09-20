@@ -22,6 +22,10 @@ if(Sys.getenv("GHACTION_TESTING") == "TRUE"){
       slugs <- "address"
 }
 
+Sys.getenv("GHACTION_TESTING")
+slugs
+
+if(TRUE == FALSE) {
 # COPY
 cat("=== GERMANY ===========================\n")
 
@@ -60,3 +64,4 @@ new_it <- copyTranslations(components = slugs,
 
 # Save result for logging
 Sys.setenv(NEW_DE = new_de, NEW_FR = new_fr, NEW_IT = new_it)
+}
