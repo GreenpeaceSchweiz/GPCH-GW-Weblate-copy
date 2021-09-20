@@ -8,7 +8,7 @@ library(weblatetools)
 # copyTranslations() or postFile() to avoid mistakenly writing to the wrong 
 # project.
 setup(api.url = "https://translate.getopensocial.com/api/",
-      token = "E41b6PiEbY37FUhSxtjg0iEqoybyIddmrfNtzGfj",
+      token = Sys.getenv("WEBLATE_PAT"),
       to.project = "gpch")
 
 # Working with the components from the destination project is recommended.
