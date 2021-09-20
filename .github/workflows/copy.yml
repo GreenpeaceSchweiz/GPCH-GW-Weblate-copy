@@ -15,6 +15,7 @@ jobs:
     # Env variable needed for devtools::install_github() to work
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      WEBLATE_PAT: ${{ secrets.WEBLATE_PAT }}
 
     # Load repo and install R
     steps:
