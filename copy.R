@@ -14,11 +14,18 @@ setup(api.url = "https://translate.getopensocial.com/api/",
 # Working with the components from the destination project is recommended.
 # If, during the copy process, you try to get a component that does not exist in
 # the source project, it will simply be skipped.
-components <- getComponents("gpch")
+slugs <- getComponents("gpch")$slugs
 
+# If running this from manually triggered GH action: Option to copy
+# only one component, as a test.
+if(Sys.getenv("GHACTION_TESTING") == "TRUE"){
+      slugs <- "address"
+}
+
+# COPY
 cat("=== GERMANY ===========================\n")
 
-new_de <- copyTranslations(components = components$slugs,
+new_de <- copyTranslations(components = slugs,
                            to.language = "de_CH",
                            from.project = "gpde",
                            from.language = "de",
@@ -30,7 +37,7 @@ new_de <- copyTranslations(components = components$slugs,
 
 cat("=== FRANCE ===========================\n")
 
-new_fr <- copyTranslations(components = components$slugs,
+new_fr <- copyTranslations(components = slugs,
                            to.language = "fr_CH",
                            from.project = "gpfr",
                            from.language = "fr",
@@ -42,7 +49,7 @@ new_fr <- copyTranslations(components = components$slugs,
 
 cat("=== ITALY ===========================\n")
 
-new_it <- copyTranslations(components = components$slugs,
+new_it <- copyTranslations(components = slugs,
                            to.language = "it_CH",
                            from.project = "gpit",
                            from.language = "it",
@@ -51,4 +58,5 @@ new_it <- copyTranslations(components = components$slugs,
 #                                                        replace = c("ss"))),
                            verbose = TRUE)
 
+# Save result for logging
 Sys.setenv(NEW_DE = new_de, NEW_FR = new_fr, NEW_IT = new_it)
