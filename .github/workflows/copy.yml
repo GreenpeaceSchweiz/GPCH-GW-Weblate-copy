@@ -5,7 +5,11 @@ on:
   schedule:
     - cron:  '0 4 * * 2'
   workflow_dispatch:
-
+    inputs:
+      testing:
+        description: 'Testing? (TRUE/FALSE)'     
+        required: true
+        default: 'TRUE'
 
 jobs: 
   copy:
