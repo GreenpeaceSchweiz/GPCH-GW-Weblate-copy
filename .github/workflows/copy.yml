@@ -21,7 +21,6 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       WEBLATE_PAT: ${{ secrets.WEBLATE_PAT }}
       GHACTION_TESTING: ${{ github.event.inputs.testing }}
-      NEW_DE: 0
 
     # Load repo and install R
     steps:
