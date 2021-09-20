@@ -6,4 +6,4 @@ Main components:
 - log files: `log.csv` (summary, one line per language copied) and files in `/logs` (detailed, one file per language copied)
 - Folders `/de`, `/it`, `/fr`: The translation files. These are not relevant but tracked for potential debugging reasons.
 
-## Warning: This repo contains the private Weblate access token. Repo must remain private!
+If you want to fork this project, note that authentication with Weblate happens through a personal access token that needs to be stored as a Github secret in the repository with the name `WEBLATE_PAT`.
