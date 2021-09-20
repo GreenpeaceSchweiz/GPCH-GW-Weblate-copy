@@ -57,6 +57,3 @@ new_it <- copyTranslations(components = slugs,
 #                          replace = as.data.frame(cbind(pattern = c("ß"),
 #                                                        replace = c("ss"))),
                            verbose = TRUE)
-
-# Save result for logging
-Sys.setenv(NEW_DE = new_de, NEW_FR = new_fr, NEW_IT = new_it)
