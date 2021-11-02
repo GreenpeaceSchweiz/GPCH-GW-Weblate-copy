@@ -60,7 +60,7 @@
 "config/schema/address.schema.yml:0","First line of the address block","","","False","","",""
 "src/LabelHelper.php:27;61","First name","","","False","Address label","",""
 "config/schema/address.schema.yml:0","Given name","Vorname","","False","","",""
-"src/Plugin/Field/FieldWidget/ZoneDefaultWidget.php:54","Hidden","Ausgeblendet","","False","","",""
+"src/Plugin/Field/FieldWidget/ZoneDefaultWidget.php:54","Hidden","Verborgen","","False","","",""
 "src/Plugin/Field/FieldType/AvailableCountriesTrait.php:49","If no countries are selected, all countries will be available.","Wenn keine Länder ausgewählt sind, stehen alle Länder zur Verfügung.","","False","","",""
 "src/Plugin/Field/FieldFormatter/ZoneDefaultFormatter.php:222","Included postal codes","","","False","","",""
 "src/LabelHelper.php:111","Island","","","False","Address label","",""

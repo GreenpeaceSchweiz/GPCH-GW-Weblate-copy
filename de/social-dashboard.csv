@@ -24,4 +24,4 @@
 "social_dashboard.permissions.yml:0","View all contextual links","","","False","","",""
 "social_dashboard.permissions.yml:0","View dashboard content","","","False","","",""
 "social_dashboard.permissions.yml:0","View the dashboard content type.","","","False","","",""
-"config/optional/field.field.node.dashboard.field_content_visibility.yml:0","Visibility","","","False","","",""
+"config/optional/field.field.node.dashboard.field_content_visibility.yml:0","Visibility","Sichtbarkeit","","False","","",""

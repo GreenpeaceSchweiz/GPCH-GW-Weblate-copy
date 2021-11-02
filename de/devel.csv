@@ -213,7 +213,7 @@
 "devel.links.menu.yml:0;0","Helper functions, pages, and blocks to assist Drupal developers. The devel blocks can be managed via the block administration page.","","","False","","",""
 "src/Controller/DevelController.php:157","Here are the contents of your $_SESSION variable.","","","False","","",""
 "devel.module:72","Here are the contents of your <code>$_SESSION</code> variable.","","","False","","",""
-"devel_generate/src/Plugin/DevelGenerate/ContentDevelGenerate.php:180","Hidden","Ausgeblendet","","False","","",""
+"devel_generate/src/Plugin/DevelGenerate/ContentDevelGenerate.php:180","Hidden","Verborgen","","False","","",""
 "webprofiler/src/DataCollector/CacheDataCollector.php:160","Hit: @cache_hit, miss: @cache_miss","","","False","","",""
 "webprofiler/templates/Collector/http.html.twig:36","Host","","","False","","",""
 "devel_generate/src/Plugin/DevelGenerate/ContentDevelGenerate.php:245","How far back in time should the nodes be dated?","","","False","","",""

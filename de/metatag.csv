@@ -358,7 +358,7 @@
 "metatag_google_plus/config/schema/metatag_google_plus.metatag_tag.schema.yml:0","Google Plus: description","","","False","","",""
 "metatag_google_plus/config/schema/metatag_google_plus.metatag_tag.schema.yml:0","Google Plus: image","","","False","","",""
 "metatag_google_plus/config/schema/metatag_google_plus.metatag_tag.schema.yml:0","Google Plus: name","","","False","","",""
-"config/schema/metatag.settings.schema.yml:0","Group","","","False","","",""
+"config/schema/metatag.settings.schema.yml:0","Group","Gruppe","","False","","",""
 "metatag_mobile/src/Plugin/metatag/Tag/AlternateHandheld.php:5","Handheld URL","","","False","","",""
 "metatag_mobile/src/Plugin/metatag/Tag/HandheldFriendly.php:7","Handheld-Friendly","","","False","","",""
 "metatag_dc_advanced/src/Plugin/metatag/Tag/HasFormat.php:7","Has Format","","","False","","",""

@@ -13,6 +13,6 @@
 "editor_advanced_link.module:89","Provide an alternative text value/label for assistive technologies.","","","False","","",""
 "editor_advanced_link.module:128","Relation (rel)","","","False","","",""
 "editor_advanced_link.module:119","See WCAG guidance on <a href=""https://www.w3.org/WAI/WCAG21/Techniques/general/G200"" target=""_blank"">opening links in new windows/tabs</a>.","","","False","","",""
-"editor_advanced_link.module:71","Title","","","False","","",""
+"editor_advanced_link.module:71","Title","Titolo","","False","","",""
 "js/editor_advanced_link.js:0","the noopener attribute has been added to rel","","","False","","",""
 "js/editor_advanced_link.js:0","the noopener attribute has been removed from rel","","","False","","",""
