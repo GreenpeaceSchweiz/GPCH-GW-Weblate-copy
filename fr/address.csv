@@ -60,7 +60,7 @@
 "config/schema/address.schema.yml:0","First line of the address block","Première ligne de l'adresse","","False","","",""
 "src/LabelHelper.php:27;61","First name","Prénom","","False","Address label","",""
 "config/schema/address.schema.yml:0","Given name","Nom d'usage","","False","","",""
-"src/Plugin/Field/FieldWidget/ZoneDefaultWidget.php:54","Hidden","Caché","","False","","",""
+"src/Plugin/Field/FieldWidget/ZoneDefaultWidget.php:54","Hidden","Masqué","","False","","",""
 "src/Plugin/Field/FieldType/AvailableCountriesTrait.php:49","If no countries are selected, all countries will be available.","Si aucun pays n'est sélectionné, tous les pays seront disponibles.","","False","","",""
 "src/Plugin/Field/FieldFormatter/ZoneDefaultFormatter.php:222","Included postal codes","Codes postaux inclus","","False","","",""
 "src/LabelHelper.php:111","Island","Islande","","False","Address label","",""

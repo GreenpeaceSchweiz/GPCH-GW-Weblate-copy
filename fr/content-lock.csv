@@ -74,7 +74,7 @@
 "config/optional/views.view.locked_content.yml:0","Master","Maître","","False","","",""
 "config/optional/views.view.locked_content.yml:0","Offset","Décalage","","False","","",""
 "config/optional/views.view.locked_content.yml:0","Operations","Actions","","False","","",""
-"config/optional/views.view.locked_content.yml:0","Page","","","False","","",""
+"config/optional/views.view.locked_content.yml:0","Page","Page","","False","","",""
 "content_lock.info.yml:0","Prevents multiple users from trying to edit a content entity simultaneously to prevent edit conflicts.","","","False","","",""
 "content_lock.module:28","Prevents multiple users from trying to edit a single node simultaneously to prevent edit conflicts.","","","False","","",""
 "modules/content_lock_timeout/content_lock_timeout.info.yml:0","Provides mechanisms for automatically unlocking nodes that have been locked for a certain length of time.","","","False","","",""

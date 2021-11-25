@@ -75,7 +75,7 @@
 "src/AliasCleaner.php:306","Equal sign","","","False","","",""
 "src/AliasCleaner.php:314","Exclamation mark","","","False","","",""
 "src/Form/PathautoSettingsForm.php:241","Filters the new alias to only letters and numbers found in the ASCII-96 set.","","","False","","",""
-"src/Plugin/pathauto/AliasType/ForumAliasType.php:14","Forum","","","False","","",""
+"src/Plugin/pathauto/AliasType/ForumAliasType.php:14","Forum","Forum","","False","","",""
 "src/Form/PathautoBulkUpdateForm.php:94","Generate a URL alias for un-aliased paths only","","","False","","",""
 "src/Commands/PathautoCommands.php:263","Generate a URL alias for un-aliased paths only.","","","False","","",""
 "src/PathautoWidget.php:60","Generate automatic URL alias","","","False","","",""

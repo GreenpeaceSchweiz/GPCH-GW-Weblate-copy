@@ -92,7 +92,7 @@
 "src/Plugin/Filter/LazyFilter.php:88","This option only applies to inline-images. If <em>Embed media</em> filter is enabled, the images embedded from media library would use the the selected view mode settings.","","","False","","",""
 "config/schema/lazy.schema.yml:0","Use data URIs for the placeholder image","","","False","","",""
 "src/Form/LazyForm.php:304","Use minified versions.","","","False","","",""
-"src/Form/LazyForm.php:339","Visibility","","","False","","",""
+"src/Form/LazyForm.php:339","Visibility","Visibilité","","False","","",""
 "lazy.module:91","When an image style is selected it would be used to generate the placeholder image. Otherwise the <a href="":url"">shared settings</a> apply.","","","False","","",""
 "lazy.module:106","When checked, the content of the linked image is embedded into the HTML. i.e. <code>data:image/gif;base64,R0lGODdhAQABAPAAAP8A...</code><br>See <a href="":url"">Can I use ""Data URIs""?</a>","","","False","","",""
 "src/Form/LazyForm.php:298","When it is checked the default CSS transition effect is applied with matching class names.","","","False","","",""

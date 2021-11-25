@@ -14,7 +14,7 @@
 "private_message.install:253","'@current/@total threads processed.'","","","False","","",""
 "private_message.install:192","'@total threads processed.'","","","False","","",""
 "private_message.info.yml:0","A private message system for users to send messages to each other","","","False","","",""
-"config/optional/block.block.privatemessageactions.yml:0","Actions","","","False","","",""
+"config/optional/block.block.privatemessageactions.yml:0","Actions","Actions","","False","","",""
 "private_message.permissions.yml:0","Administer private message module","","","False","","",""
 "private_message.permissions.yml:0","Administer private messages","","","False","","",""
 "src/Plugin/Field/FieldFormatter/PrivateMessageThreadMessageFormatter.php:205","Ajax refresh rate","","","False","","",""

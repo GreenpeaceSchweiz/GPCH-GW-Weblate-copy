@@ -79,7 +79,7 @@
 "admin_toolbar_tools/src/Form/AdminToolbarToolsSettingsForm.php:83","Maximum number of bundle sub-menus to display","","","False","","",""
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:584","Media","","","False","","",""
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:590","Media library","","","False","","",""
-"admin_toolbar_tools/admin_toolbar_tools.routing.yml:0","Menu","","","False","","",""
+"admin_toolbar_tools/admin_toolbar_tools.routing.yml:0","Menu","Menu","","False","","",""
 "src/Form/AdminToolbarSettingsForm.php:84","Menu depth","","","False","","",""
 "admin_toolbar_search/src/SearchLinks.php:231","Menus > @menu_label","","","False","","",""
 "admin_toolbar_search/src/SearchLinks.php:243;258;271","Menus > @menu_label > ","","","False","","",""

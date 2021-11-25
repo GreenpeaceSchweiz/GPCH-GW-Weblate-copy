@@ -125,7 +125,7 @@
 "modules/features_ui/features_ui.routing.yml:0","Features","Fonctionnalités","","False","","",""
 "modules/features_ui/features_ui.info.yml:0","Features UI","","","False","","",""
 "src/Entity/FeaturesBundle.php:9","Features bundle","","","False","","",""
-"config/schema/features.schema.yml:0","Features settings","","","False","","",""
+"config/schema/features.schema.yml:0","Features settings","Paramètres","","False","","",""
 "modules/features_ui/src/Form/FeaturesEditForm.php:430","Filters","Filtres","","False","","",""
 "config/schema/features.schema.yml:0","Folder","Répertoire","","False","","",""
 "src/Plugin/FeaturesAssignment/FeaturesAssignmentForwardDependency.php:8","Forward dependency","","","False","","",""

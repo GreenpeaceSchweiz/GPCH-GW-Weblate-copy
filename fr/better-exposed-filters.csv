@@ -52,7 +52,7 @@
 "config/schema/better_exposed_filters.exposed_form.schema.yml:0","Filters","","","False","","",""
 "config/schema/better_exposed_filters.exposed_form.schema.yml:0","General BEF settings","","","False","","",""
 "better_exposed_filters.module:65","Global replacement patterns (for description field only)","","","False","","",""
-"src/Plugin/better_exposed_filters/filter/Hidden.php:7","Hidden","Caché","","False","","",""
+"src/Plugin/better_exposed_filters/filter/Hidden.php:7","Hidden","Masqué","","False","","",""
 "src/Plugin/views/exposed_form/BetterExposedFilters.php:250","Hide submit button","","","False","","",""
 "src/Plugin/views/exposed_form/BetterExposedFilters.php:251","Hides submit button if auto-submit and javascript are enabled.","","","False","","",""
 "src/Plugin/better_exposed_filters/filter/Sliders.php:123","Horizontal","","","False","","",""

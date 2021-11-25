@@ -98,7 +98,7 @@
 "src/Controller/DashboardController.php:92","Main menu","","","False","","",""
 "src/Controller/DashboardController.php:176","Manage data policy entities and settings.","","","False","","",""
 "src/Controller/DashboardController.php:318","Maximum Event Enrollment settings","","","False","","",""
-"src/Controller/DashboardController.php:89","Menu","","","False","","",""
+"src/Controller/DashboardController.php:89","Menu","Menu","","False","","",""
 "src/Controller/DashboardController.php:207","Migrate users","","","False","","",""
 "src/Controller/DashboardController.php:212","Migration settings","","","False","","",""
 "src/Controller/DashboardController.php:441","Monetization settings","","","False","","",""

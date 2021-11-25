@@ -279,7 +279,7 @@
 "modules/grequest/config/optional/views.view.group_pending_members.yml:0","Operations","Actions","","False","","",""
 "src/Entity/Storage/GroupRoleStorage.php:182","Outsider","","","False","","",""
 "src/Entity/Controller/GroupListBuilder.php:110","Owner","Propriétaire","","False","","",""
-"modules/grequest/config/optional/views.view.group_pending_members.yml:0","Page","","","False","","",""
+"modules/grequest/config/optional/views.view.group_pending_members.yml:0","Page","Page","","False","","",""
 "modules/grequest/config/optional/views.view.group_pending_members.yml:0","Parent group","Groupe parent","","False","","",""
 "src/Form/GroupPermissionsForm.php:156","Permission","Droit","","False","","",""
 "config/schema/group.schema.yml:0","Permissions","Droits","","False","","",""

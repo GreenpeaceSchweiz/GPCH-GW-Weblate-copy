@@ -120,7 +120,7 @@
 "src/Form/MessageTemplateForm.php:119","Override <a href="":settings"">global purge settings</a> for messages using this template.","","","False","","",""
 "src/Form/MessageTemplateForm.php:117","Override global purge settings","","","False","","",""
 "message.permissions.yml:0","Overview messages","Aperçu des messages","","False","","",""
-"config/optional/views.view.message.yml:0","Page","","","False","","",""
+"config/optional/views.view.message.yml:0","Page","Page","","False","","",""
 "message.module:154","Partial %number","","","False","","",""
 "src/FormElement/MessageTemplateMultipleTextField.php:61","Please enter the message text.","","","False","","",""
 "src/Plugin/migrate/source/MessageSource.php:48","Primary key: unique message ID.","","","False","","",""

@@ -98,7 +98,7 @@
 "config/install/views.view.redirect.yml:0","Original language","Langue initiale","","False","","",""
 "config/schema/redirect.views.schema.yml:0","Output machine name","Afficher le nom système","","False","","",""
 "modules/redirect_404/redirect_404.views.inc:26","Overview for 404 error paths with no redirect assigned yet.","","","False","","",""
-"modules/redirect_404/config/install/views.view.redirect_404.yml:0","Page","","","False","","",""
+"modules/redirect_404/config/install/views.view.redirect_404.yml:0","Page","Page","","False","","",""
 "modules/redirect_404/redirect_404.module:54","Pages to ignore","","","False","","",""
 "modules/redirect_404/config/install/views.view.redirect_404.yml:0;0","Path","Chemin","","False","","",""
 "modules/redirect_domain/redirect_domain.module:31","Precedence","","","False","","",""

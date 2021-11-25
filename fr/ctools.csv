@@ -65,7 +65,7 @@
 "ctools.module:118","Form wizard -- an API to make multi-step forms much easier.","","","False","","",""
 "modules/ctools_block/config/schema/ctools_block.schema.yml:0","Format type machine name","Nom système du type de format","","False","","",""
 "modules/ctools_block/src/Plugin/Block/EntityField.php:221","Formatter","Outil de mise en forme","","False","","",""
-"modules/ctools_block/src/Plugin/Block/EntityField.php:213","Hidden","Caché","","False","","",""
+"modules/ctools_block/src/Plugin/Block/EntityField.php:213","Hidden","Masqué","","False","","",""
 "modules/ctools_views/src/Plugin/Display/Block.php:170","Hide","Masquer","","False","","",""
 "modules/ctools_views/src/Plugin/Display/Block.php:85;107","Hide fields","","","False","","",""
 "config/schema/ctools.schema.yml:0","ID","Identifiant (ID)","","False","","",""

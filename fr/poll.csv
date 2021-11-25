@@ -63,7 +63,7 @@
 "src/PollListBuilder.php:49","Operations","","","False","","",""
 "config/install/views.view.poll_admin.yml:0","Operations links","","","False","","",""
 "poll.info.yml:0","Other","","","False","","",""
-"config/install/views.view.poll_admin.yml:0","Page","","","False","","",""
+"config/install/views.view.poll_admin.yml:0","Page","Page","","False","","",""
 "config/install/views.view.poll_admin.yml:0","Poll","","","False","","",""
 "src/Form/PollForm.php:66","Poll %poll added.","","","False","","",""
 "src/Form/PollDeleteForm.php:47","Poll %poll deleted.","","","False","","",""

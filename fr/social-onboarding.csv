@@ -6,7 +6,7 @@
 "src/Form/SettingsForm.php:39","Enter a title and description for each of the modals.","","","False","","",""
 "templates/views-view--groups-list.html.twig:68","Groups","","","False","","",""
 "src/Form/ModalForm.php:139","Image","","","False","","",""
-"templates/views-view--groups-list.html.twig:85","Informative message","","","False","","",""
+"templates/views-view--groups-list.html.twig:85","Informative message","Message d'information","","False","","",""
 "templates/group--action-button.html.twig:18;18","Invitation only","","","False","","",""
 "config/install/core.entity_view_mode.group.join.yml:0","Join","S'inscrire","","False","","",""
 "templates/group--action-button.html.twig:3","Joined","Membre du groupe","","False","Is a member","",""

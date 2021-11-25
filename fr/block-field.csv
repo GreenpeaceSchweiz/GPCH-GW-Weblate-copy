@@ -21,7 +21,7 @@
 "config/schema/block_field.yml:0","Default value","Valeur par défaut","","False","","",""
 "block_field.info.yml:0","Field","Champ","","False","","",""
 "src/Plugin/Field/FieldWidget/BlockFieldWidget.php:89","Full","Plein aperçu","","False","","",""
-"src/Plugin/Field/FieldWidget/BlockFieldWidget.php:90","Hidden","Caché","","False","","",""
+"src/Plugin/Field/FieldWidget/BlockFieldWidget.php:90","Hidden","Masqué","","False","","",""
 "src/Plugin/Field/FieldWidget/BlockFieldWidget.php:87","How the block configuration form will be shown.","","","False","","",""
 "src/Plugin/block_field/BlockFieldSelection/Blocks.php:59","Label/ID","","","False","","",""
 "config/schema/block_field.yml:0;0","Link format settings","Paramètres du format de lien","","False","","",""

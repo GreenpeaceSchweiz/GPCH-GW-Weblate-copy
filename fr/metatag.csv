@@ -550,7 +550,7 @@
 "metatag_mobile/src/Plugin/metatag/Tag/AppleMobileWebAppTitle.php:7","Overrides the long site title when using the Apple Add to Home Screen.","","","False","","",""
 "metatag.links.menu.yml:0","Overview of plugins used in metatag.","","","False","","",""
 "metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsPageUrl.php:7","Page URL","","","False","","",""
-"src/Plugin/metatag/Tag/Title.php:5","Page title","Titre de page","","False","","",""
+"src/Plugin/metatag/Tag/Title.php:5","Page title","Titre de la page","","False","","",""
 "metatag_open_graph/src/Plugin/metatag/Tag/OgPhoneNumber.php:7","Phone number","Numéro de téléphone","","False","","",""
 "metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsType.php:38","Photo Card","","","False","","",""
 "metatag_verification/src/Plugin/metatag/Tag/Pinterest.php:7","Pinterest","","","False","","",""

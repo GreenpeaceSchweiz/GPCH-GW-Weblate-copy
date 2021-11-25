@@ -171,7 +171,7 @@
 "modules/paragraphs_library/config/install/views.view.paragraphs_library.yml:0","Operations","Actions","","False","","",""
 "src/Plugin/migrate/source/d7/FieldCollectionType.php:74","Original field collection bundle/field_name","","","False","","",""
 "src/Entity/Paragraph.php:167","Orphaned @type: @summary","","","False","","",""
-"modules/paragraphs_library/config/install/views.view.paragraphs_library.yml:0","Page","","","False","","",""
+"modules/paragraphs_library/config/install/views.view.paragraphs_library.yml:0","Page","Page","","False","","",""
 "modules/paragraphs_demo/config/install/core.entity_form_display.paragraph.nested_paragraph.default.yml:0","Paragraph","Paragraphe","","False","","",""
 "modules/paragraphs_library/src/Form/LibraryItemForm.php:53","Paragraph %label has been created.","Le paragraphe %label a été créé.","","False","","",""
 "modules/paragraphs_library/src/Form/LibraryItemForm.php:56","Paragraph %label has been updated.","Le paragraphe %label a été mis à jour.","","False","","",""

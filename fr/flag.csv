@@ -211,7 +211,7 @@
 "modules/flag_follower/config/install/views.view.flag_followers_content.yml:0","Offset","Décalage","","False","","",""
 "modules/flag_bookmark/config/install/views.view.flag_bookmark.yml:0","Ops","","","False","","",""
 "src/Plugin/ActionLink/FormEntryTypeBase.php:45","Options for the ""@label"" link type","","","False","","",""
-"modules/flag_follower/config/install/views.view.flag_followers_content.yml:0","Page","","","False","","",""
+"modules/flag_follower/config/install/views.view.flag_followers_content.yml:0","Page","Page","","False","","",""
 "src/Plugin/Flag/CommentFlagType.php:24","Permissions based on ownership of a comment's parent entity.","","","False","","",""
 "src/Plugin/Flag/EntityFlagType.php:255","Permissions based on ownership of the flaggable item. For example, only allow users to flag items they own.","","","False","","",""
 "src/Plugin/Flag/UserFlagType.php:75","Permissions for users to flag themselves.","","","False","","",""
