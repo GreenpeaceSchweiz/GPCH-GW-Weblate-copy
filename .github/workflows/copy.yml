@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       testing:
-        description: 'Testing? (TRUE/FALSE)'     
+        description: 'Testing? (FALSE / [slug to test])'     
         required: true
-        default: 'TRUE'
+        default: 'drupal-core'
 
 jobs: 
   copy:
