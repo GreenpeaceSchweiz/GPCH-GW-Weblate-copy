@@ -2,8 +2,8 @@ name: copy
 
 # Controls when the action will run.
 on:
-#  schedule:
-#    - cron:  '0 4 * * 2'
+  schedule:
+    - cron:  '0 23 * * 1'
   workflow_dispatch:
     inputs:
       testing:
