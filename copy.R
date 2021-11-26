@@ -17,9 +17,9 @@ setup(api.url = "https://translate.getopensocial.com/api/",
 slugs <- getComponents("gpch")$slugs
 
 # If running this from manually triggered GH action: Option to copy
-# only one component, as a test.
-if(Sys.getenv("GHACTION_TESTING") == "TRUE"){
-      slugs <- "address"
+# only one specified component, as a test.
+if(Sys.getenv("GHACTION_TESTING") != "FALSE"){
+      slugs <- Sys.getenv("GHACTION_TESTING")
 }
 
 # COPY
