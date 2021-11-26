@@ -281,7 +281,8 @@ False\|My unmuted groups'","","","False","","",""
 <p>[message:cta_button]</p>
 ","","","False","","",""
 "modules/social_features/social_group/modules/social_group_request/config/install/message.template.request_to_join_a_group.yml:0;0","<p><a href=""absolute]"">[message:recipient-user:display-name]</a> has requested membership to the <a href=""gurl]"">[message:gtitle]</a> group</p>
-","","","False","","",""
+","<p><a href=""absolute]"">[message:recipient-user:display-name]</a> a demandé à rejoindre le groupe <a href=""gurl]"">[message:gtitle]</a> </p>
+","","False","","",""
 "modules/social_features/social_event/modules/social_event_an_enroll/config/install/views.view.manage_enrollments.yml:0","<p>@total people have enrolled anonymously</p>","<p>@total personnes se sont inscrites de manière anonyme</p>","","False","","",""
 "modules/custom/social_queue_storage/config/install/message.template.background_process_finished.yml:0;0;0","<p>Background process ""[queue_storage_entity:mail_task_subject]"" has finished.</p>","<p>L'opération ""[queue_storage_entity:mail_task_subject]"" en arrière-plan est terminée.</p>","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/config/install/message.template.invite_event_enrollment.yml:0","<p>Hi,</p>
@@ -356,14 +357,15 @@ False\|My unmuted groups'","","","False","","",""
 	</tbody>
 </table>
 ","","False","","",""
-"modules/social_features/social_group/modules/social_group_invite/config/optional/social_group_invite.settings.yml:0","<p>The message above is edited by the community managers. Please contact them for questions and ideas</p>","","","False","","",""
+"modules/social_features/social_group/modules/social_group_invite/config/optional/social_group_invite.settings.yml:0","<p>The message above is edited by the community managers. Please contact them for questions and ideas</p>","<p>Le message ci-dessus est édité par les managers de la plateforme. Contactez-les pour toute question ou idée</p>","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/config/install/message.template.invite_event_enrollment.yml:0","<p>You have been invited for the even [social_event:event_iam_organizing] by [message:author:display-name]</p>
 ","","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/config/install/message.template.invite_event_enrollment.yml:0","<p>You have been invited for the event [social_event:event_iam_organizing] by [message:author:display-name]</p>
 ","<p>Vous avez été invité à l'événement [social_event:event_iam_organizing] par [message:author:display-name]</p>
 ","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/config/optional/message.template.invited_to_join_group.yml:0;0","<p>You have been invited to join the group <a href=""gurl]"">[message:gtitle]</a></p>
-","","","False","","",""
+","<p>Vous avez été invité.e à rejoindre le groupe <a href=""gurl]"">[message:gtitle]</a></p>
+","","False","","",""
 "modules/social_features/social_core/src/Controller/SocialCoreController.php:67","<p>You have insufficient permissions to view the page you're trying to access. There could be several reasons for this:</p><ul><li>You are trying to edit content you're not allowed to edit.</li><li>You are trying to view content (from a group) you don't have access to.</li><li>You are trying to access administration pages.</li></ul><p>Click the back button of your browser to go back where you came from or click <a href="":url"">here</a> to go to the homepage</p>","","","False","","",""
 "modules/social_features/social_private_message/config/install/message.template.create_private_message.yml:0;0","<p>You have received a <a href=""[message:pmt-url]"">message</a> from <a href=""[message:author:url:absolute]"">[message:author:display-name]</a></p>
 ","","","False","","",""
@@ -381,7 +383,12 @@ False\|My unmuted groups'","","","False","","",""
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p>Votre demande à rejoindre le groupe <a href=""[message:gurl]"">[message:gtitle]</a> a été approuvée ! Vous êtes à présent membre du groupe et pouvez commencer à poster des contenus.</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_profile/modules/social_profile_privacy/config/install/social_profile_privacy.settings.yml:0","<strong>Please note:</strong>
 <p>Other people will still be able to find you when they search for a value of some of these fields (e.g. Amsterdam for City value). The information you choose to hide will still be visible to the managers of this site. It is also possible that some of the options below are disabled by the managers of this site.</p>
 ","","","False","","",""
@@ -447,9 +454,9 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_core/config/install/crop.type.hero_small.yml:0","A smaller variant for the hero region","","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_event_gc.yml:0","A user add (create) a event to a group (or groups)","","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_topic_gc.yml:0","A user add (create) a topic to a group (or groups)","","","False","","",""
-"modules/social_features/social_activity/config/install/message.template.create_comment_community_node.yml:0","A user add a comment to content in the community","","","False","","",""
+"modules/social_features/social_activity/config/install/message.template.create_comment_community_node.yml:0","A user add a comment to content in the community","Un utilisateur a commenté un contenu dans la communauté","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_comment_group_node.yml:0","A user add a comment to content in the group","Un utilisateur a commenté un contenu du groupe","","False","","",""
-"modules/social_features/social_activity/config/install/message.template.create_comment_community_post.yml:0","A user add a comment to post in the community","","","False","","",""
+"modules/social_features/social_activity/config/install/message.template.create_comment_community_post.yml:0","A user add a comment to post in the community","Un utilisateur a commenté un post dans la communauté","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_comment_group_post.yml:0","A user add a comment to post in the group","","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_post_group.yml:0","A user created a post in a group","Un utilisateur a créé un post dans un groupe","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_post_community.yml:0","A user created a post in the community","Un utilisateur a créé un post dans la communauté","","False","","",""
@@ -483,7 +490,7 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_group/config/schema/social_group.schema.yml:0","Access for group managers only","","","False","","",""
 "modules/social_features/social_group/src/Plugin/views/access/ManageByGroupManagersOnlyAccess.php:9","Access for group managers only.","","","False","","",""
 "modules/social_features/social_search/social_search.permissions.yml:0","Access group search","","","False","","",""
-"modules/social_features/social_group/social_group.module:437;1911;2596;2602","Access permissions","","","False","","",""
+"modules/social_features/social_group/social_group.module:437;1911;2596;2602","Access permissions","Permissions d'accès","","False","","",""
 "modules/social_features/social_post/social_post.group.permissions.yml:0","Access posts in group","","","False","","",""
 "modules/custom/social_font/social_font.permissions.yml:0","Access the Font overview page","","","False","","",""
 "modules/social_features/social_post/social_post.group.permissions.yml:0","Access the posts in this group","Accéder aux posts dans ce groupe","","False","","",""
@@ -855,7 +862,7 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_group/src/Plugin/views/field/SocialGroupViewsBulkOperationsBulkForm.php:151","Clear selection on all pages","Effacer la sélection sur toutes les pages","","False","","",""
 "modules/social_features/social_group/config/schema/social_group.schema.yml:0","Clear selection when exposed filters change","","","False","","",""
 "modules/social_features/social_tagging/src/Form/SocialTaggingSettingsForm.php:179","Click here to go to the social tagging overview","","","False","","",""
-"modules/custom/social_tour/config/install/tour.tour.social_explore.yml:0","Click on the explore button to browse to all content in the community","","","False","","",""
+"modules/custom/social_tour/config/install/tour.tour.social_explore.yml:0","Click on the explore button to browse to all content in the community","Cliquer sur le bouton explorer pour rechercher tous les contenus de la communauté","","False","","",""
 "modules/custom/social_graphql/src/Plugin/GraphQL/DataProducer/Payload/PayloadClientMutationId.php:9","Client Mutation ID","","","False","","",""
 "modules/social_features/social_content_report/src/Plugin/views/field/LinkReportClose.php:34","Close","Fermer","","False","","",""
 "translations.php:91","Close report","","","False","","",""
@@ -887,7 +894,7 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_topic/config/install/field.field.node.topic.field_topic_comments.yml:0","Comments","Commentaires","","False","","",""
 "modules/social_features/social_user_export/src/Plugin/UserExportPlugin/UserAnalyticsCommentsCreated.php:23;8","Comments created","Commentaires créés","","False","","",""
 "modules/social_features/social_post/config/install/field.storage.post.field_visibility.yml:0;0","Community","Communauté","","False","","",""
-"modules/social_features/social_branding/src/Plugin/GraphQL/DataProducer/CommunityAbout.php:11;11","Community About","","","False","","",""
+"modules/social_features/social_branding/src/Plugin/GraphQL/DataProducer/CommunityAbout.php:11;11","Community About","Au sujet de la communauté","","False","","",""
 "modules/social_features/social_branding/src/Plugin/GraphQL/DataProducer/AboutName.php:8","Community About Name","","","False","","",""
 "modules/social_features/social_branding/src/Plugin/GraphQL/DataProducer/BrandingColorSchemeLoadColorByName.php:9","Community Brand Config Color Name","","","False","","",""
 "modules/social_features/social_branding/src/Plugin/GraphQL/DataProducer/BrandingColorSchemeLoadColorByName.php:9","Community Brand Palette Color Name","","","False","","",""
@@ -897,12 +904,12 @@ False\|My unmuted groups'","","","False","","",""
 "modules/custom/social_lets_connect/modules/social_lets_connect_usage/src/Form/LetsConnectUsageSettingsForm.php:44","Community URL","","","False","","",""
 "modules/social_features/social_branding/src/Plugin/GraphQL/DataProducer/AboutName.php:8","Community about","","","False","","",""
 "modules/social_features/social_branding/src/Plugin/GraphQL/DataProducer/AboutName.php:8","Community about name","","","False","","",""
-"modules/social_features/social_landing_page/config/install/views.view.community_activities.yml:0;0","Community activities","","","False","","",""
+"modules/social_features/social_landing_page/config/install/views.view.community_activities.yml:0;0","Community activities","Activités de la communauté","","False","","",""
 "modules/social_features/social_landing_page/config/install/views.view.community_activities.yml:0;0","Community activities block","","","False","","",""
 "modules/custom/activity_basics/src/Plugin/ActivityContext/CommunityActivityContext.php:9","Community activity context","","","False","","",""
 "modules/social_features/social_event/config/install/views.view.upcoming_events.yml:0;0","Community events block","","","False","","",""
 "modules/social_features/social_event/config/install/views.view.upcoming_events.yml:0","Community events page","","","False","","",""
-"modules/social_features/social_landing_page/src/Plugin/Field/FieldWidget/BlockFieldWidget.php:40","Community statistics","","","False","","",""
+"modules/social_features/social_landing_page/src/Plugin/Field/FieldWidget/BlockFieldWidget.php:40","Community statistics","Statistiques de la communauté","","False","","",""
 "modules/social_features/social_profile/config/install/core.entity_view_mode.profile.compact.yml:0","Compact Avatar","","","False","","",""
 "modules/social_features/social_profile/config/install/core.entity_view_mode.profile.compact_notification.yml:0","Compact Notifcation","","","False","","",""
 "modules/social_features/social_private_message/config/install/core.entity_view_mode.profile.compact_private_message.yml:0","Compact Private Message","","","False","","",""
@@ -2115,7 +2122,7 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_group/modules/social_group_flexible_group/social_group_flexible_group.info.yml:0","Provides a flexible Group feature allowing members to configure the group to their liking.","","","False","","",""
 "modules/social_features/social_group/modules/social_group_flexible_group/modules/social_flexible_group_featured/social_flexible_group_featured.info.yml:0","Provides a flexible Group featured view mode for use on landing pages.","","","False","","",""
 "modules/social_features/social_featured_items/social_featured_items.info.yml:0","Provides a shared paragraphs type for landing pages and dashboards.","","","False","","",""
-"modules/social_features/social_event/modules/social_event_an_enroll/social_event_an_enroll.info.yml:0","Provides ability to enroll to an event without having to create an account.","","","False","","",""
+"modules/social_features/social_event/modules/social_event_an_enroll/social_event_an_enroll.info.yml:0","Provides ability to enroll to an event without having to create an account.","Permettre de participer à un événement sans créer un compte.","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/social_event_invite.info.yml:0","Provides ability to invite enroll to an event.","","","False","","",""
 "modules/social_features/social_profile/modules/social_profile_privacy/social_profile_privacy.info.yml:0","Provides ability to set visibility of profile fields","","","False","","",""
 "modules/social_features/social_comment_upload/social_comment_upload.info.yml:0","Provides ability to upload files in comments","","","False","","",""
@@ -2153,7 +2160,7 @@ Other modules that require React should not load React themselves but instead de
 "config/install/views.view.content.yml:0;0","Published","Publié","","False","","",""
 "modules/social_features/social_group/config/install/views.view.group_topics.yml:0","Published status","Statut de publication","","False","","",""
 "modules/social_features/social_event/src/Entity/EventEnrollment.php:244","Publishing status","Statut de publication","","False","","",""
-"modules/custom/activity_send/modules/activity_send_push_notification/activity_send_push_notification.module:46","Push notifications","","","False","","",""
+"modules/custom/activity_send/modules/activity_send_push_notification/activity_send_push_notification.module:46","Push notifications","notifications push","","False","","",""
 "modules/social_features/social_event/src/Plugin/GraphQL/DataProducer/QueryEvent.php:10","Query a list of events","","","False","","",""
 "modules/social_features/social_topic/src/Plugin/GraphQL/DataProducer/QueryTopicByType.php:10","Query a list of topics","","","False","","",""
 "modules/social_features/social_user/src/Plugin/GraphQL/DataProducer/QueryUser.php:18","Query a list of users","","","False","","",""

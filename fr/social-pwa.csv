@@ -37,7 +37,7 @@
 "src/Form/ManifestSettingsForm.php:194","Portrait","","","False","","",""
 "src/Form/ManifestSettingsForm.php:134","Provide a square (.png) image. This image serves as your icon when the user adds the website to their home screen. <i>Minimum dimensions are 512px by 512px.</i>","","","False","","",""
 "src/Form/ManifestSettingsForm.php:100","Push notification configuration","","","False","","",""
-"social_pwa.module:206","Push notifications","","","False","","",""
+"social_pwa.module:206","Push notifications","notifications push","","False","","",""
 "social_pwa.install:72","Push notifications VAPID keys","","","False","","",""
 "src/Form/ManifestSettingsForm.php:147","Select a background color for the launch screen. This is shown when the user opens the website from their homescreen.","","","False","","",""
 "src/Form/PushNotificationForm.php:93","Send Push Notification","","","False","","",""
