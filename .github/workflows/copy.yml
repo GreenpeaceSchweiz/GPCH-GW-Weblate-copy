@@ -16,9 +16,9 @@ jobs:
     # The type of runner that the job will run on
     runs-on: macos-latest
     
-    # Env variable needed for devtools::install_github() to work
+    # Env variables
     env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }} # needed for devtools::install_github() to work
       WEBLATE_PAT: ${{ secrets.WEBLATE_PAT }}
       GHACTION_CUSTOM_SLUG: ${{ github.event.inputs.custom_slug }}
 
