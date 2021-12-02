@@ -3,7 +3,7 @@ name: copy
 # Controls when the action will run.
 on:
   schedule:
-    - cron:  '0 23 * * 1'
+    - cron: '34 20 * * 4'
   workflow_dispatch:
     inputs:
       custom_slug:
