@@ -18,10 +18,10 @@ slugs <- getComponents("gpch")$slugs
 
 # If running this from manually triggered GH action: Option to copy
 # only one specified component, as a test.
-cat(paste("GHACTION_CUSTOM_SLUG: ", Sys.getenv("GHACTION_CUSTOM_SLUG"))
+cat(paste("GHACTION_CUSTOM_SLUG: ", Sys.getenv("GHACTION_CUSTOM_SLUG")))
 if(Sys.getenv("GHACTION_CUSTOM_SLUG") != ""){
       slugs <- Sys.getenv("GHACTION_CUSTOM_SLUG")
-}
+}	
 
 # COPY
 cat("=== GERMANY ===========================\n")
