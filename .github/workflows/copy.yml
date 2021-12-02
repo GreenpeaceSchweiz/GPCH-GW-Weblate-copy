@@ -15,7 +15,7 @@ jobs:
   copy:
     # The type of runner that the job will run on
     runs-on: macos-latest
-    
+
     # Env variables
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }} # needed for devtools::install_github() to work
@@ -26,7 +26,13 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: r-lib/actions/setup-r@master
-
+    
+    # Test Env variables
+    - name: Test env variables
+      run: |
+        R -e 'cat(paste("GHACTION_CUSTOM_SLUG: ", Sys.getenv("GHACTION_CUSTOM_SLUG"),"\n"))'
+        R -e 'cat(paste("GITHUB_EVENT_NAME: ", Sys.getenv("GITHUB_EVENT_NAME"),"\n"))'
+        
     # Set-up R
     - name: Install packages
       run: |
