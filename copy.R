@@ -18,9 +18,8 @@ slugs <- getComponents("gpch")$slugs
 
 # If running this from manually triggered GH action: Option to copy
 # only one specified component, as a test.
-cat(Sys.getenv("GITHUB_EVENT_NAME"))
-stop
-if(Sys.getenv("GHACTION_TESTING") != "FALSE"){
+cat(paste("GHACTION_TESTING: ", Sys.getenv("GHACTION_TESTING"))
+if(Sys.getenv("GHACTION_TESTING") != ""){
       slugs <- Sys.getenv("GHACTION_TESTING")
 }
 
