@@ -20,7 +20,7 @@ jobs:
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       WEBLATE_PAT: ${{ secrets.WEBLATE_PAT }}
-      GHACTION_TESTING: ${{ github.event.inputs.testing }}
+      GHACTION_CUSTOM_SLUG: ${{ github.event.inputs.custom_slug }}
 
     # Load repo and install R
     steps:
