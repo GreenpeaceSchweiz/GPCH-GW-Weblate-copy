@@ -6,8 +6,8 @@ on:
     - cron:  '0 23 * * 1'
   workflow_dispatch:
     inputs:
-      testing:
-        description: 'Testing? (FALSE / [slug to test])'     
+      custom_slug:
+        description: 'Custom Slug (uses components from GPCH if left empty)'
         required: true
         default: 'drupal-core'
 
