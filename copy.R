@@ -59,3 +59,6 @@ new_it <- copyTranslations(components = slugs,
 #                          replace = as.data.frame(cbind(pattern = c("ß"),
 #                                                        replace = c("ss"))),
                            verbose = TRUE)
+
+# For commit message						   
+system(paste("echo 'new_tl_count=", (new_de + new_fr + new_it),"' >> $GITHUB_ENV", sep =""))
