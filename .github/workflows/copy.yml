@@ -8,7 +8,7 @@ on:
     inputs:
       custom_slug:
         description: 'Custom Slug (uses components from GPCH if left empty)'
-        required: true
+        required: false
         default: 'drupal-core'
 
 jobs: 
