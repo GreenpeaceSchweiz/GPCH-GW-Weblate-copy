@@ -9,7 +9,6 @@ on:
       custom_slug:
         description: 'Custom Slug (uses components from GPCH if left empty)'
         required: false
-        default: 'drupal-core'
 
 jobs: 
   copy:
