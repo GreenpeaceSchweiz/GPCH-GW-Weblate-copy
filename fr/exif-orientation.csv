@@ -1,4 +1,4 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"exif_orientation.info.yml:0","EXIF Orientation","","","False","","",""
-"exif_orientation.info.yml:0","Media","Média","","False","","",""
-"exif_orientation.info.yml:0","Rotates images per their EXIF Orientation","","","False","","",""
+"exif_orientation.info.yml:0","EXIF Orientation","","",FALSE,"","",""
+"exif_orientation.info.yml:0","Media","Média","",FALSE,"","",""
+"exif_orientation.info.yml:0","Rotates images per their EXIF Orientation","","",FALSE,"","",""
