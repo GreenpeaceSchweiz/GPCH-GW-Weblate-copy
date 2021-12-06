@@ -1,4 +1,4 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"social_captcha.info.yml:0","Provides Captcha integration with Open Social forms.","","",FALSE,"","",""
-"social_captcha.info.yml:0","Social","Sozial","",FALSE,"","",""
-"social_captcha.info.yml:0","Social CAPTCHA","","",FALSE,"","",""
+"social_captcha.info.yml:0","Provides Captcha integration with Open Social forms.","","","False","","",""
+"social_captcha.info.yml:0","Social","Sozial","","False","","",""
+"social_captcha.info.yml:0","Social CAPTCHA","","","False","","",""

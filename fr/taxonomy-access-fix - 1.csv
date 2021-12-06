@@ -1,0 +1,6 @@
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"taxonomy_access_fix.info.yml:0","Fixes the crooked access checks for Taxonomy pages.","","",FALSE,"","",""
+"src/TaxonomyAccessFixPermissions.php:59","Reorder terms in %vocabulary","","",FALSE,"","",""
+"taxonomy_access_fix.info.yml:0","Taxonomy","","",FALSE,"","",""
+"taxonomy_access_fix.info.yml:0","Taxonomy Access Fix","","",FALSE,"","",""
+"src/TaxonomyAccessFixPermissions.php:54","View terms in %vocabulary","","",FALSE,"","",""
