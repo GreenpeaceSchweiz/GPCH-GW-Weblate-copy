@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"src/Plugin/Oauth2Client/Oauth2ClientPluginBase.php:487","'- Please select -'","","","False","","",""
+"src/Plugin/Oauth2Client/Oauth2ClientPluginBase.php:487","'- Please select -'","'- Sélectionnez -'","","False","","",""
 "src/Form/Oauth2ClientPluginConfigForm.php:95","<em>Save</em> will simply save this configuration. <em>Save and request token</em> will save this configuration and then request and store a token for future use.","","","False","","",""
 "src/Plugin/KeyType/Oauth2ClientKey.php:7","A key type to store oauth credentials for the Oauth2 Client module. Store as JSON:<br><pre>{<br>&quot;client_id&quot;: &quot;client_id value&quot;,<br>&quot;client_secret&quot;: &quot;client_secret value&quot;<br>}</pre>","","","False","","",""
 "oauth2_client.permissions.yml:0","Administer OAuth2 Clients","","","False","","",""

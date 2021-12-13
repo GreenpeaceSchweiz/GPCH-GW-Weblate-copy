@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"src/Form/SettingsForm.php:188;197;208","'- Please select -'","","","False","","",""
+"src/Form/SettingsForm.php:188;197;208","'- Please select -'","'- Sélectionnez -'","","False","","",""
 "src/Form/SettingsForm.php:166","A password required by the SMTP server (leave blank if not required)","","","False","","",""
 "src/Form/SettingsForm.php:195","A password required by the SMTP server.","","","False","","",""
 "src/Form/SettingsForm.php:175","A password required by the SMTP server. <em>The currently set password is hidden for security reasons</em>.","","","False","","",""
