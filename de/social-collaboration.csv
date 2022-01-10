@@ -12,7 +12,7 @@
 "modules/social_collaboration_request/src/Controller/CollaborationRequestController.php:295","Co-authorship request was declined. Your response has been sent to the requester as a private message.","Der Antrag auf Co-Autorenschaft wurde abgelehnt. Deine Antwort wurde als private Nachricht an die:den Anfragende:n gesendet.","","False","","",""
 "social_collaboration.routing.yml:0","Collaboration settings","","","False","","",""
 "social_collaboration.permissions.yml:0","Configure which content types can have collaborative editing","","","False","","",""
-"src/Form/SocialCollaborationSettingsForm.php:82","Content types","","","False","","",""
+"src/Form/SocialCollaborationSettingsForm.php:82","Content types","Inhaltstypen","","False","","",""
 "modules/social_collaboration_request/src/Controller/CollaborationRequestController.php:149","Decline","Ablehnen","","False","","",""
 "modules/social_collaboration_request/social_collaboration_request.routing.yml:0","Decline co-authorship","","","False","","",""
 "src/Plugin/Block/SocialCollaborationBlock.php:16","Editors","Bearbeiter*innen","","False","","",""

@@ -123,7 +123,7 @@
 "admin_toolbar_search/admin_toolbar_search.permissions.yml:0","Use Admin Toolbar search","","",FALSE,"","",""
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:538","Used in views","Wird in Ansichten verwendet","",FALSE,"","",""
 "admin_toolbar_tools/admin_toolbar_tools.module:49","Uses","Verwendungszwecke","",FALSE,"","",""
-"admin_toolbar_tools/admin_toolbar_tools.routing.yml:0","Views","Ansichten","",FALSE,"","",""
+"admin_toolbar_tools/admin_toolbar_tools.routing.yml:0","Views","Aufrufe","",FALSE,"","",""
 "admin_toolbar_tools/src/Controller/ToolbarController.php:255","Views cache cleared.","Ansichten-Cache geleert.","",FALSE,"","",""
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:514","Webprofiler settings","Webprofiler-Einstellungen","",FALSE,"","",""
 "admin_toolbar_search/src/Form/AdminToolbarSearchSettingsForm.php:34","if set, instead of display a text input field, it's displayed a menu item in the toolbar so the user has to click on it to toggle the search input.","","",FALSE,"","",""

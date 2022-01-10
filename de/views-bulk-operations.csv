@@ -79,7 +79,7 @@
 "src/Plugin/Action/CancelUserAction.php:98","The user 1 account (%label) cannot be canceled.","","","False","","",""
 "config/schema/views_bulk_operations.views.schema.yml:0","Title of the action selector form element","","","False","","",""
 "modules/views_bulk_operations_example/src/Plugin/Action/ViewsBulkOperationExampleAction.php:11","VBO example action","","","False","","",""
-"views_bulk_operations.info.yml:0","Views","Ansichten","","False","","",""
+"views_bulk_operations.info.yml:0","Views","Aufrufe","","False","","",""
 "modules/actions_permissions/actions_permissions.info.yml:0","Views Bulk Operations","","","False","","",""
 "views_bulk_operations.routing.yml:0","Views Bulk Operations batch starter","","","False","","",""
 "views_bulk_operations.routing.yml:0","Views Bulk Operations configure step","","","False","","",""

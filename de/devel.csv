@@ -502,7 +502,7 @@
 "webprofiler/templates/Collector/drupal.html.twig:35;35","View latest reports","","","False","","",""
 "webprofiler/webprofiler.permissions.yml:0","View webprofiler toolbar","","","False","","",""
 "webprofiler/webprofiler.permissions.yml:0","View webprofiler toolbar.","","","False","","",""
-"webprofiler/templates/Collector/views.html.twig:3;4;12;25","Views","Ansichten","","False","","",""
+"webprofiler/templates/Collector/views.html.twig:3;4;12;25","Views","Aufrufe","","False","","",""
 "devel_generate/src/Plugin/DevelGenerate/TermDevelGenerate.php:88","Vocabularies","Vokabulare","","False","","",""
 "webprofiler/webprofiler.info.yml:0","Web Profiler","","","False","","",""
 "webprofiler/webprofiler.routing.yml:0;0;0","Webprofiler","","","False","","",""

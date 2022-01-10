@@ -137,7 +137,7 @@ Title Asc|A -> Z
 Title Desc|Z -> A</pre> Leave the replacement text blank to remove an option altogether. The order the options appear will be changed to match the order of options in this field.","","","False","","",""
 "better_exposed_filters.module:26","Uses","Verwendungszwecke","","False","","",""
 "src/Plugin/better_exposed_filters/filter/Sliders.php:124","Vertical","Vertikal","","False","","",""
-"better_exposed_filters.info.yml:0","Views","Ansichten","","False","","",""
+"better_exposed_filters.info.yml:0","Views","Aufrufe","","False","","",""
 "src/Plugin/better_exposed_filters/filter/RadioButtons.php:52","When a parent checkbox is checked, check all its children. If this option is disabled, edit the filter and check ""Allow multiple selections"" and edit the filter settings and check ""Show hierarchy in dropdown"".","","","False","","",""
 "src/Plugin/better_exposed_filters/filter/Sliders.php:104","Whether to slide handle smoothly when user click outside handle on the bar.","","","False","","",""
 "src/Plugin/better_exposed_filters/filter/DatePickers.php:7","jQuery UI Date Picker","","","False","","",""

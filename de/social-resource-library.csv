@@ -15,7 +15,7 @@
 "config/install/views.view.search_resources.yml:0","Apply","Anwenden","","False","","",""
 "config/install/views.view.search_resources.yml:0","Asc","aufsteigend","","False","","",""
 "config/install/facets.facet.content_type_no_value.yml:0","Content type","Inhaltstyp","","False","","",""
-"src/Form/SocialResourceLibrarySettings.php:117","Content types","","","False","","",""
+"src/Form/SocialResourceLibrarySettings.php:117","Content types","Inhaltstypen","","False","","",""
 "config/install/views.view.search_resources.yml:0","Creation date","Erstellungsdatum","","False","","",""
 "config/install/views.view.search_resources.yml:0","Creation date Desc|New to old
 Creation date Asc|Old to new
