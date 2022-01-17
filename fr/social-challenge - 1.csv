@@ -216,7 +216,7 @@
 "social_challenge.module:1189;1193","in this challenge","","",FALSE,"","",""
 "templates/group--challenge--statistic--sky.html.twig:9","participant","","",FALSE,"","",""
 "templates/group--challenge--statistic--sky.html.twig:13","phase","","",FALSE,"","",""
-"modules/social_idea/social_idea.module:244","public","publique","",FALSE,"","",""
+"modules/social_idea/social_idea.module:244","public","public","",FALSE,"","",""
 "modules/social_challenge_visibility/social_challenge_visibility.info.yml:0","social","","",FALSE,"","",""
 "social_challenge.module:677","unpublished","non publié","",FALSE,"","",""
 "modules/social_vote/templates/social-vote-icons.html.twig:48","vote","","",FALSE,"","",""

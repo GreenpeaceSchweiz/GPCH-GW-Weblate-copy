@@ -190,6 +190,6 @@
 "templates/node/node--full.html.twig:186","like","j'aime","","False","","",""
 "templates/system/pager.html.twig:85","next","suivant","","False","","",""
 "templates/system/pager.html.twig:57","previous","précédent","","False","","",""
-"src/Plugin/Preprocess/Node.php:123","public","publique","","False","","",""
+"src/Plugin/Preprocess/Node.php:123","public","public","","False","","",""
 "config/schema/socialbase.schema.yml:0","socialbase settings","paramètres de la base","","False","","",""
 "templates/post/post.html.twig:56","unpublished","non publié","","False","","",""
