@@ -6,16 +6,20 @@
 ","","","False","","",""
 "modules/message_example/config/optional/message.template.example_create_node.yml:0","<p><a href='[message:user-url]'>[message:user-name]</a> created <a href='[message:node-url]'>[message:node-title]</a></p>
  <p>[message:node-render]</p>
-","","","False","","",""
+","<p><a href='[message:user-url]'>[message:user-name]</a> a créé<a href='[message:node-url]'>[message:node-title]</a></p>
+ <p>[message:node-render]</p>
+","","False","","",""
 "modules/message_example/config/optional/message.template.example_create_comment.yml:0","<p><a href='[message:user-url]'>[message:user-name]</a>&nbsp;<a href='[message:comment-url]'>commented</a> on&nbsp;[message:node-title]</p>
  <p>[message:node-render]</p>
-","","","False","","",""
+","<p><a href='[message:user-url]'>[message:user-name]</a>&nbsp;<a href='[message:comment-url]'>a commenté</a> &nbsp;[message:node-title]</p>
+ <p>[message:node-render]</p>
+","","False","","",""
 "message.info.yml:0","A general message logging utility.","","","False","","",""
 "src/Form/MessageTemplateForm.php:79","A unique machine-readable name for this message template. It must only contain lowercase letters, numbers, and underscores. This name will be used for constructing the URL of the %message-add page, in which underscores will be converted into hyphens.","","","False","","",""
-"modules/message_example/config/optional/message.template.example_create_comment.yml:0","A user created comment.","","","False","","",""
+"modules/message_example/config/optional/message.template.example_create_comment.yml:0","A user created comment.","Un utilisateur a commenté.","","False","","",""
 "src/FormElement/MessageTemplateMultipleTextField.php:77","Add another item","Ajouter un autre élément","","False","","",""
 "src/Form/MessageTemplateForm.php:80","Add message","Ajouter un message","","False","","",""
-"message.routing.yml:0","Add message template","","","False","","",""
+"message.routing.yml:0","Add message template","Ajouter un message","","False","","",""
 "message.permissions.yml:0","Administer message entries through the backend.","","","False","","",""
 "message.permissions.yml:0","Administer message templates","","","False","","",""
 "message.permissions.yml:0","Administer message templates that can be used to log an event.","","","False","","",""
@@ -40,7 +44,7 @@
 "src/Entity/Message.php:192","Created on","Créé le","","False","","",""
 "message.tokens.inc:39","Date created","Date de création","","False","","",""
 "config/schema/message.schema.yml:0","Days","Jours","","False","","",""
-"src/Plugin/MessagePurge/Days.php:14","Days","","","False","MessagePurge","",""
+"src/Plugin/MessagePurge/Days.php:14","Days","Jours","","False","MessagePurge","",""
 "src/Form/MessageTemplateDeleteConfirm.php:25","Delete","Supprimer","","False","","",""
 "src/Form/DeleteMultiple.php:98","Delete message ID @id for template @template","","","False","","",""
 "config/schema/message.schema.yml:0","Delete message configuration","","","False","","",""
@@ -49,13 +53,13 @@
 "src/Plugin/QueueWorker/MessageCheckAndDeleteWorker.php:10","Delete messages if an entity is referenced","","","False","","",""
 "src/Plugin/MessagePurge/Days.php:14","Delete messages older than a given amount of days.","","","False","","",""
 "src/Plugin/Action/DeleteMessage.php:11","Delete selected content","Supprimer le contenu sélectionné","","False","","",""
-"src/Form/DeleteMultiple.php:117","Deleted 1 message.","","","False","","",""
-"src/Form/DeleteMultiple.php:116","Deleted @count messages.","","","False","","",""
+"src/Form/DeleteMultiple.php:117","Deleted 1 message.","A supprimé 1 message.","","False","","",""
+"src/Form/DeleteMultiple.php:116","Deleted @count messages.","A supprimé @count messages.","","False","","",""
 "src/Form/MessageTemplateDeleteConfirm.php:53","Deleted message template %name","","","False","","",""
 "src/Plugin/views/field/GetText.php:54","Delta","","","False","","",""
 "config/optional/views.view.message.yml:0","Desc","","","False","","",""
 "src/Form/MessageTemplateForm.php:85","Description","Texte","","False","","",""
-"message.links.menu.yml:0","Display all messages.","","","False","","",""
+"message.links.menu.yml:0","Display all messages.","Montrer tous les messages.","","False","","",""
 "message.links.task.yml:0","Edit","Editer","","False","","",""
 "message.routing.yml:0","Edit message template","","","False","","",""
 "src/MessagePurgePluginManager.php:68","Enabled","Activé","","False","","",""

@@ -33,7 +33,7 @@
 "src/BulkFormEntityListBuilder.php:134","Apply to selected items","Appliquer aux éléments sélectionnés","",FALSE,"","",""
 "src/Form/RevisionRevertForm.php:74","Are you sure you want to revert the revision?","","",FALSE,"","",""
 "src/Form/RevisionRevertForm.php:72","Are you sure you want to revert to the revision from %revision-date?","Êtes-vous sûr(e) de vouloir rétablir la version du %revision-date?","",FALSE,"","",""
-"src/Form/RevisionableContentEntityForm.php:115","Briefly describe the changes you have made.","Décrivez brièvement les modifications apportées.","",FALSE,"","",""
+"src/Form/RevisionableContentEntityForm.php:115","Briefly describe the changes you have made.","Décrivez brièvement les modifications que vous avez faites.","",FALSE,"","",""
 "src/Form/RevisionRevertForm.php:121","Copy of the revision from %date.","Copie de la révision du %date.","",FALSE,"","",""
 "src/EntityPermissionProviderBase.php:124","Create @type","Créer @type","",FALSE,"","",""
 "src/Form/RevisionableContentEntityForm.php:94","Create new revision","Créer une nouvelle révision","",FALSE,"","",""

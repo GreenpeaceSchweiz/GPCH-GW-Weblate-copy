@@ -64,7 +64,7 @@
 "src/Form/ManifestSettingsForm.php:122","This is the name the user will see when they add your website to their homescreen. You might want to keep this short.","","","False","","",""
 "src/Form/PushNotificationForm.php:87","This will be the <b>message</b> of the Push Notification.","","","False","","",""
 "src/Form/PushNotificationForm.php:79","This will be the <b>title</b> of the Push Notification. <i>(Static value for now)</i>","","","False","","",""
-"src/Form/PushNotificationForm.php:75","Title","","","False","","",""
+"src/Form/PushNotificationForm.php:75","Title","Titre","","False","","",""
 "src/Form/PushNotificationForm.php:69","To user","","","False","","",""
 "modules/activity_send_push/activity_send_push.info.yml:0","Used to send activity notifications by Web Push","","","False","","",""
 "social_pwa.install:62","VAPID keys are generated.","","","False","","",""

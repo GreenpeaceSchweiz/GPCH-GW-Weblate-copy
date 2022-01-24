@@ -9,7 +9,7 @@
 "js/google_analytics.admin.js:0","A single domain","","","False","","",""
 "src/Form/GoogleAnalyticsAdminSettingsForm.php:237","A single domain (default)","","","False","","",""
 "src/Form/GoogleAnalyticsAdminSettingsForm.php:840","A valid Google Analytics Web Property ID is case sensitive and formatted like UA-xxxxx-yy, G-xxxxxxxx, AW-xxxxxxxxx, or DC-xxxxxxxx.","","","False","","",""
-"google_analytics.module:44","About","","","False","","",""
+"google_analytics.module:44","About","A propos","","False","","",""
 "js/google_analytics.admin.js:0","AdSense ads","","","False","","",""
 "google_analytics.permissions.yml:0","Add JavaScript snippets","","","False","","",""
 "src/Form/GoogleAnalyticsAdminSettingsForm.php:181","Add another ID","","","False","","",""

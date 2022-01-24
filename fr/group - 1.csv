@@ -73,7 +73,7 @@
 "src/Entity/Controller/GroupTypeController.php:155","Available","","",FALSE,"","",""
 "src/Entity/Form/GroupContentForm.php:76","Back","Précédent","",FALSE,"","",""
 "group.links.task.yml:0","Basic permissions","","",FALSE,"","",""
-"group.post_update.php:150","Briefly describe the changes you have made.","","",FALSE,"","",""
+"group.post_update.php:150","Briefly describe the changes you have made.","Décrivez brièvement les modifications que vous avez faites.","",FALSE,"","",""
 "group.permissions.yml:0","Bypass group access control","","",FALSE,"","",""
 "src/Entity/Form/GroupForm.php:59","Cancel","Annuler","",FALSE,"","",""
 "src/Form/GroupPermissionsRoleSpecificForm.php:54","Cannot edit an internal group role directly.","","",FALSE,"","",""

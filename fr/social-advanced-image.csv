@@ -32,6 +32,6 @@
 "src/Entity/ImageAttribute.php:127","The time that the entity was created.","","","False","","",""
 "src/Entity/ImageAttribute.php:131","The time that the entity was last edited.","","","False","","",""
 "src/Plugin/Field/FieldType/AdvancedImageItem.php:8","This field stores the ID of an image file as an integer value.","","","False","","",""
-"src/Plugin/Field/FieldType/AdvancedImageItem.php:8","Title","","","False","","",""
+"src/Plugin/Field/FieldType/AdvancedImageItem.php:8","Title","Titre","","False","","",""
 "src/Plugin/Filter/FilterAdvancedImage.php:11","Uses <code>data-*</code> attributes on <code>&lt;img&gt;</code> tags to add advanced functionalities to images.","","","False","","",""
 "src/Plugin/Field/FieldWidget/AdvancedImageCropAttributeWidget.php:96","Yes","","","False","","",""

@@ -2,7 +2,7 @@
 "src/Commands/FeaturesCommands.php:198","@methods","","",FALSE,"","",""
 "src/Commands/FeaturesCommands.php:654","(missing from active)","","",FALSE,"","",""
 "src/Commands/FeaturesCommands.php:661","(not exported)","","",FALSE,"","",""
-"modules/features_ui/src/Form/AssignmentConfigureForm.php:227","'--New--'","","",FALSE,"","",""
+"modules/features_ui/src/Form/AssignmentConfigureForm.php:227","'--New--'","'--Nouveau--'","",FALSE,"","",""
 "modules/features_ui/features_ui.admin.inc:51","'@details'","","",FALSE,"","",""
 "modules/features_ui/src/Form/FeaturesExportForm.php:195","'@name'","","",FALSE,"","",""
 "modules/features_ui/src/Form/AssignmentConfigureForm.php:279","A description of the bundle.","","",FALSE,"","",""

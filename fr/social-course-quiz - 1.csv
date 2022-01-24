@@ -141,7 +141,7 @@
 "src/EntityOwnerTrait.php:51","The username of the question author.","","",FALSE,"","",""
 "src/Controller/QuizStatisticsController.php:240","Time taken","","",FALSE,"","",""
 "social_course_quiz.module:521","Time taken %time","","",FALSE,"","",""
-"src/QuestionListBuilder.php:80","Title","","",FALSE,"","",""
+"src/QuestionListBuilder.php:80","Title","Titre","",FALSE,"","",""
 "social_course_quiz.module:808","Unanswered","","",FALSE,"","",""
 "src/Form/QuestionPreviewForm.php:115","View mode","","",FALSE,"","",""
 "social_course_quiz.module:625","View question","","",FALSE,"","",""
