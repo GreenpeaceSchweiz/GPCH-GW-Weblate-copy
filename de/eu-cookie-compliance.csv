@@ -268,7 +268,7 @@
 "src/Form/EuCookieComplianceConfigForm.php:842","You can limit the number of countries for which the banner is displayed by checking this option. If you want to provide a list of countries other than current EU states, you may place an array in <code>$config['eu_cookie_compliance.settings']['eu_countries']</code> in your <code>settings.php</code> file. Using the <a href=""http://drupal.org/project/smart_ip"">smart_ip</a> module or using the <a href=""http://drupal.org/project/geoip"">geoip</a> module or the <a href=""http://www.php.net/manual/en/function.geoip-country-code-by-name.php"">geoip_country_code_by_name()</a> PHP function.","","","False","","",""
 "eu_cookie_compliance.module:38","You may want to create a page that would explain how your site uses cookies. Alternatively, if you have a privacy policy, you can link the banner to that page (see next step).","","","False","","",""
 "src/Form/EuCookieComplianceConfigForm.php:1131","Your privacy policy link is pointing at the front page. This is the default value after installation, and unless your privacy policy is actually posted at the front page, you will need to create a separate page for the privacy policy and link to that page.","","","False","","",""
-"src/Form/CookieCategoryDeleteForm.php:43","content @type: deleted @label.","","","False","","",""
+"src/Form/CookieCategoryDeleteForm.php:43","content @type: deleted @label.","Inhalt @type: @label wurde gelöscht.","","False","","",""
 "src/Form/EuCookieComplianceConfigForm.php:1059","days","Tage","","False","","",""
 "src/Form/EuCookieComplianceConfigForm.php:880","ms","","","False","","",""
 "src/Form/EuCookieComplianceConfigForm.php:470;805","px","","","False","","",""

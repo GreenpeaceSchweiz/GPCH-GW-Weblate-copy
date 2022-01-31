@@ -3395,7 +3395,7 @@ Titel (absteigend)|Z - A","",FALSE,"","",""
 "modules/custom/social_metatag/config/install/metatag.metatag_defaults.node__topic.yml:0","[node:field_topic_image:entity:url]","","",FALSE,"","",""
 "modules/custom/social_metatag/config/install/metatag.metatag_defaults.node__topic.yml:0","[site:name]","","",FALSE,"","",""
 "modules/social_features/social_follow_taxonomy/social_follow_taxonomy.tokens.inc:133","a","","",FALSE,"","",""
-"modules/social_features/social_group/social_group.tokens.inc:114","a @content_type","einen @content_type","",FALSE,"","",""
+"modules/social_features/social_group/social_group.tokens.inc:114","a @content_type","eine/n @content_type","",FALSE,"","",""
 "modules/social_features/social_editor/config/install/editor.editor.full_html.yml:0","a.btn.btn-default|Default link
 a.btn.btn-primary|Primary link
 a.btn.btn-accent|Accent link
@@ -3408,7 +3408,7 @@ span.badge.badge--pill.badge-default|Pill badge","","",FALSE,"","",""
 "modules/social_features/social_activity/config/optional/views.view.activity_stream_group.yml:0","activity_stream_group","","",FALSE,"","",""
 "modules/social_features/social_activity/config/optional/views.view.activity_stream_profile.yml:0","activity_stream_profile","","",FALSE,"","",""
 "modules/social_features/social_follow_taxonomy/social_follow_taxonomy.tokens.inc:130","an","","",FALSE,"","",""
-"modules/social_features/social_group/social_group.tokens.inc:111","an @content_type","","",FALSE,"","",""
+"modules/social_features/social_group/social_group.tokens.inc:111","an @content_type","eine/n @content_type","",FALSE,"","",""
 "modules/social_features/social_topic/config/install/views.view.topics.yml:0","ascending","aufsteigend","",FALSE,"","",""
 "config/install/views.view.content.yml:0","author","Autor:in","",FALSE,"","",""
 "modules/social_features/social_search/config/install/views.view.search_content.yml:0","basic_html","","",FALSE,"","",""

@@ -81,7 +81,7 @@
 "src/Bootstrap.php:863","Configure","Konfigurieren","",FALSE,"","",""
 "src/Bootstrap.php:499","Confirm","Bestätigen","",FALSE,"","",""
 "src/Plugin/Setting/General/Container/FluidContainer.php:7","Container","","",FALSE,"","",""
-"bootstrap.info.yml:0","Content","","",FALSE,"","",""
+"bootstrap.info.yml:0","Content","Inhalt","",FALSE,"","",""
 "src/Plugin/Setting/General/Forms/FormsSmartDescriptions.php:7","Convert descriptions into tooltips (must be enabled) automatically based on certain criteria. This helps reduce the, sometimes unnecessary, amount of noise on a page full of form elements.","","",FALSE,"","",""
 "src/Theme.php:670","Could not include file: @include","Datei konnte nicht mit eingeschlossen werden: @include","",FALSE,"","",""
 "src/Bootstrap.php:515","Create","Erstellen","",FALSE,"","",""

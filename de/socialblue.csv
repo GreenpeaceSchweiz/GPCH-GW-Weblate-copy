@@ -35,7 +35,7 @@
 "config/schema/socialblue.schema.yml:0","Color secondary","","","False","","",""
 "socialblue.info.yml:0","Complementary bottom","","","False","","",""
 "socialblue.info.yml:0","Complementary top","","","False","","",""
-"socialblue.info.yml:0","Content","","","False","","",""
+"socialblue.info.yml:0","Content","Inhalt","","False","","",""
 "socialblue.info.yml:0","Content bottom","","","False","","",""
 "config/schema/socialblue.schema.yml:0","Content entity form style","","","False","","",""
 "socialblue.info.yml:0","Content top","","","False","","",""

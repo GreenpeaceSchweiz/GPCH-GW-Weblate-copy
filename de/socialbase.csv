@@ -34,7 +34,7 @@
 "socialbase.info.yml:0","Complementary bottom","","","False","","",""
 "socialbase.info.yml:0","Complementary top","","","False","","",""
 "templates/profile/profile--profile--default.html.twig:72","Contact information","Kontakt Info","","False","","",""
-"config/schema/socialbase.schema.yml:0","Content","","","False","","",""
+"config/schema/socialbase.schema.yml:0","Content","Inhalt","","False","","",""
 "socialbase.info.yml:0","Content bottom","","","False","","",""
 "socialbase.info.yml:0","Content top","","","False","","",""
 "src/Plugin/Preprocess/GroupSettingsHelp.php:55","Content visibility","Sichtbarkeit","","False","","",""
