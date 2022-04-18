@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "src/Plugin/views/pager/InfiniteScroll.php:76","'@action, @count item'","","",FALSE,"","",""
-"views_infinite_scroll.info.yml:0","A pager which allows an infinite scroll effect for views.","","",FALSE,"","",""
+"views_infinite_scroll.info.yml:0","A pager which allows an infinite scroll effect for views.","Ein Pager, der einen unendlichen Scroll-Effekt für Ansichten ermöglicht.","",FALSE,"","",""
 "src/Plugin/views/pager/InfiniteScroll.php:8","A views plugin which provides infinte scroll.","","",FALSE,"","",""
 "src/Plugin/views/pager/InfiniteScroll.php:74","Automatic infinite scroll","","",FALSE,"","",""
 "src/Plugin/views/pager/InfiniteScroll.php:117","Automatically Load Content","","",FALSE,"","",""

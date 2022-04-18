@@ -30,7 +30,7 @@
 "src/Plugin/views/access/GroupPermission.php:16","Access will be granted to users with the specified group permission string.","","",FALSE,"","",""
 "src/Entity/Controller/GroupController.php:137","Add @group_type_label","","",FALSE,"","",""
 "src/Entity/Controller/GroupContentController.php:255;379","Add @name","","",FALSE,"","",""
-"modules/gnode/src/Plugin/GroupContentEnabler/GroupNode.php:53","Add @type","","",FALSE,"","",""
+"modules/gnode/src/Plugin/GroupContentEnabler/GroupNode.php:53","Add @type","'@type hinzufügen'","",FALSE,"","",""
 "modules/gnode/gnode.links.action.yml:0","Add existing content","","",FALSE,"","",""
 "modules/gnode/src/Controller/GroupNodeController.php:79","Add existing content of type %node_type to the group.","","",FALSE,"","",""
 "group.links.action.yml:0","Add existing entity","","",FALSE,"","",""

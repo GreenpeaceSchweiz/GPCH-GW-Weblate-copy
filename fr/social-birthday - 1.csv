@@ -33,7 +33,7 @@
 "config/install/views.view.birthday.yml:0","filter_birthday_next_greater_than_today","","",FALSE,"","",""
 "config/install/views.view.birthday.yml:0","filter_birthday_next_no_empty","","",FALSE,"","",""
 "config/install/views.view.birthday.yml:0","filter_profiletype","","",FALSE,"","",""
-"social_birthday.module:168","in the community","dans la communauté","",FALSE,"","",""
+"social_birthday.module:168","in the community","qui peuvent m'intéresser","",FALSE,"","",""
 "config/install/views.view.birthday.yml:0","msg_noresult","","",FALSE,"","",""
 "config/install/views.view.birthday.yml:0","page_currentyear","","",FALSE,"","",""
 "config/install/views.view.birthday.yml:0","sort_birthday_next","","",FALSE,"","",""
