@@ -1,0 +1,3 @@
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"variationcache.info.yml:0","Provides VariationCache, a redirect-aware caching implementation.","","",FALSE,"","",""
+"variationcache.info.yml:0","VariationCache","","",FALSE,"","",""

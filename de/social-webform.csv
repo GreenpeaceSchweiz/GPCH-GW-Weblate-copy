@@ -1,1 +1,12 @@
-{"detail":"Not found."}
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"src/SocialWebformSubmissionListBuilder.php:112","Add notes to @label","","","False","","",""
+"src/SocialWebformSubmissionListBuilder.php:223","Anonymous","","","False","","",""
+"src/SocialWebformSubmissionListBuilder.php:112","Edit @label notes","","","False","","",""
+"config/schema/social_webform.schema.yml:0","Link account name to profile","","","False","","",""
+"src/SocialWebformSubmissionListBuilder.php:165","No","","","False","","",""
+"social_webform.info.yml:0","Provides the ability to create forms and surveys.","","","False","","",""
+"social_webform.info.yml:0","Social","","","False","","",""
+"social_webform.info.yml:0","Social Webform","","","False","","",""
+"config/schema/social_webform.schema.yml:0","Social Webform settings","","","False","","",""
+"src/SocialWebformSubmissionListBuilder.php:165","Yes","","","False","","",""
+"src/SocialWebformSubmissionListBuilder.php:160","draft","","","False","","",""

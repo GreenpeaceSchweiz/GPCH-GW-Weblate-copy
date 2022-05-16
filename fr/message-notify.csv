@@ -1,1 +1,10 @@
-{"detail":"Not found."}
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"src/Plugin/Notifier/MessageNotifierBase.php:125","Could not send message using {title} to user ID {uid}.","","","False","","",""
+"src/Plugin/Notifier/Email.php:13","Email","","","False","","",""
+"modules/message_notify_example/message_notify_example.info.yml:0","Message","","","False","","",""
+"message_notify.info.yml:0","Message Notify","","","False","","",""
+"modules/message_notify_example/message_notify_example.info.yml:0;0","Message notify example","","","False","","",""
+"message_notify.info.yml:0","Message notify.","","","False","","",""
+"config/install/core.entity_view_mode.message.mail_body.yml:0","Notify - Email body","","","False","","",""
+"config/install/core.entity_view_mode.message.mail_subject.yml:0","Notify - Email subject","","","False","","",""
+"src/Plugin/Notifier/Email.php:13","Send messages via email","","","False","","",""
