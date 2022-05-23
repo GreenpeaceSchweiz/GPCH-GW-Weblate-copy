@@ -1,6 +1,8 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "social_dashboard.module:113","Create New Dashboard","Crea una nuova Dashboard","",FALSE,"","",""
 "config/optional/node.type.dashboard.yml:0","Dashboard","Dashboard","",FALSE,"","",""
+"config/optional/field.field.node.dashboard.field_dashboard_image.yml:0","Image","","",FALSE,"","",""
+"social_dashboard.install:334","Image field.","","",FALSE,"","",""
 "config/optional/field.field.node.dashboard.layout_builder__layout.yml:0","Layout","Layout","",FALSE,"","",""
 "social_dashboard.module:115","New Dashboard","Nuova Dashboard","",FALSE,"","",""
 "social_dashboard.info.yml:0","Provides the ability to create dashboards using the layout builder.","Fornisce la possibilità di creare dashboard utilizzando il generatore di layout.","",FALSE,"","",""
