@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "admin_toolbar_search/src/SearchLinks.php:134","'@entity_type > @bundle'","","","False","","",""
-"admin_toolbar_search/admin_toolbar_search.module:20","About","A propos","","False","","",""
+"admin_toolbar_search/admin_toolbar_search.module:20","About","À propos","","False","","",""
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:422","Add contact form","Ajouter un formulaire de contact","","False","","",""
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:299","Add content","","","False","","",""
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:293","Add content type","Ajouter un type de contenu","","False","","",""

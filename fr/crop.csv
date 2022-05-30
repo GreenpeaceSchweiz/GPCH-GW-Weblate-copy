@@ -7,7 +7,7 @@
 "crop.module:39","<a href=':crop'>Crop</a> provides basic API for image cropping. This module won't do much by itself. Users should pick one of UI modules that utilize this API.</a>","","","False","","",""
 "src/CropTypeListBuilder.php:111","'@first, @second and @count more'","","","False","","",""
 "src/Form/CropTypeForm.php:44","A unique machine-readable name for this crop type. It must only contain lowercase letters, numbers, and underscores.","","","False","","",""
-"crop.module:38","About","A propos","","False","","",""
+"crop.module:38","About","À propos","","False","","",""
 "src/Form/CropTypeForm.php:22","Add crop type","","","False","","",""
 "src/Form/CropTypeForm.php:179","Added crop type %name.","","","False","","",""
 "crop.permissions.yml:0","Administer crop settings","","","False","","",""

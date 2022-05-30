@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "src/Plugin/KPIDataFormatter/ThreeMonthsTimelineKPIDataFormatter.php:7","3 Months (+ current) Timeline KPI data formatter","","",FALSE,"","",""
-"kpi_analytics.module:19","About","A propos","",FALSE,"","",""
+"kpi_analytics.module:19","About","À propos","",FALSE,"","",""
 "src/Plugin/KPIDataFormatter/AggregateKPIDataFormatter.php:7","Aggregate KPI data formatter","","",FALSE,"","",""
 "kpi_analytics.module:20","Architecture for making Key Performance Indicators for your website.","","",FALSE,"","",""
 "src/Plugin/KPIDataFormatter/DatetimeKPIDataFormatter.php:7","Datetime KPI data formatter","","",FALSE,"","",""

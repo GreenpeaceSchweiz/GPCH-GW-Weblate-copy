@@ -1,7 +1,7 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "social_gender.post_update.php:84","1 profile field value have been moved.","","",FALSE,"","",""
 "social_gender.post_update.php:71","1 profile have been processed.","","",FALSE,"","",""
-"social_gender.module:20","About","A propos","",FALSE,"","",""
+"social_gender.module:20","About","À propos","",FALSE,"","",""
 "social_gender.permissions.yml:0","Administer Gender Settings","Administrer les paramètres de genre","",FALSE,"","",""
 "social_gender.permissions.yml:0","Allow access to the gender settings form to configure general gender options.","Autoriser l'accès aux paramètres de genre pour configurer les options générales.","",FALSE,"","",""
 "social_gender.info.yml:0","Contains field configuration for profile entity for gender listing.","","",FALSE,"","",""

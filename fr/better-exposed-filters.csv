@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "src/Plugin/better_exposed_filters/sort/SortWidgetBase.php:102","""Reset sort"" label","","","False","","",""
-"better_exposed_filters.module:24","About","A propos","","False","","",""
+"better_exposed_filters.module:24","About","À propos","","False","","",""
 "src/Plugin/better_exposed_filters/filter/RadioButtons.php:43","Add a ""Select All/None"" link when rendering the exposed filter using checkboxes. If this option is disabled, edit the filter and check the ""Allow multiple selections"".","","","False","","",""
 "src/Plugin/better_exposed_filters/filter/RadioButtons.php:49","Add nested all/none selection","","","False","","",""
 "src/Plugin/better_exposed_filters/filter/RadioButtons.php:40","Add select all/none links","","","False","","",""

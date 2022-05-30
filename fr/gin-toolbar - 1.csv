@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"gin_toolbar.module:212","About","","",FALSE,"","",""
+"gin_toolbar.module:212","About","À propos","",FALSE,"","",""
 "gin_toolbar.install:39","Gin","","",FALSE,"","",""
 "gin_toolbar.info.yml:0","Gin Toolbar","","",FALSE,"","",""
 "gin_toolbar.info.yml:0","Gin Toolbar for Gin Theme","","",FALSE,"","",""

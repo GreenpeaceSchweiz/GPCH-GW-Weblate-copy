@@ -7,7 +7,7 @@
 "modules/votingapi_tokens/votingapi_tokens.module:25","<li>Worst vote :: <code>[votingapi_ENTITY_TYPE_token:worst_vote:VOTE_TYPE]</code></li>","","","False","","",""
 "modules/votingapi_tokens/votingapi_tokens.module:22","<ul><li>Vote count :: <code>[votingapi_ENTITY_TYPE_token:vote_count:VOTE_TYPE]</code></li>","","","False","","",""
 "src/VoteTypeForm.php:85","A unique machine-readable name for this vote type. It must only contain lowercase letters, numbers, and underscores.","","","False","","",""
-"modules/votingapi_tokens/votingapi_tokens.module:18","About","A propos","","False","","",""
+"modules/votingapi_tokens/votingapi_tokens.module:18","About","À propos","","False","","",""
 "src/VoteTypeForm.php:62;86","Add vote type","","","False","","",""
 "src/VoteTypeForm.php:156","Added vote type %name.","","","False","","",""
 "votingapi.permissions.yml:0","Administer Vote Types","","","False","","",""

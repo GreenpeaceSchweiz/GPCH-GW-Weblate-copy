@@ -6,7 +6,7 @@
 "entity_reference_revisions.views.inc:32","'@label referenced from @field_name'","'@label référencé depuis @field_name'","",FALSE,"","",""
 "src/Plugin/Field/FieldType/EntityReferenceRevisionsItem.php:113","'@label revision ID'","","",FALSE,"","",""
 "src/EntityReferenceRevisionsOrphanPurger.php:281","'@label: Deleted @revision_count revisions (@entity_count entities) in @interval.'","","",FALSE,"","",""
-"entity_reference_revisions.module:29","About","A propos","",FALSE,"","",""
+"entity_reference_revisions.module:29","About","À propos","",FALSE,"","",""
 "entity_reference_revisions.info.yml:0","Adds a Entity Reference field type with revision support.","","",FALSE,"","",""
 "src/Plugin/DataType/EntityRevisionsAdapter.php:8","All kind of entities with revision information, e.g. nodes, comments or users.","","",FALSE,"","",""
 "entity_reference_revisions.permissions.yml:0","Allow to access to the Entity Reference Revisions orphan deletion form.","","",FALSE,"","",""

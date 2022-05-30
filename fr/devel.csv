@@ -13,7 +13,7 @@
 "devel_generate/src/Plugin/DevelGenerate/UserDevelGenerate.php:188","'@num_users created.'","","","False","","",""
 "drush/devel.drush8.inc:21","A space-separated list of project names.","","","False","","",""
 "src/Controller/RouteInfoController.php:96","ANY","","","False","","",""
-"devel.module:37","About","A propos","","False","","",""
+"devel.module:37","About","À propos","","False","","",""
 "src/Form/SettingsForm.php:109","Access developer information","","","False","","",""
 "kint/kint.permissions.yml:0","Access kint information","","","False","","",""
 "webprofiler/webprofiler.permissions.yml:0","Access webprofiler","","","False","","",""

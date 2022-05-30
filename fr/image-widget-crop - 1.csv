@@ -4,7 +4,7 @@
 "modules/image_widget_crop_examples/src/Controller/FrontPage.php:59;100","<a href=""@url"">@label","","",FALSE,"","",""
 "image_widget_crop.install:29","<strong>:type</strong> file : Libraries module is active but an error detected with your cropper libraries configuration. To use cropper library with <i>'libraries'</i> module you must have the following structure <i>`:libraries_cropper`</i>","","",FALSE,"","",""
 "src/Element/ImageCrop.php:476","'@crop_required is required.'","","",FALSE,"","",""
-"image_widget_crop.module:22","About","A propos","",FALSE,"","",""
+"image_widget_crop.module:22","About","À propos","",FALSE,"","",""
 "modules/image_widget_crop_examples/config/optional/core.base_field_override.node.crop_media_example.promote.yml:0","ActivÃ©","","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/ImageCropWidget.php:225","Always expand crop area","","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/ImageCropWidget.php:375","Always expand crop area: @bool","","",FALSE,"","",""

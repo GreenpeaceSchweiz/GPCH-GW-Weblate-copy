@@ -10,7 +10,7 @@
 "src/Service/CaptchaService.php:40","'@type (from module @module)'","","","False","","",""
 "captcha.module:660","'@x + @y ='","","","False","","",""
 "captcha.module:69","A CAPTCHA can be added to virtually each Drupal form. Some default forms are already provided in the form list, but arbitrary forms can be easily added and managed when the option <em>Add CAPTCHA administration links to forms</em> is enabled.","","","False","","",""
-"captcha.module:59","About","A propos","","False","","",""
+"captcha.module:59","About","À propos","","False","","",""
 "src/Form/CaptchaSettingsForm.php:119","Add CAPTCHA administration links to forms","","","False","","",""
 "captcha.routing.yml:0","Add CAPTCHA point","","","False","","",""
 "src/Form/CaptchaSettingsForm.php:148","Add a configurable description to explain the purpose of the CAPTCHA to the visitor.","","","False","","",""

@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"jsonapi.module:86","About","A propos","","False","","",""
+"jsonapi.module:86","About","À propos","","False","","",""
 "src/Form/JsonApiSettingsForm.php:40","Accept all JSON:API create, read, update, and delete operations.","Accepter toutes les opérations de création, lecture, mise à jour et supression de JSON:API.","","False","","",""
 "src/Form/JsonApiSettingsForm.php:39","Accept only JSON:API read operations.","Accepter uniquement les opérations de lecture de JSON:API.","","False","","",""
 "src/Form/JsonApiSettingsForm.php:37","Allowed operations","Actions autorisées","","False","","",""

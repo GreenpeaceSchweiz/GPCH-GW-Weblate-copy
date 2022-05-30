@@ -3,7 +3,7 @@
 "config/optional/views.view.locked_content.yml:0","'- All -'","'- Tout -'","",FALSE,"","",""
 "content_lock.module:189","'@entity cannot be deleted because it was locked by @user since @time.'","","",FALSE,"","",""
 "content_lock.module:258;264","'@type locked'","","",FALSE,"","",""
-"content_lock.module:27","About","A propos","",FALSE,"","",""
+"content_lock.module:27","About","À propos","",FALSE,"","",""
 "config/optional/views.view.locked_content.yml:0","Action","","",FALSE,"","",""
 "js/content_lock_form.js:0","Action not available because content is locked.","","",FALSE,"","",""
 "src/Form/ContentLockSettingsForm.php:189","Activating this options activates the lock when the user is on the form. This helps if modules interacting with form without a user interacting with the form, like the prefetch_cache module.","","",FALSE,"","",""

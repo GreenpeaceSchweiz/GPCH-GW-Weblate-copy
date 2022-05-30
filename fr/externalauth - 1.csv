@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"externalauth.module:18","About","A propos","",FALSE,"","",""
+"externalauth.module:18","About","À propos","",FALSE,"","",""
 "externalauth.module:19","Authenticates users using an external site / service and stores identification details.","","",FALSE,"","",""
 "externalauth.views.inc:43","Authname","","",FALSE,"","",""
 "externalauth.info.yml:0","External Authentication","","",FALSE,"","",""

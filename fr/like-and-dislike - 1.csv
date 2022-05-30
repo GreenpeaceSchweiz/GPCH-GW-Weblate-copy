@@ -5,7 +5,7 @@
 "src/Form/SettingsForm.php:228","'@label type'","","",FALSE,"","",""
 "config/install/votingapi.vote_type.dislike.yml:0","A dislike vote, for negative reviews.","","",FALSE,"","",""
 "config/install/votingapi.vote_type.like.yml:0","A like vote, for positive reviews.","","",FALSE,"","",""
-"like_and_dislike.module:21","About","A propos","",FALSE,"","",""
+"like_and_dislike.module:21","About","À propos","",FALSE,"","",""
 "like_and_dislike.permissions.yml:0","Administer Like & DisLike options","","",FALSE,"","",""
 "src/Form/SettingsForm.php:160","Allow vote cancellation","","",FALSE,"","",""
 "config/schema/like_and_dislike.schema.yml:0","Bundle type","","",FALSE,"","",""

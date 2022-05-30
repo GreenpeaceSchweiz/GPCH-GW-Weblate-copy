@@ -729,7 +729,7 @@
 "modules/views_ui/src/ViewEditForm.php:1176;1184","AND","ET (AND)","",FALSE,"","",""
 "modules/search/config/schema/search.schema.yml:0","AND/OR combination limit","Limite de combinaison ET/OU","",FALSE,"","",""
 "modules/filter/src/Plugin/Filter/FilterHtml.php:370","Abbreviation","Abrévation","",FALSE,"","",""
-"modules/workspaces/workspaces.module:32","About","A propos","",FALSE,"","",""
+"modules/workspaces/workspaces.module:32","About","À propos","",FALSE,"","",""
 "modules/search/src/Form/SearchPageForm.php:74","About searching","","",FALSE,"","",""
 "modules/filter/src/Element/TextFormat.php:209","About text formats","À propos des formats de texte","",FALSE,"","",""
 "modules/layout_builder/src/Plugin/Block/FieldBlock.php:248","Above","Au-dessus","",FALSE,"","",""

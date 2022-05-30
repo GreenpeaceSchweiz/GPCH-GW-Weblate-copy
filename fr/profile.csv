@@ -7,7 +7,7 @@
 "profile.tokens.inc:21","'@type profile'","","","False","","",""
 "src/Entity/Profile.php:326","A serialized array of additional data.","","","False","","",""
 "profile.module:36","A user will see tabs they have access to, when editing their main user account e.g. ""Add personal information profile"". The visibility of a tab depends on whether they can create multiple profiles or if they haven't created a profile of the type that doesn't allow multiple instances.","","","False","","",""
-"profile.module:30","About","A propos","","False","","",""
+"profile.module:30","About","À propos","","False","","",""
 "src/Entity/Profile.php:313","Active","Actif","","False","","",""
 "profile.routing.yml:0","Add profile","Ajouter un profil","","False","","",""
 "profile.links.action.yml:0","Add profile type","Ajouter un type de profil","","False","","",""

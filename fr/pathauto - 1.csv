@@ -3,7 +3,7 @@
 "src/Form/PathautoAdminDelete.php:109","<strong>Note:</strong> there is no confirmation. Be sure of your action before clicking the ""Delete aliases now!"" button.<br />You may want to make a backup of the database and/or the path_alias and path_alias_revision tables prior to using this feature.","","",FALSE,"","",""
 "src/Plugin/Deriver/EntityAliasTypeDeriver.php:90","'@label being aliased'","","",FALSE,"","",""
 "src/Form/PatternEditForm.php:187","A short name to help you identify this pattern in the patterns list.","","",FALSE,"","",""
-"pathauto.module:49","About","A propos","",FALSE,"","",""
+"pathauto.module:49","About","À propos","",FALSE,"","",""
 "pathauto.routing.yml:0","Add Pathauto pattern","","",FALSE,"","",""
 "pathauto.permissions.yml:0","Administer pathauto","","",FALSE,"","",""
 "pathauto.js:0","Alias: @alias","Alias : @alias","",FALSE,"","",""

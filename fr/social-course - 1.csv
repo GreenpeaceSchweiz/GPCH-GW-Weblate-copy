@@ -1,7 +1,7 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "modules/social_course_statistics/src/CourseStatistics.php:133","'@finished_sections/@course_sections Sections finished'","","",FALSE,"","",""
 "modules/social_course_statistics/social_course_statistics.module:227","'@parts_finished/@parts_count parts finished'","","",FALSE,"","",""
-"social_course.module:1259","About","A propos","",FALSE,"","",""
+"social_course.module:1259","About","À propos","",FALSE,"","",""
 "templates/group--course-basic--statistic--sky.html.twig:16","Accept","Accepter","",FALSE,"","",""
 "social_course.permissions.yml:0","Access to view courses pages","","",FALSE,"","",""
 "social_course.routing.yml:0","Add course","","",FALSE,"","",""

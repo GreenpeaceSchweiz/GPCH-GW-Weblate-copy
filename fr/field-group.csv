@@ -5,7 +5,7 @@
 "contrib/field_group_migrate/src/Plugin/migrate/D7FieldGroupDeriver.php:59","'@label of @entity_type (bundle: @bundle)'","","","False","","",""
 "config/schema/field_group.entity_display.schema.yml:0;0","A field group","","","False","","",""
 "src/Form/FieldGroupAddForm.php:182","A unique machine-readable name containing letters, numbers, and underscores.","Un nom système unique contenant des lettres, nombres et des tirets bas.","","False","","",""
-"field_group.module:27","About","A propos","","False","","",""
+"field_group.module:27","About","À propos","","False","","",""
 "src/Plugin/field_group/FieldGroupFormatter/Accordion.php:10","Accordion","Accordéon","","False","","",""
 "src/Plugin/field_group/FieldGroupFormatter/AccordionItem.php:8","Accordion Item","","","False","","",""
 "src/Plugin/field_group/FieldGroupFormatter/Details.php:8","Add a details element","","","False","","",""

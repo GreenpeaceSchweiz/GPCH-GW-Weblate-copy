@@ -2,7 +2,7 @@
 "src/Form/AdminForm.php:155;161;204;212","'- Default -'","'- Par défaut -'","",FALSE,"","",""
 "src/Form/AdminForm.php:143","'- Select -'","'- Sélectionner -'","",FALSE,"","",""
 "mailsystem.module:51","<a href="":mailsystem"">Mail System</a> Provides an Administrative UI and Developers API for managing the used mail backend/plugin.</a>","","",FALSE,"","",""
-"mailsystem.module:50","About","A propos","",FALSE,"","",""
+"mailsystem.module:50","About","À propos","",FALSE,"","",""
 "src/Form/AdminForm.php:166","Add","Ajouter","",FALSE,"","",""
 "mailsystem.permissions.yml:0","Administer Mail System","Administrer Mail System","",FALSE,"","",""
 "src/Form/AdminForm.php:196","All","Tout","",FALSE,"","",""

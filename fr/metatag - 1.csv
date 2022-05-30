@@ -90,7 +90,7 @@
 "metatag_pinterest/src/Plugin/metatag/Group/Pinterest.php:7","A set of meta tags used to control how the site's content is consumed by <a href='https://pinterest.com/'>Pinterest</a>.","","",FALSE,"","",""
 "metatag_dc_advanced/src/Plugin/metatag/Tag/Provenance.php:7","A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation. The statement may include a description of any changes successive custodians made to the resource.","","",FALSE,"","",""
 "metatag_dc_advanced/src/Plugin/metatag/Tag/AbstractTag.php:7","A summary of the resource.","","",FALSE,"","",""
-"metatag_open_graph_products/metatag_open_graph_products.module:19","About","A propos","",FALSE,"","",""
+"metatag_open_graph_products/metatag_open_graph_products.module:19","About","À propos","",FALSE,"","",""
 "src/Plugin/metatag/Tag/AbstractTag.php:5","Abstract","","",FALSE,"","",""
 "metatag_extended_perms/src/MetatagPermissions.php:72","Access %tag in %group","","",FALSE,"","",""
 "metatag_dc_advanced/src/Plugin/metatag/Tag/AccessRights.php:7","Access Rights","","",FALSE,"","",""

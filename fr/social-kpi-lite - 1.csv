@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"social_kpi_lite.module:17","About","A propos","",FALSE,"","",""
+"social_kpi_lite.module:17","About","À propos","",FALSE,"","",""
 "social_kpi_lite.permissions.yml:0","Access KPI Analytics Reports","","",FALSE,"","",""
 "modules/social_kpi_lite_user_login/social_kpi_lite_user_login.info.yml:0","Custom","Personnalisé","",FALSE,"","",""
 "social_kpi_lite.info.yml:0","Implements KPI Analytics for Open Social distribution.","","",FALSE,"","",""

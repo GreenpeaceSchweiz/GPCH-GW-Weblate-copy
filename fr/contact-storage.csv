@@ -4,7 +4,7 @@
 "src/Plugin/Field/FieldType/OptionsEmailItem.php:59","""label"" is the value displayed in the dropdown menu on the contact form.","","","False","","",""
 "config/install/views.view.contact_messages.yml:0;0",", ","","","False","","",""
 "config/install/views.view.contact_messages.yml:0","'- All -'","","","False","","",""
-"contact_storage.module:27","About","","","False","","",""
+"contact_storage.module:27","About","À propos","","False","","",""
 "contact_storage.module:60","Add URL alias","","","False","","",""
 "src/MessageViewsData.php:29","Add a form element that lets you run operations on multiple messages.","","","False","","",""
 "contact_storage.module:77","Allow preview","","","False","","",""

@@ -18,7 +18,7 @@
 "modules/social_challenge_phase/src/Form/PhaseDeleteForm.php:49","'@type: deleted %title.'","","","False","","",""
 "modules/social_challenge_phase/src/Entity/Phase.php:164","A boolean indicating whether the Phase is published.","","","False","","",""
 "modules/social_challenge_phase/social_challenge_phase.tokens.inc:59","A call to action button.","","","False","","",""
-"modules/social_challenge_kpi/social_challenge_kpi.module:13","About","A propos","","False","","",""
+"modules/social_challenge_kpi/social_challenge_kpi.module:13","About","À propos","","False","","",""
 "modules/social_idea_coauthors/src/Controller/CoauthorController.php:114","Accept","Accepter","","False","","",""
 "modules/social_challenge_phase/src/Plugin/ActivityAction/PhaseEndedActivityAction.php:8","Action that is triggered when phase was ended","","","False","","",""
 "src/Plugin/views/filter/ChallengePhasesStatus.php:202","Active","","","False","","",""

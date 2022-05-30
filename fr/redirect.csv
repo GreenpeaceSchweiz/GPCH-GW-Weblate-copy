@@ -16,7 +16,7 @@
 "modules/redirect_404/config/schema/redirect_404.schema.yml:0","404 error database logs to keep.","","","False","","",""
 "redirect.module:55","<a href="":fix_404"">""Fix 404 pages""</a> lists all paths that have resulted in 404 errors and do not yet have any redirects assigned to them. This 404 (or Not Found) error message is an HTTP standard response code indicating that the client was able to communicate with a given server, but the server could not find what was requested.","","","False","","",""
 "redirect.module:262","A redirect set for a specific language will always be used when requesting this page in that language, and takes precedence over redirects set for <em>All languages</em>.","","","False","","",""
-"modules/redirect_domain/redirect_domain.module:13","About","A propos","","False","","",""
+"modules/redirect_domain/redirect_domain.module:13","About","À propos","","False","","",""
 "src/Plugin/migrate/source/d7/PathRedirect.php:67","Access","Accès","","False","","",""
 "redirect.routing.yml:0","Add URL redirect","","","False","","",""
 "redirect.module:146","Add URL redirect from this page to another location","","","False","","",""

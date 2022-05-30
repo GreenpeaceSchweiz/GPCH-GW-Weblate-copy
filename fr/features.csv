@@ -8,7 +8,7 @@
 "modules/features_ui/src/Form/AssignmentConfigureForm.php:279","A description of the bundle.","","","False","","",""
 "modules/features_ui/src/Form/AssignmentConfigureForm.php:248","A unique human-readable name of this bundle.","","","False","","",""
 "modules/features_ui/src/Form/AssignmentConfigureForm.php:267","A unique machine-readable name of this bundle.  Used to prefix exported packages. It must only contain lowercase letters, numbers, and underscores.","","","False","","",""
-"features.module:17","About","A propos","","False","","",""
+"features.module:17","About","À propos","","False","","",""
 "src/Commands/FeaturesCommands.php:636","Active config matches stored config for @module.","","","False","","",""
 "modules/features_ui/src/Form/FeaturesDiffForm.php:219","Active site config","","","False","","",""
 "drush/features.drush8.inc:536","Active:  drush features-export will update the exported feature with the displayed active config","","","False","","",""

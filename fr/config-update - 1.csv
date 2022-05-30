@@ -3,7 +3,7 @@
 "config_update_ui/src/Controller/ConfigUpdateController.php:387;566","'@name module'","module @name","",FALSE,"","",""
 "config_update_ui/src/Controller/ConfigUpdateController.php:401;556","'@name profile'","","",FALSE,"","",""
 "config_update_ui/src/Controller/ConfigUpdateController.php:396;576","'@name theme'","","",FALSE,"","",""
-"config_update_ui/config_update_ui.module:18","About","A propos","",FALSE,"","",""
+"config_update_ui/config_update_ui.module:18","About","À propos","",FALSE,"","",""
 "config_update_ui/src/Controller/ConfigUpdateController.php:436","Added configuration items","","",FALSE,"","",""
 "config_update_ui/config_update_ui.info.yml:0","Adds an updates report and revert functionality to configuration management","","",FALSE,"","",""
 "config_update_ui/src/Controller/ConfigUpdateController.php:365","All configuration","","",FALSE,"","",""

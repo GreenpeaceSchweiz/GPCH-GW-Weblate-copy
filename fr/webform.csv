@@ -934,7 +934,7 @@ WY: Wyoming
 "src/WebformAddonsManager.php:679","AXEPTA e-POSitivity Payment Gateways","","","False","","",""
 "src/Plugin/WebformElement/DateList.php:205","Abbreviate month","","","False","","",""
 "src/Plugin/WebformElement/WebformHeight.php:122","Abbreviated units (ft and in)","","","False","","",""
-"src/WebformHelpManager.php:812","About","","","False","","",""
+"src/WebformHelpManager.php:812","About","À propos","","False","","",""
 "src/WebformHelpManager.php:880","About Webform & the Drupal community","","","False","","",""
 "src/Plugin/WebformElement/WebformScale.php:116","Above","","","False","","",""
 "src/Plugin/WebformElement/Range.php:199","Above (Floating)","","","False","","",""

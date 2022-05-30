@@ -1,7 +1,7 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "social_spam_prevention.module:175","'@entity-type contains words that are not allowed on this platform.
 Please contact the site manager for further information.'","","",FALSE,"","",""
-"social_spam_prevention.module:22","About","A propos","",FALSE,"","",""
+"social_spam_prevention.module:22","About","À propos","",FALSE,"","",""
 "social_spam_prevention.permissions.yml:0","Access to spam prevention configuration","","",FALSE,"","",""
 "src/Form/SocialSpamPreventionSettingsForm.php:76","Block users who create spam","","",FALSE,"","",""
 "social_spam_prevention.links.task.yml:0","Blocked users","","",FALSE,"","",""

@@ -10,7 +10,7 @@
 "src/Entity/Poll.php:340","A flag indicating whether the poll is active.","","","False","","",""
 "src/Entity/Poll.php:314","A flag indicating whether users may cancel their vote.","","","False","","",""
 "src/Entity/Poll.php:327","A flag indicating whether users may see the results before voting.","","","False","","",""
-"poll.module:28","About","A propos","","False","","",""
+"poll.module:28","About","À propos","","False","","",""
 "poll.permissions.yml:0","Access the Poll overview page","","","False","","",""
 "config/install/views.view.poll_admin.yml:0;0","Active","","","False","","",""
 "poll.links.action.yml:0","Add a poll","","","False","","",""

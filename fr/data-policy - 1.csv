@@ -3,7 +3,7 @@
 "src/Form/DataPolicyAgreement.php:193","'@name field is required.'","","",FALSE,"","",""
 "src/Entity/DataPolicy.php:231","A boolean indicating whether the Data policy is published.","","",FALSE,"","",""
 "src/Entity/UserConsent.php:177","A boolean indicating whether the User consent is published.","","",FALSE,"","",""
-"data_policy.module:22","About","A propos","",FALSE,"","",""
+"data_policy.module:22","About","À propos","",FALSE,"","",""
 "data_policy.permissions.yml:0","Access to inform and consent settings page.","","",FALSE,"","",""
 "src/Form/DataPolicyForm.php:31","Active","Actif","",FALSE,"","",""
 "src/Controller/DataPolicy.php:139","Active revisions","","",FALSE,"","",""

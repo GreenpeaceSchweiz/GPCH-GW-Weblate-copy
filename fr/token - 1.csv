@@ -9,7 +9,7 @@
 "token.tokens.inc:124","A date in '@type' format. (%date)","Une date dans le format '@type'. (%date)","",FALSE,"","",""
 "token.tokens.inc:429","A random hash. The possible hashing algorithms are: @hash-algos.","Un hachage aléatoire. Les algorithmes de hachage possibles sont : @hash-algos.","",FALSE,"","",""
 "token.tokens.inc:425","A random number from 0 to @max.","Un nombre aléatoire entre 0 et @max.","",FALSE,"","",""
-"token.module:33","About","A propos","",FALSE,"","",""
+"token.module:33","About","À propos","",FALSE,"","",""
 "token.tokens.inc:360","Absolute URL","URL absolue","",FALSE,"","",""
 "token.tokens.inc:227","Account cancellation URL","URL d'annulation de compte","",FALSE,"","",""
 "token.tokens.inc:276","An array of all the menu link's parents, starting with the root.","Une liste de tous les parents du lien de menu, en commençant avec la racine.","",FALSE,"","",""

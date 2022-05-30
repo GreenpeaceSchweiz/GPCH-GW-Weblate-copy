@@ -9,7 +9,7 @@
 "modules/ctools_views/ctools_views.info.yml:0","A set of improvements to the core Views code that allows for greater control over Blocks.","","",FALSE,"","",""
 "src/Wizard/EntityFormWizardBase.php:177","A unique machine-readable name for this @entity_type. It must only contain lowercase letters, numbers, and underscores.","","",FALSE,"","",""
 "ctools.module:111","AJAX responder -- tools to make it easier for the server to handle AJAX requests and tell the client what to do with them.","","",FALSE,"","",""
-"ctools.module:104","About","A propos","",FALSE,"","",""
+"ctools.module:104","About","À propos","",FALSE,"","",""
 "modules/ctools_block/src/Plugin/Block/EntityField.php:211","Above","Au-dessus","",FALSE,"","",""
 "src/Form/ManageConditions.php:84","Add Condition","","",FALSE,"","",""
 "src/Form/ManageResolverRelationships.php:104","Add Relationship","","",FALSE,"","",""

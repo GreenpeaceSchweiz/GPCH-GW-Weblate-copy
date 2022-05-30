@@ -21,7 +21,7 @@
 "src/Plugin/Field/FieldWidget/ParagraphsWidget.php:2245","'@name field is required.'","Le champ @name est requis.","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/ParagraphsWidget.php:1680","'@title type'","Type @title","",FALSE,"","",""
 "modules/paragraphs_library/paragraphs_library.install:105","A flag indicating whether this is the default translation.","Un marqueur indiquant s'il s'agit de la traduction par défaut.","",FALSE,"","",""
-"modules/paragraphs_type_permissions/paragraphs_type_permissions.module:22","About","A propos","",FALSE,"","",""
+"modules/paragraphs_type_permissions/paragraphs_type_permissions.module:22","About","À propos","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/ParagraphsWidget.php:951;1690","Add @title","Ajouter @title","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/ParagraphsWidget.php:1625","Add @type","Créer un @type","",FALSE,"","",""
 "paragraphs.routing.yml:0","Add Paragraphs type","Ajouter un type de paragraphe","",FALSE,"","",""

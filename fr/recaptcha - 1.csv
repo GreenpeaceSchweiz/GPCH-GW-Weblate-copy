@@ -1,7 +1,7 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "recaptcha.module:214","'@error'","","",FALSE,"","",""
 "recaptcha.module:208","'@info'","","",FALSE,"","",""
-"recaptcha.module:27","About","A propos","",FALSE,"","",""
+"recaptcha.module:27","About","À propos","",FALSE,"","",""
 "recaptcha.permissions.yml:0","Administer reCAPTCHA","","",FALSE,"","",""
 "recaptcha.permissions.yml:0","Administer reCAPTCHA settings.","","",FALSE,"","",""
 "recaptcha.links.menu.yml:0","Administer the Google No CAPTCHA reCAPTCHA web service.","","",FALSE,"","",""
