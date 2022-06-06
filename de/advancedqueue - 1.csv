@@ -30,7 +30,7 @@
 "src/Plugin/AdvancedQueue/Backend/BackendBase.php:103","How long a job is reserved for processing.","","",FALSE,"","",""
 "src/Form/QueueForm.php:123","How long the queue is processed. 0 means ""unlimited"", and requires processing via daemon.","","",FALSE,"","",""
 "config/schema/advancedqueue.schema.yml:0","Icon","","",FALSE,"","",""
-"config/install/views.view.advancedqueue_jobs.yml:0","Items per page","","",FALSE,"","",""
+"config/install/views.view.advancedqueue_jobs.yml:0","Items per page","Elemente pro Seite","",FALSE,"","",""
 "src/Form/DeleteJob.php:72","Job @job_id has been deleted.","","",FALSE,"","",""
 "src/Form/ReleaseJob.php:72","Job @job_id has been released.","","",FALSE,"","",""
 "config/install/views.view.advancedqueue_jobs.yml:0","Job ID","","",FALSE,"","",""

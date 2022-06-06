@@ -13,7 +13,7 @@
 "lightning_core.install:23","Base profile","","",FALSE,"","",""
 "modules/lightning_page/lightning_page.info.yml:0","Basic Page","","",FALSE,"","",""
 "modules/lightning_page/config/optional/pathauto.pattern.page.yml:0","Basic page","","",FALSE,"","",""
-"modules/lightning_page/config/install/field.field.node.page.body.yml:0","Body","","",FALSE,"","",""
+"modules/lightning_page/config/install/field.field.node.page.body.yml:0","Body","Texte","",FALSE,"","",""
 "modules/acquia_telemetry/acquia_telemetry.info.yml:0","By installing the Acquia Telemetry module, you agree to allow it to send anonymized telemetry data to Acquia for the purposes and on the conditions set forth below. If you do not agree, do not install this software.
 The Acquia Telemetry module sends anonymized data about Acquia product usage to Acquia for security, operations management, statistical analyses, and for research and development purposes. Specifically, it sends the following data:<br /> <ul> <li>Software versions and enabled/disabled status of Acquia product modules</li> <li>Software version of Drupal core</li> <li>Software version of PHP</li> </ul> Acquia's collection of this anonymized telemetry data will be used in accordance with <a href=""https://www.acquia.com/about-us/legal/privacy-policy"">Acquia's Privacy Policy</a>. You may opt out and disable the data collection feature by uninstalling the Acquia Telemetry module at any time.","","",FALSE,"","",""
 "modules/lightning_roles/lightning_roles.links.menu.yml:0","Configure Lightning Roles settings.","","",FALSE,"","",""

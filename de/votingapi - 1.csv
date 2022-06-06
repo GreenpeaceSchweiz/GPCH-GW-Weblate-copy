@@ -57,7 +57,7 @@
 "config/optional/views.view.votingapi_votes.yml:0;0","ID","ID","",FALSE,"","",""
 "src/VoteTypeListBuilder.php:20","Id","ID","",FALSE,"","",""
 "src/VoteTypeForm.php:129","Invalid machine-readable name. Enter a name other than %invalid.","Ungültiger Systemname. Bitte einen anderen Namen als %invalid eingeben.","",FALSE,"","",""
-"config/optional/views.view.votingapi_votes.yml:0","Items per page","","",FALSE,"","",""
+"config/optional/views.view.votingapi_votes.yml:0","Items per page","Elemente pro Seite","",FALSE,"","",""
 "src/VoteTypeListBuilder.php:21","Label","Beschriftung","",FALSE,"","",""
 "config/optional/views.view.votingapi_votes.yml:0","Last »","","",FALSE,"","",""
 "votingapi.links.task.yml:0","List","Liste","",FALSE,"","",""

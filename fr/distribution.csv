@@ -44,10 +44,12 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_core/src/Entity/Element/EntityAutocomplete.php:29","'- Restricted access -'","'- Accès restreint -'","","False","","",""
 "modules/custom/activity_logger/activity_logger.module:112","'- none -'","","","False","","",""
 "translations.php:89","'-- Select action --'","'-- Sélectionner une action--'","","False","","",""
-"modules/custom/download_count/src/Plugin/Field/FieldFormatter/FieldDownloadCount.php:150","0 downloads","0 téléchargement","","False","","",""
+"modules/custom/grequest/config/optional/views.view.group_pending_members.yml:0","/group/{{ gid }}/content/{{ id }}/approve-membership","","","False","","",""
+"modules/custom/grequest/config/optional/views.view.group_pending_members.yml:0","/group/{{ gid }}/content/{{ id }}/reject-membership","","","False","","",""
+"modules/custom/download_count/src/Plugin/Field/FieldFormatter/FieldDownloadCount.php:173","0 downloads","0 téléchargement","","False","","",""
 "modules/social_features/social_follow_taxonomy/config/install/views.view.following_tags.yml:0","1","1","","False","","",""
 "translations.php:148","1 attachment.","1 pièce jointe.","","False","","",""
-"modules/custom/download_count/src/Plugin/Field/FieldFormatter/FieldDownloadCount.php:147","1 download","1 téléchargement","","False","","",""
+"modules/custom/download_count/src/Plugin/Field/FieldFormatter/FieldDownloadCount.php:170","1 download","1 téléchargement","","False","","",""
 "modules/social_features/social_follow_taxonomy/modules/social_follow_tag/templates/social-tagging-popup.html.twig:34","1 follower","","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/social_group_invite.module:327","1 group invite","1 invitation pour un groupe","","False","","",""
 "modules/social_features/social_follow_taxonomy/modules/social_follow_tag/templates/social-tagging-popup.html.twig:30","1 item","","","False","","",""
@@ -101,17 +103,29 @@ False\|My unmuted groups'","","","False","","",""
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a ajouté un tag que vous suivez à [social_taxonomy:indefinite_article] [social_taxonomy:content_type] <a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title]</a>.</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_follow_taxonomy/modules/social_follow_tag/config/install/message.template.update_node_following_tag.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> added tag(s) you follow to [social_taxonomy:indefinite_article] [social_taxonomy:content_type].</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a ajouté un tag que vous suivez à [social_taxonomy:indefinite_article] [social_taxonomy:content_type].</p>
+","","False","","",""
 "modules/social_features/social_event/modules/social_event_managers/config/optional/message.template.member_added_by_event_organiser.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> added you to the event [social_event:event_iam_organizing]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> vous a inscrit à l'événement [social_event:event_iam_organizing]</p>
+","","False","","",""
 "modules/social_features/social_event/modules/social_event_managers/config/optional/message.template.member_added_by_event_organiser.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> added you to the event [social_event:event_iam_organizing]</p>
 
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> vous a inscrit à l'événement [social_event:event_iam_organizing]</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_comment_group_node.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> and @count others commented on [social_comment:parent_entity_author]'s [social_comment:commented_content_type] in <a href=""[message:gurl]"">[message:gtitle]</a></p>","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> et @count autres utilisateurs ont commenté [social_comment:parent_entity_author]'s [social_comment:commented_content_type] dans <a href=""[message:gurl]"">[message:gtitle]</a></p>","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_comment_community_node.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> and @count others commented on [social_comment:parent_entity_author]'s [social_comment:commented_content_type]</p>
 ","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> et @count autres utilisateurs ont commenté [social_comment:parent_entity_author]'s [social_comment:commented_content_type]</p>
@@ -119,14 +133,19 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_comment_group_post.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> and @count others commented on a post in <a href=""[message:gurl]"">[message:gtitle]</a></p>","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> et @count autres utilisateurs ont commenté un post dans <a href=""[message:gurl]"">[message:gtitle]</a></p>","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_comment_community_post.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> and @count others commented on a post</p>","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> et @count autres utilisateurs ont commenté un post</p>","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.event_request_approved.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> approved your request to enroll for the event [social_event:event_iam_organizing]</p>
-","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a approuvé votre demande d'inscription à l'événement [social_event:event_iam_organizing]</p>
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a accepté votre demande d'inscription à l'événement [social_event:event_iam_organizing]</p>
 ","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.event_request_approved.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> approved your request to enroll for the event [social_event:event_iam_organizing]</p>
 
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a accepté votre demande d'inscription à l'événement [social_event:event_iam_organizing]</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_follow_content/config/install/message.template.create_comment_following_node.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> commented on [social_comment:commented_content_type] <a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title]</a> you are following</p>
 
 <p>[message:preview]</p>
@@ -137,7 +156,17 @@ False\|My unmuted groups'","","","False","","",""
 	<tbody>
 	</tbody>
 </table>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a commenté le contenu <a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title]</a> que vous suivez</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+
+<table class=""btn-wrapp"">
+	<tbody>
+	</tbody>
+</table>
+","","False","","",""
 "modules/social_features/social_follow_content/config/install/message.template.create_comment_following_node.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> commented on [social_comment:parent_entity_author]'s [social_comment:commented_content_type] <a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title]</a> you are following</p>
 ","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a commenté le contenu de [social_comment:parent_entity_author] <a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title]</a> que vous suivez</p>
 ","","False","","",""
@@ -161,18 +190,30 @@ False\|My unmuted groups'","","","False","","",""
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a commenté votre [social_comment:commented_entity_link_html]</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.moved_content_between_groups.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> created [social_group:content_type] in <a href=""[message:gurl]"">[message:gtitle]</a></p>","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a partagé [social_group:content_type] dans le groupe <a href=""[message:gurl]"">[message:gtitle]</a></p>","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_content_in_joined_group.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> created [social_group:created_entity_link_html] in the <a href=""[message:gurl]"">[message:gtitle]</a> group [message:count_groups_per_node]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a créé [social_group:created_entity_link_html] dans le groupe <a href=""[message:gurl]"">[message:gtitle]</a> [message:count_groups_per_node]</p>
+","","False","","",""
 "modules/social_features/social_follow_taxonomy/modules/social_follow_tag/config/install/message.template.create_node_following_tag.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> created [social_taxonomy:indefinite_article] [social_taxonomy:content_type] <a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title]</a> with the tag(s) that you follow.</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a créé [social_taxonomy:indefinite_article] [social_taxonomy:content_type] <a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title]</a> avec un tag que vous suivez.</p>
+","","False","","",""
 "modules/social_features/social_follow_taxonomy/modules/social_follow_tag/config/install/message.template.create_node_following_tag.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> created [social_taxonomy:indefinite_article] [social_taxonomy:content_type] <a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title]</a> with the tag(s) that you follow.</p>
 
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a créé [social_taxonomy:indefinite_article] [social_taxonomy:content_type] <a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title]</a> avec un tag que vous suivez.</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_topic_group.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> created a topic in <a href=""[message:gurl]"">[message:gtitle]</a> [message:count_groups_per_node]</p>","","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_topic_gc.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> created a topic in <a href=""[message:gurl]"">[message:gtitle]</a></p>","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a partagé une publication dans le groupe <a href=""[message:gurl]"">[message:gtitle]</a></p>","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_topic_community.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> created a topic</p>","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a partagé une nouvelle publication</p>","","False","","",""
@@ -180,15 +221,22 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_event_gc.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> created an event in <a href=""[message:gurl]"">[message:gtitle]</a></p>","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a créé un événement dans le groupe <a href=""[message:gurl]"">[message:gtitle]</a></p>","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_event_community.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> created an event</p>","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a créé un nouvel événement</p>","","False","","",""
 "modules/social_features/social_like/config/install/message.template.create_like_node_or_post.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> likes your [social_like:liked_entity_link_html]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a aimé votre [social_like:liked_entity_link_html]</p>
+","","False","","",""
 "modules/social_features/social_like/config/install/message.template.create_like_node_or_post.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> likes your [social_like:liked_entity_link_html]</p>
 
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a aimé votre [social_like:liked_entity_link_html]</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_mentions/config/install/message.template.create_mention_comment.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> mentioned you in a <a href=""[message:field_message_related_object:entity:url:absolute]"">comment</a> on [social_mentions:commented_entity_link_html]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> vous a mentionné dans un <a href=""[message:field_message_related_object:entity:url:absolute]"">commentaire</a> sur [social_mentions:commented_entity_link_html]</p>
+","","False","","",""
 "modules/social_features/social_mentions/config/install/message.template.create_mention_comment.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> mentioned you in a <a href=""[message:field_message_related_object:entity:url:absolute]"">comment</a>&nbsp;made on the [social_mentions:commented_entity_link_html]</p>
 
 <p>[message:preview]</p>
@@ -196,23 +244,35 @@ False\|My unmuted groups'","","","False","","",""
 <p>[message:cta_button]</p>
 ","","","False","","",""
 "modules/social_features/social_mentions/config/install/message.template.create_mention_post.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> mentioned you in a <a href=""[message:field_message_related_object:entity:url:absolute]"">post</a></p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> vous a mentionné dans un <a href=""[message:field_message_related_object:entity:url:absolute]"">post</a></p>
+","","False","","",""
 "modules/social_features/social_mentions/config/install/message.template.create_mention_post.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> mentioned you in a <a href=""[message:field_message_related_object:entity:url:absolute]"">post</a></p>
 
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> vous a mentionné dans un <a href=""[message:field_message_related_object:entity:url:absolute]"">post</a></p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_post_group.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> posted in <a href=""[message:gurl]"">[message:gtitle]</a></p>","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a partagé un post dans le groupe <a href=""[message:gurl]"">[message:gtitle]</a></p>","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_post_profile_stream.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> posted on your <a href=""[message:recipient-user-url]"">profile</a></p>","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a publié sur votre <a href=""[message:recipient-user-url]"">profil</a></p>","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_post_profile.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> posted on your <a href=""[message:recipient-user-url]"">profile</a></p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a publié sur votre <a href=""[message:recipient-user-url]"">profil</a></p>
+","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_post_profile.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> posted on your <a href=""[message:recipient-user-url]"">profile</a></p>
 
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a publié sur votre <a href=""[message:recipient-user-url]"">profil</a></p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_post_profile_stream.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> posted on your profile</p>
 ","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a publié sur votre profil</p>
 ","","False","","",""
@@ -222,7 +282,12 @@ False\|My unmuted groups'","","","False","","",""
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a partagé un contenu dans le groupe <a href=""[message:gurl]"">[message:gtitle]</a> [message:count_groups_per_node] dans lequel vous êtes membre:</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_comment_reply.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> replied on your <a href=""[message:field_message_related_object:entity:url:absolute]"">comment</a> in [social_comment:commented_entity_link_html]</p>
 ","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a répondu à votre <a href=""[message:field_message_related_object:entity:url:absolute]"">commentaire</p>
 ","","False","","",""
@@ -231,51 +296,89 @@ False\|My unmuted groups'","","","False","","",""
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a répondu à votre <a href=""[message:field_message_related_object:entity:url:absolute]"">commentaire</a> :&nbsp;[social_comment:commented_entity_link_html]</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_mentions/config/install/message.template.create_comment_reply_mention.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> replied to a <a href=""[message:field_message_related_object:entity:url:absolute]"">comment</a> in which you were&nbsp;mentioned.</p>
 
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a répondu à un <a href=""[message:field_message_related_object:entity:url:absolute]"">commentaire</a> dans lequel vous avez été&nbsp;mentionné.</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_mentions/config/install/message.template.create_comment_reply_mention.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> replied to a <a href=""[message:field_message_related_object:entity:url:absolute]"">comment</a> where you are mentioned</p>
 ","","","False","","",""
 "modules/social_features/social_content_report/config/install/message.template.content_reported.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> reported <a href=""[social_content_report:content_url]"">content</a> as inappropriate</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a signalé le contenu <a href=""[social_content_report:content_url]""></a> comme inapproprié</p>
+","","False","","",""
 "modules/social_features/social_content_report/config/install/message.template.content_reported.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> reported <a href=""[social_content_report:content_url]"">content</a> as inappropriate</p>
 
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> a signalé le contenu <a href=""[social_content_report:content_url]""></a> comme inapproprié</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_comment_post_profile.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a>&nbsp;left a comment on a post in your <a href=""[message:recipient-user-url]"">profile stream</a></p>
 
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a>&nbsp;a commenté votre <a href=""[message:recipient-user-url]"">profil</a></p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_group/modules/social_group_request/config/install/message.template.request_to_join_a_group.yml:0","<p><a href=""[message:recipient-user:url:absolute]"">[message:recipient-user:display-name]</a> has requested to join your group&nbsp;<a href=""[message:gurl]"">[message:gtitle]</a></p>
 
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:recipient-user:url:absolute]"">[message:recipient-user:display-name]</a> vous a envoyé une demande pour rejoindre votre groupe &nbsp;<a href=""[message:gurl]"">[message:gtitle]</a></p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.join_to_group.yml:0;0","<p><a href=""[message:recipient-user:url:absolute]"">[message:recipient-user:display-name]</a> joined the <a href=""[message:gurl]"">[message:gtitle]</a> group</p>
-","","","False","","",""
+","<p><a href=""[message:recipient-user:url:absolute]"">[message:recipient-user:display-name]</a> a rejoint le groupe <a href=""[message:gurl]"">[message:gtitle]</a></p>
+","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.join_to_group.yml:0","<p><a href=""[message:recipient-user:url:absolute]"">[message:recipient-user:display-name]</a> joined the <a href=""[message:gurl]"">[message:gtitle]</a> group</p>
 
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:recipient-user:url:absolute]"">[message:recipient-user:display-name]</a> a rejoint le groupe <a href=""[message:gurl]"">[message:gtitle]</a></p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_event/config/optional/message.template.activity_on_events_im_organizing.yml:0;0","<p><a href=""[social_event:enrolled_event_url]"">[social_event:enrolled_user]</a> has enrolled to the event [social_event:event_iam_organizing] you are organizing</p>
-","","","False","","",""
+","<p><a href=""[social_event:enrolled_event_url]"">[social_event:enrolled_user]</a> s'est inscrit à l'événement [social_event:event_iam_organizing] que vous organisez</p>
+","","False","","",""
 "modules/social_features/social_event/config/optional/message.template.activity_on_events_im_organizing.yml:0","<p><a href=""[social_event:enrolled_event_url]"">[social_event:enrolled_user]</a> has enrolled to the event [social_event:event_iam_organizing] you are organizing</p>
 
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[social_event:enrolled_event_url]"">[social_event:enrolled_user]</a> s'est inscrit à l'événement [social_event:event_iam_organizing] que vous organisez</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.request_event_enrollment.yml:0;0","<p><a href=""[social_event:enrolled_event_url]"">[social_event:enrolled_user]</a> has requested enrollment to the event [social_event:event_iam_organizing] you are organizing</p>
 ","<p><a href=""[social_event:enrolled_event_url]"">[social_event:enrolled_user]</a> a demandé à s'inscrire à l'événement [social_event:event_iam_organizing] que vous organisez</p>
 ","","False","","",""
@@ -284,7 +387,12 @@ False\|My unmuted groups'","","","False","","",""
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[social_event:enrolled_event_url]"">[social_event:enrolled_user]</a> a demandé à s'inscrire à l'événement [social_event:event_iam_organizing] que vous organisez</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_group/modules/social_group_request/config/install/message.template.request_to_join_a_group.yml:0;0","<p><a href=""absolute]"">[message:recipient-user:display-name]</a> has requested membership to the <a href=""gurl]"">[message:gtitle]</a> group</p>
 ","<p><a href=""absolute]"">[message:recipient-user:display-name]</a> a demandé à rejoindre le groupe <a href=""gurl]"">[message:gtitle]</a> </p>
 ","","False","","",""
@@ -307,7 +415,7 @@ False\|My unmuted groups'","","","False","","",""
 </table>
 ","<p>Bonjour,</p>
 
-<p>Je souhaite vous inviter à mon événement [social_event:event_iam_organizing] sur [site:name].</p>
+<p>Je vous invite à mon événement [social_event:event_iam_organizing] sur [site:name].</p>
 
 <p>À bientôt !<br />
 [message:author:display-name]</p>
@@ -350,7 +458,7 @@ False\|My unmuted groups'","","","False","","",""
 	</tbody>
 </table>
 ","<p>Bonjour,</p>
-<p>Je souhaite vous inviter à mon événement <strong>[node:title]</strong> sur <strong>[site:name]</strong>.</p>
+<p>Je vous invite à mon événement <strong>[node:title]</strong> sur <strong>[site:name]</strong>.</p>
 <p>À bientôt ! [user:display-name]</p>
 
 <table class=""btn-wrap"">
@@ -379,13 +487,19 @@ False\|My unmuted groups'","","","False","","",""
 ","","False","","",""
 "modules/social_features/social_core/src/Controller/SocialCoreController.php:67","<p>You have insufficient permissions to view the page you're trying to access. There could be several reasons for this:</p><ul><li>You are trying to edit content you're not allowed to edit.</li><li>You are trying to view content (from a group) you don't have access to.</li><li>You are trying to access administration pages.</li></ul><p>Click the back button of your browser to go back where you came from or click <a href="":url"">here</a> to go to the homepage</p>","","","False","","",""
 "modules/social_features/social_private_message/config/install/message.template.create_private_message.yml:0;0","<p>You have received a <a href=""[message:pmt-url]"">message</a> from <a href=""[message:author:url:absolute]"">[message:author:display-name]</a></p>
-","","","False","","",""
+","<p>Vous avez reçu un <a href=""[message:pmt-url]"">message</a> de <a href=""[message:author:url:absolute]"">[message:author:display-name]</a></p>
+","","False","","",""
 "modules/social_features/social_private_message/config/install/message.template.create_private_message.yml:0","<p>You have received a <a href=""[message:pmt-url]"">message</a> from <a href=""[message:author:url:absolute]"">[message:author:display-name]</a></p>
 
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p>Vous avez reçu un <a href=""[message:pmt-url]"">message</a> de <a href=""[message:author:url:absolute]"">[message:author:display-name]</a></p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_group/modules/social_group_request/config/install/message.template.approve_request_join_group.yml:0;0","<p>Your membership request for the <a href=""gurl]"">[message:gtitle]</a> group has been approved</p>
 ","<p>Votre demande de rejoindre le groupe <a href=""gurl]"">[message:gtitle]</a> a été approuvée</p>
 ","","False","","",""
@@ -394,7 +508,7 @@ False\|My unmuted groups'","","","False","","",""
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","<p>Votre demande à rejoindre le groupe <a href=""[message:gurl]"">[message:gtitle]</a> a été approuvée ! Vous êtes à présent membre du groupe et pouvez commencer à poster des contenus.</p>
+","<p>Votre demande de rejoindre le groupe <a href=""[message:gurl]"">[message:gtitle]</a> a été approuvée ! Vous êtes à présent membre du groupe et pouvez commencer à y partager des contenus.</p>
 
 <p>[message:preview]</p>
 
@@ -408,14 +522,15 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_event/modules/social_event_addtocal/social_event_addtocal.module:144","'@cal calendar'","","","False","","",""
 "modules/social_features/social_event/modules/social_event_addtocal/social_event_addtocal.module:67;114","'@calendar calendar'","","","False","","",""
 "modules/custom/activity_creator/activity_creator.post_update.php:70","'@count activities data has been migrated to activity_notification_table.'","","","False","","",""
-"modules/social_features/social_event/modules/social_event_managers/src/Form/SocialEventManagersAddEnrolleeForm.php:141","'@count new member is enrolled to this event.'","'@count nouveau membre est inscrit à cet événement.'","","False","","",""
-"modules/social_features/social_event/modules/social_event_managers/src/Form/SocialEventManagersAddEnrolleeForm.php:144","'@count new member is enrolled to your event.'","","","False","","",""
+"modules/social_features/social_event/modules/social_event_managers/src/Form/SocialEventManagersAddEnrolleeForm.php:152","'@count new member is enrolled to this event.'","'@count nouveau membre est inscrit à cet événement.'","","False","","",""
+"modules/social_features/social_event/modules/social_event_managers/src/Form/SocialEventManagersAddEnrolleeForm.php:155","'@count new member is enrolled to your event.'","","","False","","",""
 "modules/social_features/social_group/social_group.module:1139","'@count new member joined the group.'","'@count nouveau membre a rejoint ce groupe.'","","False","","",""
 "modules/social_features/social_content_report/src/EventSubscriber/FlagSubscriber.php:116","'@entity_type @entity_id could not be unpublished after a user reported it.'","","","False","","",""
-"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:513","'@err'","","","False","","",""
+"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:526","'@err'","","","False","","",""
 "modules/social_features/social_activity/templates/message-user-profile-preview.html.twig:13","'@function @ @organization'","'@function @ @organization'","","False","","",""
-"translations.php:63","'@interval ago'","Il y a @interval","","False","","",""
-"translations.php:62","'@interval hence'","","","False","","",""
+"modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0;0","'@interval'","","","False","","",""
+"modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0","'@interval ago'","Il y a @interval","","False","","",""
+"modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0","'@interval hence'","","","False","","",""
 "modules/custom/dropdown/src/Plugin/Field/FieldWidget/DropdownWidgetType.php:158","'@name field is required.'","Le champ @name est requis.","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/src/Controller/UserEnrollInviteController.php:85","'@node'","","","False","","",""
 "modules/custom/activity_creator/activity.page.inc:51","'@time ago'","il y a @time","","False","","",""
@@ -448,7 +563,7 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_comment_author_node_post.yml:0","A person commented on content created or organised by me","Un utilisateur a commenté un post, une publication ou un événement que j'ai créé","","False","","",""
 "modules/social_features/social_follow_taxonomy/modules/social_follow_tag/config/install/message.template.create_node_following_tag.yml:0","A person create content with tag I am following","","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_post_profile.yml:0","A person created a post on my profile","Un utilisateur a publié un post sur ma page de profil","","False","","",""
-"modules/social_features/social_activity/config/install/message.template.create_post_profile_stream.yml:0","A person created a post on my profile and I see it on the stream","","","False","","",""
+"modules/social_features/social_activity/config/install/message.template.create_post_profile_stream.yml:0","A person created a post on my profile and I see it on the stream","Une personne a partagé un post sur mon profil et je le vois sur le fil d'actus","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_content_in_joined_group.yml:0","A person created a post, event or topic in a group I joined","Un utilisateur a partagé un post, une publication ou a créé un événement dans un groupe auquel je suis inscrit","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.join_to_group.yml:0","A person joins a group I am managing","Un utilisateur a rejoint un groupe que j'administre","","False","","",""
 "modules/social_features/social_like/config/install/message.template.create_like_node_or_post.yml:0","A person likes a post, topic, comment or event created by me","Un utilisateur a aimé un post, une publication, un commentaire ou un événement que j'ai partagé","","False","","",""
@@ -506,7 +621,7 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_group/config/schema/social_group.schema.yml:0","Access for group managers only","","","False","","",""
 "modules/social_features/social_group/src/Plugin/views/access/ManageByGroupManagersOnlyAccess.php:9","Access for group managers only.","","","False","","",""
 "modules/social_features/social_search/social_search.permissions.yml:0","Access group search","","","False","","",""
-"modules/social_features/social_group/social_group.module:440;1985;2646;2652","Access permissions","Accès & Visibilité","","False","","",""
+"modules/social_features/social_group/social_group.module:440;1985;2682;2688","Access permissions","Accès & Visibilité","","False","","",""
 "modules/social_features/social_post/social_post.group.permissions.yml:0","Access posts in group","","","False","","",""
 "modules/custom/social_font/social_font.permissions.yml:0","Access the Font overview page","","","False","","",""
 "modules/social_features/social_post/social_post.group.permissions.yml:0","Access the posts in this group","Accéder aux posts dans ce groupe","","False","","",""
@@ -592,12 +707,12 @@ False\|My unmuted groups'","","","False","","",""
 "modules/custom/template_suggestions_extra/template_suggestions_extra.info.yml:0","Add extra useful template suggestsions","","","False","","",""
 "modules/social_features/social_album/config/install/field.field.post.photo.field_album.yml:0","Add image(s) to an album","","","False","","",""
 "modules/social_features/social_post/modules/social_post_album/templates/image-widget--album.html.twig:73;83","Add images","Ajouter des images","","False","","",""
-"modules/social_features/social_album/src/Controller/SocialAlbumController.php:103","Add images to album @name","","","False","","",""
-"modules/social_features/social_group/src/Controller/SocialGroupController.php:132","Add invites","Ajouter des invités","","False","","",""
-"modules/social_features/social_group/src/Controller/SocialGroupController.php:130","Add invites to group: @group_name","Ajouter des invités au groupe : @group_name","","False","","",""
-"modules/social_features/social_group/src/Controller/SocialGroupController.php:138","Add members","Ajouter des membres","","False","","",""
+"modules/social_features/social_album/src/Controller/SocialAlbumController.php:115","Add images to album @name","","","False","","",""
+"modules/social_features/social_group/src/Controller/SocialGroupController.php:133","Add invites","Ajouter des invités","","False","","",""
+"modules/social_features/social_group/src/Controller/SocialGroupController.php:131","Add invites to group: @group_name","Ajouter des invités au groupe : @group_name","","False","","",""
+"modules/social_features/social_group/src/Controller/SocialGroupController.php:139","Add members","Ajouter des membres","","False","","",""
 "modules/social_features/social_group/src/Plugin/Action/AddMembersToGroup.php:16","Add members to group","Ajouter des membres au groupe","","False","","",""
-"modules/social_features/social_group/src/Controller/SocialGroupController.php:135","Add members to group: @group_name","Ajouter des membres au groupe : @group_name","","False","","",""
+"modules/social_features/social_group/src/Controller/SocialGroupController.php:136","Add members to group: @group_name","Ajouter des membres au groupe : @group_name","","False","","",""
 "modules/social_features/social_post/src/Routing/RouteSubscriber.php:21","Add new comment","Ajouter un commentaire","","False","","",""
 "modules/social_features/social_comment/src/Routing/RouteSubscriber.php:50","Add new reply","Ajouter une nouvelle réponse","","False","","",""
 "modules/social_features/social_core/social_core.links.menu.yml:0","Add new user","","","False","","",""
@@ -610,7 +725,7 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_event/modules/social_event_addtocal/templates/event-enrollment-confirmation-add-to-cal.html.twig:8","Add to calendar","Ajouter au calendrier","","False","","",""
 "modules/social_features/social_event/modules/social_event_addtocal/social_event_addtocal.routing.yml:0","Add to calendar settings","Ajouter aux paramètres du calendrier","","False","","",""
 "modules/custom/social_lets_connect/modules/social_lets_connect_usage/src/Form/LetsConnectUsageSettingsForm.php:48","Add-on information (including installed modules, profiles, and themes)","","","False","","",""
-"modules/social_features/social_activity/social_activity.tokens.inc:21","Additional information.","Information complémentaire.","","False","","",""
+"modules/social_features/social_activity/social_activity.tokens.inc:21","Additional information.","Informations complémentaires","","False","","",""
 "modules/social_features/social_activity/social_activity.tokens.inc:22","Additional message information. This token is deprecated, please use ""preview"" and ""cta_button"" tokens instead in your message templates.","","","False","","",""
 "modules/social_features/social_profile/config/install/field.field.profile.profile.field_profile_address.yml:0","Address","Adresse","","False","","",""
 "modules/social_features/social_user_export/src/Plugin/UserExportPlugin/UserAddressLine1.php:23;8","Address line 1","Ligne 1 de l'adresse","","False","","",""
@@ -775,7 +890,6 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_tagging/social_tagging.installer_options.yml:0","Allows adding tags to content. Tags can be used in search, content overviews and dashboards.","","","False","","",""
 "modules/social_features/social_event/modules/social_event_max_enroll/social_event_max_enroll.installer_options.yml:0","Allows event creators to set limits to the number of people that can enroll.","","","False","","",""
 "modules/social_features/social_event/modules/social_event_type/social_event_type.installer_options.yml:0","Allows events to be organised by event types.","","","False","","",""
-"modules/custom/ginvite/ginvite.info.yml:0","Allows group managers to invite people into their group","","","False","","",""
 "modules/social_features/social_group/modules/social_group_default_route/social_group_default_route.installer_options.yml:0","Allows group managers to set the default pages on a group for member and non-members","","","False","","",""
 "modules/social_features/social_content_block/social_content_block.installer_options.yml:0","Allows the creation of custom lists of content on dashboards and landing pages.","","","False","","",""
 "modules/social_features/social_event/modules/social_event_managers/social_event_managers.installer_options.yml:0","Allows users to add organisers to events besides the creator of the event itself.","","","False","","",""
@@ -800,7 +914,7 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_group/src/Plugin/Action/AddMembersToGroup.php:93","Amount of users added not added","","","False","","",""
 "modules/social_features/social_group/src/Plugin/Action/AddMembersToGroup.php:85","Amount of users added to group","","","False","","",""
 "modules/social_features/social_post/social_post.admin.inc:168","An error occurred and processing did not complete.","Une erreur s'est produite et le traitement ne s'est pas terminé.","","False","","",""
-"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:449","An error occurred during processing","Une erreur a eu lieu au cours de l'opération","","False","","",""
+"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:462","An error occurred during processing","Une erreur a eu lieu au cours de l'opération","","False","","",""
 "modules/social_features/social_group/src/GroupContentVisibilityUpdate.php:171","An error occurred while processing @operation with arguments : @args","Une erreur est survenue lors du traitement de @operation avec pour arguments : @args","","False","","",""
 "modules/social_features/social_follow_taxonomy/src/Plugin/views/filter/FollowTaxonomyViewsFilter.php:113","An invalid vocabulary is selected. Please change it in the options.","","","False","","",""
 "modules/social_features/social_group/modules/social_group_secret/config/install/group.role.secret_group-anonymous.yml:0","Anonymous","Anonyme","","False","","",""
@@ -830,7 +944,6 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_group/modules/social_group_request/src/Form/GroupRequestMembershipRejectForm.php:119","Are you sure you want to reject the membership request for @name?","Êtes-vous sûr de vouloir rejeter la demande d'inscription de @name ?","","False","","",""
 "modules/social_features/social_group/social_group.module:776","Are you sure you want to remove %name from %group?","Confirmez-vous vouloir retirer %name du groupe %group ?","","False","","",""
 "modules/custom/grequest/src/Form/GroupRequestMembershipForm.php:35","Are you sure you want to request membership the group @group","","","False","","",""
-"modules/custom/ginvite/src/Form/BulkGroupInvitationConfirm.php:109","Are you sure you want to send a invitation to all e-mails listed bellow?","","","False","","",""
 "modules/social_features/social_event/modules/social_event_managers/src/Form/SocialEventManagersViewsBulkOperationsConfirmAction.php:35","Are you sure you want to send your email to the following enrollee?","Confirmez-vous l'envoi de cet email à cet inscrit ?","","False","","",""
 "modules/social_features/social_group/modules/social_group_gvbo/src/Form/SocialGroupViewsBulkOperationsConfirmAction.php:35","Are you sure you want to send your email to the following member?","Confirmez-vous l'envoi de cet email à ce membre ?","","False","","",""
 "modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0","Asc","","","False","","",""
@@ -838,10 +951,10 @@ False\|My unmuted groups'","","","False","","",""
 "modules/custom/social_file_private/social_file_private.install:34","Assuming your private file system path configuration is functional and no other warnings are shown: your uploaded files on the Open Social entities are fully protected. More info: https://www.drupal.org/docs/8/distributions/open-social/private-files","","","False","","",""
 "modules/social_features/social_event/modules/social_event_type/config/schema/social_event_type.schema.yml:0","At what number of event types to switch from radio buttons to select widget.","","","False","","",""
 "modules/social_features/social_topic/config/install/field.field.node.topic.field_files.yml:0","Attachment","","","False","","",""
-"modules/social_features/social_core/social_core.module:948","Attachments","Pièces jointes","","False","","",""
+"modules/social_features/social_core/social_core.module:950","Attachments","Pièces jointes","","False","","",""
 "modules/social_features/social_profile/modules/social_profile_privacy/social_profile_privacy.module:141","Attention!","","","False","","",""
 "modules/social_features/social_content_report/config/install/views.view.report_overview.yml:0","Author","Auteur","","False","","",""
-"modules/social_features/social_core/social_core.module:887","Author Information","Auteur du contenu","","False","","",""
+"modules/social_features/social_core/social_core.module:889","Author Information","Auteur du contenu","","False","","",""
 "modules/social_features/social_event/modules/social_event_managers/src/Form/SocialEventManagersSettings.php:39","Author as event organiser","","","False","","",""
 "modules/social_features/social_comment/config/install/views.view.comment.yml:0;0","Author name","Nom de l'auteur","","False","","",""
 "modules/custom/mentions/src/MentionsViewsData.php:68;69","Author user id","","","False","","",""
@@ -858,8 +971,8 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_group/modules/social_group_request/social_group_request.module:395","Back to group","Retour au groupe","","False","","",""
 "modules/custom/social_queue_storage/config/install/message.template.background_process_finished.yml:0","Background process finished","L'opération est terminée","","False","","",""
 "modules/social_features/social_profile/config/install/field.field.profile.profile.field_profile_banner_image.yml:0","Banner Image","Image de la bannière de profil","","False","","",""
-"modules/custom/activity_send/modules/activity_send_email/src/Plugin/EmailFrequency/Immediately.php:81","Based on your @settings, the notification above is sent to you <strong>:frequency</strong>","Sur la base de vos @settings, vous recevez cette notification de manière <strong>frequency</strong>.","","False","","",""
-"modules/custom/activity_send/modules/activity_send_email/src/Plugin/QueueWorker/ActivityDigestWorker.php:175","Based on your @settings, the notification above is sent to you as a <strong>:frequency mail</strong>","Sur la base de vos @settings, vous recevez ce mail de manière <strong>frequency mail</strong>.","","False","","",""
+"modules/custom/activity_send/modules/activity_send_email/src/Plugin/EmailFrequency/Immediately.php:81","Based on your @settings, the notification above is sent to you <strong>:frequency</strong>","Sur la base de vos @settings, vous recevez cette notification de manière <strong>:frequency</strong>","","False","","",""
+"modules/custom/activity_send/modules/activity_send_email/src/Plugin/QueueWorker/ActivityDigestWorker.php:175","Based on your @settings, the notification above is sent to you as a <strong>:frequency mail</strong>","Sur la base de vos @settings, vous recevez ce mail de manière <strong>:frequency mail</strong>.","","False","","",""
 "modules/social_features/social_landing_page/src/Plugin/Field/FieldWidget/BlockFieldWidget.php:35;36","Basic","Basique","","False","","",""
 "modules/social_features/social_editor/config/install/filter.format.basic_html.yml:0","Basic HTML","HTML simple","","False","","",""
 "modules/social_features/social_content_block/modules/social_page_content_block/src/Plugin/MultipleContentBlock/PageContent.php:7","Basic Page","","","False","","",""
@@ -880,7 +993,7 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_user/social_user.permissions.yml:0","Block users","Bloquer les utilisateurs","","False","","",""
 "modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0;0","Blocked","Bloqué","","False","","",""
 "modules/social_features/social_topic/social_topic.install:105;372","Blog","","","False","","",""
-"modules/social_features/social_event/modules/social_event_an_enroll/src/Form/EventAnEnrollSettingsForm.php:101","Body","Corps","","False","","",""
+"modules/social_features/social_event/modules/social_event_an_enroll/src/Form/EventAnEnrollSettingsForm.php:101","Body","Texte","","False","","",""
 "modules/social_features/social_book/src/ContentTranslationDefaultsConfigOverride.php:30","Book Pages","","","False","","",""
 "modules/social_features/social_book/src/Plugin/Block/BookAddBlock.php:14","Book add block","","","False","","",""
 "modules/social_features/social_book/social_book.installer_options.yml:0","Book content type","","","False","","",""
@@ -904,7 +1017,7 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_core/config/install/field.field.block_content.hero_call_to_action_block.field_call_to_action_link.yml:0","Call to action link","","","False","","",""
 "translations.php:43","Can not send e-mail for %entity","","","False","","",""
 "modules/social_features/social_profile/social_profile.module:221","Cancel","Annuler","","False","","",""
-"modules/social_features/social_event/src/Form/EnrollActionForm.php:334","Cancel enrollment","Annuler l'inscription","","False","","",""
+"modules/social_features/social_event/src/Form/EnrollActionForm.php:336","Cancel enrollment","Annuler l'inscription","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/social_event_invite.module:347","Cancel invite","Annuler l'invitation","","False","","",""
 "translations.php:100","Canceled ""%action"".","","","False","","",""
 "modules/social_features/social_tagging/config/install/taxonomy.vocabulary.social_tagging.yml:0","Categories and terms used to tag content","","","False","","",""
@@ -1070,28 +1183,28 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_embed/src/Plugin/Filter/SocialEmbedConvertUrlToEmbedFilter.php:14","Convert SUPPORTED URLs to URL embeds","","","False","","",""
 "modules/social_features/social_event/src/Plugin/GraphQL/DataProducer/Field/DateToTimestamp.php:9","Convert date field object to timestamp.","","","False","","",""
 "modules/social_features/social_embed/src/Plugin/Filter/SocialEmbedConvertUrlToEmbedFilter.php:14","Convert only URLs that are supported to URL embeds.","","","False","","",""
-"modules/custom/social_graphql/src/Plugin/GraphQL/DataProducer/Media/FileUrl.php:8","Convert uri to url.","","","False","","",""
+"modules/custom/social_graphql/src/Plugin/GraphQL/DataProducer/Media/FileUrl.php:11","Convert uri to url.","","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/templates/invite-to-group-by-member.html.twig:16","Copy URL","","","False","","",""
 "modules/social_features/social_profile/social_profile.install:275","Could not create profile for @user_id","","","False","","",""
 "modules/social_features/social_core/social_core.install:1356","Could not install Content Entity forms as Open Social please do so manually in the Socialblue settings.","","","False","","",""
-"modules/social_features/social_user_export/src/Plugin/Action/ExportUser.php:181","Could not save the export file on: %name.","","","False","","",""
-"modules/social_features/social_user_export/src/Plugin/Action/ExportUser.php:180","Could not save the export file.","","","False","","",""
+"modules/social_features/social_user_export/src/Plugin/Action/ExportUser.php:217","Could not save the export file on: %name.","","","False","","",""
+"modules/social_features/social_user_export/src/Plugin/Action/ExportUser.php:216","Could not save the export file.","","","False","","",""
 "modules/social_features/social_user_export/src/Plugin/UserExportPlugin/UserAddressCountryCode.php:23;8","Country code","Code pays","","False","","",""
 "modules/custom/download_count/download_count.module:22","Counts file downloads for private core file fields and
       logs a message to the watchdog table.","","","False","","",""
-"modules/social_features/social_group/src/Controller/SocialGroupController.php:245","Create @article @name","","","False","","",""
-"modules/social_features/social_core/social_core.module:966","Create @entity","","","False","","",""
+"modules/social_features/social_group/src/Controller/SocialGroupController.php:250","Create @article @name","","","False","","",""
+"modules/social_features/social_core/social_core.module:968","Create @entity","","","False","","",""
 "modules/social_features/social_group/src/Plugin/Block/GroupAddEventBlock.php:68","Create Event","Créer un événement","","False","","",""
 "modules/social_features/social_album/social_album.module:78","Create New Album","","","False","","",""
 "modules/social_features/social_book/social_book.module:42","Create New Book Page","","","False","","",""
 "modules/social_features/social_user/src/Plugin/Block/AccountHeaderBlock.php:152","Create New Content","Partager un nouveau contenu","","False","","",""
 "modules/social_features/social_event/social_event.module:623","Create New Event","Créer un nouvel événement","","False","","",""
-"modules/social_features/social_group/social_group.module:2214","Create New Group","Créer un nouveau groupe","","False","","",""
+"modules/social_features/social_group/social_group.module:2250","Create New Group","Créer un nouveau groupe","","False","","",""
 "modules/social_features/social_landing_page/social_landing_page.module:350","Create New Landing Page","Créer une nouvelle landing page","","False","","",""
 "modules/social_features/social_page/social_page.module:47","Create New Page","Créer une nouvelle page","","False","","",""
 "modules/social_features/social_topic/social_topic.module:212","Create New Topic","Partager une nouvelle publication","","False","","",""
 "modules/social_features/social_topic/src/Plugin/Block/TopicAddBlock.php:94","Create Topic","Créer une nouvelle publication","","False","","",""
-"modules/social_features/social_group/src/Controller/SocialGroupController.php:251","Create a @name","Crée un @name","","False","","",""
+"modules/social_features/social_group/src/Controller/SocialGroupController.php:256","Create a @name","Créer une @name","","False","","",""
 "modules/social_features/social_user/src/Plugin/Block/SocialUserLoginBlock.php:50","Create a new user account.","Créer un nouveau compte utilisateur.","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_content_in_joined_group.yml:0","Create a post, topic or event in a joined group","","","False","","",""
 "modules/custom/activity_logger/config/schema/activity_logger.schema.yml:0","Create activity items direct instead of in Queue","","","False","","",""
@@ -1188,7 +1301,6 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_core/config/install/core.date_format.day_month_time.yml:0","Day Month Time","","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/config/optional/views.view.social_group_user_invitations.yml:0;0","Decline","Refuser","","False","","",""
 "modules/social_features/social_event/src/Controller/SocialEventController.php:101","Decline enrollment request for the event @event_title","Refuser la demande d'inscription à l'événement @event_title","","False","","",""
-"modules/custom/ginvite/ginvite.routing.yml:0","Decline invitation","","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/social_event_invite.module:384","Decline invite","Refuser l'invitation","","False","","",""
 "modules/social_features/social_event/config/install/field.storage.event_enrollment.field_request_or_invite_status.yml:0","Declined","","","False","","",""
 "modules/social_features/social_comment/config/install/views.view.comment.yml:0","Default","","","False","","",""
@@ -1207,7 +1319,7 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_post/src/Form/PostTypeDeleteForm.php:32","Delete","Supprimer","","False","","",""
 "modules/social_features/social_group/src/Controller/DeleteGroup.php:25","Delete @type ""@title""","","","False","","",""
 "modules/custom/activity_creator/activity_creator.permissions.yml:0","Delete Activity entities","","","False","","",""
-"modules/social_features/social_comment/src/SocialCommentBreadcrumbBuilder.php:74","Delete Comment","Supprimer le commentaire","","False","","",""
+"modules/social_features/social_comment/src/SocialCommentBreadcrumbBuilder.php:77","Delete Comment","Supprimer le commentaire","","False","","",""
 "modules/social_features/social_event/social_event.permissions.yml:0","Delete Event enrollment entities","","","False","","",""
 "modules/custom/social_font/social_font.permissions.yml:0","Delete Font entities","","","False","","",""
 "modules/custom/alternative_frontpage/alternative_frontpage.routing.yml:0","Delete Frontpage Setting","","","False","","",""
@@ -1226,7 +1338,7 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_private_message/social_private_message.module:374","Delete thread","Supprimer le fil de conversation","","False","","",""
 "modules/social_features/social_user/social_user.module:410","Delete your account and anonymize all other content.","","","False","","",""
 "modules/social_features/social_private_message/social_private_message.module:454","Delete your account, delete private messages, and anonymize all other content.","Supprimer le compte et tous les messages privés qui y sont associés.","","False","","",""
-"modules/social_features/social_private_message/src/Plugin/Field/FieldFormatter/SocialPrivateMessageThreadMemberFormatter.php:56","Deleted user","","","False","","",""
+"modules/social_features/social_private_message/src/Plugin/Field/FieldFormatter/SocialPrivateMessageThreadMemberFormatter.php:131","Deleted user","","","False","","",""
 "modules/social_features/social_group/src/Controller/DeleteGroup.php:31","Deleting @type's","","","False","","",""
 "modules/social_features/social_group/social_group.module:1882","Deleting the group and all the content within the group...","","","False","","",""
 "modules/social_features/social_album/src/Form/SocialAlbumImageForm.php:61","Deleting this image will also delete it from the post it belongs to.","","","False","","",""
@@ -1234,7 +1346,7 @@ False\|My unmuted groups'","","","False","","",""
 "modules/custom/mentions/src/Form/MentionsTypeForm.php:139","Describe this mention type.","","","False","","",""
 "modules/social_features/social_topic/config/install/field.field.node.topic.body.yml:0","Description","Texte","","False","","",""
 "modules/social_features/social_follow_content/config/install/field.field.message.create_comment_following_node.field_message_destination.yml:0","Destinations","","","False","","",""
-"modules/social_features/social_core/social_core.module:490","Details","Détails","","False","","",""
+"modules/social_features/social_core/social_core.module:492","Details","Détails","","False","","",""
 "modules/social_features/social_tagging/social_tagging.links.menu.yml:0","Determine how and if users can use tags.","","","False","","",""
 "modules/social_features/social_profile/src/Form/SocialProfileSettingsForm.php:140","Determine if the main categories of the vocabulary will be used as separate tag fields or as a single tag field when using tags on profile.","","","False","","",""
 "modules/social_features/social_tagging/src/Form/SocialTaggingSettingsForm.php:124","Determine if the main categories of the vocabury will be used as seperate tag fields or as a single tag field when using tags on content.","","","False","","",""
@@ -1289,7 +1401,7 @@ False\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_swiftmail/src/Form/SocialSwiftmailSettingsForm.php:183","Don't send email notifications to users who have never logged in","","","False","","",""
 "modules/custom/download_count/download_count.info.yml:0","Download Count","","","False","","",""
 "modules/custom/download_count/download_count.routing.yml:0","Download count","Nombre de téléchargements","","False","","",""
-"modules/social_features/social_user_export/src/Plugin/Action/ExportUser.php:173","Download file","Télécharger le fichier","","False","","",""
+"modules/social_features/social_user_export/src/Plugin/Action/ExportUser.php:209","Download file","Télécharger le fichier","","False","","",""
 "modules/custom/dropdown/dropdown.info.yml:0","Dropdown","Liste déroulante","","False","","",""
 "modules/custom/dropdown/src/Element/Dropdown.php:29","Dropdown element.","","","False","","",""
 "modules/custom/dropdown/src/Plugin/Field/FieldFormatter/DropdownFieldFormatter.php:10","Dropdown field formatter","","","False","","",""
@@ -1307,7 +1419,7 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/custom/social_graphql/src/Plugin/GraphQL/DataProducer/Edge/EdgeNode.php:9","Edge node","","","False","","",""
 "modules/custom/social_graphql/src/Plugin/GraphQL/DataProducer/Edge/EdgeNode.php:9","EdgeInterface","","","False","","",""
 "modules/custom/social_graphql/src/Plugin/GraphQL/DataProducer/Connection/ConnectionEdges.php:9","Edges","","","False","","",""
-"modules/social_features/social_post/src/PostViewBuilder.php:227","Edit","Modifier","","False","","",""
+"modules/social_features/social_post/src/PostViewBuilder.php:228","Edit","Modifier","","False","","",""
 "modules/custom/activity_creator/activity_creator.permissions.yml:0","Edit Activity entities","","","False","","",""
 "modules/social_features/social_content_report/config/install/views.view.report_overview.yml:0","Edit Comment","","","False","","",""
 "modules/social_features/social_content_report/config/install/views.view.report_overview.yml:0","Edit Content","","","False","","",""
@@ -1351,7 +1463,7 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_event/modules/social_event_addtocal/src/Form/SocialAddToCalendarSettingsForm.php:88","Enable calendars you want to allow users to use","Autoriser les calendrier que vous voulez autoriser l'utilisateur à utiliser","","False","","",""
 "modules/social_features/social_group/src/Form/SocialGroupSettings.php:140","Enable cross-group posting for node types","","","False","","",""
 "modules/social_features/social_group/src/Form/SocialGroupSettings.php:132","Enable cross-posting","","","False","","",""
-"modules/social_features/social_event/config/install/field.field.node.event.field_event_enroll.yml:0","Enable event enrollment","Activer le système d'inscription","","False","","",""
+"modules/social_features/social_event/config/install/field.field.node.event.field_event_enroll.yml:0","Enable event enrollment","Permettre aux gens de s'inscrire","","False","","",""
 "modules/social_features/social_event/modules/social_event_an_enroll/src/Form/EventAnEnrollSettingsForm.php:37","Enable event enrollment for anonymous users","Autoriser les non-membres de WeGreen à s'inscrire","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/src/Form/EventInviteSettingsForm.php:49","Enable event invite per group type","","","False","","",""
 "modules/social_features/social_event/social_event.module:430","Enable events for on the user profiles.","","","False","","",""
@@ -1381,13 +1493,13 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_embed/src/Form/EmbedConsentForm.php:61","Enforce consent for all embedded content for anonymous users.","","","False","","",""
 "modules/social_features/social_embed/src/Form/EmbedConsentForm.php:54","Enforce consent for all embedded content for registered users.","","","False","","",""
 "modules/custom/social_file_private/social_file_private.info.yml:0","Enforces the use of Private Files for content, posts and file uploads (highly recommended!). More info: https://www.drupal.org/docs/8/distributions/open-social/private-files","","","False","","",""
-"modules/social_features/social_event/src/Form/EnrollActionForm.php:170","Enroll","S'inscrire","","False","","",""
+"modules/social_features/social_event/src/Form/EnrollActionForm.php:172","Enroll","S'inscrire","","False","","",""
 "modules/social_features/social_event/config/install/views.view.upcoming_events.yml:0","Enroll Method","Modalités d'inscription","","False","","",""
 "modules/social_features/social_event/src/Plugin/Block/EnrollActionBlock.php:14","Enroll action block","","","False","","",""
 "modules/social_features/social_event/modules/social_event_an_enroll/templates/event-an-enroll-dialog.html.twig:20;20","Enroll as guest","","","False","","",""
 "modules/social_features/social_event/src/Form/EventSettingsForm.php:93","Enroll button should be visible for users that are not in the group and automatic enroll people to groups when they enroll to events that are part of the group.","","","False","","",""
 "modules/social_features/social_event/modules/social_event_managers/config/install/views.view.event_manage_enrollments.yml:0","Enroll date","Date d'inscription","","False","","",""
-"modules/social_features/social_event/modules/social_event_an_enroll/src/Form/EventAnEnrollActionForm.php:151","Enroll in","","","False","","",""
+"modules/social_features/social_event/modules/social_event_an_enroll/src/Form/EventAnEnrollActionForm.php:179","Enroll in","","","False","","",""
 "modules/social_features/social_event/modules/social_event_an_enroll/src/Controller/EventAnEnrollController.php:145","Enroll in @label Event","","","False","","",""
 "modules/social_features/social_event/modules/social_event_an_enroll/src/Form/EventAnEnrollForm.php:115","Enroll in event","","","False","","",""
 "modules/social_features/social_event/config/install/field.field.node.event.field_enroll_method.yml:0","Enroll method","Modalités d'inscription","","False","","",""
@@ -1446,7 +1558,7 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_event/src/EventEnrollmentListBuilder.php:22","Event enrollment ID","","","False","","",""
 "modules/social_features/social_event/src/Form/EventSettingsForm.php:132","Event enrollment settings","","","False","","",""
 "modules/social_features/social_user_export/src/Plugin/UserExportPlugin/UserAnalyticsEventEnrollments.php:23;8","Event enrollments","","","False","","",""
-"modules/social_features/social_event/src/Form/EnrollActionForm.php:218","Event has passed","L'événement est passé","","False","","",""
+"modules/social_features/social_event/src/Form/EnrollActionForm.php:220","Event has passed","L'événement est passé","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/src/Plugin/ActivityContext/EventInviteActivityContext.php:13","Event invite activity context","","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/social_event_invite.routing.yml:0","Event invite settings","","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/src/Plugin/Menu/LocalTask/EventInviteLocalTask.php:69","Event invites","Invitations à des événements","","False","","",""
@@ -1484,12 +1596,12 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_activity/config/optional/views.view.activity_stream.yml:0","Explore page for LU","","","False","","",""
 "modules/social_features/social_group/social_group.tokens.inc:179","Explore the group","","","False","","",""
 "modules/social_features/social_group/modules/social_group_members_export/social_group_members_export.install:43;61","Export","Exporter","","False","","",""
-"modules/social_features/social_user_export/src/Plugin/Action/ExportUser.php:175","Export is complete. @link","","","False","","",""
+"modules/social_features/social_user_export/src/Plugin/Action/ExportUser.php:211","Export is complete. @link","","","False","","",""
 "modules/social_features/social_user_export/config/schema/social_user_export.schema.yml:0","Export plugins that can be used by normal users.","","","False","","",""
 "modules/social_features/social_user_export/social_user_export.routing.yml:0","Export settings","","","False","","",""
 "modules/social_features/social_event/modules/social_event_enrolments_export/src/Plugin/Action/ExportEnrolments.php:10","Export the selected enrollments to CSV","","","False","","",""
 "modules/social_features/social_group/modules/social_group_members_export/src/Plugin/Action/ExportMember.php:10","Export the selected members to CSV","","","False","","",""
-"modules/social_features/social_user_export/src/Plugin/Action/ExportUser.php:22","Export the selected users to CSV","","","False","","",""
+"modules/social_features/social_user_export/src/Plugin/Action/ExportUser.php:24","Export the selected users to CSV","","","False","","",""
 "modules/social_features/social_event/config/schema/social_event.schema.yml:0","Expose","","","False","","",""
 "modules/social_features/social_branding/social_branding.info.yml:0","Extends the GraphQL API with branding information for this Open Social platform.","","","False","","",""
 "modules/custom/social_lets_connect/modules/social_lets_connect_contact/social_lets_connect_contact.links.menu.yml:0","Extensions","","","False","","",""
@@ -1505,8 +1617,8 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_profile/modules/social_profile_privacy/config/schema/social_profile_privacy.schema.yml:0","Fields","","","False","","",""
 "modules/custom/social_demo/src/Plugin/DemoContent/File.php:7","File","Fichier","","False","","",""
 "modules/social_features/social_core/src/Plugin/Field/FieldFormatter/FileAndImageTableFormatter.php:9","File and Image in a table","","","False","","",""
-"modules/custom/social_graphql/src/Plugin/GraphQL/DataProducer/Media/FileUrl.php:8","File uri","","","False","","",""
-"modules/custom/social_graphql/src/Plugin/GraphQL/DataProducer/Media/FileUrl.php:8;8","File url","","","False","","",""
+"modules/custom/social_graphql/src/Plugin/GraphQL/DataProducer/Media/FileUrl.php:11","File uri","","","False","","",""
+"modules/custom/social_graphql/src/Plugin/GraphQL/DataProducer/Media/FileUrl.php:11;11","File url","","","False","","",""
 "modules/social_features/social_comment_upload/config/install/field.field.comment.comment.field_comment_files.yml:0","Files","Fichiers","","False","","",""
 "modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0","Filter","Filtrer","","False","","",""
 "modules/social_features/social_activity/modules/social_activity_filter/src/Plugin/views/display/FilterBlock.php:12;12","Filter Block","","","False","","",""
@@ -1598,7 +1710,7 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "social.profile:198","Generated %num %demo_description.","","","False","","",""
 "modules/custom/social_path_manager/social_path_manager.module:119","Generated 1 group tab aliases.","","","False","","",""
 "modules/social_features/social_embed/social_embed.permissions.yml:0","Generating embedded content ","","","False","","",""
-"modules/custom/download_count/src/Plugin/Field/FieldFormatter/FieldDownloadCount.php:17","Generic file with download count","","","False","","",""
+"modules/custom/download_count/src/Plugin/Field/FieldFormatter/FieldDownloadCount.php:18","Generic file with download count","","","False","","",""
 "modules/social_features/social_mentions/social_mentions.tokens.inc:27","Get the mentioned user","","","False","","",""
 "modules/social_features/social_editor/social_editor.module:103","Give a title that will appear when hovering over this link.","","","False","","",""
 "modules/social_features/social_content_report/social_content_report.installer_options.yml:0","Gives users the option to report content to site managers that doesn't fit the community guidelines.","","","False","","",""
@@ -1615,7 +1727,6 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_group/config/install/views.view.group_events.yml:0;0","Group Events","Événements du groupe","","False","","",""
 "modules/social_features/social_group/modules/social_group_secret/config/install/field.field.group.secret_group.field_group_image.yml:0","Group Image","Image","","False","","",""
 "modules/social_features/social_group/config/install/views.view.group_information.yml:0","Group Information","Informations du groupe","","False","","",""
-"modules/custom/ginvite/src/Plugin/GroupContentEnabler/GroupInvitation.php:17","Group Invitation","","","False","","",""
 "modules/social_features/social_group/config/install/views.view.group_manage_members.yml:0;0","Group Manage Members","","","False","","",""
 "modules/social_features/social_group/modules/social_group_secret/config/install/group.role.secret_group-group_manager.yml:0","Group Manager","Gestionnaire du groupe","","False","","",""
 "modules/social_features/social_group/config/install/views.view.group_managers.yml:0","Group Managers","Gestionnaires du groupe","","False","","",""
@@ -1647,7 +1758,6 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/custom/social_magic_login/social_magic_login.module:26","Group destination","","","False","","",""
 "modules/social_features/social_group/config/optional/block.block.socialblue_groupheroblock.yml:0","Group hero block","","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/config/optional/views.view.social_group_invitations.yml:0","Group invitations","","","False","","",""
-"modules/custom/ginvite/ginvite.info.yml:0","Group invite","","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/social_group_invite.module:575","Group invite settings","","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/src/Plugin/Menu/LocalTask/GroupInviteLocalTask.php:78","Group invites","Invitations à des groupes","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/src/Plugin/Menu/LocalTask/GroupInviteLocalTask.php:75","Group invites (@count)","Invitations à des groupes (@count)","","False","","",""
@@ -1655,9 +1765,9 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_group/config/install/views.view.group_managers.yml:0","Group managers","Gestionnaire(s) du groupe","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/social_group_invite.module:620","Group managers are able to allow members send invites","","","False","","",""
 "modules/social_features/social_group/config/schema/social_group.schema.yml:0","Group managers only","","","False","","",""
-"modules/social_features/social_post/config/install/field.storage.post.field_visibility.yml:0","Group members","Membres du groupe seulement","","False","","",""
+"modules/social_features/social_post/config/install/field.storage.post.field_visibility.yml:0","Group members","Membres du groupe","","False","","",""
 "modules/social_features/social_group/modules/social_group_default_route/social_group_default_route.module:59","Group members landing tab","Page d'accueil pour les membres du groupe","","False","","",""
-"modules/social_features/social_group/social_group.module:2772","Group members only","Membres du groupe seulement","","False","","",""
+"modules/social_features/social_group/social_group.module:2808","Group members only","Membres du groupe seulement","","False","","",""
 "modules/social_features/social_group/social_group.module:641","Group members only (Secret)","Membres du groupe uniquement (secret)","","False","","",""
 "modules/social_features/social_group/modules/social_group_flexible_group/config/install/field.storage.group.field_flexible_group_visibility.yml:0","Group members only (secret)","Membres du groupe seulement (secret)","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/src/Plugin/Block/SocialGroupInviteNotificationBlock.php:15","Group membership invite notification","","","False","","",""
@@ -1740,7 +1850,7 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_profile/modules/social_profile_privacy/social_profile_privacy.module:58","Hide for others","","","False","","",""
 "modules/social_features/social_search/src/SocialSearchBreadcrumbBuilder.php:57","Home","Accueil","","False","","",""
 "modules/social_features/social_activity/config/optional/views.view.activity_stream.yml:0;0","Homepage stream block","","","False","","",""
-"modules/social_features/social_group/modules/social_group_flexible_group/social_group_flexible_group.module:149","How can people join this group. Group managers can always add members directly, regardless of the chosen join method.","Comment peut-on rejoindre le groupe ? (Les gestionnaires du groupe pourront toujours ajouter de nouveaux membres)","","False","","",""
+"modules/social_features/social_group/modules/social_group_flexible_group/social_group_flexible_group.module:149","How can people join this group. Group managers can always add members directly, regardless of the chosen join method.","Les gestionnaires du groupe pourront toujours ajouter de nouveaux membres","","False","","",""
 "modules/custom/mentions/src/Form/MentionsSettingsForm.php:82","How many suggestions do you want to show when mentioning.","","","False","","",""
 "modules/custom/grequest/config/optional/views.view.group_pending_members.yml:0","ID","Identifiant (ID)","","False","","",""
 "modules/social_features/social_event/config/schema/social_event.schema.yml:0","IN operator","","","False","","",""
@@ -1791,25 +1901,14 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/custom/social_language/social_language.module:61","Interface language","Langue de l'interface","","False","","",""
 "modules/social_features/social_landing_page/config/install/paragraphs.paragraphs_type.introduction.yml:0","Introduction","","","False","","",""
 "modules/social_features/social_event/config/install/field.storage.event_enrollment.field_request_or_invite_status.yml:0","Invalid or expired","","","False","","",""
-"modules/custom/ginvite/src/Plugin/GroupContentEnabler/GroupInvitation.php:278","Invitation e-mail","","","False","","",""
-"modules/custom/ginvite/src/Plugin/GroupContentEnabler/GroupInvitation.php:297","Invitation e-mail for registered users","","","False","","",""
-"modules/custom/ginvite/ginvite.module:72","Invitation has been created.","","","False","","",""
 "modules/social_features/social_group/social_group.module:288;296","Invitation only","Seulement sur invitation","","False","","",""
-"modules/custom/ginvite/src/Form/BulkGroupInvitationConfirm.php:122","Invitation recipients: <br /> @email_list","","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/config/optional/views.view.social_group_invitations.yml:0","Invitation status","Statut","","False","","",""
-"modules/custom/ginvite/src/Plugin/Validation/Constraint/PreventDuplicatedConstraintValidator.php:79","Invitation to this user already sent.","","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/config/optional/views.view.social_group_invitations.yml:0;0","Invitations","","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/config/install/views.view.user_event_invites.yml:0","Invite date","Date d'invitation","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/config/install/message.template.invite_event_enrollment.yml:0","Invite event enrollment","","","False","","",""
-"modules/custom/ginvite/ginvite.links.action.yml:0","Invite member","","","False","","",""
-"modules/custom/ginvite/src/Controller/InvitationOperations.php:168","Invite members","","","False","","",""
-"modules/custom/ginvite/src/Controller/InvitationOperations.php:171","Invite members to group: @group_title","","","False","","",""
 "modules/social_features/social_group/modules/social_group_flexible_group/social_group_flexible_group.module:85","Invite only","Sur invitation seulement","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/social_event_invite.routing.yml:0;0","Invite people","","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/config/schema/social_group_invite.schema.yml:0","Invite resend message","","","False","","",""
-"modules/custom/ginvite/ginvite.module:69","Invite sent to %invitee","","","False","","",""
-"modules/custom/ginvite/ginvite.module:77","Invite sent to %mail","","","False","","",""
-"modules/custom/ginvite/src/Plugin/GroupContentEnabler/GroupInvitation.php:56","Invite user","","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/src/Plugin/Block/SocialInviteLocalActionsBlock.php:155","Invite users","Inviter un utilisateur","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/social_group_invite.module:521","Invite via email","","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/src/SocialEventInviteBulkHelper.php:270","Invite(s) have been successfully sent.","Les invitations ont bien été envoyées.","","False","","",""
@@ -1821,14 +1920,11 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_group/modules/social_group_invite/config/optional/views.view.social_group_user_invitations.yml:0","Invited on","Invitation envoyée le","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/config/optional/message.template.invited_to_join_group.yml:0","Invited to join a group","","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/src/Plugin/ActivityContext/InvitedToGroupActivityContext.php:9","Invited to join a group activity context","","","False","","",""
-"modules/custom/ginvite/src/Plugin/GroupContentEnabler/GroupInvitation.php:17","Invited user.","","","False","","",""
-"modules/custom/ginvite/config/optional/views.view.group_invitations.yml:0","Invitee","","","False","","",""
-"modules/custom/ginvite/src/Plugin/GroupContentEnabler/GroupInvitation.php:184","Invitee mail","","","False","","",""
 "modules/social_features/social_core/social_core.module:189;213;1","Invites","Invitations","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/config/optional/views.view.social_group_user_invitations.yml:0","Invites Overview","Vue d'ensemble des invitations","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/src/Plugin/views/field/SocialGroupInviteViewsBulkOperationsBulkForm.php:141","Invites excluded on other pages:","","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/config/install/views.view.user_event_invites.yml:0","Invites overview","Récapitulatif des invitations","","False","","",""
-"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:445","Inviting Members","Envoi de l'invitation","","False","","",""
+"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:458","Inviting Members","Envoi de l'invitation","","False","","",""
 "modules/custom/social_queue_storage/src/Entity/QueueStorageEntity.php:221","Is the entity considered finished by the background task it was used in?","","","False","","",""
 "modules/social_features/social_group/modules/social_group_secret/social_group_secret.module:34","It is not possible to change the group type of a secret group.","","","False","","",""
 "modules/social_features/social_core/social_core.install:43","It is strongly recommended to enable social_file_private module to make sure your file and image uploads on Open Social entities can not be accessed by unauthorized users. More info: https://www.drupal.org/docs/8/distributions/open-social/private-files","","","False","","",""
@@ -1837,11 +1933,11 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0","Items per page","Éléments par page","","False","","",""
 "modules/custom/sitewide_js/src/Form/SiteWideJSForm.php:48","JS Location","","","False","","",""
 "modules/social_features/social_group/src/SocialGroupHelperService.php:318","Jane Doe","ex : Greta Thunberg","","False","","",""
-"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:221","Jane Doe, johndoe@example.com","ex : Greta Thunberg, greta@exemple.fr","","False","","",""
+"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:234","Jane Doe, johndoe@example.com","ex : Greta Thunberg, greta@exemple.fr","","False","","",""
 "modules/custom/sitewide_js/src/Form/SiteWideJSForm.php:68","Javascript","","","False","","",""
 "modules/social_features/social_group/modules/social_group_flexible_group/config/install/field.storage.group.field_group_allowed_join_method.yml:0","Join directly","Inscription libre","","False","","",""
 "modules/custom/group_core_comments/src/Plugin/Field/FieldFormatter/CommentGroupContentFormatter.php:179","Join group","Rejoindre le groupe","","False","","",""
-"modules/social_features/social_group/modules/social_group_flexible_group/src/SocialGroupFlexibleGroupConfigOverride.php:403;484","Join method","Méthode pour rejoindre","","False","","",""
+"modules/social_features/social_group/modules/social_group_flexible_group/src/SocialGroupFlexibleGroupConfigOverride.php:403;529","Join method","Méthode pour rejoindre","","False","","",""
 "modules/social_features/social_group/modules/social_group_flexible_group/social_group_flexible_group.module:146;396","Join methods","Méthode pour rejoindre le groupe","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.join_to_group.yml:0","Join to group","Rejoindre le groupe","","False","","",""
 "modules/social_features/social_group/config/install/views.view.group_manage_members.yml:0","Joined date","Date d’inscription","","False","","",""
@@ -1868,7 +1964,6 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_post/src/Plugin/Field/FieldFormatter/CommentPostActivityFormatter.php:8","Last two comments on post","","","False","","",""
 "modules/social_features/social_content_block/src/Plugin/Block/MultipleContentBlock.php:161","Last updated","","","False","","",""
 "modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0","Last »","Dernier »","","False","","",""
-"modules/custom/ginvite/config/optional/views.view.my_invitations.yml:0","Last Â»","","","False","","",""
 "modules/social_features/social_topic/config/install/views.view.latest_topics.yml:0","Latest group topics","","","False","","",""
 "modules/social_features/social_topic/config/install/views.view.latest_topics.yml:0","Latest topic block","","","False","","",""
 "modules/social_features/social_topic/config/install/views.view.latest_topics.yml:0","Latest topics","Dernières publications","","False","","",""
@@ -1917,7 +2012,7 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_user/src/Form/SocialUserLoginForm.php:238","Login attempt failed for %user.","Échec de connexion pour %user.","","False","","",""
 "modules/social_features/social_user/src/Form/SocialUserLoginForm.php:243","Login attempt failed from %ip.","Tentative de connexion échouée depuis l'IP %ip.","","False","","",""
 "modules/custom/social_magic_login/social_magic_login.module:21","Login tokens related to individual user accounts for easy access.","","","False","","",""
-"modules/social_features/social_footer/src/Plugin/Block/SocialFooterPoweredByBlock.php:109","Logo","","","False","","",""
+"modules/social_features/social_footer/src/Plugin/Block/SocialFooterPoweredByBlock.php:122","Logo","","","False","","",""
 "modules/social_features/social_user/social_user.module:546;548","Logout","Déconnexion","","False","","",""
 "modules/social_features/social_post/src/PostTypeListBuilder.php:18","Machine name","Nom système","","False","","",""
 "modules/social_features/social_editor/config/install/filter.format.mail_html.yml:0","Mail HTML","","","False","","",""
@@ -1966,7 +2061,7 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0","Member for","Membre depuis","","False","","",""
 "modules/social_features/social_group/src/Controller/SocialGroupListBuilder.php:103","Members","Membres","","False","","",""
 "modules/social_features/social_group/src/Plugin/views/field/SocialGroupViewsBulkOperationsBulkForm.php:174","Members excluded on other pages:","","","False","","",""
-"modules/social_features/social_group/src/Controller/SocialGroupController.php:89","Members of @name","","","False","","",""
+"modules/social_features/social_group/src/Controller/SocialGroupController.php:90","Members of @name","","","False","","",""
 "modules/social_features/social_group/config/install/views.view.group_manage_members.yml:0","Members of {{ arguments.gid }}","","","False","","",""
 "modules/social_features/social_like/social_like.module:91","Members who liked this @content","'@content : qui a liké ?'","","False","","",""
 "modules/custom/grequest/src/Form/GroupRequestMembershipRejectForm.php:74","Membership Request rejected","","","False","","",""
@@ -1997,7 +2092,7 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/custom/mentions/src/Plugin/Filter/MentionsFilter.php:314","Mentions types","","","False","","",""
 "modules/custom/mentions/src/MentionsViewsData.php:84;96","Mentions user","","","False","","",""
 "modules/custom/mentions/mentions.routing.yml:0","MentionsTypeForm","","","False","","",""
-"modules/social_features/social_core/social_core.module:858","Menu link","Lien du menu","","False","","",""
+"modules/social_features/social_core/social_core.module:860","Menu link","Lien du menu","","False","","",""
 "modules/social_features/social_core/social_core.routing.yml:0","Menu management","","","False","","",""
 "modules/social_features/social_event/config/install/views.view.event_manage_enrollment_requests.yml:0","Message","","","False","","",""
 "modules/custom/activity_logger/config/schema/activity_logger.schema.yml:0","Message template activity settings","","","False","","",""
@@ -2016,14 +2111,12 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_activity/config/install/message.template.moved_content_between_groups.yml:0","Moved event or topic between groups","","","False","","",""
 "modules/social_features/social_group/src/Plugin/Field/FieldWidget/SocialGroupSelectorWidget.php:248","Moving content after creation function has been disabled. In order to move this content, please contact a site manager.","","","False","","",""
 "modules/social_features/social_group/config/install/views.view.groups.yml:0","Muted groups","","","False","","",""
-"modules/social_features/social_group/social_group.module:2245;2250","My Groups","Mes groupes","","False","","",""
+"modules/social_features/social_group/social_group.module:2281;2286","My Groups","Mes groupes","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/config/optional/views.view.social_group_user_invitations.yml:0","My Invitations","","","False","","",""
-"modules/custom/ginvite/ginvite.module:187","My Invitations Link","","","False","","",""
 "modules/social_features/social_album/social_album.module:529","My albums","","","False","","",""
 "modules/social_features/social_event/social_event.module:648","My events","Mes événements","","False","","",""
 "modules/social_features/social_group/modules/social_group_request/config/install/message.template.approve_request_join_group.yml:0","My group membership request is approved","Ma demande d'inscription au groupe a été approuvée","","False","","",""
-"modules/social_features/social_group/social_group.module:2272","My groups","Mes groupes","","False","","",""
-"modules/custom/ginvite/config/optional/views.view.my_invitations.yml:0","My invitations","","","False","","",""
+"modules/social_features/social_group/social_group.module:2308","My groups","Mes groupes","","False","","",""
 "modules/social_features/social_profile/social_profile.module:879","My profile","Mon profil","","False","","",""
 "modules/social_features/social_topic/social_topic.module:237","My topics","Mes publications","","False","","",""
 "modules/social_features/social_event/config/install/views.view.upcoming_events.yml:0","My upcoming events","Mes événements à venir","","False","","",""
@@ -2039,7 +2132,7 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_book/social_book.module:44","New Book Page","Nouvelle book page","","False","","",""
 "modules/social_features/social_user/src/Plugin/Block/AccountHeaderBlock.php:155","New Content","Nouveau contenu","","False","","",""
 "modules/social_features/social_event/social_event.module:625","New Event","Nouvel événement","","False","","",""
-"modules/social_features/social_group/social_group.module:2216","New Group","Nouveau groupe","","False","","",""
+"modules/social_features/social_group/social_group.module:2252","New Group","Nouveau groupe","","False","","",""
 "modules/social_features/social_landing_page/social_landing_page.module:352","New Landing Page","Nouvelle landing page","","False","","",""
 "modules/social_features/social_page/social_page.module:49","New Page","Nouvelle page","","False","","",""
 "modules/social_features/social_topic/social_topic.module:214","New Topic","Nouvelle publication","","False","","",""
@@ -2105,7 +2198,7 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_activity/config/install/core.entity_view_mode.activity.notification.yml:0","Notification","","","False","","",""
 "modules/social_features/social_activity/social_activity.module:42;50;141;1","Notification Centre","Notifications","","False","","",""
 "modules/social_features/social_activity/config/install/core.entity_view_mode.activity.notification_archive.yml:0","Notification archive","","","False","","",""
-"modules/social_features/social_event/modules/social_event_managers/src/Form/SocialEventManagersAddEnrolleeForm.php:287","Notification from %site_name","Nouvelle notification %site_name","","False","","",""
+"modules/social_features/social_event/modules/social_event_managers/src/Form/SocialEventManagersAddEnrolleeForm.php:298","Notification from %site_name","Nouvelle notification %site_name","","False","","",""
 "modules/custom/activity_logger/activity_logger.module:65","Notification from [site:name]","","","False","","",""
 "modules/social_features/social_activity/config/install/views.view.activity_stream_notifications.yml:0","Notifications","","","False","","",""
 "modules/social_features/social_event/modules/social_event_an_enroll/src/Form/EventAnEnrollSettingsForm.php:69","Notify user by email after anonymous enrollment","","","False","","",""
@@ -2226,9 +2319,9 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/custom/activity_basics/src/Plugin/ActivityContext/PlatformActivityContext.php:7","Platform activity context","","","False","","",""
 "modules/social_features/social_core/config/install/block_content.type.platform_intro.yml:0","Platform introduction","","","False","","",""
 "modules/social_features/social_core/config/install/block_content.type.platform_intro.yml:0","Platform introduction block, meant for use in content regions.","","","False","","",""
-"modules/social_features/social_event/src/Form/EnrollActionForm.php:387","Please @log_in or @create_account_link so that you can enroll to the event.","","","False","","",""
+"modules/social_features/social_event/src/Form/EnrollActionForm.php:389","Please @log_in or @create_account_link so that you can enroll to the event.","","","False","","",""
 "modules/social_features/social_post/src/Plugin/Field/FieldFormatter/CommentPostFormatter.php:147","Please @log_in or @sign_up to comment.","","","False","","",""
-"modules/social_features/social_event/src/Form/EnrollActionForm.php:379","Please @log_in so that you can enroll to the event.","","","False","","",""
+"modules/social_features/social_event/src/Form/EnrollActionForm.php:381","Please @log_in so that you can enroll to the event.","","","False","","",""
 "modules/social_features/social_profile/modules/social_profile_privacy/social_profile_privacy.module:50","Please choose which profile fields can be displayed in user profiles. Site managers can always see all the filled-in profile information.","","","False","","",""
 "modules/social_features/social_content_report/config/install/field.field.flagging.report_post.field_other_reason.yml:0","Please describe in detail what you find inappropriate about this content. Your report will only be visible to the content moderation team.","Merci de préciser en quoi ce contenu est inapproprié. Votre signalement ne sera visible que pour les administrateurs de la plateforme.","","False","","",""
 "modules/social_features/social_group/social_group.module:1039","Please note that changing the group type will also change the
@@ -2275,12 +2368,11 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/custom/mentions/src/Form/MentionsTypeForm.php:151","Prefix","Préfixe","","False","","",""
 "modules/social_features/social_group/config/schema/social_group.schema.yml:0","Preliminary configuration array","","","False","","",""
 "modules/social_features/social_group/social_group.module:1883","Preparing to delete the group and all it's topic's, event's and post's...","","","False","","",""
-"modules/social_features/social_event/modules/social_event_invite/src/Form/EnrollInviteEmailForm.php:255","Preparing to send invites...","","","False","","",""
-"modules/custom/ginvite/src/Plugin/Validation/Constraint/PreventDuplicatedConstraint.php:7","Prevent duplicated invitations from being created","","","False","Validation","",""
+"modules/social_features/social_event/modules/social_event_invite/src/Form/EnrollInviteEmailForm.php:264","Preparing to send invites...","","","False","","",""
 "modules/social_features/social_profile/modules/social_profile_preview/config/install/core.entity_view_mode.profile.preview.yml:0","Preview","Aperçu","","False","","",""
 "modules/social_features/social_activity/social_activity.tokens.inc:27","Preview of the related entity.","","","False","","",""
-"modules/social_features/social_event/modules/social_event_managers/src/Form/SocialEventManagersAddEnrolleeForm.php:265","Preview your email","Prévisualisez votre mail","","False","","",""
-"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:264","Preview your email invite","Prévisualisez votre invitation","","False","","",""
+"modules/social_features/social_event/modules/social_event_managers/src/Form/SocialEventManagersAddEnrolleeForm.php:276","Preview your email","Prévisualisez votre mail","","False","","",""
+"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:277","Preview your email invite","Prévisualisez votre invitation","","False","","",""
 "modules/social_features/social_activity/social_activity.tokens.inc:26","Preview.","","","False","","",""
 "modules/social_features/social_landing_page/config/install/field.field.paragraph.block.field_block_reference.yml:0","Primary","Primaire","","False","","",""
 "modules/social_features/social_core/config/optional/block.block.socialblue_local_actions.yml:0","Primary admin actions","Actions d'administration principales","","False","","",""
@@ -2307,7 +2399,7 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_event/modules/social_event_managers/social_event_managers.module:50","Process enrollments returned by the view with Views Bulk Operations' actions.","","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/social_group_invite.views.inc:17","Process invites returned by the view with Views Bulk Operations actions.","","","False","","",""
 "modules/social_features/social_group/config/schema/social_group.schema.yml:0","Process selected entities in a batch operation","","","False","","",""
-"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:448","Processed @current out of @total.","'@current élément(s) traité(s) sur @total.'","","False","","",""
+"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:461","Processed @current out of @total.","'@current élément(s) traité(s) sur @total.'","","False","","",""
 "modules/social_features/social_post/social_post.admin.inc:42","Processing","En cours de traitement","","False","","",""
 "modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0","Profile","Profil","","False","","",""
 "modules/social_features/social_profile/modules/social_profile_fields/social_profile_fields.installer_options.yml:0","Profile Fields Settings","","","False","","",""
@@ -2429,10 +2521,10 @@ Other modules that require React should not load React themselves but instead de
 "modules/social_features/social_follow_taxonomy/social_follow_taxonomy.tokens.inc:215","Read more about it","","","False","","",""
 "modules/social_features/social_activity/templates/message-node-teaser.html.twig:5","Read more about this","En savoir plus","","False","","",""
 "modules/social_features/social_core/config/install/field.field.block_content.basic.field_basic_link.yml:0","Read more link","Lien pour en savoir plus","","False","","",""
-"modules/social_features/social_core/social_core.module:291","Read more<span class=""visually-hidden""> about @title</span>","En savoir plus<span class=""visually-hidden""> sur @title</span>","","False","","",""
+"modules/social_features/social_core/social_core.module:293","Read more<span class=""visually-hidden""> about @title</span>","En savoir plus<span class=""visually-hidden""> sur @title</span>","","False","","",""
 "modules/social_features/social_content_report/config/install/views.view.report_overview.yml:0","Reason","Motif","","False","","",""
 "modules/social_features/social_content_report/config/schema/social_content_report.schema.yml:0","Reason term for which an additional textfield is displayed.","","","False","","",""
-"modules/social_features/social_group/social_group.module:2186","Reassign your groups to the super administrator.","Tous les autres contenus partagés via ce compte seront anonymisés.","","False","","",""
+"modules/social_features/social_group/social_group.module:2222","Reassign your groups to the super administrator.","Tous les autres contenus partagés via ce compte seront anonymisés.","","False","","",""
 "modules/social_features/social_topic/config/install/views.view.topics.yml:0;0","Recently created topics","Dernières publications partagées","","False","","",""
 "modules/social_features/social_group/config/install/views.view.groups.yml:0","Recently joined groups","Derniers groupes rejoints","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/config/install/views.view.event_manage_enrollment_invites.yml:0","Recipient","","","False","","",""
@@ -2476,12 +2568,11 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/src/Form/SocialGroupInviteVBOConfirmAction.php:27","Remove","Retirer","","False","","",""
 "modules/social_features/social_group/social_group.module:771","Remove %name from %group","Désinscrire %name du groupe %group","","False","","",""
 "modules/social_features/social_swiftmail/src/Form/SocialSwiftmailSettingsForm.php:176","Remove Open Social Branding","","","False","","",""
-"modules/social_features/social_group/src/Controller/SocialGroupController.php:157","Remove a member","Retirer un membre du groupe","","False","","",""
+"modules/social_features/social_group/src/Controller/SocialGroupController.php:158","Remove a member","Retirer un membre du groupe","","False","","",""
 "modules/social_features/social_user/src/Plugin/Action/SocialRemoveRoleUser.php:14","Remove a role from the selected users","","","False","","",""
 "modules/social_features/social_post/modules/social_post_album/templates/image-widget--album.html.twig:49","Remove image","Supprimer l'image","","False","","",""
-"modules/custom/ginvite/config/optional/views.view.group_invitations.yml:0","Remove invitation","Retirer l'invitation","","False","","",""
-"modules/social_features/social_group/src/Controller/SocialGroupController.php:153","Remove invitee from group: @group_name","Annuler une invitation à rejoindre le groupe : @group_name","","False","","",""
-"modules/custom/ginvite/config/optional/views.view.group_invitations.yml:0","Remove member link","","","False","","",""
+"modules/social_features/social_group/src/Controller/SocialGroupController.php:156","Remove invitation","Retirer l'invitation","","False","","",""
+"modules/social_features/social_group/src/Controller/SocialGroupController.php:154","Remove invitee from group: @group_name","Annuler une invitation à rejoindre le groupe : @group_name","","False","","",""
 "modules/social_features/social_group/src/Plugin/Action/GroupContentEntityDeleteAction.php:24","Remove members from a group","Retirer des membres d'un groupe","","False","","",""
 "modules/social_features/social_content_report/config/install/flag.flag.report_post.yml:0;0","Remove report","","","False","","",""
 "modules/social_features/social_post/social_post.post_update.php:33","Removing @count orphaned posts for deleted users","","","False","","",""
@@ -2492,9 +2583,9 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/social_features/social_comment/social_comment.module:156","Replies to comments deeper than 1 is not allowed","","","False","","",""
 "modules/social_features/social_mentions/social_mentions.module:137","Reply","Répondre","","False","","",""
 "modules/custom/activity_basics/src/Plugin/ActivityEntityCondition/CommentReplyActivityEntityCondition.php:8","Reply comment","","","False","","",""
-"modules/social_features/social_comment/src/SocialCommentBreadcrumbBuilder.php:63","Reply to Comment","Répondre au commentaire","","False","","",""
+"modules/social_features/social_comment/src/SocialCommentBreadcrumbBuilder.php:64","Reply to Comment","Répondre au commentaire","","False","","",""
 "modules/social_features/social_private_message/social_private_message.permissions.yml:0","Reply to private messages","","","False","","",""
-"modules/social_features/social_mentions/social_mentions.tokens.inc:240","Reply to this comment","","","False","","",""
+"modules/social_features/social_mentions/social_mentions.tokens.inc:241","Reply to this comment","","","False","","",""
 "modules/social_features/social_private_message/social_private_message.tokens.inc:46","Reply to this message","","","False","","",""
 "modules/social_features/social_user/src/Plugin/Action/SocialSendEmail.php:235","Reply-to","","","False","","",""
 "modules/social_features/social_content_report/config/install/flag.flag.report_post.yml:0","Report","Signaler","","False","","",""
@@ -2603,7 +2694,6 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/src/Plugin/views/field/SocialGroupInviteViewsBulkOperationsBulkForm.php:106","Select / unselect all @count invites across all the pages","","","False","","",""
 "modules/social_features/social_group/src/Plugin/views/field/SocialGroupViewsBulkOperationsBulkForm.php:139","Select / unselect all @count members across all the pages","Sélectionner / Désélectionner les @count membres de ce groupe","","False","","",""
 "translations.php:55","Select / unselect all @count results in this view","","","False","","",""
-"modules/custom/ginvite/src/Form/BulkGroupInvitation.php:132","Select Recipients","","","False","","",""
 "modules/social_features/social_landing_page/config/install/field.field.paragraph.block.field_block_reference.yml:0","Select a Block from a list to include","","","False","","",""
 "modules/custom/activity_logger/activity_logger.module:124","Select a action for when to display this message.","","","False","","",""
 "modules/custom/activity_logger/activity_logger.module:136","Select a context where to display this message.","","","False","","",""
@@ -2658,22 +2748,21 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/social_features/social_event/modules/social_event_managers/src/Plugin/Action/SocialEventManagersSendEmail.php:19","Send email to event enrollment users","Envoyer un mail aux membres inscrits à cet événement","","False","","",""
 "modules/social_features/social_group/src/Plugin/Action/SocialSendEmail.php:10","Send email to group members","Envoyer un mail aux membres du groupe","","False","","",""
 "modules/custom/social_lets_connect/modules/social_lets_connect_contact/social_lets_connect_contact.links.menu.yml:0","Send in case","","","False","","",""
-"modules/custom/ginvite/src/Plugin/GroupContentEnabler/GroupInvitation.php:314","Send invitation e-mail to already registered users","","","False","","",""
 "modules/social_features/social_core/src/Form/InviteUserBaseForm.php:82","Send invite(s)","","","False","","",""
 "translations.php:42","Send mail","Envoyer le mail","","False","","",""
 "modules/social_features/social_user/src/Plugin/Block/SocialUserLoginBlock.php:61","Send password reset instructions via email.","Envoyer les instructions de réinitialisation par courriel.","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/social_group_invite.module:799","Send reminder","","","False","","",""
 "modules/social_features/social_group/modules/social_group_request/src/Form/GroupRequestMembershipRequestForm.php:117","Send request","Envoyer la demande","","False","","",""
 "modules/custom/social_lets_connect/modules/social_lets_connect_usage/src/Plugin/QueueWorker/SendUsageData.php:14","Send usage data.","","","False","","",""
-"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:294","Send your invite(s) by email","Envoyer cette invitation par mail","","False","","",""
-"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:447","Sending Invites","Envoi en cours","","False","","",""
-"modules/social_features/social_event/modules/social_event_invite/src/Form/EnrollInviteEmailForm.php:254","Sending invites...","Envoi en cours...","","False","","",""
+"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:307","Send your invite(s) by email","Envoyer cette invitation par mail","","False","","",""
+"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:460","Sending Invites","Envoi en cours","","False","","",""
+"modules/social_features/social_event/modules/social_event_invite/src/Form/EnrollInviteEmailForm.php:263","Sending invites...","Envoi en cours...","","False","","",""
 "translations.php:44","Sent email to %recipient","Courriel envoyé à %recipient","","False","","",""
 "modules/social_features/social_search/config/install/views.view.search_users.yml:0;0","Separate multiple values by a comma.","Séparer chaque tag par une virgule.","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/config/optional/group.content_type.secret_group-group_invitation.yml:0","Seret group: Group Invitation","","","False","","",""
 "modules/custom/sitewide_js/sitewide_js.permissions.yml:0","Set Sitewide Javascript","","","False","","",""
 "modules/social_features/social_group/social_group.permissions.yml:0","Set Social Group settings","","","False","","",""
-"modules/social_features/social_event/modules/social_event_max_enroll/config/install/field.field.node.event.field_event_max_enroll_num.yml:0","Set a limit for event enrollments. Users are not able to enroll once the maximum number of enrollees is reached.","Limitez le nombre d'inscriptions à cet événement. Les utilisateurs ne pourront pas s'inscrire une fois que le nombre maximal d'inscrits est atteint.","","False","","",""
+"modules/social_features/social_event/modules/social_event_max_enroll/config/install/field.field.node.event.field_event_max_enroll_num.yml:0","Set a limit for event enrollments. Users are not able to enroll once the maximum number of enrollees is reached.","Les utilisateurs ne pourront plus s'inscrire lorsque le nombre limite fixé sera atteint.","","False","","",""
 "modules/social_features/social_event/modules/social_event_max_enroll/config/install/field.field.node.event.field_event_max_enroll.yml:0","Set a limit to number of enrollees","","","False","","",""
 "modules/custom/alternative_frontpage/alternative_frontpage.links.menu.yml:0","Set an alternative frontpage for authenticated users.","","","False","","",""
 "modules/social_features/social_event/modules/social_event_managers/src/Form/SocialEventManagersSettings.php:40","Set author of event as event organiser automatically.","","","False","","",""
@@ -2857,7 +2946,7 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/custom/social_file_private/social_file_private.install:61","Social Private Files Unprotected","","","False","","",""
 "modules/social_features/social_private_message/social_private_message.info.yml:0","Social Private Message","","","False","","",""
 "modules/social_features/social_private_message/src/Plugin/Field/FieldFormatter/SocialPrivateMessageOwnerFormatter.php:8","Social Private Message Owner","","","False","","",""
-"modules/social_features/social_private_message/src/Plugin/Field/FieldFormatter/SocialPrivateMessageThreadMemberFormatter.php:11","Social Private Message Thread Members","","","False","","",""
+"modules/social_features/social_private_message/src/Plugin/Field/FieldFormatter/SocialPrivateMessageThreadMemberFormatter.php:17","Social Private Message Thread Members","","","False","","",""
 "modules/social_features/social_profile/social_profile.info.yml:0","Social Profile","","","False","","",""
 "modules/social_features/social_profile/modules/social_profile_fields/social_profile_fields.info.yml:0","Social Profile Fields","","","False","","",""
 "modules/social_features/social_profile/modules/social_profile_manager_notes/social_profile_manager_notes.info.yml:0","Social Profile Manager Notes","","","False","","",""
@@ -2979,7 +3068,7 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/social_features/social_swiftmail/config/schema/social_swiftmail.schema.yml:0;0","Text format","","","False","","",""
 "modules/custom/dropdown/src/Plugin/Field/FieldType/Dropdown.php:38","Text value","Valeur textuelle","","False","","",""
 "modules/social_features/social_profile/src/Plugin/Field/FieldWidget/SocialProfileStringTextareaWidget.php:9","Textarea","","","False","","",""
-"modules/social_features/social_event/src/Form/EnrollActionForm.php:467","Thanks for enrolling!","","","False","","",""
+"modules/social_features/social_event/src/Form/EnrollActionForm.php:469","Thanks for enrolling!","","","False","","",""
 "modules/social_features/social_comment/social_comment.tokens.inc:74","The (html) link to reply to the comment.","","","False","","",""
 "modules/social_features/social_mentions/social_mentions.tokens.inc:37","The (html) link to the commented entity.","","","False","","",""
 "modules/social_features/social_group/social_group.tokens.inc:40","The (html) link to the created entity.","","","False","","",""
@@ -2997,8 +3086,8 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/custom/sitewide_js/src/Form/SiteWideJSForm.php:69","The JS to add to the site.","","","False","","",""
 "modules/social_features/social_user/src/Plugin/AdvancedQueue/JobType/UserMailQueueJob.php:146","The Job was not finished correctly, no error thrown.","","","False","","",""
 "modules/social_features/social_post/src/Entity/PostViewsData.php:22","The Post ID.","","","False","","",""
-"modules/social_features/social_core/social_core.module:814","The URL alias allows you to customise the link to this page.","L'URL vous permet de personnaliser le lien vers cette page.","","False","","",""
-"modules/social_features/social_core/social_core.module:741","The URL alias must be a relative URL.","","","False","","",""
+"modules/social_features/social_core/social_core.module:816","The URL alias allows you to customise the link to this page.","L'URL vous permet de personnaliser le lien vers cette page.","","False","","",""
+"modules/social_features/social_core/social_core.module:743","The URL alias must be a relative URL.","","","False","","",""
 "modules/custom/activity_logger/activity_logger.tokens.inc:42","The URL of the private message thread group url.","","","False","","",""
 "modules/custom/activity_creator/src/Entity/Activity.php:143","The UUID of the Activity entity.","","","False","","",""
 "modules/social_features/social_event/src/Entity/EventEnrollment.php:215","The UUID of the Event enrollment entity.","","","False","","",""
@@ -3029,7 +3118,7 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/social_features/social_comment/social_comment.tokens.inc:49","The commented content type.","","","False","","",""
 "modules/social_features/social_branding/src/Plugin/GraphQL/DataProducer/CommunityBranding.php:11","The community branding information.","","","False","","",""
 "modules/social_features/social_follow_taxonomy/social_follow_taxonomy.tokens.inc:26","The content type.","","","False","","",""
-"modules/social_features/social_core/social_core.module:1012","The created date cannot be in the future.","","","False","","",""
+"modules/social_features/social_core/social_core.module:1014","The created date cannot be in the future.","","","False","","",""
 "modules/social_features/social_event/src/Plugin/GraphQL/DataProducer/Field/DateToTimestamp.php:9","The date field","","","False","","",""
 "modules/social_features/social_comment/social_comment.tokens.inc:64;65","The date of the comment.","","","False","","",""
 "modules/social_features/social_comment/social_comment.tokens.inc:39;40","The date of the parent comment.","","","False","","",""
@@ -3148,14 +3237,14 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/social_features/social_group/modules/social_group_request/src/Plugin/Block/SocialGroupRequestMembershipNotification.php:158","There @link to join this group.","Vous avez reçu @link pour rejoindre ce groupe.","","False","","",""
 "modules/social_features/social_group/src/Controller/SocialGroupListBuilder.php:154","There are no groups yet.","Il n'y a pas de groupes pour l'instant.","","False","","",""
 "modules/social_features/social_group/config/install/views.view.group_manage_members.yml:0","There are no members yet.","Il n'y aucun membre dans ce groupe pour l'instant.","","False","","",""
-"modules/social_features/social_event/modules/social_event_managers/src/Form/SocialEventManagersAddEnrolleeForm.php:329","There are no spots left","","","False","","",""
+"modules/social_features/social_event/modules/social_event_managers/src/Form/SocialEventManagersAddEnrolleeForm.php:340","There are no spots left","","","False","","",""
 "modules/custom/alternative_frontpage/src/Form/AlternativeFrontpageForm.php:121","There is already a setting created for this role.","","","False","","",""
 "modules/social_features/social_profile/config/install/views.view.user_information.yml:0","There is no profile added yet, you can <a href=""/user/{{ arguments.uid }}/profile"">add a profile here</a>","Le profil est vide, vous pouvez <a href=""/user/{{ arguments.uid }}/profile"">compléter votre profil ici</a>","","False","","",""
 "modules/social_features/social_profile/social_profile.module:205","There is no profile information you can change here.","","","False","","",""
 "modules/social_features/social_profile/social_profile.module:194","There is no profile information you can change here. Change your @settings.","","","False","","",""
 "modules/social_features/social_group/src/Controller/DeleteGroup.php:54","There was an unexpected error.","Une erreur inattendue s'est produite.","","False","","",""
 "modules/social_features/social_user/social_user.module:653","These fields allow you to configure various help texts that are shown to users during signup and login","","","False","","",""
-"modules/social_features/social_core/social_core.module:864","This description will be displayed when hovering over the menu link.","","","False","","",""
+"modules/social_features/social_core/social_core.module:866","This description will be displayed when hovering over the menu link.","","","False","","",""
 "modules/custom/grequest/src/Plugin/GroupContentEnabler/GroupMembershipRequest.php:208","This field has been disabled by the plugin to guarantee the functionality that's expected of it.","","","False","","",""
 "modules/custom/dropdown/src/Plugin/Field/FieldType/Dropdown.php:10","This field stores text values from a dropdown list of allowed 'value => label => description' pairs.","","","False","","",""
 "modules/custom/mentions/src/Form/MentionsTypeForm.php:212;225","This field supports tokens.","Ce champ permet l'utilisation de jetons.","","False","","",""
@@ -3176,7 +3265,7 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/social_features/social_profile/social_profile.module:654","This setting is currently being controlled by a platform wide setting and cannot be changed. Please contact a sitemanager if you have questions.","Ce choix de paramétrage est fixé par défaut par les administrateurs de la plateforme. Il ne peut être modifié. N'hésitez pas les contacter via l'onglet ""Aide"" si vous avez des questions.","","False","","",""
 "modules/social_features/social_embed/src/Form/EmbedConsentForm.php:62","This setting will enforce anonymous users to give consent before showing embedded content.","","","False","","",""
 "modules/social_features/social_embed/src/Form/EmbedConsentForm.php:56","This setting will enforce users to give consent before showing embedded content.","","","False","","",""
-"modules/social_features/social_core/social_core.module:861","This title will be displayed in the menu.","","","False","","",""
+"modules/social_features/social_core/social_core.module:863","This title will be displayed in the menu.","","","False","","",""
 "modules/social_features/social_event/modules/social_event_an_enroll/src/Form/EventAnEnrollSettingsForm.php:58","This will provide event organisers with the permission to decide whether anonymous users can enroll in their event.","","","False","","",""
 "modules/custom/social_lets_connect/modules/social_lets_connect_usage/src/Form/LetsConnectUsageSettingsForm.php:38","Tick the box to specify which data you want to share. Keep unchecked if you don’t want to share any data.","","","False","","",""
 "modules/social_features/social_event/social_event.module:737","Time zone","Fuseau horaire","","False","","",""
@@ -3187,8 +3276,8 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/social_features/social_group/config/schema/social_group.schema.yml:0","Title of the action selector form element","","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/src/Form/EnrollInviteUserForm.php:81","To add multiple members, separate each member with a comma ( , ).","Pour ajouter plusieurs utilisateurs, séparez chacun d'eux par une virgule.","","False","","",""
 "modules/social_features/social_event/modules/social_event_an_enroll/src/Form/EventAnEnrollSettingsForm.php:107","To add the event name and link, use the following tokens: [node:title], [social_event_an_enroll:enrolled_event]","","","False","","",""
-"modules/social_features/social_event/modules/social_event_an_enroll/config/install/field.field.node.event.field_event_an_enroll.yml:0","To allow users to enroll in this event without an account, this event must be visible to the public and open for all users.","Pour autoriser les utilisateurs sans compte WeGreen à s'inscrire à cet événement, l'événement doit apparaître en publique pour tous les utilisateurs.","","False","","",""
-"modules/social_features/social_event/config/install/field.field.node.event.field_event_enroll_outside_group.yml:0","To allow users who have not join the group of this event to enroll or send request to enroll","Pour autoriser les utilisateurs qui ne sont pas membres du groupe à participer à cet événement","","False","","",""
+"modules/social_features/social_event/modules/social_event_an_enroll/config/install/field.field.node.event.field_event_an_enroll.yml:0","To allow users to enroll in this event without an account, this event must be visible to the public and open for all users."," ","","False","","",""
+"modules/social_features/social_event/config/install/field.field.node.event.field_event_enroll_outside_group.yml:0","To allow users who have not join the group of this event to enroll or send request to enroll"," ","","False","","",""
 "modules/custom/download_count/src/Form/DownloadCountSettingsForm.php:42","To exclude files of certain types, enter the extensions to exclude separated by spaces. This is useful if you have private image fields and don't wish to include them in download counts.","","","False","","",""
 "translations.php:135","To make the list of topics more specific you can additionally configure more filters such as topic types, content tags and groups.","","","False","","",""
 "modules/social_features/social_event/modules/social_event_an_enroll/config/install/field.field.event_enrollment.event_enrollment.field_token.yml:0","Token","Jeton (token)","","False","","",""
@@ -3231,7 +3320,7 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/social_group_invite.module:604","Type a message on resending invites","","","False","","",""
 "modules/social_features/social_tagging/src/Form/SocialTaggingSettingsForm.php:150","Type configuration","","","False","","",""
 "modules/social_features/social_content_block/config/install/field.field.block_content.custom_content_list.field_plugin_id.yml:0","Type of content","Type de contenu","","False","","",""
-"modules/social_features/social_footer/src/Plugin/Block/SocialFooterPoweredByBlock.php:131","URL","","","False","","",""
+"modules/social_features/social_footer/src/Plugin/Block/SocialFooterPoweredByBlock.php:144","URL","","","False","","",""
 "modules/custom/social_graphql/src/Plugin/GraphQL/DataProducer/Entity/EntityUrl.php:8","URL Options","","","False","","",""
 "modules/social_features/social_event/modules/social_event_an_enroll/social_event_an_enroll.tokens.inc:22","URL of anonymously enrolled event with token to cancel enrollment.","","","False","","",""
 "modules/social_features/social_event/modules/social_event_an_enroll/social_event_an_enroll.tokens.inc:21","URL of anonymously enrolled event.","","","False","","",""
@@ -3273,7 +3362,6 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/social_features/social_event/social_event.tokens.inc:36;37","Url of the Event a user enrolled to.","","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/social_event_invite.tokens.inc:24","Url to register page with prefilled email address.","","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/social_event_invite.tokens.inc:29;34","Url to the login page with event as destination.","","","False","","",""
-"modules/custom/ginvite/ginvite.module:188","Url to user list of invitations.","","","False","","",""
 "modules/custom/social_lets_connect/modules/social_lets_connect_usage/config/schema/social_lets_connect_usage.schema.yml:0","Usage data shared with Open Social team","","","False","","",""
 "modules/custom/social_lets_connect/modules/social_lets_connect_usage/config/schema/social_lets_connect_usage.schema.yml:0","Usage data sharing enabled","","","False","","",""
 "modules/custom/social_lets_connect/modules/social_lets_connect_usage/social_lets_connect_usage.routing.yml:0","Usage data sharing settings","","","False","","",""
@@ -3319,7 +3407,6 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/social_features/social_user/social_user.routing.yml:0","User settings","Paramètres des utilisateurs","","False","","",""
 "modules/social_features/social_user/src/Plugin/GraphQL/DataProducer/UserStatus.php:9;9","User status","","","False","","",""
 "modules/social_features/social_user/src/Form/SocialUserFloodForm.php:67","User window","Fenêtre utilisateur","","False","","",""
-"modules/custom/ginvite/src/Plugin/Validation/Constraint/PreventDuplicatedConstraintValidator.php:73","User with such email already a member of this group.","","","False","","",""
 "modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0;0","Username","Nom d'utilisateur","","False","","",""
 "modules/social_features/social_event/social_event.tokens.inc:32","Username of user enrolled to the Event. Can be an anonymous user.","","","False","","",""
 "modules/social_features/social_event/social_event.tokens.inc:31","Username of user enrolled to the event.","","","False","","",""
@@ -3359,7 +3446,7 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/social_features/social_profile/config/schema/social_profile.schema.yml:0","View mode","Mode d'affichage","","False","","",""
 "modules/social_features/social_album/social_album.module:527","View my albums","","","False","","",""
 "modules/social_features/social_event/social_event.module:646","View my events","","","False","","",""
-"modules/social_features/social_group/social_group.module:2270","View my groups","Voir mes groupes","","False","","",""
+"modules/social_features/social_group/social_group.module:2306","View my groups","Voir mes groupes","","False","","",""
 "modules/social_features/social_profile/social_profile.module:877","View my profile","","","False","","",""
 "modules/social_features/social_topic/social_topic.module:235","View my topics","","","False","","",""
 "modules/social_features/social_post/social_post.permissions.yml:0","View own unpublished Post entities","","","False","","",""
@@ -3457,14 +3544,13 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/social_features/social_private_message/social_private_message.module:352","You","Vous","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/src/Controller/SocialGroupInvitationOperations.php:51","You are already a member of the @group.","","","False","","",""
 "modules/social_features/social_event/modules/social_event_an_enroll/config/install/social_event_an_enroll.settings.yml:0","You are enrolled in the event [node:title]","Vous êtes inscrit(e) à l'événement [node:title]","","False","","",""
-"modules/social_features/social_event/modules/social_event_an_enroll/src/Form/EventAnEnrollActionForm.php:204","You are no longer enrolled in this event. Your personal data used for the enrollment is also deleted.","Vous êtes désinscrits de cet événement. Vos données personnelles utilisées pour l'inscription est aussi supprimée.","","False","","",""
+"modules/social_features/social_event/modules/social_event_an_enroll/src/Form/EventAnEnrollActionForm.php:232","You are no longer enrolled in this event. Your personal data used for the enrollment is also deleted.","Vous êtes désinscrits de cet événement. Vos données personnelles utilisées pour l'inscription est aussi supprimée.","","False","","",""
 "modules/custom/group_core_comments/src/Plugin/Field/FieldFormatter/CommentGroupContentFormatter.php:205","You are not allowed to comment on content in a group you are not member of.","Vous ne pouvez pas commenter un contenu partagé dans un groupe auquel vous n'êtes pas membre.","","False","","",""
 "modules/social_features/social_group/src/Plugin/Field/FieldWidget/SocialGroupSelectorWidget.php:256","You are not allowed to edit this field!","","","False","","",""
 "modules/custom/group_core_comments/src/Plugin/Field/FieldFormatter/CommentGroupContentFormatter.php:234","You are not allowed to view comments on content in a group you are not member of. You can join the group @group_link.","Vous n'êtes pas autorisé(e) à voir des commentaires sur les contenus des groupes desquels vous n'êtes pas membre. Vous pouvez joindre le groupe @group_link.","","False","","",""
 "modules/social_features/social_follow_content/social_follow_content.module:157","You are now automatically following this @type. @unfollow_link.","Vous suivez désormais ce contenu. @unfollow_link.","","False","","",""
-"modules/custom/ginvite/src/Form/BulkGroupInvitation.php:133","You can copy/paste multiple emails, enter one email per line.","","","False","","",""
 "modules/custom/mentions/mentions.module:23","You can enable 'Mentions Filter' for the mentions type below for the appropriate @text_format","","","False","","",""
-"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:213","You can enter or paste multiple entries separated by comma or semicolon","Pour ajouter plusieurs utilisateurs, séparez-les par une virgule ou un point-virgule","","False","","",""
+"modules/social_features/social_group/modules/social_group_invite/src/Form/SocialBulkGroupInvitation.php:226","You can enter or paste multiple entries separated by comma or semicolon","Pour ajouter plusieurs utilisateurs, séparez-les par une virgule ou un point-virgule","","False","","",""
 "modules/social_features/social_profile/modules/social_profile_fields/src/Form/SocialProfileFieldsSettingsForm.php:198","You can hide individual address fields, with the exception of the country field. <br/>
             Disable the country field by disabling the whole address, using the checkbox <em>field_profile_address</em>.","","","False","","",""
 "modules/social_features/social_event/config/install/field.field.event_enrollment.event_enrollment.field_request_message.yml:0","You can leave a message in your request. Once your request is approved, you will receive a notification via email and notification center.","Vous pouvez laisser un message. Une fois votre requête acceptée, vous allez recevoir une notification via email et votre centre de notification.","","False","","",""
@@ -3477,20 +3563,17 @@ Titre (descendant)|Z - A","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/config/install/views.view.user_event_invites.yml:0","You don't have any event invites yet.","Aucune nouvelle invitation à rejoindre un événement pour l'instant.","","False","","",""
 "modules/social_features/social_core/src/EventSubscriber/SocialInviteSubscriber.php:128","You have 1 pending invite <a href=""@url"">visit your invite overview</a> to see it.","","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/src/Controller/UserEnrollInviteController.php:89","You have accepted the invitation for the @event event.","Vous avez accepté l'invitation pour l'événement @event.","","False","","",""
-"modules/custom/ginvite/ginvite.module:98","You have accepted the invitation.","","","False","","",""
 "modules/social_features/social_event/modules/social_event_an_enroll/src/Form/EventAnEnrollForm.php:189","You have been already enrolled to this event. You have also received a notification via email.","Vous vous êtes déjà inscrit-e à cet événement. Vous avez aussi reçu une confirmation par email.","","False","","",""
 "modules/social_features/social_event/modules/social_event_an_enroll/config/install/social_event_an_enroll.settings.yml:0","You have been enrolled in the event [node:title]. You can cancel your enrollment anytime using the following link: [social_event_an_enroll:enrolled_event].","Vous vous êtes inscrit-e à l'évènement [node:title]. Vous pouvez annuler votre inscription à tout moment en utilisant le lien suivant : [social_event_an_enroll:enrolled_event].","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/config/optional/message.template.invited_to_join_group.yml:0","You have been invited to join a group","Vous avez été invité(e) à rejoindre un groupe","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/src/Plugin/Block/SocialGroupInviteNotificationBlock.php:122","You have been invited to join this group","Vous avez été invité(e) à rejoindre ce groupe","","False","","",""
-"modules/custom/ginvite/src/Controller/InvitationOperations.php:120","You have declined the group invitation.","Vous avez refusé l'invitation pour rejoindre le groupe.","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/src/Controller/UserEnrollInviteController.php:93","You have declined the invitation for the @event event.","Vous avez rejeté l'invitation pour l'événement @event.","","False","","",""
 "modules/social_features/social_event/social_event.module:327","You have enrolled","Vous êtes inscrit.e","","False","","",""
 "modules/social_features/social_event/src/Plugin/Block/EnrollActionBlock.php:119","You have enrolled for this event.","Vous êtes inscrit.e pour cet évènement.","","False","","",""
-"modules/social_features/social_core/social_core.module:526","You have insufficient permissions to delete this vocabulary","","","False","","",""
+"modules/social_features/social_core/social_core.module:528","You have insufficient permissions to delete this vocabulary","","","False","","",""
 "modules/social_features/social_featured_content/templates/group--featured.html.twig:112","You have joined","Membre du groupe","","False","Is a member","",""
 "modules/custom/group_core_comments/src/Controller/GroupCoreCommentsController.php:95","You have joined the group and you can leave your comment now.","Vous avez rejoint le groupe et pouvez à présent laisser des commentaires.","","False","","",""
 "modules/custom/social_magic_login/src/Controller/MagicLoginController.php:180","You have just used your one-time login link. It is no longer necessary to use this link to log in.","Vous avez utilisé votre lien unique de connexion. Il n'est plus nécessaire d'utiliser ce lien pour vous connecter.","","False","","",""
-"modules/custom/ginvite/src/EventSubscriber/GinviteSubscriber.php:69","You have pending group invitations. <a href=""@url"">Visit your profile</a> to see them.","","","False","","",""
 "modules/social_features/social_album/social_album.module:254","You have posted successfully in your new album @link","","","False","","",""
 "modules/custom/activity_send/modules/activity_send_email/src/Plugin/QueueWorker/ActivityDigestWorker.php:152","You have received <strong>:count</strong> notification","Vous avez reçu <strong>:count</strong> notification","","False","","",""
 "modules/social_features/social_follow_content/social_follow_content.module:91","You have successfully enrolled to this event. Also you are now following the event, which means you will receive notifications when a new comment is placed.","Vous êtes désormais inscrit à cet événement.","","False","","",""
@@ -3558,7 +3641,7 @@ span.badge.badge--pill.badge-default|Pill badge","","","False","","",""
 "modules/social_features/social_featured_content/templates/node--featured.html.twig:137","by","par","","False","","",""
 "modules/social_features/social_landing_page/src/Plugin/Block/ActivityOverviewBlock.php:258","comments","commentaires","","False","","",""
 "modules/social_features/social_post/src/Form/PostTypeDeleteForm.php:41","content @type: deleted @label.","Contenu @type : @label supprimé.","","False","","",""
-"modules/social_features/social_event/src/Form/EnrollActionForm.php:386","create a new account","créer un nouveau compte","","False","","",""
+"modules/social_features/social_event/src/Form/EnrollActionForm.php:388","create a new account","créer un nouveau compte","","False","","",""
 "modules/custom/social_path_manager/config/install/pathauto.pattern.default_content_types.yml:0","default content types","","","False","","",""
 "modules/custom/social_path_manager/config/install/pathauto.pattern.default_group_types.yml:0","default group types","","","False","","",""
 "modules/custom/social_path_manager/config/install/pathauto.pattern.default_taxonomy_terms.yml:0","default taxonomy terms","","","False","","",""
@@ -3583,8 +3666,10 @@ span.badge.badge--pill.badge-default|Pill badge","","","False","","",""
 "modules/social_features/social_profile/config/install/views.view.newest_users.yml:0","filter_no_admin","","","False","","",""
 "modules/social_features/social_follow_user/templates/followers.html.twig:25","follower","","","False","","",""
 "modules/social_features/social_follow_user/templates/following.html.twig:22","following","","","False","","",""
-"modules/social_features/social_core/social_core.module:397;409;420","for this user","pour cet utilisateur","","False","","",""
+"modules/social_features/social_core/social_core.module:399;411;422","for this user","pour cet utilisateur","","False","","",""
 "modules/social_features/social_profile/modules/social_profile_organization_tag/social_profile_organization_tag.module:97","from @org","de @org","","False","","",""
+"modules/social_features/social_group/modules/social_group_invite/config/optional/views.view.social_group_user_invitations.yml:0","ginvite/{{ id }}/accept?destination=/user/{{ uid }}/invitations","","","False","","",""
+"modules/social_features/social_group/modules/social_group_invite/config/optional/views.view.social_group_user_invitations.yml:0","ginvite/{{ id }}/decline?destination=/user/{{ uid }}/invitations","","","False","","",""
 "modules/social_features/social_featured_content/templates/group--featured.html.twig:104","group members","membres du groupe","","False","","",""
 "modules/social_features/social_event/config/install/views.view.upcoming_events.yml:0","group_contextual","","","False","","",""
 "modules/social_features/social_event/config/install/views.view.upcoming_events.yml:0","group_events","","","False","","",""
@@ -3595,8 +3680,8 @@ span.badge.badge--pill.badge-default|Pill badge","","","False","","",""
 "modules/social_features/social_event/modules/social_event_addtocal/src/Plugin/SocialAddToCalendar/AddToICal.php:9","iCal","","","False","","",""
 "modules/social_features/social_event/modules/social_event_type/social_event_type.module:78","in @event","dans @event","","False","","",""
 "modules/social_features/social_topic/social_topic.module:59","in @topic","dans @topic","","False","","",""
-"modules/social_features/social_core/social_core.module:361;375;382;389","in the community","qui peuvent m'intéresser","","False","","",""
-"modules/social_features/social_core/social_core.module:431;442;454","in the group","dans le groupe","","False","","",""
+"modules/social_features/social_core/social_core.module:363;377;384;391","in the community","qui peuvent m'intéresser","","False","","",""
+"modules/social_features/social_core/social_core.module:433;444;456","in the group","dans le groupe","","False","","",""
 "modules/custom/mentions/src/Entity/Mentions.php:55;56","internal uuid","","","False","","",""
 "modules/social_features/social_group/modules/social_group_request/src/Plugin/Block/SocialGroupRequestMembershipNotification.php:160","is (1) new request","une nouvelle demande","","False","","",""
 "modules/social_features/social_topic/config/install/views.view.topics.yml:0","is the type of","Type de publication","","False","","",""
@@ -3614,8 +3699,8 @@ span.badge.badge--pill.badge-default|Pill badge","","","False","","",""
 "modules/social_features/social_comment/config/install/views.view.comment.yml:0","next ›","","","False","","",""
 "modules/social_features/social_like/social_like.tokens.inc:123","on a","","","False","","",""
 "modules/social_features/social_like/social_like.tokens.inc:119","on the","","","False","","",""
-"modules/social_features/social_group/social_group.module:2763","only visible to all logged-in users.","Uniquement visible pour les utilisateurs connectés.","","False","","",""
-"modules/social_features/social_group/social_group.module:2773","only visible to logged-in group members.","seulement visible par les membres du groupe.","","False","","",""
+"modules/social_features/social_group/social_group.module:2799","only visible to all logged-in users.","Uniquement visible pour les utilisateurs connectés.","","False","","",""
+"modules/social_features/social_group/social_group.module:2809","only visible to logged-in group members.","seulement visible par les membres du groupe.","","False","","",""
 "modules/social_features/social_post/src/Entity/Post.php:162","photo","","","False","","",""
 "modules/social_features/social_post/src/Entity/Post.php:165","post","contribution","","False","","",""
 "modules/social_features/social_activity/templates/message-post-teaser.html.twig:3","posted","a publié","","False","","",""
@@ -3660,7 +3745,7 @@ span.badge.badge--pill.badge-default|Pill badge","","","False","","",""
 "modules/social_features/social_group/social_group.module:694","users can only join this group if they are added/invited by group managers.","","","False","","",""
 "modules/social_features/social_album/config/install/views.view.albums.yml:0","view","voir","","False","","",""
 "modules/custom/download_count/download_count.permissions.yml:0","view download counts","","","False","","",""
-"modules/social_features/social_group/social_group.module:2753","visible to all visitors to the platform.","Visible pour tous les visiteurs de la plateforme.","","False","","",""
+"modules/social_features/social_group/social_group.module:2789","visible to all visitors to the platform.","Visible pour tous les visiteurs de la plateforme.","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/config/optional/views.view.social_group_invitations.yml:0","{{ arguments.gid|placeholder }} invitations","","","False","","",""
 "modules/custom/grequest/config/optional/views.view.group_pending_members.yml:0","{{ arguments.gid|placeholder }} pending members","","","False","","",""
 "modules/social_features/social_content_report/config/install/views.view.report_overview.yml:0","{{ changed }}
@@ -3673,9 +3758,9 @@ span.badge.badge--pill.badge-default|Pill badge","","","False","","",""
 "modules/social_features/social_content_report/config/install/views.view.report_overview.yml:0","{{ user_id }}
 {{ uid_1 }}
 {{ uid_2 }}","","","False","","",""
+"modules/social_features/social_album/config/install/views.view.albums.yml:0","{{ view_node }}","","","False","","",""
 "modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0","« First","« Premier","","False","","",""
 "modules/social_features/social_comment/config/install/views.view.comment.yml:0","« first","","","False","","",""
-"modules/custom/ginvite/config/optional/views.view.my_invitations.yml:0","Â« First","","","False","","",""
 "modules/custom/grequest/config/optional/views.view.group_pending_members.yml:0","â€¹â€¹","","","False","","",""
 "modules/custom/grequest/config/optional/views.view.group_pending_members.yml:0","â€ºâ€º","","","False","","",""
 "modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0","‹ Previous","‹ Précédent","","False","","",""

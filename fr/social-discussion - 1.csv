@@ -22,7 +22,7 @@
 "modules/social_discussion_secret_group/social_discussion_secret_group.info.yml:0","Allows to add Discussions to a Secret Groups.","","",FALSE,"","",""
 "modules/social_discussion_anonymous/social_discussion_anonymous.module:461","Anonymous","Anonyme","",FALSE,"","",""
 "src/Plugin/GraphQL/DataProducer/QueryDiscussion.php:10","Before","","",FALSE,"","",""
-"src/Form/DiscussionConfigForm.php:66","Body","Corps","",FALSE,"","",""
+"src/Form/DiscussionConfigForm.php:66","Body","Texte","",FALSE,"","",""
 "modules/social_discussion_group/src/Plugin/Field/FieldFormatter/CommentGroupDiscussionFormatter.php:12","Comment on group discussion","Commenter sur le groupe de discussion","",FALSE,"","",""
 "modules/social_discussion_anonymous/templates/comment--field-discussion-comments.html.twig:28","Commented anonymously","Commenter anonymement","",FALSE,"","",""
 "modules/social_discussion_room/src/Controller/RoomController.php:193;284","Comments","Commentaires","",FALSE,"","",""

@@ -53,6 +53,7 @@
 "config/schema/socialbase.schema.yml:0","Enable Bootstrap Tooltips","","",FALSE,"","",""
 "templates/system/status-messages.html.twig:31","Error message","Message d'erreur","",FALSE,"","",""
 "templates/node/event/node--event--teaser.html.twig:22;24","Event date","Date de l'évênement","",FALSE,"","",""
+"templates/node/event/node--event--full.html.twig:70","Event location","Localisation de l'évènement","",FALSE,"","",""
 "templates/node/event/node--event--teaser.html.twig:43","Event type","Type d'événement","",FALSE,"","",""
 "templates/node/event/node--event--teaser.html.twig:4;7","Event: &nbsp;","Evénement : &nbsp;","",FALSE,"","",""
 "templates/profile/profile--profile--default.html.twig:111","Expertise","Compétences","",FALSE,"","",""

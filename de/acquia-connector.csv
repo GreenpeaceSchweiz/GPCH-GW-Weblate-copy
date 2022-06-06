@@ -121,7 +121,7 @@
    scheme, port and derived_key.","","","False","","",""
 "config/schema/acquia_connector.schema.yml:0","Is debug mode active","","","False","","",""
 "config/schema/acquia_connector.schema.yml:0","Is environment detection enabled?","","","False","","",""
-"acquia_search/config/optional/views.view.acquia_search.yml:0","Items per page","","","False","","",""
+"acquia_search/config/optional/views.view.acquia_search.yml:0","Items per page","Elemente pro Seite","","False","","",""
 "acquia_connector.install:63","Last sent @time ago","","","False","","",""
 "config/schema/acquia_connector.schema.yml:0","Last update of variables","","","False","","",""
 "acquia_search/config/optional/views.view.acquia_search.yml:0","Last »","","","False","","",""

@@ -56,7 +56,7 @@
 "contact_storage.links.task.yml:0","Forms","","",FALSE,"","",""
 "src/Plugin/Mail/HTMLTestingMailSystem.php:8","HTML test mailer","","",FALSE,"","",""
 "contact_storage.install:91","IP address","","",FALSE,"","",""
-"config/install/views.view.contact_messages.yml:0","Items per page","","",FALSE,"","",""
+"config/install/views.view.contact_messages.yml:0","Items per page","Elemente pro Seite","",FALSE,"","",""
 "src/Form/ContactFormCloneForm.php:65","Label","","",FALSE,"","",""
 "config/install/views.view.contact_messages.yml:0","List","","",FALSE,"","",""
 "config/install/views.view.contact_messages.yml:0","Master","","",FALSE,"","",""

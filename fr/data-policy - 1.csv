@@ -24,7 +24,7 @@
 "src/Form/DataPolicyRevisionRevertTranslationForm.php:79","Are you sure you want to revert @language translation to the revision from %revision-date?","Êtes-vous sûr(e) de vouloir rétablir la traduction en @language à la révision du %revision-date ?","",FALSE,"","",""
 "src/Form/DataPolicyRevisionRevertForm.php:87","Are you sure you want to revert to the revision from %revision-date?","Êtes-vous sûr(e) de vouloir rétablir la version du %revision-date?","",FALSE,"","",""
 "src/Entity/UserConsent.php:137","Authored by","Membre","",FALSE,"","",""
-"config/schema/data_policy.schema.yml:0","Body","Corps","",FALSE,"","",""
+"config/schema/data_policy.schema.yml:0","Body","Texte","",FALSE,"","",""
 "data_policy.permissions.yml:0","Change inform and consent setting status","","",FALSE,"","",""
 "src/Entity/UserConsent.php:186","Changed","Modifié","",FALSE,"","",""
 "src/Form/DataPolicySettingsForm.php:37","Consent text","","",FALSE,"","",""

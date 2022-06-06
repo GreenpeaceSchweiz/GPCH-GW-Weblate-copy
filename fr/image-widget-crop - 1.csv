@@ -9,7 +9,7 @@
 "src/Plugin/Field/FieldWidget/ImageCropWidget.php:225","Always expand crop area","","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/ImageCropWidget.php:375","Always expand crop area: @bool","","",FALSE,"","",""
 "modules/image_widget_crop_examples/src/Form/ImageWidgetCropExamplesForm.php:102","Background Pictures","","",FALSE,"","",""
-"modules/image_widget_crop_examples/config/optional/field.field.node.crop_simple_example.body.yml:0","Body","Corps","",FALSE,"","",""
+"modules/image_widget_crop_examples/config/optional/field.field.node.crop_simple_example.body.yml:0","Body","Texte","",FALSE,"","",""
 "config/schema/image_widget_crop.schema.yml:0","CSS URL","","",FALSE,"","",""
 "src/Form/CropWidgetForm.php:107","Changes here require a cache rebuild to take full effect.","","",FALSE,"","",""
 "image_widget_crop.links.menu.yml:0","Configure common settings for ImageWidgetCrop.","","",FALSE,"","",""

@@ -2,7 +2,7 @@
 "src/ImportUser.php:132","'@operation: Processed @count items (@created created, @updated updated, @failed failed, @ignored ignored)'","","","False","","",""
 "social_migrate.permissions.yml:0","Access to configuration the migration of users","","","False","","",""
 "social_migrate.permissions.yml:0","Access to import users","","","False","","",""
-"social_migrate.module:142","Body","Corps","","False","","",""
+"social_migrate.module:142","Body","Texte","","False","","",""
 "src/Form/MigrateUsersForm.php:68","CSV File. Should be in the format as the @link","","","False","","",""
 "src/Form/MigrateUsersSettingsForm.php:244","CSV field: @field","","","False","","",""
 "social_migrate.permissions.yml:0","Configure import","","","False","","",""

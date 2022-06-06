@@ -1601,7 +1601,7 @@ Yukon: Yukon
 "src/Plugin/WebformElementBase.php:2569","Birthday month","","","False","","",""
 "src/Plugin/WebformElementBase.php:2570","Birthday year","","","False","","",""
 "src/WebformHelpManager.php:1119","Blocks | Drupalize.me","","","False","","",""
-"modules/webform_node/config/optional/field.field.node.webform.body.yml:0","Body","","","False","","",""
+"modules/webform_node/config/optional/field.field.node.webform.body.yml:0","Body","Texte","","False","","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:553","Body custom value (@format)","","","False","","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:591","Body custom value (Twig)","","","False","","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:575","Body default value (@format)","","","False","","",""

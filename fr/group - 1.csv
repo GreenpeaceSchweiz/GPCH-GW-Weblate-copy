@@ -164,7 +164,7 @@
 "src/Entity/Form/GroupTypeForm.php:150","Group creator roles","","",FALSE,"","",""
 "src/Context/GroupRouteContext.php:62","Group from URL","","",FALSE,"","",""
 "src/Cache/Context/RouteGroupCacheContext.php:42","Group from route","","",FALSE,"","",""
-"config/optional/views.view.group_members.yml:0","Group members","Membres du groupe seulement","",FALSE,"","",""
+"config/optional/views.view.group_members.yml:0","Group members","Membres du groupe","",FALSE,"","",""
 "src/Plugin/GroupContentEnabler/GroupMembership.php:18","Group membership","Adhésion au groupe","",FALSE,"","",""
 "modules/gnode/src/Plugin/GroupContentEnabler/GroupNode.php:11","Group node","Nœud de groupe","",FALSE,"","",""
 "modules/gnode/src/Plugin/GroupContentEnabler/GroupNodeDeriver.php:21","Group node (@type)","","",FALSE,"","",""
