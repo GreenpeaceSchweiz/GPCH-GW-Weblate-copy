@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"modules/lightning_search/config/install/views.view.search.yml:0","'- All -'","","",FALSE,"","",""
+"modules/lightning_search/config/install/views.view.search.yml:0","'- All -'","'- Alle -'","",FALSE,"","",""
 "src/YieldToArgumentTrait.php:44","'- None -'","","",FALSE,"","",""
 "modules/lightning_search/lightning_search.info.yml:0","A basic but powerful set of default configuration for searching your site.","","",FALSE,"","",""
 "modules/lightning_page/config/install/core.base_field_override.node.page.status.yml:0","A boolean indicating whether the node is published.","","",FALSE,"","",""

@@ -106,7 +106,7 @@
 "src/Form/FacetDeleteConfirmForm.php:32","Delete","Löschen","","False","","",""
 "src/Plugin/facets/processor/DependentFacetProcessor.php:14","Dependent facet","","","False","","",""
 "config/schema/facets.processor.schema.yml:0","Dependent facet processor","","","False","","",""
-"src/Processor/SortProcessorPluginBase.php:25","Descending","","","False","","",""
+"src/Processor/SortProcessorPluginBase.php:25","Descending","Absteigend","","False","","",""
 "js/index-active-formatters.js:0","Disabled","Deaktiviert","","False","","",""
 "src/Plugin/facets/processor/BooleanItemProcessor.php:12","Display configurable On/Off labels instead 1/0 values for boolean fields.","","","False","","",""
 "src/Plugin/facets/processor/DateItemProcessor.php:11","Display dates with granularity options for date fields.","","","False","","",""

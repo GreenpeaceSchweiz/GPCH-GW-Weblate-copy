@@ -2984,7 +2984,7 @@ verwenden Sie keine anführenden und keine abschießenden Schrägstriche. Bleibt
 "modules/system/src/Plugin/ImageToolkit/Operation/gd/Desaturate.php:5","Desaturate","Entsättigen","","False","","",""
 "modules/image/src/Plugin/ImageEffect/DesaturateImageEffect.php:8","Desaturate converts an image to grayscale.","Sättigung verringern konvertiert ein Bild in Graustufen.","","False","","",""
 "profiles/demo_umami/config/optional/views.view.media.yml:0","Desc","Absteigend","","False","","",""
-"modules/views/src/Plugin/views/style/Table.php:301","Descending","absteigend","","False","","",""
+"modules/views/src/Plugin/views/style/Table.php:301","Descending","Absteigend","","False","","",""
 "modules/datetime_range/src/Plugin/Field/FieldType/DateRangeFieldItemList.php:45","Describe a time by reference to the current day, like '+90 days' (90 days from the day the field is created) or '+1 Saturday' (the next Saturday). See <a href=""http://php.net/manual/function.strtotime.php"">strtotime</a> for more details.","Beschreiben Sie eine Zeit, relativ zum heutigen Tag. z.B.: ’+90 days’ (90 Tage nachdem das Feld erstellt wurde).
 ’+1 Saturday’ (der nächste Samstag).
 Siehe <a href=""http://php.net/manual/function.strtotime.php"">strtotime</a> für nähere Informationen.","","False","","",""

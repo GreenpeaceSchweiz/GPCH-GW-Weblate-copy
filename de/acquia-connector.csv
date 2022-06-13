@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"acquia_search/config/optional/views.view.acquia_search.yml:0","'- All -'","","","False","","",""
+"acquia_search/config/optional/views.view.acquia_search.yml:0","'- All -'","'- Alle -'","","False","","",""
 "acquia_connector.module:75","<a href=""@network-url"">Acquia Subscription</a> (inactive)","","","False","","",""
 "src/Controller/TestStatusController.php:48","<em>Custom test validation failed</em>: @message for parameter '@param_name'; current value '@value'. (<em>Test '@test_name' in module '@module_name'</em>)","","","False","","",""
 "src/Form/SpiChangeForm.php:39","<h2>No changes detected</h2><p>This form is used to address changes in your site's environment. No changes are currently detected.</p>","","","False","","",""

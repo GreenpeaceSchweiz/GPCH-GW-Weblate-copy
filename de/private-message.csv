@@ -56,7 +56,7 @@
 "src/Commands/PrivateMessageCommands.php:83","Deleted thread: @id","","","False","","",""
 "src/Form/AdminUninstallForm.php:98","Deleting private message data","","","False","","",""
 "src/Form/AdminUninstallForm.php:105","Deleting private message data. Completed: @percentage% (@current of @total).","","","False","","",""
-"src/Plugin/Field/FieldFormatter/PrivateMessageThreadMessageFormatter.php:313","Descending","absteigend","","False","","",""
+"src/Plugin/Field/FieldFormatter/PrivateMessageThreadMessageFormatter.php:313","Descending","Absteigend","","False","","",""
 "config/schema/private_message.schema.yml:0","Display Mode","","","False","","",""
 "src/Plugin/Field/FieldFormatter/PrivateMessageThreadMemberFormatter.php:179","Display Type","Anzeigetyp","","False","","",""
 "src/Plugin/Field/FieldFormatter/PrivateMessageThreadMemberFormatter.php:248","Display current user","","","False","","",""

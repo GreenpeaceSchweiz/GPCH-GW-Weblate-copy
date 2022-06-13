@@ -35,7 +35,7 @@
 "modules/social_features/social_search/config/install/views.view.search_content.yml:0","(ascending)","(aufsteigend)","","False","","",""
 "modules/social_features/social_search/config/install/views.view.search_content.yml:0","(descending)","(absteigend)","","False","","",""
 "modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0;0;0;0",", ",", ","","False","","",""
-"modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0","'- All -'","'-Alle-'","","False","","",""
+"modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0","'- All -'","'- Alle -'","","False","","",""
 "modules/social_features/social_user/social_user.module:144","'- Any -'","'- Alle -'","","False","","",""
 "modules/social_features/social_group/config/install/views.view.groups.yml:0","'- Any -\|- Any -
 True\|My muted groups
@@ -103,7 +103,12 @@ False\|My unmuted groups'","","","False","","",""
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> hat Tag(s), denen du folgst zu [social_taxonomy:indefinite_article] [social_taxonomy:content_type] <a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title] hinzugefügt </a>.</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_follow_taxonomy/modules/social_follow_tag/config/install/message.template.update_node_following_tag.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> added tag(s) you follow to [social_taxonomy:indefinite_article] [social_taxonomy:content_type].</p>
 ","","","False","","",""
 "modules/social_features/social_event/modules/social_event_managers/config/optional/message.template.member_added_by_event_organiser.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> added you to the event [social_event:event_iam_organizing]</p>
@@ -161,7 +166,7 @@ False\|My unmuted groups'","","","False","","",""
 </table>
 ","","False","","",""
 "modules/social_features/social_follow_content/config/install/message.template.create_comment_following_node.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> commented on [social_comment:parent_entity_author]'s [social_comment:commented_content_type] <a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title]</a> you are following</p>
-","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> kommentierte [social_comment:parent_entity_author]'s [social_comment:commented_content_type] <a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title]</a> dem/der du folgst</p>
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> kommentierte [social_comment:parent_entity_author]s [social_comment:commented_content_type] <a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title]</a> dem/der du folgst</p>
 ","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_comment_group_node.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> commented on [social_comment:parent_entity_author]'s [social_comment:commented_content_type] in <a href=""[message:gurl]"">[message:gtitle]</a></p>
 ","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> kommentierte [social_comment:parent_entity_author]'s [social_comment:commented_content_type] in <a href=""[message:gurl]"">[message:gtitle]</a></p>
@@ -217,7 +222,12 @@ False\|My unmuted groups'","","","False","","",""
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> gefällt dein [social_like:liked_entity_link_html]</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_mentions/config/install/message.template.create_mention_comment.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> mentioned you in a <a href=""[message:field_message_related_object:entity:url:absolute]"">comment</a> on [social_mentions:commented_entity_link_html]</p>
 ","","","False","","",""
 "modules/social_features/social_mentions/config/install/message.template.create_mention_comment.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> mentioned you in a <a href=""[message:field_message_related_object:entity:url:absolute]"">comment</a>&nbsp;made on the [social_mentions:commented_entity_link_html]</p>
@@ -225,7 +235,12 @@ False\|My unmuted groups'","","","False","","",""
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> hat dich in einem <a href=""[message:field_message_related_object:entity:url:absolute]"">Kommentar</a>&nbsp;erstellt auf [social_mentions:commented_entity_link_html] erwähnt</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_mentions/config/install/message.template.create_mention_post.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> mentioned you in a <a href=""[message:field_message_related_object:entity:url:absolute]"">post</a></p>
 ","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> hat dich in einem <a href=""[message:field_message_related_object:entity:url:absolute]"">post genannt</a></p>
 ","","False","","",""

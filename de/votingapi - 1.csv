@@ -1,7 +1,7 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "src/Form/VoteTypeDeleteConfirm.php:50","'%type is used by 1 piece of content on your site. You can not remove this vote type until you have removed that vote.'","","",FALSE,"","",""
 "config/optional/views.view.votingapi_votes.yml:0;0;0;0;0;0;0;0;0;0;0;0;0;0",",","","",FALSE,"","",""
-"config/optional/views.view.votingapi_votes.yml:0","'- All -'","","",FALSE,"","",""
+"config/optional/views.view.votingapi_votes.yml:0","'- All -'","'- Alle -'","",FALSE,"","",""
 "modules/votingapi_tokens/votingapi_tokens.module:24","<li>Best vote :: <code>[votingapi_ENTITY_TYPE_token:best_vote:VOTE_TYPE]</code></li>","","",FALSE,"","",""
 "modules/votingapi_tokens/votingapi_tokens.module:23","<li>Vote average :: <code>[votingapi_ENTITY_TYPE_token:vote_average:VOTE_TYPE]</code></li>","","",FALSE,"","",""
 "modules/votingapi_tokens/votingapi_tokens.module:25","<li>Worst vote :: <code>[votingapi_ENTITY_TYPE_token:worst_vote:VOTE_TYPE]</code></li>","","",FALSE,"","",""

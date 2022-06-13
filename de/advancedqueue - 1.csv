@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"config/install/views.view.advancedqueue_jobs.yml:0","'- All -'","","",FALSE,"","",""
+"config/install/views.view.advancedqueue_jobs.yml:0","'- All -'","'- Alle -'","",FALSE,"","",""
 "config/install/views.view.advancedqueue_jobs.yml:0","1","","",FALSE,"","",""
 "config/install/views.view.advancedqueue_jobs.yml:0","<pre>{{ payload }}</pre>","","",FALSE,"","",""
 "advancedqueue.links.action.yml:0","Add queue","","",FALSE,"","",""
