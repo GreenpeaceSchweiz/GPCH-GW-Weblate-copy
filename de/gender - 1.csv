@@ -55,7 +55,7 @@
 "gender.module:48","For example, if you have separate fields for pronouns, titles and genders, you might specify that pronouns will be listed on a person's public profile and in the user interface (such as ""...has updated her profile""), titles will be used in emails addressed to the person and visible to site administrators, and gender will be anonymized and used in reports about whom is using your site.","","",FALSE,"","",""
 "gender.install:22","For further information, <a href=""@install-url"">install the Help module.</a>","","",FALSE,"","",""
 "gender.install:17","For further information, consult the <a href=""@help-url"">help page</a>.","","",FALSE,"","",""
-"src/Plugin/Field/FieldType/Gender.php:45;12","Gender","","",FALSE,"","",""
+"src/Plugin/Field/FieldType/Gender.php:45;12","Gender","Geschlecht","",FALSE,"","",""
 "gender.module:128","Gender confusion/Gender f*ck","","",FALSE,"","",""
 "gender.module:47","Gender data should be considered sensitive, privileged user data. Be clear about how and when this information will be used, and who will have access to viewing it &#151; in particular if it will be publicly visible on your site &#151; <em>on the form where you ask for this data.</em>","","",FALSE,"","",""
 "gender.module:129","Gender indifferent","","",FALSE,"","",""

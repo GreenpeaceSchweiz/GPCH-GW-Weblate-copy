@@ -17,7 +17,7 @@
 "src/Form/ModalForm.php:194;386","Not now","Jetzt nicht","",FALSE,"","",""
 "social_onboarding.routing.yml:0","Onboarding","","",FALSE,"","",""
 "social_onboarding.links.menu.yml:0","Onboarding settings","","",FALSE,"","",""
-"src/Form/SettingsForm.php:87","Profile groups","","",FALSE,"","",""
+"src/Form/SettingsForm.php:87","Profile groups","Profilgruppen","",FALSE,"","",""
 "src/Form/SettingsForm.php:66","Profile image","Profilbild","",FALSE,"","",""
 "templates/group--action-button.html.twig:10","Request sent","Anfrage wurde gesendet","",FALSE,"","",""
 "templates/group--action-button.html.twig:15;15","Request to join","Beitritt anfragen","",FALSE,"","",""

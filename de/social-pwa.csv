@@ -15,7 +15,7 @@
 "social_pwa.links.menu.yml:0","Configure the Manifest.json output.","","","False","","",""
 "src/Form/ManifestSettingsForm.php:192","Configures if the site should run in <b>Portrait</b> (default) or <b>Landscape</b> mode on the device when being launched from the homescreen.","","","False","","",""
 "src/Form/ManifestSettingsForm.php:113","Disabling the push notifications and PWA will ensure that no user is able to configure and receive push notifications. Nor will any other Progressive Web App functions be available.","Durch das Deaktivieren der Push-Benachrichtigungen und der Progressive Web App wird sichergestellt, dass kein:e Benutzer:in Push-Benachrichtigungen konfigurieren und empfangen kann. Es werden auch keine anderen Progressive Web App-Funktionen verfügbar sein.","","False","","",""
-"src/Form/ManifestSettingsForm.php:179","Display","","","False","","",""
+"src/Form/ManifestSettingsForm.php:179","Display","Anzeige","","False","","",""
 "js/main.js:0","Enable","","","False","","",""
 "src/Form/ManifestSettingsForm.php:111","Enable push notifications and PWA","Push-Benachrichtigungen und Progressive Web App aktivieren","","False","","",""
 "src/Form/ManifestSettingsForm.php:129","Enter the name of your website.","","","False","","",""

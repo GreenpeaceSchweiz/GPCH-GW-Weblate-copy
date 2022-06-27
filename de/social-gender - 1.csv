@@ -5,7 +5,7 @@
 "social_gender.permissions.yml:0","Administer Gender Settings","","",FALSE,"","",""
 "social_gender.permissions.yml:0","Allow access to the gender settings form to configure general gender options.","","",FALSE,"","",""
 "social_gender.info.yml:0","Contains field configuration for profile entity for gender listing.","","",FALSE,"","",""
-"src/Plugin/UserExportPlugin/UserGender.php:23;8","Gender","","",FALSE,"","",""
+"src/Plugin/UserExportPlugin/UserGender.php:23;8","Gender","Geschlecht","",FALSE,"","",""
 "social_gender.routing.yml:0","Gender settings","","",FALSE,"","",""
 "src/Form/SocialGenderSettingsForm.php:35","Genders","","",FALSE,"","",""
 "social_gender.links.menu.yml:0","Manage the list of available genders.","","",FALSE,"","",""

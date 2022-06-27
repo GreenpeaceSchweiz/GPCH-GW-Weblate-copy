@@ -6,7 +6,7 @@
 "src/Plugin/Field/FieldFormatter/Thumbnail.php:148","'- None -'","'- Keine -'","",FALSE,"","",""
 "src/ProviderPluginBase.php:172","'@provider Video (@id)'","","",FALSE,"","",""
 "src/Plugin/Field/FieldFormatter/Video.php:184","'@widthx@height'","","",FALSE,"","",""
-"video_embed_field.module:44","About","Über","",FALSE,"","",""
+"video_embed_field.module:44","About","Info","",FALSE,"","",""
 "src/Plugin/Field/FieldType/VideoEmbedField.php:87","Allowed Providers","","",FALSE,"","",""
 "src/Plugin/Field/FieldFormatter/Video.php:139","Autoplay","Automatisch abspielen","",FALSE,"","",""
 "src/Plugin/Field/FieldFormatter/Video.php:141","Autoplay the videos for users without the ""never autoplay videos"" permission. Roles with this permission will bypass this setting.","","",FALSE,"","",""

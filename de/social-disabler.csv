@@ -2,7 +2,7 @@
 "social_disabler.permissions.yml:0","Administer Disabler settings","","","False","","",""
 "src/Form/SocialDisablerForm.php:70","Disable @types","","","False","","",""
 "config/schema/social_disabler.schema.yml:0","Disable events","","","False","","",""
-"config/schema/social_disabler.schema.yml:0","Disable groups","","","False","","",""
+"config/schema/social_disabler.schema.yml:0","Disable groups","Gruppen deaktivieren","","False","","",""
 "social_disabler.routing.yml:0","Disabler settings","","","False","","",""
 "social_disabler.links.menu.yml:0","Event and Group functionality.","","","False","","",""
 "social_disabler.info.yml:0","Hide pages and blocks based on events.","","","False","","",""

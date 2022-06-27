@@ -523,7 +523,7 @@
 "devel_generate/src/Plugin/DevelGenerate/ContentDevelGenerate.php:168","You do not have any content types that can be generated. <a href="":create-type"">Go create a new content type</a>","","","False","","",""
 "devel_generate/src/Plugin/DevelGenerate/ContentDevelGenerate.php:254","You must also enable comments for the content types you are generating. Note that some nodes will randomly receive zero comments. Some will receive the max.","","","False","","",""
 "webprofiler/templates/Collector/forms.html.twig:44","access","","","False","","",""
-"devel_generate/src/Plugin/DevelGenerate/UserDevelGenerate.php:127","ago","","","False","","",""
+"devel_generate/src/Plugin/DevelGenerate/UserDevelGenerate.php:127","ago","vor","","False","","",""
 "webprofiler/templates/Collector/views.html.twig:33","build time","","","False","","",""
 "webprofiler/templates/Collector/services.html.twig:129","class","","","False","","",""
 "devel_generate/src/Plugin/DevelGenerate/ContentDevelGenerate.php:21","content","Inhalt","","False","","",""

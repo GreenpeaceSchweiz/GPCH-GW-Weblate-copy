@@ -3,7 +3,7 @@
 "role_delegation.info.yml:0","Allows site administrators to grant some roles the authority to assign selected roles to users.","","","False","","",""
 "src/PermissionGenerator.php:41","Assign %role role","","","False","","",""
 "role_delegation.permissions.yml:0","Assign all roles","","","False","","",""
-"src/Form/RoleDelegationSettingsForm.php:76","Change roles assigned to user.","","","False","","",""
+"src/Form/RoleDelegationSettingsForm.php:76","Change roles assigned to user.","Dem Benutzer zugewiesene Rollen ändern.","","False","","",""
 "role_delegation.module:37","It provides its own tab in the user profile so that roles can be assigned without needing access to the user edit form.","","","False","","",""
 "role_delegation.info.yml:0","Permissions","","","False","","",""
 "role_delegation.info.yml:0","Role Delegation","","","False","","",""
