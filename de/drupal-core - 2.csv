@@ -3025,7 +3025,7 @@
 "modules/media/src/OEmbed/ProviderRepository.php:132","Remote oEmbed providers could not be retrieved due to error: @error. Using previously stored data. This may contain out of date information.","","",FALSE,"","",""
 "modules/media/src/OEmbed/ProviderRepository.php:147","Remote oEmbed providers database returned invalid or empty list. Using previously stored data. This may contain out of date information.","","",FALSE,"","",""
 "profiles/standard/config/optional/media.type.remote_video.yml:0","Remote video","Extern gehostetes Video","",FALSE,"","",""
-"modules/views_ui/src/Form/Ajax/ReorderDisplays.php:61;117","Remove","Entferne","",FALSE,"","",""
+"modules/views_ui/src/Form/Ajax/ReorderDisplays.php:61;117","Remove","Entfernen","",FALSE,"","",""
 "modules/views_ui/src/Form/Ajax/ReorderDisplays.php:106","Remove @id","'@id entfernen'","",FALSE,"","",""
 "modules/media_library/src/Plugin/Field/FieldWidget/MediaLibraryWidget.php:418","Remove @label","'@title entfernen'","",FALSE,"","",""
 "modules/layout_builder/src/Element/LayoutBuilder.php:349","Remove @section","","",FALSE,"","",""

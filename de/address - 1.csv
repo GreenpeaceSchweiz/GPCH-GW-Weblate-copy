@@ -91,7 +91,7 @@
 "src/Plugin/Field/FieldType/AddressItem.php:181","Property","","",FALSE,"","",""
 "address.info.yml:0","Provides functionality for handling postal addresses.","","",FALSE,"","",""
 "src/LabelHelper.php:115","Province","","",FALSE,"Address label","",""
-"src/Element/Zone.php:160","Remove","Entferne","",FALSE,"","",""
+"src/Element/Zone.php:160","Remove","Entfernen","",FALSE,"","",""
 "src/Plugin/Field/FieldType/AddressItem.php:200","Required","Erforderlich","",FALSE,"","",""
 "config/schema/address.schema.yml:0","Second line of the address block","","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/ZoneDefaultWidget.php:41","Show the zone label field","","",FALSE,"","",""

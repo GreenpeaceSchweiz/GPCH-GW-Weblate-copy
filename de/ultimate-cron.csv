@@ -135,7 +135,7 @@
 "config/schema/ultimate_cron.schema.yml:0","Module Name","","","False","","",""
 "src/Logger/LogEntry.php:168;192;202;208","N/A","","","False","","",""
 "src/Commands/UltimateCronCommands.php:164","Name","","","False","","",""
-"src/Logger/LogEntry.php:175","Never","","","False","","",""
+"src/Logger/LogEntry.php:175","Never","Nie","","False","","",""
 "src/Plugin/ultimate_cron/Scheduler/Crontab.php:57","Next scheduled run at @datetime","","","False","","",""
 "src/Plugin/ultimate_cron/Launcher/SerialLauncher.php:301","No free threads available for launching jobs","","","False","","",""
 "src/Commands/UltimateCronCommands.php:54;323;356;388","No job specified?","","","False","","",""

@@ -264,7 +264,7 @@
 "js/geolocation-widget-api.js:0","Could not determine delta for new widget input.","","",FALSE,"","",""
 "modules/geolocation_geometry/modules/geolocation_geometry_natural_earth_countries/config/optional/taxonomy.vocabulary.geolocation_geometry_countries.yml:0","Countries","","",FALSE,"","",""
 "modules/geolocation_geometry/modules/geolocation_geometry_natural_earth_countries/config/optional/taxonomy.vocabulary.geolocation_geometry_countries.yml:0","Countries of the world with geometry added, based on Natural Earth data.","","",FALSE,"","",""
-"modules/geolocation_google_maps/src/GoogleGeocoderBase.php:221","Country","","",FALSE,"","",""
+"modules/geolocation_google_maps/src/GoogleGeocoderBase.php:221","Country","Land","",FALSE,"","",""
 "modules/geolocation_leaflet/src/Form/NominatimGeocodingSettings.php:28","Custom Email for Nominatim Requests","","",FALSE,"","",""
 "modules/geolocation_leaflet/config/schema/geolocation_leaflet.map_features.schema.yml:0","Custom Marker Settings","","",FALSE,"","",""
 "modules/geolocation_leaflet/config/schema/geolocation_leaflet.map_features.schema.yml:0","Custom Tile Layer","","",FALSE,"","",""

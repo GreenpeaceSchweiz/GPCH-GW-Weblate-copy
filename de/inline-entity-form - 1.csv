@@ -52,7 +52,7 @@
 "src/Plugin/Field/FieldWidget/InlineEntityFormBase.php:263","Plural label","","",FALSE,"","",""
 "inline_entity_form.info.yml:0","Provides a widget for inline management (creation, modification, removal) of referenced entities.","","",FALSE,"","",""
 "src/Form/NodeInlineForm.php:40","Published","Veröffentlicht","",FALSE,"","",""
-"src/Plugin/Field/FieldWidget/InlineEntityFormComplex.php:395;817","Remove","Entferne","",FALSE,"","",""
+"src/Plugin/Field/FieldWidget/InlineEntityFormComplex.php:395;817","Remove","Entfernen","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/InlineEntityFormComplex.php:136","Select the method used to collect autocomplete suggestions. Note that <em>Contains</em> can cause performance issues on sites with thousands of nodes.","Die Methode zur Sammlung von Autovervollständigungsvorschlägen auswählen. Dabei ist zu beachten, dass <em>Enthält</em> auf Websites mit tausenden von Beiträgen grosse Geschwindigkeitseinbussen verursachen kann.","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/InlineEntityFormBase.php:253","Singular label","","",FALSE,"","",""
 "inline_entity_form.module:344","Sort order","Sortierreihenfolge","",FALSE,"","",""

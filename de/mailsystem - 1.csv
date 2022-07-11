@@ -29,7 +29,7 @@
 "src/Form/AdminForm.php:182","No specific configuration yet.","Noch keine spezifische Konfiguration vorhanden.","",FALSE,"","",""
 "config/schema/mailsystem.schema.yml:0","Per module/key setting.","","",FALSE,"","",""
 "mailsystem.info.yml:0","Provides a user interface for per-module and site-wide mail_system selection.","Stellt eine Benutzeroberfläche für die Auswahl des „E-Mail-Systems“ pro Modul und der gesamten Website zu Verfügung.","",FALSE,"","",""
-"src/Form/AdminForm.php:180","Remove","Entferne","",FALSE,"","",""
+"src/Form/AdminForm.php:180","Remove","Entfernen","",FALSE,"","",""
 "mailsystem.permissions.yml:0","Select the default, per-module, and per-mailing MailSystemInterface to use for formatting and sending email messages.","","",FALSE,"","",""
 "src/Form/AdminForm.php:107","Select the standard plugin for formatting an email before sending it. This plugin implements <a href="":interface"">@interface</a> and in special the <a href="":format"">@format</a> function.","Wähle das Standard Plugin aus, das die E-Mails vor dem Versand formatiert. Dieses Mail Plugin implementiert das <a href="":interface"">@interface</a> und die Methode <a href="":format"">@format</a>.","",FALSE,"","",""
 "src/Form/AdminForm.php:116","Select the standard plugin for sending an email after formatting it. This plugin implements <a href="":interface"">@interface</a> and in special the <a href="":mail"">@mail</a> function.","Wähle das Standard Plugin aus, das die E-Mails nach der Formatierung versendet. Dieses Mail Plugin implementiert das <a href="":interface"">@interface</a> und die Methode <a href="":mail"">@mail</a>.","",FALSE,"","",""

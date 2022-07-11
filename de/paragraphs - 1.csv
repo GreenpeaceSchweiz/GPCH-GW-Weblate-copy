@@ -223,7 +223,7 @@
 "modules/paragraphs_demo/config/optional/workflows.workflow.editorial.yml:0","Publish","","",FALSE,"Workflow transition label","",""
 "src/Entity/Paragraph.php:366","Published","Veröffentlicht","",FALSE,"","",""
 "modules/paragraphs_demo/config/optional/workflows.workflow.editorial.yml:0","Published","","",FALSE,"Workflow state label","",""
-"src/Plugin/Field/FieldWidget/ParagraphsWidget.php:621","Remove","Entferne","",FALSE,"","",""
+"src/Plugin/Field/FieldWidget/ParagraphsWidget.php:621","Remove","Entfernen","",FALSE,"","",""
 "modules/paragraphs_library/config/optional/views.view.paragraphs_library_browser.yml:0","Reset","Zurücksetzen","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/InlineParagraphsWidget.php:559","Restore","Wiederherstellen","",FALSE,"","",""
 "modules/paragraphs_demo/config/optional/workflows.workflow.editorial.yml:0","Restore","","",FALSE,"Workflow transition label","",""

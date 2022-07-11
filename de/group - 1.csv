@@ -250,7 +250,7 @@
 "src/Entity/Views/GroupViewsData.php:26","Relate to the group content entities. From there you can relate to the actual grouped entities.","","",FALSE,"","",""
 "src/Entity/Views/GroupContentViewsData.php:80","Relates to the @entity_type entity the group content represents.","","",FALSE,"","",""
 "group.views.inc:44","Relates to the group content entities that represent the @entity_type.","","",FALSE,"","",""
-"group.links.task.yml:0","Remove","Entferne","",FALSE,"","",""
+"group.links.task.yml:0","Remove","Entfernen","",FALSE,"","",""
 "config/optional/views.view.group_members.yml:0","Remove member","","",FALSE,"","",""
 "config/optional/views.view.group_members.yml:0","Remove member link","","",FALSE,"","",""
 "group.group.permissions.yml:0","Requires that you can view unpublished groups (through permissions or other access modules)","","",FALSE,"","",""

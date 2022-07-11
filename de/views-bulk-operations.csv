@@ -48,7 +48,7 @@
 "src/Plugin/views/field/ViewsBulkOperationsBulkForm.php:1005","Form error occurred, Unavailable action selected.","","","False","","",""
 "src/Plugin/views/field/ViewsBulkOperationsBulkForm.php:1002","Form error occurred, please try again.","","","False","","",""
 "src/Commands/ViewsBulkOperationsCommands.php:240","Initialization time: @time ms.","","","False","","",""
-"src/Form/ViewsBulkOperationsFormTrait.php:84","Items selected:","","","False","","",""
+"src/Form/ViewsBulkOperationsFormTrait.php:84","Items selected:","Ausgewählte Elemente:","","False","","",""
 "src/Plugin/views/field/ViewsBulkOperationsBulkForm.php:517","Leave empty for the default label.","","","False","","",""
 "src/Plugin/views/field/ViewsBulkOperationsBulkForm.php:403","NOTE","HINWEIS","","False","","",""
 "views_bulk_operations.install:71","No conversions were required by Views Bulk Operations.","","","False","","",""

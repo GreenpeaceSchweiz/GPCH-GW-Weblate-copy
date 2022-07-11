@@ -17,7 +17,7 @@
 "src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:566","Pagination can be a deceptively complex topic. It's easy to fall into traps and not follow best-practices. @link.","","","False","","",""
 "src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:385","Related endpoint","","","False","","",""
 "src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:404","Relationship endpoint","","","False","","",""
-"src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:314","Remove (@tag)","","","False","","",""
+"src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:314","Remove (@tag)","Entferne (@tag)","","False","","",""
 "src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:981","Resource ID","","","False","","",""
 "src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:980","Resource type name","","","False","","",""
 "src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:614","The %label object","","","False","","",""

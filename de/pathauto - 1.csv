@@ -128,7 +128,7 @@
 "src/Form/PathautoBulkUpdateForm.php:108","Regenerate URL aliases for all paths","URL-Aliase für alle Pfade erneut erzeugen","",FALSE,"","",""
 "src/Commands/PathautoCommands.php:271","Regenerate URL aliases for all paths.","","",FALSE,"","",""
 "config/schema/pathauto_pattern.schema.yml:0","Relationship","Beziehung","",FALSE,"","",""
-"src/Form/PathautoSettingsForm.php:281","Remove","Entferne","",FALSE,"","",""
+"src/Form/PathautoSettingsForm.php:281","Remove","Entfernen","",FALSE,"","",""
 "src/Form/PathautoSettingsForm.php:282","Replace by separator","Mit Seperator ersetzten","",FALSE,"","",""
 "src/AliasCleaner.php:303","Right curly bracket","Rechte geschweifte Klammer","",FALSE,"","",""
 "src/AliasCleaner.php:317","Right parenthesis","Schliessende Klammer","",FALSE,"","",""

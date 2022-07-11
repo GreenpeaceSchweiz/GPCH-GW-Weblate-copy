@@ -128,7 +128,7 @@
 "google_analytics.permissions.yml:0","Perform maintenance tasks for Google Analytics.","","","False","","",""
 "config/schema/google_analytics.schema.yml:0","Premium account","","","False","","",""
 "src/Form/GoogleAnalyticsAdminSettingsForm.php:472","Privacy","","","False","","",""
-"src/Form/GoogleAnalyticsAdminSettingsForm.php:168;591","Remove","","","False","","",""
+"src/Form/GoogleAnalyticsAdminSettingsForm.php:168;591","Remove","Entfernen","","False","","",""
 "src/Form/GoogleAnalyticsAdminSettingsForm.php:396;446","Requires: @module-list","","","False","","",""
 "js/google_analytics.admin.js:0","Restricted to certain pages","","","False","","",""
 "config/schema/google_analytics.schema.yml:0","Role","","","False","","",""

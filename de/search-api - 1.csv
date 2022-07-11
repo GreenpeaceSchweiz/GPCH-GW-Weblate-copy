@@ -546,7 +546,7 @@
 "config/schema/search_api.processor.schema.yml:0","Regular expression for ignored characters","","",FALSE,"","",""
 "config/schema/search_api.processor.schema.yml:0","Regular expression for spaces","","",FALSE,"","",""
 "search_api.views.inc:521","Relevance","Relevanz","",FALSE,"","",""
-"src/Form/IndexFieldsForm.php:368","Remove","Entferne","",FALSE,"","",""
+"src/Form/IndexFieldsForm.php:368","Remove","Entfernen","",FALSE,"","",""
 "config/optional/tour.tour.search-api-index-fields.yml:0","Remove field","Feld löschen","",FALSE,"","",""
 "config/optional/tour.tour.search-api-index-fields.yml:0","Removes a field from the index again. (Note: Sometimes, a field is required (for example, by a processor) and cannot be removed.)","","",FALSE,"","",""
 "src/Plugin/views/field/SearchApiEntityField.php:177;221","Render settings","","",FALSE,"","",""
