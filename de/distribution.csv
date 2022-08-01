@@ -195,7 +195,7 @@ False\|My unmuted groups'","","","False","","",""
 ","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.moved_content_between_groups.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> created [social_group:content_type] in <a href=""[message:gurl]"">[message:gtitle]</a></p>","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> erstellte [social_group:content_type] in <a href=""[message:gurl]"">[message:gtitle]</a></p>","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_content_in_joined_group.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> created [social_group:created_entity_link_html] in the <a href=""[message:gurl]"">[message:gtitle]</a> group [message:count_groups_per_node]</p>
-","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> erstellte [social_group:created_entity_link_html] in der<a href=""[message:gurl]"">[message:gtitle]</a> Gruppe[message:count_groups_per_node]</p>
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> erstellte [social_group:created_entity_link_html] in der <a href=""[message:gurl]"">[message:gtitle]</a> Gruppe[message:count_groups_per_node]</p>
 ","","False","","",""
 "modules/social_features/social_follow_taxonomy/modules/social_follow_tag/config/install/message.template.create_node_following_tag.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> created [social_taxonomy:indefinite_article] [social_taxonomy:content_type] <a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title]</a> with the tag(s) that you follow.</p>
 ","","","False","","",""
@@ -281,7 +281,7 @@ False\|My unmuted groups'","","","False","","",""
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> hat eine/n [social_group:content_type] in der Gruppe <a href=""[message:gurl]"">[message:gtitle]</a> erstellt [message:count_groups_per_node] </p>
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> hat [social_group:content_type] in der Gruppe <a href=""[message:gurl]"">[message:gtitle]</a> erstellt [message:count_groups_per_node] </p>
 
 <p>[message:preview]</p>
 
@@ -352,7 +352,7 @@ False\|My unmuted groups'","","","False","","",""
 <p>[message:cta_button]</p>
 ","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.join_to_group.yml:0;0","<p><a href=""[message:recipient-user:url:absolute]"">[message:recipient-user:display-name]</a> joined the <a href=""[message:gurl]"">[message:gtitle]</a> group</p>
-","<p><a href=""[message:recipient-user:url:absolute]"">[message:recipient-user:display-name]</a> ist der Gruppe<a href=""[message:gurl]"">[message:gtitle]</a> begetreten</p>
+","<p><a href=""[message:recipient-user:url:absolute]"">[message:recipient-user:display-name]</a> ist der Gruppe <a href=""[message:gurl]"">[message:gtitle]</a> beigetreten</p>
 ","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.join_to_group.yml:0","<p><a href=""[message:recipient-user:url:absolute]"">[message:recipient-user:display-name]</a> joined the <a href=""[message:gurl]"">[message:gtitle]</a> group</p>
 
@@ -503,14 +503,14 @@ False\|My unmuted groups'","","","False","","",""
 ","","False","","",""
 "modules/social_features/social_core/src/Controller/SocialCoreController.php:67","<p>You have insufficient permissions to view the page you're trying to access. There could be several reasons for this:</p><ul><li>You are trying to edit content you're not allowed to edit.</li><li>You are trying to view content (from a group) you don't have access to.</li><li>You are trying to access administration pages.</li></ul><p>Click the back button of your browser to go back where you came from or click <a href="":url"">here</a> to go to the homepage</p>","<p>Du hast keine ausreichenden Berechtigungen, um die Seite anzuzeigen, auf die du zugreifen möchtest. Dies kann verschiedene Gründe haben: </p><ul><li>Du versuchst, Inhalte zu bearbeiten, die du nicht bearbeiten darfst.</li><li> Du versuchst Inhalte (aus einer Gruppe) anzuzeigen, auf die du keinen Zugriff hast.</li><li> Du versuchst auf Verwaltungsseiten zuzugreifen.</li></ul><p>Klicke auf die Zurück-Schaltfläche deines Browsers, um auf die vorherige Seite zurück zu kommen oder klicke <a href="":url"">hier</a> um zur Startseite zu gelangen</p>","","False","","",""
 "modules/social_features/social_private_message/config/install/message.template.create_private_message.yml:0;0","<p>You have received a <a href=""[message:pmt-url]"">message</a> from <a href=""[message:author:url:absolute]"">[message:author:display-name]</a></p>
-","<p>Du hast eine <a href=""[message:pmt-url]"">Nachricht</a> von <a href=""[message:author:url:absolute]"">[message:author:display-name]</a>erhalten</p>
+","<p>Du hast eine <a href=""[message:pmt-url]"">Nachricht</a> von <a href=""[message:author:url:absolute]"">[message:author:display-name]</a> erhalten</p>
 ","","False","","",""
 "modules/social_features/social_private_message/config/install/message.template.create_private_message.yml:0","<p>You have received a <a href=""[message:pmt-url]"">message</a> from <a href=""[message:author:url:absolute]"">[message:author:display-name]</a></p>
 
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","<p>Du hast eine <a href=""[message:pmt-url]"">Nachricht</a> von <a href=""[message:author:url:absolute]"">[message:author:display-name]</a>erhalten</p>
+","<p>Du hast eine <a href=""[message:pmt-url]"">Nachricht</a> von <a href=""[message:author:url:absolute]"">[message:author:display-name]</a> erhalten</p>
 
 <p>[message:preview]</p>
 
