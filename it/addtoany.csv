@@ -193,7 +193,7 @@ The project you are looking for does not exist or is not publicly available.
 
 </div>
 <form id="link-post" method="POST">
-<input type="hidden" name="csrfmiddlewaretoken" value="qrpsOeC0s7lDnzheAxXPAPmrAVqWrjbxFsfVkacYL7hDWirxW62QysoguVmPXuQO">
+<input type="hidden" name="csrfmiddlewaretoken" value="TYh3GnznFxyJ6yitIOQpcZ9PKHLJhwhaxQsrUJkZ9DPtuC9Xq144Z3APa6C9AUhO">
 </form>
 <!-- Creates the bootstrap modal where the image will appear -->
 <div class="modal fade fullmodal" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="screenshotModal" aria-hidden="true">
