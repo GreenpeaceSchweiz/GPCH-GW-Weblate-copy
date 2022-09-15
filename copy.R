@@ -10,7 +10,8 @@ library(weblatetools)
 setup(api.url = "https://translate.getopensocial.com/api/",
       token = Sys.getenv("WEBLATE_PAT"),
       to.project = "gpch",
-      debug = Sys.getenv("GHACTION_DEBUG"))
+      debug = ifelse(Sys.getenv("GHACTION_DEBUG") == "TRUE", TRUE, FALSE)
+      )
 
 # Working with the components from the destination project is recommended.
 # If, during the copy process, you try to get a component that does not exist in

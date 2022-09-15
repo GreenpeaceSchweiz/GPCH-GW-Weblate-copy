@@ -10,9 +10,9 @@ on:
         description: 'Custom Slug (uses components from GPCH if left empty)'
         required: false
       debug:
-        description: 'Enable httr debug logging?'
+        description: 'Enable httr debug logging? ('TRUE' to enable)'
         required: false
-        default: false
+        default: 'FALSE'
 
 jobs: 
   copy:
