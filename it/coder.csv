@@ -24,7 +24,7 @@
 "coder_sniffer/Drupal/Test/bad/bad.install:13","The base table for nodes.","","","False","","",""
 "coder_sniffer/Drupal/Test/bad/bad.install:16","The primary identifier for a node.","","","False","","",""
 "coder_sniffer/Drupal/Test/good/good.php:164;174","xyz @url","","","False","","",""
-"coder_sniffer/Drupal/Test/good/good.php:746","special character: \""","","","False","","",""
+"coder_sniffer/Drupal/Test/good/good.php:746","special character: \\""","","","False","","",""
 "coder_sniffer/Drupal/Test/good/good.php:747","special character: '","","","False","","",""
 "coder_sniffer/Drupal/Test/good/good.php:749","Link to Drupal's <a href=""@url"">admin pages</a>.","","","False","","",""
 "coder_sniffer/Drupal/Test/good/good.php:753;756;758;763;765;767;769;772;774;777;779;810;818","x","","","False","","",""

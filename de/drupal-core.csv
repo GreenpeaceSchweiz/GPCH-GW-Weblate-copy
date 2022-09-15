@@ -5845,7 +5845,7 @@ Siehe <a href=""http://php.net/manual/function.strtotime.php"">strtotime</a> fü
 "modules/views/src/Plugin/views/style/Grid.php:50","Number of columns","Anzahl der Spalten","","False","","",""
 "modules/comment/src/Plugin/Field/FieldType/CommentItem.php:76","Number of comments","Anzahl der Kommentare","","False","","",""
 "modules/statistics/src/Plugin/Block/StatisticsPopularBlock.php:120","Number of day's top views to display","Anzahl der häufigsten Aufrufe des Tages","","False","","",""
-"modules/statistics/config/schema/statistics.schema.yml:0","Number of day\s top views to display","Anzahl von Tagen, die die meistgelesenen Beiträge angezeigt werden sollen.","","False","","",""
+"modules/statistics/config/schema/statistics.schema.yml:0","Number of day\\s top views to display","Anzahl von Tagen, die die meistgelesenen Beiträge angezeigt werden sollen.","","False","","",""
 "modules/aggregator/src/Plugin/aggregator/processor/DefaultProcessor.php:142","Number of items shown in listing pages","Anzahl von Einträgen auf Übersichtsseiten","","False","","",""
 "modules/aggregator/src/Plugin/migrate/source/AggregatorFeed.php:45","Number of items to display in the feed's block.","Anzahl anzuzeigender Elemente im Block des Feeds.","","False","","",""
 "modules/search/src/SearchPageListBuilder.php:229","Number of items to index per cron run","Anzahl der Objekte, die in einem Cron-Lauf indexiert werden","","False","","",""

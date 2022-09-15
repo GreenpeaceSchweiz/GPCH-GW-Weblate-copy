@@ -6,7 +6,3 @@
 "jquery_ui_touch_punch.module:19","Visit the <a href="":project_link"">jQuery UI Touch Punch project page</a> on Drupal.org for more information on this module.","","","False","","",""
 "jquery_ui_touch_punch.info.yml:0","jQuery UI","","","False","","",""
 "jquery_ui_touch_punch.info.yml:0","jQuery UI Touch Punch","","","False","","",""
-"jquery_ui_touch_punch.install:43","jQuery UI Touch Punch library missing","","","False","","",""
-"jquery_ui_touch_punch.install:44","jQuery UI Touch Punch requires the jquery.ui.touch-punch.min.js library.
-        Download it (https://github.com/furf/jquery-ui-touch-punch) and place it in the
-        libraries folder (/libraries)","","","False","","",""

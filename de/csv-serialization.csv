@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"csv_serialization.install:11","CSV Serialization requires the League\Csv library.","","","False","","",""
+"csv_serialization.install:11","CSV Serialization requires the League\\Csv library.","","","False","","",""
 "csv_serialization.info.yml:0","Provides CSV as a serialization format.","","","False","","",""
 "csv_serialization.info.yml:0","Serialization (CSV)","","","False","","",""
 "csv_serialization.info.yml:0","Web services","Webservices","","False","","",""

@@ -27,7 +27,7 @@ The Acquia Telemetry module sends anonymized data about Acquia product usage to 
 "modules/lightning_roles/config/schema/lightning_roles.schema.yml:0","Enabled","","","False","","",""
 "modules/lightning_search/config/install/views.view.search.yml:0","Enter keywords to search the site.","","","False","","",""
 "config/schema/lightning_core.schema.yml:0","Extension versions","","","False","","",""
-"config/install/core.date_format.long_12h.yml:0","F j, Y \a\t g:i A","","","False","PHP date format","",""
+"config/install/core.date_format.long_12h.yml:0","F j, Y \\a\\t g:i A","","","False","PHP date format","",""
 "modules/lightning_roles/src/Form/SettingsForm.php:72","Gives permission to @permissions","","","False","","",""
 "src/YieldToArgumentTrait.php:46","If this argument has a non-null value (given or default), this filter will not be exposed to the user.","","","False","","",""
 "config/schema/lightning_core.schema.yml:0","Internal","","","False","","",""

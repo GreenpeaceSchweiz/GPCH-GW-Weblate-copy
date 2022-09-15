@@ -5858,7 +5858,7 @@ Lingua delle pagine di amministrazione</em>nella pagina del profilo di un utente
 "modules/views/src/Plugin/views/style/Grid.php:50","Number of columns","Numero di colonne","","False","","",""
 "modules/comment/src/Plugin/Field/FieldType/CommentItem.php:76","Number of comments","Numero di commenti","","False","","",""
 "modules/statistics/src/Plugin/Block/StatisticsPopularBlock.php:120","Number of day's top views to display","Numero di più visti del giorno da mostrare","","False","","",""
-"modules/statistics/config/schema/statistics.schema.yml:0","Number of day\s top views to display","","","False","","",""
+"modules/statistics/config/schema/statistics.schema.yml:0","Number of day\\s top views to display","","","False","","",""
 "modules/aggregator/src/Plugin/aggregator/processor/DefaultProcessor.php:142","Number of items shown in listing pages","Numero di voci visualizzate nelle pagine di elenchi","","False","","",""
 "modules/aggregator/src/Plugin/migrate/source/AggregatorFeed.php:45","Number of items to display in the feed's block.","Numero di elementi da mostrare nel blocco del feed.","","False","","",""
 "modules/search/src/SearchPageListBuilder.php:229","Number of items to index per cron run","Numero di elementi da indicizzare per ogni esecuzione di cron","","False","","",""

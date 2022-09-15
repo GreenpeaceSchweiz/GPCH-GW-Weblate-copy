@@ -2,6 +2,8 @@
 "src/Form/SocialGeolocationSettings.php:137","<b>This value is controlled by a configuration overwrite and can not be edited. Contact the site administrator to change this.</b>","","","False","","",""
 "modules/social_geolocation_maps/config/schema/social_geolocation_maps.settings.yml:0","Cache options","","","False","","",""
 "social_geolocation.module:119","City, Country","","","False","","",""
+"social_geolocation.links.menu.yml:0","Configure Geolocation","","","False","","",""
+"social_geolocation.links.menu.yml:0","Configure the Geolocation provider, Open Street Maps or Google (with key).","","","False","","",""
 "modules/social_geolocation_maps/social_geolocation_maps.module:137","Display map with geolocation of members on the members page","","","False","","",""
 "social_geolocation.module:104","Distance (@unitOfMeasurement)","","","False","","",""
 "modules/social_geolocation_maps/config/schema/social_geolocation_maps.settings.yml:0","Enable members map","","","False","","",""
