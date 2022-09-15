@@ -1,15 +1,16 @@
 library(weblatetools)
 
 # copyTranslations() stores the translation files and creates log files.
-# Choose an appropriate working directory. 
+# Choose an appropriate working directory.
 # setwd("~/myproject")
 
-# Initialize some base parameters. "to.project" is set here instead of in 
-# copyTranslations() or postFile() to avoid mistakenly writing to the wrong 
+# Initialize some base parameters. "to.project" is set here instead of in
+# copyTranslations() or postFile() to avoid mistakenly writing to the wrong
 # project.
 setup(api.url = "https://translate.getopensocial.com/api/",
       token = Sys.getenv("WEBLATE_PAT"),
-      to.project = "gpch")
+      to.project = "gpch",
+      debug = Sys.getenv("GHACTION_DEBUG"))
 
 # Working with the components from the destination project is recommended.
 # If, during the copy process, you try to get a component that does not exist in
@@ -22,7 +23,7 @@ if(Sys.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch" &&
    Sys.getenv("GHACTION_CUSTOM_SLUG") != ""){
    cat(paste("GHACTION_CUSTOM_SLUG: ", Sys.getenv("GHACTION_CUSTOM_SLUG"),"\n"))
    slugs <- Sys.getenv("GHACTION_CUSTOM_SLUG")
-}		
+}
 
 # COPY
 cat("=== GERMANY ===========================\n")
@@ -60,5 +61,5 @@ new_it <- copyTranslations(components = slugs,
 #                                                        replace = c("ss"))),
                            verbose = TRUE)
 
-# For commit message						   
+# For commit message
 system(paste("echo 'new_tl_count=", (new_de + new_fr + new_it),"' >> $GITHUB_ENV", sep =""))

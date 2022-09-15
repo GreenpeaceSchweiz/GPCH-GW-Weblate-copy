@@ -9,6 +9,10 @@ on:
       custom_slug:
         description: 'Custom Slug (uses components from GPCH if left empty)'
         required: false
+      debug:
+        description: 'Enable httr debug logging?'
+        required: false
+        default: false
 
 jobs: 
   copy:
@@ -20,6 +24,7 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }} # needed for devtools::install_github() to work
       WEBLATE_PAT: ${{ secrets.WEBLATE_PAT }}
       GHACTION_CUSTOM_SLUG: ${{ github.event.inputs.custom_slug }}
+      GHACTION_DEBUG: ${{ github.event.inputs.debug }}
 
     # Load repo and install R
     steps:
