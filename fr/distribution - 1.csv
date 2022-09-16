@@ -37,9 +37,9 @@
 "modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0;0;0;0",",","","",FALSE,"","",""
 "modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0","'- All -'","'- Tout -'","",FALSE,"","",""
 "modules/social_features/social_user/social_user.module:144","'- Any -'","'- Tout -'","",FALSE,"","",""
-"modules/social_features/social_group/config/install/views.view.groups.yml:0","'- Any -\|- Any -
-True\|My muted groups
-False\|My unmuted groups'","","",FALSE,"","",""
+"modules/social_features/social_group/config/install/views.view.groups.yml:0","'- Any -\\|- Any -
+True\\|My muted groups
+False\\|My unmuted groups'","","",FALSE,"","",""
 "modules/social_features/social_group/modules/social_group_default_route/social_group_default_route.module:43","'- Default -'","'- Par défaut -'","",FALSE,"","",""
 "modules/social_features/social_core/src/Entity/Element/EntityAutocomplete.php:29","'- Restricted access -'","'- Accès restreint -'","",FALSE,"","",""
 "modules/custom/activity_logger/activity_logger.module:112","'- none -'","","",FALSE,"","",""

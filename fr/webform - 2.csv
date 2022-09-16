@@ -1361,7 +1361,7 @@ Saturday: Saturday
 "src/WebformAddonsManager.php:1305","Swift Mailer <em>(requires Mail System)</em>","","",FALSE,"","",""
 "src/Plugin/WebformElement/WebformHeight.php:123","Symbols (″ and ′)","","",FALSE,"","",""
 "src/Commands/WebformCliService.php:1079","THIS IS AN EXPERIMENTAL DRUSH COMMAND.","","",FALSE,"","",""
-"src/Plugin/WebformExporter/DelimitedWebformExporter.php:55","Tab (\t)","","",FALSE,"","",""
+"src/Plugin/WebformExporter/DelimitedWebformExporter.php:55","Tab (\\t)","","",FALSE,"","",""
 "src/WebformLibrariesManager.php:460","Tabby","","",FALSE,"","",""
 "src/WebformLibrariesManager.php:462","Tabby is used to display tabs in the administrative UI","","",FALSE,"","",""
 "src/WebformLibrariesManager.php:461","Tabby provides lightweight, accessible vanilla JS toggle tabs.","","",FALSE,"","",""

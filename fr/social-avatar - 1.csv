@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"social_avatar.module:26","About","À propos","",FALSE,"","",""
+"social_avatar.module:26","About","","",FALSE,"","",""
 "social_avatar.module:27","Add ability to choose an avatar from predefined list.","","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/SocialAvatarMediaLibraryWidget.php:11","Allows you to select items from the avatars media library.","","",FALSE,"","",""
 "config/install/paragraphs.paragraphs_type.avatar.yml:0","Avatar","","",FALSE,"","",""

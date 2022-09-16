@@ -2196,7 +2196,7 @@
 "modules/views/src/Plugin/views/style/Grid.php:50","Number of columns","Numero di colonne","",FALSE,"","",""
 "modules/comment/src/Plugin/Field/FieldType/CommentItem.php:76","Number of comments","Numero di commenti","",FALSE,"","",""
 "modules/statistics/src/Plugin/Block/StatisticsPopularBlock.php:120","Number of day's top views to display","Numero di più visti del giorno da mostrare","",FALSE,"","",""
-"modules/statistics/config/schema/statistics.schema.yml:0","Number of day\s top views to display","","",FALSE,"","",""
+"modules/statistics/config/schema/statistics.schema.yml:0","Number of day\\s top views to display","","",FALSE,"","",""
 "modules/aggregator/src/Plugin/aggregator/processor/DefaultProcessor.php:142","Number of items shown in listing pages","Numero di voci visualizzate nelle pagine di elenchi","",FALSE,"","",""
 "modules/aggregator/src/Plugin/migrate/source/AggregatorFeed.php:45","Number of items to display in the feed's block.","Numero di elementi da mostrare nel blocco del feed.","",FALSE,"","",""
 "modules/search/src/SearchPageListBuilder.php:229","Number of items to index per cron run","Numero di elementi da indicizzare per ogni esecuzione di cron","",FALSE,"","",""

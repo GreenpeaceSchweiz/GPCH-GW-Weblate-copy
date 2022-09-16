@@ -15,7 +15,7 @@
 "social_badge.info.yml:0","Social","Social","",FALSE,"","",""
 "social_badge.info.yml:0","Social Badge","","",FALSE,"","",""
 "config/install/core.entity_view_mode.badge.teaser.yml:0","Teaser","","",FALSE,"","",""
-"src/Entity/Badge.php:89","Title","Titre","",FALSE,"","",""
+"src/Entity/Badge.php:89","Title","","",FALSE,"","",""
 "src/Form/BadgeForm.php:64","Triggers","","",FALSE,"","",""
 "src/Entity/Badge.php:11","badge","","",FALSE,"","",""
 "src/Entity/Badge.php:11","badges","","",FALSE,"","",""

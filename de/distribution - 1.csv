@@ -37,9 +37,9 @@
 "modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0;0;0;0",",",",","",FALSE,"","",""
 "modules/social_features/social_user/config/install/views.view.user_admin_people.yml:0","'- All -'","'- Alle -'","",FALSE,"","",""
 "modules/social_features/social_user/social_user.module:144","'- Any -'","'- Alle -'","",FALSE,"","",""
-"modules/social_features/social_group/config/install/views.view.groups.yml:0","'- Any -\|- Any -
-True\|My muted groups
-False\|My unmuted groups'","","",FALSE,"","",""
+"modules/social_features/social_group/config/install/views.view.groups.yml:0","'- Any -\\|- Any -
+True\\|My muted groups
+False\\|My unmuted groups'","","",FALSE,"","",""
 "modules/social_features/social_group/modules/social_group_default_route/social_group_default_route.module:43","'- Default -'","'- Standard -'","",FALSE,"","",""
 "modules/social_features/social_core/src/Entity/Element/EntityAutocomplete.php:29","'- Restricted access -'","'- Eingeschränkter Zugriff -'","",FALSE,"","",""
 "modules/custom/activity_logger/activity_logger.module:112","'- none -'","","",FALSE,"","",""
@@ -230,7 +230,8 @@ False\|My unmuted groups'","","",FALSE,"","",""
 <p>[message:cta_button]</p>
 ","",FALSE,"","",""
 "modules/social_features/social_mentions/config/install/message.template.create_mention_comment.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> mentioned you in a <a href=""[message:field_message_related_object:entity:url:absolute]"">comment</a> on [social_mentions:commented_entity_link_html]</p>
-","","",FALSE,"","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> erwähnte dich in einem <a href=""[message:field_message_related_object:entity:url:absolute]"">Kommentar</a> on [social_mentions:commented_entity_link_html]</p>
+","",FALSE,"","",""
 "modules/social_features/social_mentions/config/install/message.template.create_mention_comment.yml:0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> mentioned you in a <a href=""[message:field_message_related_object:entity:url:absolute]"">comment</a>&nbsp;made on the [social_mentions:commented_entity_link_html]</p>
 
 <p>[message:preview]</p>

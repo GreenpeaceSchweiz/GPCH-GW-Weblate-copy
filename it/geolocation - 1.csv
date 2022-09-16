@@ -1,5 +1,4 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"modules/geolocation_leaflet/modules/geolocation_leaflet_demo/config/optional/views.view.geolocation_demo_leaflet_commonmap_marker_interaction.yml:0","#node-{{ nid }}","","",FALSE,"","",""
 "src/MapFeatureBase.php:48","'%feature enabled'","","",FALSE,"","",""
 "src/MapProviderBase.php:132","'%map_provider settings'","","",FALSE,"","",""
 "modules/geolocation_leaflet/modules/geolocation_leaflet_demo/config/optional/views.view.geolocation_demo_leaflet_commonmap_marker_interaction.yml:0;0;0",",","","",FALSE,"","",""
