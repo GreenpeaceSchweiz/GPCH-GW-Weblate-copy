@@ -7,4 +7,4 @@
 "message_notify.info.yml:0","Message notify.","","",FALSE,"","",""
 "config/install/core.entity_view_mode.message.mail_body.yml:0","Notify - Email body","","",FALSE,"","",""
 "config/install/core.entity_view_mode.message.mail_subject.yml:0","Notify - Email subject","","",FALSE,"","",""
-"src/Plugin/Notifier/Email.php:13","Send messages via email","","",FALSE,"","",""
+"src/Plugin/Notifier/Email.php:13","Send messages via email","Nachrichten per E-Mail verschicken","",FALSE,"","",""

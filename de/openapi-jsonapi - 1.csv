@@ -5,7 +5,7 @@
 "src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:291","'@route_type: @fieldName (@targetType)'","","",FALSE,"","",""
 "src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:351","Collection endpoint","","",FALSE,"","",""
 "src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:832","Configuration entity @entity_type","","",FALSE,"","",""
-"src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:303","Create (@tag)","","",FALSE,"","",""
+"src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:303","Create (@tag)","Erstelle (@tag)","",FALSE,"","",""
 "src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:784","Describes the payload for @entity_type entities.","","",FALSE,"","",""
 "src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:579","Embed related entities in the response. For example: use a query string like <code>?include=comments.author</code> to include all the entities referenced by <code>comments</code> and all the entities referenced by <code>author</code> on those entities!. @link.","","",FALSE,"","",""
 "src/Plugin/openapi/OpenApiGenerator/JsonApiGenerator.php:367","Individual endpoint","","",FALSE,"","",""

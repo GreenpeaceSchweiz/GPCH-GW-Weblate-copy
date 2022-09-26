@@ -64,7 +64,7 @@
 "modules/social_challenge_phase/src/Entity/Phase.php:181","Changed","Geändert","","False","","",""
 "social_challenge.module:740","Closed Challenge","","","False","","",""
 "modules/social_closed_challenge/src/Plugin/MultipleContentBlock/ClosedChallengeContent.php:7","Closed challenge","","","False","","",""
-"modules/social_idea_coauthors/config/optional/block.block.views_block__idea_coauthors_idea_coauthors.yml:0;0","Co-authors","","","False","","",""
+"modules/social_idea_coauthors/config/optional/block.block.views_block__idea_coauthors_idea_coauthors.yml:0;0","Co-authors","Co-Autoren","","False","","",""
 "modules/social_idea_coauthors/src/Controller/CoauthorController.php:218","Co-authorship request was accepted. Your response has been sent to the requester as a private message.","Der Antrag auf Co-Autorenschaft wurde angenommen. Deine Antwort wurde als private Nachricht an die:den Anfragende:n gesendet.","","False","","",""
 "modules/social_idea_coauthors/src/Controller/CoauthorController.php:252","Co-authorship request was declined. Your response has been sent to the requester as a private message.","Der Antrag auf Co-Autorenschaft wurde abgelehnt. Deine Antwort wurde als private Nachricht an die:den Anfragende:n gesendet.","","False","","",""
 "src/Plugin/Field/FieldFormatter/CommentIdeaFormatter.php:11","Comment on idea","","","False","","",""

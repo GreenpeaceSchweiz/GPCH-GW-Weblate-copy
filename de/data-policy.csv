@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "src/Form/InformBlockDeleteForm.php:43","'%label has been deleted.'","'%label wurde gelöscht.'","","False","","",""
-"src/Form/DataPolicyAgreement.php:193","'@name field is required.'","","","False","","",""
+"src/Form/DataPolicyAgreement.php:193","'@name field is required.'","Das Feld @name ist erforderlich.","","False","","",""
 "src/Entity/DataPolicy.php:231","A boolean indicating whether the Data policy is published.","","","False","","",""
 "src/Entity/UserConsent.php:177","A boolean indicating whether the User consent is published.","","","False","","",""
 "data_policy.module:22","About","Info","","False","","",""

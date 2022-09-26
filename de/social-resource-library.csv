@@ -20,7 +20,10 @@
 "config/install/views.view.search_resources.yml:0","Creation date Desc|New to old
 Creation date Asc|Old to new
 Alphabetical Asc|Alphabetical A - Z
-Alphabetical Desc|Alphabetical Z - A","","","False","","",""
+Alphabetical Desc|Alphabetical Z - A","Erstellungsdatum absteigend|Von neu zu alt
+Erstellungsdatum aufsteigend|Von alt zu neu
+Alphabetisch aufsteigend|Alphabetisch A - Z
+Alphabetisch absteigend|Alphabetisch Z - A","","False","","",""
 "src/Plugin/views/display/Page.php:115","Default exposed form","","","False","","",""
 "src/Plugin/facets/processor/DependentFacetProcessor.php:8","Dependent facet","","","False","","",""
 "config/install/views.view.search_resources.yml:0","Desc","Absteigend","","False","","",""

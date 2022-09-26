@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"coder_sniffer/Drupal/Test/good/good.php:291;308","Create @entity_type path alias","","",FALSE,"","",""
+"coder_sniffer/Drupal/Test/good/good.php:291;308","Create @entity_type path alias","Erstelle @entity_type path alias","",FALSE,"","",""
 "coder_sniffer/Drupal/Test/good/good.php:292;309","Path","Pfad","",FALSE,"","",""
 "coder_sniffer/Drupal/Test/good/good.php:298;315","The @entity_type for which to create a path alias.","","",FALSE,"","",""
 "coder_sniffer/Drupal/Test/good/good.php:300;317","Path alias","Pfad-Alias","",FALSE,"","",""

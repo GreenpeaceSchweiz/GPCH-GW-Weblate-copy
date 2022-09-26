@@ -7,7 +7,7 @@
 "modules/social_collaboration_request/social_collaboration_request.info.yml:0","Allows to request a co-authorship for the content.","","","False","","",""
 "modules/social_collaboration_request/social_collaboration_request.routing.yml:0","Approve co-authorship","","","False","","",""
 "config/schema/social_collaboration.schema.yml:0","Bundle ID","","","False","","",""
-"config/optional/block.block.socialblue_coauthors_block.yml:0","Co-authors","","","False","","",""
+"config/optional/block.block.socialblue_coauthors_block.yml:0","Co-authors","Co-Autoren","","False","","",""
 "modules/social_collaboration_request/src/Controller/CollaborationRequestController.php:251","Co-authorship request was accepted. Your response has been sent to the requester as a private message.","Der Antrag auf Co-Autorenschaft wurde angenommen. Deine Antwort wurde als private Nachricht an die:den Anfragende:n gesendet.","","False","","",""
 "modules/social_collaboration_request/src/Controller/CollaborationRequestController.php:278","Co-authorship request was declined. Your response has been sent to the requester as a private message.","Der Antrag auf Co-Autorenschaft wurde abgelehnt. Deine Antwort wurde als private Nachricht an die:den Anfragende:n gesendet.","","False","","",""
 "social_collaboration.routing.yml:0","Collaboration settings","","","False","","",""

@@ -5,7 +5,7 @@
 "modules/social_role_management/src/Form/SocialRoleManagementConfigForm.php:146","Allows for Role Manager to create new user accounts","","","False","","",""
 "modules/social_role_management/src/Form/SocialRoleManagementConfigForm.php:153","Allows for Role Manager to delete a users' accounts or their profiles","","","False","","",""
 "modules/social_role_management/social_role_management.module:207","At least one role should be selected.","","","False","","",""
-"modules/social_role_management/src/Form/SocialRoleManagementConfigForm.php:145","Create a new user","","","False","","",""
+"modules/social_role_management/src/Form/SocialRoleManagementConfigForm.php:145","Create a new user","Erstelle einen neuen User","","False","","",""
 "modules/social_role_management/src/Form/SocialRoleManagementConfigForm.php:152","Delete accounts","","","False","","",""
 "modules/social_role_management/src/Form/SocialRoleManagementConfigForm.php:124","Disabled profile fields","","","False","","",""
 "modules/social_role_management/src/Form/SocialRoleManagementConfigForm.php:108","Disabled user fields","","","False","","",""

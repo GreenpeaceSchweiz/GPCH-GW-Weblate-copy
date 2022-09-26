@@ -240,7 +240,7 @@
 "config/schema/ultimate_cron.schema.yml:0","Timeout (s) before cache entry expires","","","False","","",""
 "config/schema/ultimate_cron.schema.yml:0","Timeout settings","","","False","","",""
 "src/Plugin/ultimate_cron/Launcher/SerialLauncher.php:55","Timeouts","","","False","","",""
-"src/Form/CronJobForm.php:31","Title","","","False","","",""
+"src/Form/CronJobForm.php:31","Title","Titel","","False","","",""
 "config/schema/ultimate_cron.schema.yml:0","Toggle queing jobs","","","False","","",""
 "config/schema/ultimate_cron.schema.yml:0","Toggles throttling of queues","","","False","","",""
 "ultimate_cron.info.yml:0","Ultimate Cron","","","False","","",""

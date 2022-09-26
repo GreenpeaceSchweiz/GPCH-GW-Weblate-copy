@@ -12,7 +12,7 @@
 "social_auth.module:53","Could not delete Social Auth users for user @uid. Error @error","","","False","","",""
 "src/User/UserManager.php:432","Could not download @plugin_id's provider profile picture from url: @url","","","False","","",""
 "src/User/UserManager.php:415","Could not save @plugin_id's provider profile picture. Directory is not writable: @directory","","","False","","",""
-"src/Entity/SocialAuth.php:172","Created","","","False","","",""
+"src/Entity/SocialAuth.php:172","Created","Erstellt","","False","","",""
 "src/Form/SocialAuthSettingsForm.php:102","Disable Social Auth login for administrator","","","False","","",""
 "src/Form/SocialAuthSettingsForm.php:118","Disable Social Auth login for the following roles","","","False","","",""
 "src/Form/SocialAuthSettingsForm.php:103","Disabling Social Auth login for administrator (<em>user 1</em>) can help protect your site if a security vulnerability is ever discovered in some Social Network PHP SDK or this module.","","","False","","",""
@@ -22,7 +22,7 @@
 "src/User/UserManager.php:249","Failed to add user record in Social Auth entity.
           User_id: @user_id, social_network_identifier: @social_network_identifier, provider_user_id : @provider_user_id ","","","False","","",""
 "src/User/UserAuthenticator.php:210;251","Failed to authenticate user. Exception: @message","","","False","","",""
-"src/User/UserManager.php:184","Failed to create user. Name: @name","","","False","","",""
+"src/User/UserManager.php:184","Failed to create user. Name: @name","Benutzer kann nicht erstellt werden. Name: @name","","False","","",""
 "src/User/UserManager.php:173","Failed to create user. User registration is disabled. Name: @name, email: @email.","","","False","","",""
 "src/User/UserManager.php:322","Failed to load user. Exception: @message","","","False","","",""
 "src/User/UserManager.php:345","Failed to save user. Exception: @message","","","False","","",""

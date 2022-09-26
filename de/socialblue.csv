@@ -71,7 +71,7 @@
 "config/schema/socialblue.schema.yml:0","Hero gradient opacity","","","False","","",""
 "socialblue.info.yml:0","Hidden","Verborgen","","False","","",""
 "templates/profile/profile--profile--default--sky.html.twig:122","Interests","Interessen","","False","","",""
-"templates/node/node--hero--sky.html.twig:223","Invite","","","False","","",""
+"templates/node/node--hero--sky.html.twig:223","Invite","Einladen","","False","","",""
 "templates/profile/profile--profile--default--sky.html.twig:95","Language","","","False","","",""
 "color/color.inc:15","Link color","Link-Farbe","","False","","",""
 "templates/group/group--teaser--sky.html.twig:117","Located at:","","","False","","",""

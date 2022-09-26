@@ -12,7 +12,7 @@
 "social_resource_suggest.links.menu.yml:0","Configure Resource suggestion entities","","","False","","",""
 "social_resource_suggest.tokens.inc:30","Content suggestion page.","","","False","","",""
 "social_resource_suggest.permissions.yml:0","Create new resource suggestion entities","","","False","","",""
-"src/Entity/ResourceSuggestion.php:227","Created","","","False","","",""
+"src/Entity/ResourceSuggestion.php:227","Created","Erstellt","","False","","",""
 "src/Form/ResourceSuggestionForm.php:24","Created the %label Resource suggestion.","","","False","","",""
 "src/ResourceSuggestionListBuilder.php:129","Decline","","","False","","",""
 "social_resource_suggest.permissions.yml:0","Decline resource suggestion entities","","","False","","",""
