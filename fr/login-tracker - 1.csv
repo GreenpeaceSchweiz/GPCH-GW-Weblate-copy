@@ -19,7 +19,7 @@
 "login_tracker.views.inc:65","Login timestamp","","",FALSE,"","",""
 "login_tracker.links.menu.yml:0","Login tracker settings","","",FALSE,"","",""
 "login_tracker.permissions.yml:0","Manage settings for login tracking","","",FALSE,"","",""
-"src/Form/LoginTrackerSettings.php:55","Never","","",FALSE,"","",""
+"src/Form/LoginTrackerSettings.php:55","Never","jamais","",FALSE,"","",""
 "login_tracker.module:72","Nothing to purge from table @table","","",FALSE,"","",""
 "src/Form/LoginTrackerSettings.php:67","Periodically purge records older than","","",FALSE,"","",""
 "login_tracker.views.inc:36","Record ID","","",FALSE,"","",""

@@ -5,7 +5,7 @@
 "src/Form/ConfigForm.php:39","Disable restriction","","","False","","",""
 "disable_user_1_edit.info.yml:0","Disable user 1 edit","","","False","","",""
 "disable_user_1_edit.routing.yml:0","Disable user 1 edit settings","","","False","","",""
-"config/schema/disable_user_1_edit.schema.yml:0","Disabled","","","False","","",""
+"config/schema/disable_user_1_edit.schema.yml:0","Disabled","Désactivé","","False","","",""
 "disable_user_1_edit.info.yml:0","Disables editing of user 1, even if users can administer users.","","","False","","",""
 "disable_user_1_edit.links.menu.yml:0","Edit settings for disable user 1 edit.","","","False","","",""
 "src/Form/ConfigForm.php:40","Make user 1 editable again. That is to say: Disable disable user 1 edit.","","","False","","",""

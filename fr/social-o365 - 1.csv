@@ -25,7 +25,7 @@
 "config/schema/social_o365.schema.yml:0","Per-connector entity settings","","",FALSE,"","",""
 "modules/social_o365_delve/social_o365_delve.info.yml:0","Provides Office 365 Azure & Delve integration.","","",FALSE,"","",""
 "social_o365.info.yml:0","Provides Office 365 integration for Social.","","",FALSE,"","",""
-"config/schema/social_o365.schema.yml:0","Role","","",FALSE,"","",""
+"config/schema/social_o365.schema.yml:0","Role","Rôle","",FALSE,"","",""
 "modules/social_o365_delve/src/SocialO365DelveUserManager.php:600","Sets the age group of the user. Allowed values: null, minor, notAdult and adult.","","",FALSE,"","",""
 "social_o365.module:18","Sign up","","",FALSE,"","",""
 "modules/social_o365_delve/social_o365_delve.info.yml:0","Social","","",FALSE,"","",""

@@ -249,7 +249,7 @@
 "metatag_hreflang/src/Plugin/metatag/Tag/HreflangXDefault.php:5","Default locale (x-default)","","",FALSE,"","",""
 "metatag_favicons/config/schema/metatag_favicons.metatag_tag.schema.yml:0","Default shortcut icon","","",FALSE,"","",""
 "config/schema/metatag.schema.yml:0","Default value","","",FALSE,"","",""
-"src/Form/MetatagDefaultsDeleteForm.php:32","Delete","löschen","",FALSE,"","",""
+"src/Form/MetatagDefaultsDeleteForm.php:32","Delete","Löschen","",FALSE,"","",""
 "metatag.routing.yml:0","Delete default meta tags","","",FALSE,"","",""
 "src/Form/MetatagDefaultsDeleteForm.php:42","Deleted @label defaults.","","",FALSE,"","",""
 "metatag_google_cse/src/Plugin/metatag/Tag/Department.php:7","Department","","",FALSE,"","",""

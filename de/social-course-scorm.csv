@@ -21,7 +21,7 @@
 "social_course_scorm.permissions.yml:0","Create new Scorm SCO entities","","","False","","",""
 "src/Entity/ScormSco.php:207","Created","Erstellt","","False","","",""
 "src/Form/ScormScoForm.php:34","Created the %label Scorm SCO.","","","False","","",""
-"social_course_scorm.links.task.yml:0","Delete","löschen","","False","","",""
+"social_course_scorm.links.task.yml:0","Delete","Löschen","","False","","",""
 "social_course_scorm.permissions.yml:0","Delete Scorm SCO entities","","","False","","",""
 "modules/social_course_scorm_statistics/src/Controller/ScormStatisticsController.php:174","Deleted user","","","False","","",""
 "social_course_scorm.links.task.yml:0","Edit","Bearbeiten","","False","","",""

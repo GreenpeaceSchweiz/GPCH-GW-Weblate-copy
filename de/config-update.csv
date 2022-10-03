@@ -21,7 +21,7 @@
 "config_update_ui/src/Controller/ConfigUpdateController.php:414","Configuration updates report for @label","Konfiguraitonsaktualisierungsbericht für @label","","False","","",""
 "config_update_ui/src/Form/ConfigImportConfirmForm.php:115","Configuration will be added to your site. This action cannot be undone.","","","False","","",""
 "config_update_ui/src/Form/ConfigRevertConfirmForm.php:115","Customizations will be lost. This action cannot be undone.","","","False","","",""
-"config_update_ui/src/Form/ConfigDeleteConfirmForm.php:120","Delete","löschen","","False","","",""
+"config_update_ui/src/Form/ConfigDeleteConfirmForm.php:120","Delete","Löschen","","False","","",""
 "config_update_ui/config_update_ui.permissions.yml:0","Delete any configuration","Jegliche Konfiguration löschen.","","False","","",""
 "config_update_ui/config_update_ui.routing.yml:0","Differences","Unterschiede","","False","","",""
 "config_update_ui/config_update_ui.module:31","Differences, including missing and added configuration, can be due to either an updated module or theme providing different configuration from when you installed it, or to changes made by site administrators. This report does not differentiate between these two sources for differences, and note that an install profile can also silently override module/theme configuration. Overrides (such as those in your settings.php file) and translations are not considered when looking at differences.","","","False","","",""

@@ -208,7 +208,7 @@
 "config/schema/search_api.processor.schema.yml:0","Defines if simple CJK handling should be enabled.","","","False","","",""
 "config/schema/search_api.processor.schema.yml:0","Defines the minimum word size","","","False","","",""
 "config/schema/search_api.processor.schema.yml:0","Defines whether returned fields should be highlighted (always/if returned/never).","","","False","","",""
-"src/Form/ServerDeleteConfirmForm.php:67","Delete","löschen","","False","","",""
+"src/Form/ServerDeleteConfirmForm.php:67","Delete","Löschen","","False","","",""
 "config/optional/tour.tour.search-api-server.yml:0","Delete all indexed data","","","False","","",""
 "src/Form/ServerStatusForm.php:98","Delete all indexed data on this server","","","False","","",""
 "src/Form/ServerDeleteConfirmForm.php:53","Deleting a server will disable all its indexes and their searches.","","","False","","",""

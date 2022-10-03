@@ -78,7 +78,7 @@
 "config/schema/google_tag.schema.yml:0","Role","Rôle","","False","","",""
 "src/Plugin/Condition/Domain.php:75","Select the Domain context","","","False","","",""
 "config/schema/google_tag.schema.yml:0","Selected roles","","","False","","",""
-"google_tag.links.task.yml:0","Settings","","","False","","",""
+"google_tag.links.task.yml:0","Settings","Paramètres","","False","","",""
 "src/Form/SettingsForm.php:126","Show debug output","","","False","","",""
 "config/schema/google_tag.schema.yml:0","Snippet base URI","","","False","","",""
 "src/Form/SettingsForm.php:89","Snippet parent URI","","","False","","",""

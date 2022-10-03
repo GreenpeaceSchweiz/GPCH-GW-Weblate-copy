@@ -43,7 +43,7 @@
 "config/install/views.view.redirect.yml:0","Created","Erstellt","","False","","",""
 "modules/redirect_404/config/install/views.view.redirect_404.yml:0","Daily count","","","False","","",""
 "src/Form/RedirectSettingsForm.php:48","Default redirect status","","","False","","",""
-"src/Form/RedirectDeleteMultipleForm.php:104","Delete","löschen","","False","","",""
+"src/Form/RedirectDeleteMultipleForm.php:104","Delete","Löschen","","False","","",""
 "redirect.routing.yml:0","Delete URL redirect","","","False","","",""
 "redirect.generate.inc:28","Delete all URL redirects before generating new URL redirects.","","","False","","",""
 "src/Plugin/Action/DeleteRedirect.php:11","Delete redirect","","","False","","",""

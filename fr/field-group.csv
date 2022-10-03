@@ -46,7 +46,7 @@
 "src/FieldGroupFormatterBase.php:101","Display this field group even if the contained fields are currently empty.","","","False","","",""
 "src/Plugin/field_group/FieldGroupFormatter/HtmlElement.php:117","E.g. div, section, aside etc.","","","False","","",""
 "src/Plugin/field_group/FieldGroupFormatter/HtmlElement.php:169","E.g. name=""anchor""","Par ex. name=""anchor""","","False","","",""
-"includes/field_ui.inc:292","Edit","Editer","","False","","",""
+"includes/field_ui.inc:292","Edit","Modifier","","False","","",""
 "src/Plugin/field_group/FieldGroupFormatter/HtmlElement.php:174","Effect","Effet","","False","","",""
 "src/Plugin/field_group/FieldGroupFormatter/Accordion.php:83","Effect : @effect","","","False","","",""
 "config/schema/field_group.field_group_formatter_plugin.schema.yml:0","Effect on the accordion","","","False","","",""

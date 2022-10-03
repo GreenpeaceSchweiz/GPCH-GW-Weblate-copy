@@ -96,7 +96,7 @@
 "src/Plugin/Setting/JavaScript/Popovers/PopoverTitle.php:7","Default title value if <code>title</code> attribute isn't present.","","","False","","",""
 "src/Plugin/Setting/General/Buttons/ButtonSize.php:7","Defines the Bootstrap Buttons specific size","Legt die Größe für Bootstrap-Buttons fest","","False","","",""
 "src/Plugin/Setting/JavaScript/Modals/ModalSize.php:7","Defines the modal size between the default, <code>modal-sm</code> and <code>modal-lg</code>.","Definiert die Modalgröße zwischen der Standardeinstellung, <code>modal-sm</code> und <code>modal-lg</code>.","","False","","",""
-"src/Bootstrap.php:508;876","Delete","löschen","","False","","",""
+"src/Bootstrap.php:508;876","Delete","Löschen","","False","","",""
 "docs/theme-settings.twig:33","Deprecated","","","False","","",""
 "docs/theme-settings.twig:51","Deprecated since @version","","","False","","",""
 "js/theme-settings.js:0","Deprecations: @value","","","False","","",""

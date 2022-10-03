@@ -18,7 +18,7 @@
 "modules/social_webhooks_user_login/social_webhooks_user_login.info.yml:0","Social Webhooks: User Login events","","","False","","",""
 "modules/social_webhooks_user_account/social_webhooks_user_account.info.yml:0","Social Webhooks: User account events","","","False","","",""
 "src/Form/SocialWebhooksSettings.php:86","Update","","","False","","",""
-"modules/social_webhooks_user_login/src/Form/SocialWebhooksUserLoginSettings.php:44","User","","","False","","",""
+"modules/social_webhooks_user_login/src/Form/SocialWebhooksUserLoginSettings.php:44","User","Utilisateur","","False","","",""
 "modules/social_webhooks_user_account/social_webhooks_user_account.links.task.yml:0","User account events","","","False","","",""
 "modules/social_webhooks_user_account/social_webhooks_user_account.routing.yml:0","User account webhooks settings","","","False","","",""
 "modules/social_webhooks_user_login/social_webhooks_user_login.links.task.yml:0","User login events","","","False","","",""

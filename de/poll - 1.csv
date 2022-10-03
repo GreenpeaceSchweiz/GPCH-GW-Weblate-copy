@@ -40,7 +40,7 @@
 "poll.permissions.yml:0","Create polls","Umfragen erstellen","",FALSE,"","",""
 "config/install/views.view.poll_admin.yml:0","Created","Erstellt","",FALSE,"","",""
 "poll.module:32","Creating a poll","Eine Umfrage erstellen","",FALSE,"","",""
-"src/Form/PollVoteDeleteForm.php:35","Delete","löschen","",FALSE,"","",""
+"src/Form/PollVoteDeleteForm.php:35","Delete","Löschen","",FALSE,"","",""
 "poll.routing.yml:0","Delete form","Formular löschen","",FALSE,"","",""
 "src/Form/PollItemsDeleteForm.php:32","Delete items","Datensätze löschen","",FALSE,"","",""
 "poll.routing.yml:0","Delete vote","Stimme löschen","",FALSE,"","",""

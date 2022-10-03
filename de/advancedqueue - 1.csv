@@ -21,7 +21,7 @@
 "src/Form/QueueForm.php:116","Daemon (Drush / Drupal Console)","","",FALSE,"","",""
 "src/Plugin/AdvancedQueue/Backend/Database.php:10","Database","","",FALSE,"","",""
 "config/install/advancedqueue.advancedqueue_queue.default.yml:0","Default","","",FALSE,"","",""
-"src/Plugin/views/field/Operations.php:70","Delete","","",FALSE,"","",""
+"src/Plugin/views/field/Operations.php:70","Delete","Löschen","",FALSE,"","",""
 "advancedqueue.routing.yml:0","Delete job","","",FALSE,"","",""
 "config/install/views.view.advancedqueue_jobs.yml:0","Desc","Absteigend","",FALSE,"","",""
 "advancedqueue.links.task.yml:0","Edit","","",FALSE,"","",""

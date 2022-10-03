@@ -1,7 +1,7 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "social_webhooks.permissions.yml:0","Allow to configure webhooks settings.","","",FALSE,"","",""
 "social_webhooks.info.yml:0","Allows you to build or set up integrations which subscribe to certain events on Open Social","","",FALSE,"","",""
-"src/Form/SocialWebhooksSettings.php:92","Delete","löschen","",FALSE,"","",""
+"src/Form/SocialWebhooksSettings.php:92","Delete","Löschen","",FALSE,"","",""
 "social_webhooks.links.task.yml:0","Event Settings","","",FALSE,"","",""
 "src/Form/SocialWebhooksSettings.php:74","Event enrollments","","",FALSE,"","",""
 "modules/social_webhooks_user_account/src/Form/SocialWebhooksUserAccountSettings.php:49","Event new user account created","","",FALSE,"","",""

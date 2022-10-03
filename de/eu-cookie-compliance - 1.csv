@@ -93,7 +93,7 @@
 "eu_cookie_compliance.module:234","Could not read the EU Cookie Compliance JavaScript file that is used to handle disabled scripts. There may be a problem with your file system or the file may be missing. Try accessing the EU Cookie Compliance settings page and re-save the form.","","",FALSE,"","",""
 "config/schema/eu_cookie_compliance.schema.yml:0","Country name.","","",FALSE,"","",""
 "src/Form/CookieCategoryForm.php:113","Created the %label Cookie category.","","",FALSE,"","",""
-"src/Form/CookieCategoryDeleteForm.php:32","Delete","löschen","",FALSE,"","",""
+"src/Form/CookieCategoryDeleteForm.php:32","Delete","Löschen","",FALSE,"","",""
 "src/Form/EuCookieComplianceConfigForm.php:386","Depending on your implementation of GDPR, you may have to store a record when the user consents. This module comes with a basic consent storage plugin that writes a record to the database. Note that if your site has significant traffic, the basic consent storage may become a bottleneck, as every consent action will require a write to the database. You can easily create your own module with a ConsentStorage Plugin that extends ConsentStorageBase, using BasicConsentStorage from this module as a template. If you create a highly performant consent storage plugin, please consider contributing it back to the Drupal community as a contrib module.","","",FALSE,"","",""
 "src/Form/CookieCategoryForm.php:84","Description","","",FALSE,"","",""
 "src/Form/CookieCategoryForm.php:93","Determines the default state of this category's selection checkbox on the cookie consent popup.","","",FALSE,"","",""

@@ -34,7 +34,7 @@
 "src/Plugin/VoteResultFunction/Count.php:7","Count","Anzahl","","False","","",""
 "src/Entity/VoteResult.php:204","Created","Erstellt","","False","","",""
 "config/schema/votingapi_widgets.schema.yml:0","Default value","Standardwert","","False","","",""
-"votingapi.routing.yml:0;0","Delete","löschen","","False","","",""
+"votingapi.routing.yml:0;0","Delete","Löschen","","False","","",""
 "src/Commands/VotingApiCommands.php:114","Delete @type voting data?","","","False","","",""
 "votingapi.permissions.yml:0","Delete Votes","","","False","","",""
 "src/Form/SettingsForm.php:122","Delete everywhere","","","False","","",""

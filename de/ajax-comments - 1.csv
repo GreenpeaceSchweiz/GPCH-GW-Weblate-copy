@@ -7,7 +7,7 @@
 "ajax_comments.module:435","Ajax comments disabled on this field.","","",FALSE,"","",""
 "ajax_comments.module:432","Ajax comments enabled on this field.","","",FALSE,"","",""
 "src/Form/SettingsForm.php:163","Autoclose any opened reply forms","","",FALSE,"","",""
-"src/Form/AjaxCommentsForm.php:286","Cancel","","",FALSE,"","",""
+"src/Form/AjaxCommentsForm.php:286","Cancel","Abbrechen","",FALSE,"","",""
 "ajax_comments.links.menu.yml:0","Configure how ajaxified comments works.","","",FALSE,"","",""
 "ajax_comments.routing.yml:0","Delete comment","","",FALSE,"","",""
 "config/schema/ajax_comments.schema.yml:0","Enable Ajax Comments","","",FALSE,"","",""

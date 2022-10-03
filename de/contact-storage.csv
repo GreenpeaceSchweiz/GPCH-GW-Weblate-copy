@@ -34,7 +34,7 @@
 "contact_storage.module:72","Default message to display if the contact form is disabled.","","","False","","",""
 "src/Form/ContactFormDisableForm.php:50","Default message to display if the contact form is disabled. It will be saved when clicking ""Disable"".","","","False","","",""
 "config/schema/contact_storage.schema.yml:0","Default value","","","False","","",""
-"src/Form/DeleteMultiple.php:104","Delete","","","False","","",""
+"src/Form/DeleteMultiple.php:104","Delete","Löschen","","False","","",""
 "config/install/system.action.message_delete_action.yml:0","Delete message","","","False","","",""
 "config/schema/contact_storage.schema.yml:0","Delete message configuration","","","False","","",""
 "src/Form/DeleteMultiple.php:135","Deleted 1 message.","","","False","","",""

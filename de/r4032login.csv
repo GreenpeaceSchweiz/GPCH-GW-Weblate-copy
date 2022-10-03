@@ -37,7 +37,7 @@
 "src/Form/AnonymousSettingsForm.php:77","Redirect anonymous users to the page they tried to access after login","","","False","","",""
 "src/Form/AuthenticatedSettingsForm.php:68","Redirect authenticated users to","","","False","","",""
 "config/schema/r4032login.schema.yml:0","Redirect user to the page they tried to access after login","","","False","","",""
-"r4032login.links.task.yml:0","Settings","","","False","","",""
+"r4032login.links.task.yml:0","Settings","Einstellungen","","False","","",""
 "src/Form/SettingsForm.php:48","Should a noindex tag be added to the response header? This tells search engines not to index the page.","","","False","","",""
 "src/Form/SettingsForm.php:60","Skip redirect for listed pages","","","False","","",""
 "src/Form/SettingsForm.php:54","Skip redirect for matching pages","","","False","","",""

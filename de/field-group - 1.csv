@@ -29,7 +29,7 @@
 "src/Plugin/field_group/FieldGroupFormatter/Tab.php:92","Default state","Standardmodus","",FALSE,"","",""
 "src/Plugin/field_group/FieldGroupFormatter/Details.php:103","Default state closed","","",FALSE,"","",""
 "src/Plugin/field_group/FieldGroupFormatter/Details.php:100","Default state open","","",FALSE,"","",""
-"src/Form/FieldGroupDeleteForm.php:116","Delete","löschen","",FALSE,"","",""
+"src/Form/FieldGroupDeleteForm.php:116","Delete","Löschen","",FALSE,"","",""
 "src/Plugin/field_group/FieldGroupFormatter/Tab.php:85","Description","Beschreibung","",FALSE,"","",""
 "src/Plugin/field_group/FieldGroupFormatter/AccordionItem.php:116","Description : @description","Beschreibung : @description","",FALSE,"","",""
 "config/schema/field_group.field_group_formatter_plugin.schema.yml:0","Description of the element","","",FALSE,"","",""

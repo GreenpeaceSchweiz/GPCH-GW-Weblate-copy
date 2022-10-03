@@ -25,7 +25,7 @@
 "file_mdm_exif/config/schema/file_mdm_exif.data_types.schema.yml:0","Literal representation of IFD","","","False","","",""
 "config/schema/file_mdm.schema.yml:0","Main metadata caching","","","False","","",""
 "src/Plugin/FileMetadata/FileMetadataPluginBase.php:164","Metadata caching","","","False","","",""
-"src/Element/FileMetadataCaching.php:71","Never","Jamais","","False","","",""
+"src/Element/FileMetadataCaching.php:71","Never","jamais","","False","","",""
 "src/Element/FileMetadataCaching.php:89","Only files prefixed by a valid URI scheme will be cached, like for example <kbd>public://</kbd>. Files in the <kbd>temporary://</kbd> scheme will never be cached. Specify here if there are any paths to be additionally <strong>excluded</strong> from caching, one per line. Use wildcard patterns when entering the path. For example, <kbd>public://styles/*</kbd>.","","","False","","",""
 "config/schema/file_mdm.data_types.schema.yml:0","Override general settings","","","False","","",""
 "src/Plugin/FileMetadata/FileMetadataPluginBase.php:157","Override main caching settings","","","False","","",""

@@ -68,7 +68,7 @@
 "src/Form/EncryptSettingsForm.php:37","Show the validation status of encryption profiles.","","",FALSE,"","",""
 "src/Form/EncryptionProfileTestForm.php:85","Specify the text you want to decrypt with this encryption profile. The result of the decryption will be shown below.","","",FALSE,"","",""
 "src/Form/EncryptionProfileTestForm.php:55","Specify the text you want to encrypt with this encryption profile. The result of the encryption will be shown below.","","",FALSE,"","",""
-"src/Controller/EncryptionProfileListBuilder.php:59","Status","État","",FALSE,"","",""
+"src/Controller/EncryptionProfileListBuilder.php:59","Status","Statut","",FALSE,"","",""
 "src/Controller/EncryptionProfileListBuilder.php:124","Test","Tester","",FALSE,"","",""
 "encrypt.routing.yml:0","Test encryption profile","","",FALSE,"","",""
 "src/Form/EncryptionProfileTestForm.php:84","Text to decrypt","","",FALSE,"","",""

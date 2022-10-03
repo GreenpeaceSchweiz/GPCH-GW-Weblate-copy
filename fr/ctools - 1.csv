@@ -52,7 +52,7 @@
 "modules/ctools_views/src/Plugin/Display/Block.php:87;109","Disable filters","","",FALSE,"","",""
 "modules/ctools_views/src/Plugin/Display/Block.php:153","Display a specified number of items","Afficher un nombre défini d'éléments","",FALSE,"","",""
 "modules/ctools_views/src/Plugin/Display/Block.php:154","Display all items","Afficher tous les éléments","",FALSE,"","",""
-"src/Form/RequiredContext.php:150","Edit","Editer","",FALSE,"","",""
+"src/Form/RequiredContext.php:150","Edit","Modifier","",FALSE,"","",""
 "modules/ctools_entity_mask/ctools_entity_mask.info.yml:0","Entity Mask","","",FALSE,"","",""
 "modules/ctools_block/config/schema/ctools_block.schema.yml:0","Entity field block","","",FALSE,"","",""
 "src/Plugin/Deriver/EntityViewDeriver.php:19","Entity view (@label)","","",FALSE,"","",""

@@ -88,7 +88,7 @@
 "modules/social_course_quiz_import/src/Form/SocialCourseQuizImportForm.php:57","Processing, estimated time left: @estimate, elapsed: @elapsed.","","",FALSE,"","",""
 "config/install/core.base_field_override.node.course_quiz.promote.yml:0","Promoted to front page","","",FALSE,"","",""
 "social_course_quiz.info.yml:0","Provides Course Quiz section.","","",FALSE,"","",""
-"social_course_quiz.install:169","Published","","",FALSE,"","",""
+"social_course_quiz.install:169","Published","Veröffentlicht","",FALSE,"","",""
 "src/Entity/Question.php:12","Question","Frage","",FALSE,"","",""
 "src/Form/QuestionForm.php:184","Question %title has been created.","","",FALSE,"","",""
 "src/Form/QuestionForm.php:187","Question %title has been updated.","","",FALSE,"","",""

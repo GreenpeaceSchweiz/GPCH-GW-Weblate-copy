@@ -62,7 +62,7 @@
 "src/Form/LazyForm.php:249;250","Preview image","","","False","","",""
 "src/Plugin/Field/FieldFormatter/LazyResponsiveImageFormatter.php:8","Responsive image (Lazy-load)","","","False","","",""
 "src/Form/LazyForm.php:526","Review the <a href="":doc"">documentation</a> before enabling any of the plugins. Enabled plugins may offer additional configuration which you can override via <code>:code</code>","","","False","","",""
-"src/Form/LazyForm.php:261","Settings","","","False","","",""
+"src/Form/LazyForm.php:261","Settings","Paramètres","","False","","",""
 "src/Form/LazyForm.php:266","Shared settings","","","False","","",""
 "src/Form/LazyForm.php:287","Suggestion: 1x1 pixels transparent GIF: <code>@code</code>","","","False","","",""
 "src/Form/LazyForm.php:460","The <code>customMedia</code> option object is an alias map for different media queries. It can be used to separate/centralize your multiple specific media queries implementation (layout) from the <code>source[media]</code> attribute (content/structure) by creating labeled media queries.","","","False","","",""

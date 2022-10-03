@@ -34,7 +34,7 @@
 "crop.routing.yml:0","Crop types","Bildzuschnittvorlagen","","False","","",""
 "src/Form/CropTypeForm.php:90","Define crop size hard limit. User is not allowed to make a smaller selection than defined here.","Mindesgröße des Bildzuschnitts definieren. Benutzern ist es nicht erlaubt, einen Bilauschnitt zu wählen, der kleiner ist, als hier angegeben.","","False","","",""
 "src/Form/CropTypeForm.php:65","Define crop size soft limit. Warning will be displayed if crop smaller than that is selected.","Gibt eine Mindestgröße vor, die angewendt werden soll. Warnung: Bilder werden auch dann zugeschnitten, wenn die Mindeströße vom Benutzer unterschritten wird.","","False","","",""
-"src/Form/CropTypeDeleteForm.php:61","Delete","löschen","","False","","",""
+"src/Form/CropTypeDeleteForm.php:61","Delete","Löschen","","False","","",""
 "src/Form/CropTypeForm.php:121","Delete crop type","Bildzuschnittvorlage löschen","","False","","",""
 "src/Form/CropTypeDeleteForm.php:92","Deleted crop type %name.","Bildzushnittvorlage %name löschen.","","False","","",""
 "modules/crop_media_entity/crop_media_entity.info.yml:0","Deprecated.","Veraltet.","","False","","",""

@@ -195,7 +195,7 @@
 "config/schema/core.menu.schema.yml:0","Static menu link overrides","Supplantation des liens de menu statiques","",FALSE,"","",""
 "modules/statistics/statistics.routing.yml:0","Statistics","Statistiques","",FALSE,"","",""
 "modules/statistics/config/schema/statistics.schema.yml:0","Statistics settings","Paramètres des statistiques","",FALSE,"","",""
-"profiles/demo_umami/config/optional/views.view.media.yml:0","Status","État","",FALSE,"","",""
+"profiles/demo_umami/config/optional/views.view.media.yml:0","Status","Statut","",FALSE,"","",""
 "themes/claro/templates/status-report-grouped.html.twig:22","Status Details","","",FALSE,"","",""
 "modules/content_moderation/src/EntityTypeInfo.php:215","Status listing and form for the entity's moderation state.","Liste des états et formulaire de modération des états de l'entité","",FALSE,"","",""
 "modules/layout_builder/src/Form/OverridesEntityForm.php:166","Status message","Statut du message","",FALSE,"","",""

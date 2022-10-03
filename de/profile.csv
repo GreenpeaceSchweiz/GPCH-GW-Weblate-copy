@@ -28,7 +28,7 @@
 "profile.module:35","Creating profiles","","","False","","",""
 "src/Entity/Profile.php:325","Data","","","False","","",""
 "src/Entity/Profile.php:318","Default","Standard","","False","","",""
-"src/ProfileTypeListBuilder.php:50","Delete","löschen","","False","","",""
+"src/ProfileTypeListBuilder.php:50","Delete","Löschen","","False","","",""
 "config/schema/profile.schema.yml:0","Delete profile configuration","","","False","","",""
 "config/install/views.view.profiles.yml:0","Desc","Absteigend","","False","","",""
 "src/Form/ProfileTypeForm.php:45","Display label","","","False","","",""

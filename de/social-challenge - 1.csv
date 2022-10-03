@@ -80,7 +80,7 @@
 "modules/social_challenge_phase/social_challenge_phase.module:292","Date","","",FALSE,"","",""
 "modules/social_idea_coauthors/src/Controller/CoauthorController.php:120","Decline","Ablehnen","",FALSE,"","",""
 "modules/social_idea_coauthors/social_idea_coauthors.routing.yml:0","Decline coauthorship","","",FALSE,"","",""
-"modules/social_challenge_phase/src/Form/PhaseDeleteForm.php:37","Delete","löschen","",FALSE,"","",""
+"modules/social_challenge_phase/src/Form/PhaseDeleteForm.php:37","Delete","Löschen","",FALSE,"","",""
 "modules/social_challenge_phase/social_challenge_phase.permissions.yml:0","Delete entity content.","","",FALSE,"","",""
 "modules/social_challenge_phase/social_challenge_phase.routing.yml:0","Delete phase","","",FALSE,"","",""
 "social_challenge.module:1341","Display of Shariff sharing buttons using default settings.","","",FALSE,"","",""

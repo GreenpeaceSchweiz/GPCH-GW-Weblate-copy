@@ -55,7 +55,7 @@
 "templates/node/event/node--event--featured--sky.html.twig:35","Event schedule","","",FALSE,"","",""
 "templates/profile/profile--profile--default--sky.html.twig:111","Expertise","Fähigkeiten","",FALSE,"","",""
 "templates/profile/profile--profile--teaser--sky.html.twig:7","Follower","","",FALSE,"","",""
-"templates/profile/profile--profile--teaser--sky.html.twig:9","Following","","",FALSE,"","",""
+"templates/profile/profile--profile--teaser--sky.html.twig:9","Following","Ich folge","",FALSE,"","",""
 "theme-settings.php:134","Font","Schriftart","",FALSE,"","",""
 "config/schema/socialblue.schema.yml:0","Font primary","","",FALSE,"","",""
 "theme-settings.php:55","Fonts","Schriftart","",FALSE,"","",""

@@ -48,7 +48,7 @@
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:462","Devel settings","Paramètres de Devel","",FALSE,"","",""
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:456","Development","Développement","",FALSE,"","",""
 "admin_toolbar_search/src/Form/AdminToolbarSearchSettingsForm.php:33","Display the search input as a menu item.","","",FALSE,"","",""
-"admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:152","Edit","Editer","",FALSE,"","",""
+"admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:152","Edit","Modifier","",FALSE,"","",""
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:268","Edit permissions","Modifier les droits","",FALSE,"","",""
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:502","Element Info","","",FALSE,"","",""
 "admin_toolbar_tools/config/schema/admin_toolbar_tools.schema.yml:0","Enable or disable hoverintent functionality","","",FALSE,"","",""

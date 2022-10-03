@@ -12,7 +12,7 @@
 "social_geolocation.routing.yml:0","Geolocation settings","","",FALSE,"","",""
 "src/Form/SocialGeolocationSettings.php:121","Google Maps API key","","",FALSE,"","",""
 "src/Form/SocialGeolocationSettings.php:122","Google requires users to use a valid API key. Using the <a href=""https://console.developers.google.com/apis"">Google API Manager</a>, you can enable the <em>Google Maps JavaScript API</em>. That will create (or reuse) a <em>Browser key</em> which you can paste here.","","",FALSE,"","",""
-"social_geolocation.module:117","Location","Emplacement","",FALSE,"","",""
+"social_geolocation.module:117","Location","Localisation","",FALSE,"","",""
 "social_geolocation.module:98","Location range","Localisation","",FALSE,"","",""
 "modules/social_geolocation_maps/src/Plugin/views/cache/SocialGeolocationMapsTag.php:52","Maps tag list","","",FALSE,"","",""
 "src/Form/SocialGeolocationSettings.php:80","Provider to use for storing Geolocation data","","",FALSE,"","",""

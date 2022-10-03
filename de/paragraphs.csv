@@ -99,7 +99,7 @@
 "src/Plugin/Field/FieldWidget/ParagraphsWidget.php:233","Default paragraph type","Standard-Seitenabschnittstyp","","False","","",""
 "src/Plugin/Field/FieldWidget/ParagraphsWidget.php:342","Default paragraph type: @default_paragraph_type","Standard-Seitenabschnittstyp: @default_paragraph_type","","False","","",""
 "modules/paragraphs_library/paragraphs_library.install:104","Default translation","Standardübersetzung","","False","","",""
-"modules/paragraphs_library/src/Form/LibraryItemRevisionDeleteForm.php:115","Delete","löschen","","False","","",""
+"modules/paragraphs_library/src/Form/LibraryItemRevisionDeleteForm.php:115","Delete","Löschen","","False","","",""
 "src/Form/ParagraphsTypeDeleteConfirm.php:32","Delete existing Paragraph","","","False","","",""
 "src/Plugin/Field/FieldWidget/InlineParagraphsWidget.php:535","Deleted @title: %type","'@title: %type gelöscht'","","False","","",""
 "modules/paragraphs_demo/paragraphs_demo.module:24","Deleting demo Paragraphs types","Seitenabschnittsdemotypen werden gelöscht","","False","","",""

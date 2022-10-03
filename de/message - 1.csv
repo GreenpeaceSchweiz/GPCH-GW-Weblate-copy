@@ -41,7 +41,7 @@
 "message.tokens.inc:39","Date created","Erstellungsdatum","",FALSE,"","",""
 "config/schema/message.schema.yml:0","Days","Tage","",FALSE,"","",""
 "src/Plugin/MessagePurge/Days.php:14","Days","","",FALSE,"MessagePurge","",""
-"src/Form/MessageTemplateDeleteConfirm.php:25","Delete","löschen","",FALSE,"","",""
+"src/Form/MessageTemplateDeleteConfirm.php:25","Delete","Löschen","",FALSE,"","",""
 "src/Form/DeleteMultiple.php:98","Delete message ID @id for template @template","","",FALSE,"","",""
 "config/schema/message.schema.yml:0","Delete message configuration","","",FALSE,"","",""
 "src/Form/MessageTemplateForm.php:136","Delete message template","","",FALSE,"","",""

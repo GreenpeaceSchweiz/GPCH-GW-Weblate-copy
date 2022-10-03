@@ -27,7 +27,7 @@
 "src/SocialBirthdayOverride.php:60","Upcoming Birthdays","","","False","","",""
 "config/install/views.view.birthday.yml:0;0;0","Upcoming birthdays","","","False","","",""
 "config/install/views.view.birthday.yml:0","Upcoming birthdays in the current year","","","False","","",""
-"config/install/views.view.birthday.yml:0","User","","","False","","",""
+"config/install/views.view.birthday.yml:0","User","Utilisateur","","False","","",""
 "config/install/views.view.birthday.yml:0","block_upcoming_birthdays","","","False","","",""
 "config/install/views.view.birthday.yml:0","contextual_month","","","False","","",""
 "config/install/views.view.birthday.yml:0","filter_birthday_next_greater_than_today","","","False","","",""

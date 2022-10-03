@@ -60,7 +60,7 @@
 "config/optional/views.view.message.yml:0","Desc","","","False","","",""
 "src/Form/MessageTemplateForm.php:85","Description","Texte","","False","","",""
 "message.links.menu.yml:0","Display all messages.","Montrer tous les messages.","","False","","",""
-"message.links.task.yml:0","Edit","Editer","","False","","",""
+"message.links.task.yml:0","Edit","Modifier","","False","","",""
 "message.routing.yml:0","Edit message template","","","False","","",""
 "src/MessagePurgePluginManager.php:68","Enabled","Activé","","False","","",""
 "config/schema/message.schema.yml:0","Entity type","Type d'entité","","False","","",""

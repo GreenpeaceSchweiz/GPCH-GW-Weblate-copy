@@ -64,7 +64,7 @@
 "src/Plugin/KeyInput/GenerateKeyInput.php:53","Display value","","","False","","",""
 "drush/key_save.drush.inc:40","Do you really want to continue?","","","False","","",""
 "src/Commands/KeyCommands.php:127;213","Do you want to continue?","","","False","","",""
-"src/Form/KeyEditForm.php:102","Edit","Editer","","False","","",""
+"src/Form/KeyEditForm.php:102","Edit","Modifier","","False","","",""
 "key.routing.yml:0","Edit key","","","False","","",""
 "src/Form/KeyEditForm.php:75","Edit key %label","","","False","","",""
 "src/Plugin/KeyType/EncryptionKeyType.php:9","Encryption","Chiffrement","","False","","",""

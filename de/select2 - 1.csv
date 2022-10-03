@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"src/Element/Select2.php:208","'- None -'","","",FALSE,"","",""
+"src/Element/Select2.php:208","'- None -'","'- Keine -'","",FALSE,"","",""
 "src/Element/Select2.php:208","'- Select -'","","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/Select2Widget.php:83","'@name field is required.'","Das Feld @name ist erforderlich.","",FALSE,"","",""
 "modules/select2_facets/src/Plugin/facets/widget/Select2Widget.php:15","A configurable widget that shows a select2.","","",FALSE,"","",""

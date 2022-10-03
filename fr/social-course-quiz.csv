@@ -128,7 +128,7 @@
 "modules/social_course_quiz_import/src/Form/SocialCourseQuizImportForm.php:45","Start","","","False","","",""
 "src/Form/QuizForm.php:357","Start attempt @current/@total","","","False","","",""
 "src/Form/QuizForm.php:364","Start quiz","","","False","","",""
-"src/Controller/QuizStatisticsController.php:342","Status","","","False","","",""
+"src/Controller/QuizStatisticsController.php:342","Status","Statut","","False","","",""
 "templates/quiz--status-messages.html.twig:33","Status message","Statut du message","","False","","",""
 "src/Form/QuestionPreviewForm.php:125","Switch","","","False","","",""
 "src/Entity/Question.php:159","Taxonomy term for grouping.","","","False","","",""

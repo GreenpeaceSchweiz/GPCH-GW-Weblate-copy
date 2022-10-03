@@ -40,7 +40,7 @@
 "admin_toolbar.links.menu.yml:0","Configure the Admin Toolbar module.","","",FALSE,"","",""
 "admin_toolbar_tools/src/Controller/ToolbarController.php:273","Cron ran successfully.","Cron-Lauf erfolgreich.","",FALSE,"","",""
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:408","Custom block library","Bibliothek benutzerdefinierter Blöcke","",FALSE,"","",""
-"admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:195;275;382","Delete","löschen","",FALSE,"","",""
+"admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:195;275;382","Delete","Löschen","",FALSE,"","",""
 "config/schema/admin_toolbar.schema.yml:0","Depth of displayed menu","","",FALSE,"","",""
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:572","Detection and selection","Erkennung und Auswahl","",FALSE,"","",""
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:186;283;390","Devel","Devel-Modul","",FALSE,"","",""

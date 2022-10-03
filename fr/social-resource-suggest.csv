@@ -26,7 +26,7 @@
 "src/ResourceSuggestionListBuilder.php:66","Resource suggestion ID","","","False","","",""
 "social_resource_suggest.links.menu.yml:0","Resource suggestion settings","","","False","","",""
 "src/Form/ResourceSuggestionForm.php:30","Saved the %label Resource suggestion.","","","False","","",""
-"social_resource_suggest.links.task.yml:0","Settings","","","False","","",""
+"social_resource_suggest.links.task.yml:0","Settings","Paramètres","","False","","",""
 "social_resource_suggest.info.yml:0","Social","","","False","","",""
 "social_resource_suggest.info.yml:0","Social Resource Suggest","","","False","","",""
 "src/Form/SuggestActionForm.php:133","Suggest to Resource Library","","","False","","",""

@@ -44,7 +44,7 @@
 "ctools.module:114","Contexts -- the notion of wrapping objects in a unified wrapper and providing an API to create and accept these contexts as input.","","",FALSE,"","",""
 "src/Form/ManageResolverRelationships.php:90","Data Type","","",FALSE,"","",""
 "src/Form/RelationshipConfigure.php:85","Data type","","",FALSE,"","",""
-"src/Form/RequiredContextDelete.php:151","Delete","löschen","",FALSE,"","",""
+"src/Form/RequiredContextDelete.php:151","Delete","Löschen","",FALSE,"","",""
 "ctools.module:116","Dependent -- a simple form widget to make form items appear and disappear based upon the selections in another item.","","",FALSE,"","",""
 "src/Form/ResolverRelationshipConfigure.php:95","Description","","",FALSE,"","",""
 "config/schema/ctools.schema.yml:0","Description of the context","","",FALSE,"","",""

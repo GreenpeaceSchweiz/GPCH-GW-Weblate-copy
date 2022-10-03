@@ -11,7 +11,7 @@
 "social_group_staging.module:27","Published","Publié","",FALSE,"","",""
 "social_group_staging.info.yml:0","Social (experimental)","","",FALSE,"","",""
 "social_group_staging.info.yml:0","Social Group Staging","","",FALSE,"","",""
-"social_group_staging.module:32","Status","État","",FALSE,"","",""
+"social_group_staging.module:32","Status","Statut","",FALSE,"","",""
 "social_group_staging.module:33","Status of the group. Setting it to <em>Unpublished</em> allows you to prepare your group and its content before users will see it.
 <br><strong>Important note:</strong> the content inside an unpublished group is not automatically unpublished.","","",FALSE,"","",""
 "social_group_staging.module:28","Unpublished","Non publié","",FALSE,"","",""

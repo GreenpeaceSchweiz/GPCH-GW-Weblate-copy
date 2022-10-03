@@ -52,7 +52,7 @@
 "config/schema/key.schema.yml:0","Configuration prefix","","",FALSE,"","",""
 "src/Form/KeyConfigOverrideAddForm.php:140","Configuration type","Konfigurationstyp","",FALSE,"","",""
 "key.permissions.yml:0","Create, edit, and delete site-wide keys.","","",FALSE,"","",""
-"src/Form/KeyDeleteForm.php:33","Delete","löschen","",FALSE,"","",""
+"src/Form/KeyDeleteForm.php:33","Delete","Löschen","",FALSE,"","",""
 "key.routing.yml:0","Delete Key","","",FALSE,"","",""
 "key.routing.yml:0","Delete Key Configuration Override","","",FALSE,"","",""
 "drush/key.drush.inc:41","Delete a key.","","",FALSE,"","",""

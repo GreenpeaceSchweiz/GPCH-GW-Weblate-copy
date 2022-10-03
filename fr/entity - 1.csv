@@ -50,7 +50,7 @@
 "src/EntityPermissionProviderBase.php:170","Duplicate @type","","",FALSE,"","",""
 "src/EntityPermissionProviderBase.php:141","Duplicate any @type","","",FALSE,"","",""
 "src/EntityPermissionProviderBase.php:146","Duplicate own @type","","",FALSE,"","",""
-"src/Menu/DefaultEntityLocalTaskProvider.php:56","Edit","Editer","",FALSE,"","",""
+"src/Menu/DefaultEntityLocalTaskProvider.php:56","Edit","Modifier","",FALSE,"","",""
 "src/Form/RevisionableContentEntityForm.php:67","Edit %bundle_label @label","","",FALSE,"","",""
 "entity.info.yml:0","Entity","Entité","",FALSE,"","",""
 "config/schema/entity.schema.yml:0","Entity revision link","","",FALSE,"","",""

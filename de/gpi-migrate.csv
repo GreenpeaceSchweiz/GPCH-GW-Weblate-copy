@@ -26,7 +26,7 @@
 "gpi_migrate.links.menu.yml:0","GPI migrations settings","","","False","","",""
 "config/install/migrate_plus.migration.gpi_group.yml:0","Group","Gruppe","","False","","",""
 "src/Plugin/migrate/source/GgwGroupMembers.php:57","Group ID","","","False","","",""
-"config/install/migrate_plus.migration.gpi_group_members.yml:0","Group Members","","","False","","",""
+"config/install/migrate_plus.migration.gpi_group_members.yml:0","Group Members","Gruppenmitglieder","","False","","",""
 "src/Form/GpiMigrateSettings.php:121","If the time constraint option is selected, the time constraint from above comes into effect.","","","False","","",""
 "src/Plugin/migrate/source/GgwUserTracker.php:61","Indicator dimensions","","","False","","",""
 "src/Plugin/migrate/source/GgwRedirect.php:154","Language","Sprache","","False","","",""

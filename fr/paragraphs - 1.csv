@@ -109,7 +109,7 @@
 "src/Plugin/Field/FieldWidget/ParagraphsWidget.php:2575","Drag & drop","Glisser, déposer","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/ParagraphsWidget.php:294","Dropdown button","Bouton déroulant","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/ParagraphsWidget.php:300;596","Duplicate","Dupliquer","",FALSE,"","",""
-"src/Plugin/Field/FieldWidget/ParagraphsWidget.php:666;682","Edit","Editer","",FALSE,"","",""
+"src/Plugin/Field/FieldWidget/ParagraphsWidget.php:666;682","Edit","Modifier","",FALSE,"","",""
 "src/Form/ParagraphsTypeForm.php:72","Edit %title paragraph type","Modifier le type de paragraphe %title","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/ParagraphsWidget.php:2633","Edit All","Tout éditer","",FALSE,"","",""
 "src/Plugin/Field/FieldWidget/ParagraphsWidget.php:2612;2631","Edit all","Tout éditer","",FALSE,"","",""

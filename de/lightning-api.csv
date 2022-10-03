@@ -27,7 +27,7 @@
 "lightning_api.info.yml:0","Progressive decoupling? No problem.","","","False","","",""
 "src/Form/OAuthKeyForm.php:115","Public key name","","","False","","",""
 "lightning_api.install:143","Redirect URI","","","False","","",""
-"lightning_api.links.task.yml:0","Settings","","","False","","",""
+"lightning_api.links.task.yml:0","Settings","Einstellungen","","False","","",""
 "modules/simple_oauth_extras/simple_oauth_extras.info.yml:0","Simple OAuth Extras","","","False","","",""
 "lightning_api.install:212","The OpenAPI REST module currently ships with Lightning API, but it will not in Lightning API 5.0. If you intend to continue using it, you should explicitly add it to your project now, for example: <code>composer require drupal/openapi_rest</code>. Otherwise, you may want to <a href="":uninstall_url"">uninstall it now</a>.","","","False","","",""
 "src/Form/OAuthKeyForm.php:84","The OpenSSL extension is unavailable. Please enable it to generate OAuth keys.","","","False","","",""

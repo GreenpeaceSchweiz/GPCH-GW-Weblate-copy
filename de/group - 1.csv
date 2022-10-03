@@ -97,7 +97,7 @@
 "group.tokens.inc:67;109","Date changed","Änderungsdatum","",FALSE,"","",""
 "group.tokens.inc:62;104","Date created","Erstellungsdatum","",FALSE,"","",""
 "group.post_update.php:114","Default revision","","",FALSE,"","",""
-"src/Entity/Form/GroupRevisionDeleteForm.php:87","Delete","löschen","",FALSE,"","",""
+"src/Entity/Form/GroupRevisionDeleteForm.php:87","Delete","Löschen","",FALSE,"","",""
 "group.routing.yml:0","Delete earlier revision","","",FALSE,"","",""
 "group.group.permissions.yml:0","Delete group","Gruppe löschen","",FALSE,"","",""
 "src/Entity/Form/GroupRoleForm.php:92","Delete group role","Gruppenrolle löschen","",FALSE,"","",""

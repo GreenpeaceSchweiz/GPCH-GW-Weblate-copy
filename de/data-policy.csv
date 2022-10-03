@@ -53,7 +53,7 @@
 "src/Form/DataPolicyRevisionRevertForm.php:137","Data policy: reverted revision %revision.","","","False","","",""
 "data_policy.routing.yml:0","Data usage explanation","","","False","","",""
 "src/UserConsentListBuilder.php:61","Date and time of consent","","","False","","",""
-"src/Form/InformBlockDeleteForm.php:34","Delete","löschen","","False","","",""
+"src/Form/InformBlockDeleteForm.php:34","Delete","Löschen","","False","","",""
 "data_policy.permissions.yml:0","Delete all Data policy revisions","","","False","","",""
 "data_policy.routing.yml:0","Delete page","","","False","","",""
 "src/UserConsentListBuilder.php:73","Deleted user","","","False","","",""

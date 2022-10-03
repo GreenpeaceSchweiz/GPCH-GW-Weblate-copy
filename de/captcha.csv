@@ -88,7 +88,7 @@
 "src/Form/CaptchaSettingsForm.php:209","Define how the response should be processed by default. Note that the modules that provide the actual challenges can override or ignore this.","","","False","","",""
 "src/Form/CaptchaSettingsForm.php:229","Define if challenges should be omitted during the rest of a session once the user successfully responds to a challenge.","","","False","","",""
 "image_captcha/src/Form/ImageCaptchaSettingsForm.php:424","Define the average spacing between characters. Note that larger values make the image generation more CPU intensive.","","","False","","",""
-"src/Form/CaptchaPointDeleteForm.php:32","Delete","löschen","","False","","",""
+"src/Form/CaptchaPointDeleteForm.php:32","Delete","Löschen","","False","","",""
 "captcha.routing.yml:0","Delete CAPTCHA point","","","False","","",""
 "src/Form/CaptchaPointDisableForm.php:39","Disable","Deaktivieren","","False","","",""
 "captcha.routing.yml:0","Disable CAPTCHA point","","","False","","",""

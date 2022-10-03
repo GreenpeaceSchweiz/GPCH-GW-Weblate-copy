@@ -69,7 +69,7 @@
 "config/optional/block.block.gin_secondary_local_tasks.yml:0","Secondary tabs","","",FALSE,"","",""
 "js/overrides/gin_media_library.view.js:0","Select all media","","",FALSE,"","",""
 "js/overrides/gin_tableselect.js:0","Select all rows in this table","","",FALSE,"","",""
-"gin.theme:553","Settings","","",FALSE,"","",""
+"gin.theme:553","Settings","Einstellungen","",FALSE,"","",""
 "config/schema/gin.schema.yml:0","Shortcut","","",FALSE,"","",""
 "js/overrides/gin_tabledrag.js:0;0","Show row weights","","",FALSE,"","",""
 "gin.theme:696","Sidebar","","",FALSE,"","",""

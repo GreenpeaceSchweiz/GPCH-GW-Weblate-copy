@@ -31,7 +31,7 @@
 "simple_oauth.permissions.yml:0","Create new Access Token entities","","","False","","",""
 "src/Entity/Oauth2Token.php:157","Created","Erstellt","","False","","",""
 "simple_oauth.permissions.yml:0","Debug OAuth2 tokens","","","False","","",""
-"src/Entity/Form/Oauth2TokenDeleteForm.php:75","Delete","löschen","","False","","",""
+"src/Entity/Form/Oauth2TokenDeleteForm.php:75","Delete","Löschen","","False","","",""
 "simple_oauth.routing.yml:0","Delete Access Token","","","False","","",""
 "simple_oauth.permissions.yml:0","Delete Access Token entities","","","False","","",""
 "simple_oauth.module:32","Deleted @limit expired tokens in cron.","","","False","","",""

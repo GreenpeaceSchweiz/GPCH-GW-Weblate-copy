@@ -38,7 +38,7 @@
 "src/EntityPermissionProviderBase.php:124","Create @type","'@type erstellen'","","False","","",""
 "src/Form/RevisionableContentEntityForm.php:94","Create new revision","Neue Revision erstellen","","False","","",""
 "src/Controller/RevisionControllerTrait.php:137","Current revision","Aktuelle Revision","","False","","",""
-"src/Controller/RevisionOverviewController.php:83","Delete","löschen","","False","","",""
+"src/Controller/RevisionOverviewController.php:83","Delete","Löschen","","False","","",""
 "src/Plugin/Action/Derivative/DeleteActionDeriver.php:50","Delete @entity_type (Deprecated)","","","False","","",""
 "src/EntityPermissionProviderBase.php:176","Delete @type","'@type löschen.'","","False","","",""
 "src/EntityPermissionProviderBase.php:152","Delete any @type","Jegliche @type löschen","","False","","",""
