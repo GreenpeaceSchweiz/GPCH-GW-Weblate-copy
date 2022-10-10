@@ -771,7 +771,7 @@ Lingua delle pagine di amministrazione</em>nella pagina del profilo di un utente
 "modules/user/config/install/user.mail.yml:0","Account cancellation request for [user:display-name] at [site:name]","","",FALSE,"","",""
 "modules/user/config/schema/user.schema.yml:0","Account cancelled","Profilo utente eliminato","",FALSE,"","",""
 "modules/user/config/schema/user.schema.yml:0","Account created by administrator","Profilo creato dall'amministratore","",FALSE,"","",""
-"modules/user/config/install/user.mail.yml:0","Account details for [user:display-name] at [site:name]","","",FALSE,"","",""
+"modules/user/config/install/user.mail.yml:0","Account details for [user:display-name] at [site:name]","Convalida del tuo account [user:display-name] su [site:name]","",FALSE,"","",""
 "modules/user/config/install/user.mail.yml:0","Account details for [user:display-name] at [site:name] (approved)","","",FALSE,"","",""
 "modules/user/config/install/user.mail.yml:0","Account details for [user:display-name] at [site:name] (blocked)","","",FALSE,"","",""
 "modules/user/config/install/user.mail.yml:0","Account details for [user:display-name] at [site:name] (canceled)","","",FALSE,"","",""

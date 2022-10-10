@@ -10,7 +10,7 @@
 "src/SchedulerManager.php:269;444","'@type: scheduled processing of %title completed by calls to @hook.'","","",FALSE,"","",""
 "src/SchedulerManager.php:274","'@type: scheduled publishing of %title.'","","",FALSE,"","",""
 "src/SchedulerManager.php:449","'@type: scheduled unpublishing of %title.'","","",FALSE,"","",""
-"scheduler.module:27","About","","",FALSE,"","",""
+"scheduler.module:27","About","Info","",FALSE,"","",""
 "config/install/views.view.scheduler_scheduled_content.yml:0","Action","","",FALSE,"","",""
 "scheduler_rules_integration/src/Plugin/RulesAction/SetPublishingDate.php:63","Action ""%action_label"" is not valid because scheduled publishing is not enabled for %type content. Add the condition ""%condition"" to your Reaction Rule, or enable scheduled publishing via the %type settings.","","",FALSE,"","",""
 "scheduler_rules_integration/src/Plugin/RulesAction/SetPublishingDate.php:66","Action ""%action_label"" is not valid because scheduled publishing is not enabled for %type content. Add the condition ""%condition"" to your Reaction Rule, or enable scheduled publishing via the <a href=""@url"">%type</a> settings.","","",FALSE,"","",""

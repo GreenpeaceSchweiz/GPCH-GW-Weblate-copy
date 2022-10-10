@@ -13,7 +13,7 @@
 "graphql.install:25","'@library component not found'","","",FALSE,"","",""
 "src/Plugin/GraphQL/DataProducer/XML/XMLXpath.php:7","A DOM element located at a specific path.","","",FALSE,"","",""
 "src/Form/ServerForm.php:126","A unique machine-readable name for this server. It must only contain lowercase letters, numbers, and underscores.","","",FALSE,"","",""
-"graphql.module:16","About","","",FALSE,"","",""
+"graphql.module:16","About","Info","",FALSE,"","",""
 "src/Plugin/GraphQL/DataProducer/Entity/EntityAccess.php:9","Access result","","",FALSE,"","",""
 "src/Form/ServerForm.php:194","Add debugMessage key containing the exception message to errors.","","",FALSE,"","",""
 "src/Form/ServerForm.php:103","Add server","","",FALSE,"","",""

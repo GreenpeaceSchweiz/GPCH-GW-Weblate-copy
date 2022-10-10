@@ -934,7 +934,7 @@ WY: Wyoming
 "src/WebformAddonsManager.php:679","AXEPTA e-POSitivity Payment Gateways","","",FALSE,"","",""
 "src/Plugin/WebformElement/DateList.php:205","Abbreviate month","","",FALSE,"","",""
 "src/Plugin/WebformElement/WebformHeight.php:122","Abbreviated units (ft and in)","","",FALSE,"","",""
-"src/WebformHelpManager.php:812","About","","",FALSE,"","",""
+"src/WebformHelpManager.php:812","About","Info","",FALSE,"","",""
 "src/WebformHelpManager.php:880","About Webform & the Drupal community","","",FALSE,"","",""
 "src/Plugin/WebformElement/WebformScale.php:116","Above","","",FALSE,"","",""
 "src/Plugin/WebformElement/Range.php:199","Above (Floating)","","",FALSE,"","",""
@@ -1509,7 +1509,7 @@ Yukon: Yukon
 "src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:621","Authenticated and anonymous users","","",FALSE,"","",""
 "src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:620","Authenticated users","","",FALSE,"","",""
 "src/WebformEntityListBuilder.php:246","Author","","",FALSE,"","",""
-"src/EntitySettings/WebformEntitySettingsGeneralForm.php:417","Author information","","",FALSE,"","",""
+"src/EntitySettings/WebformEntitySettingsGeneralForm.php:417","Author information","Informationen zum:r Autor:in","",FALSE,"","",""
 "src/EntitySettings/WebformEntitySettingsGeneralForm.php:421","Authored by","","",FALSE,"","",""
 "src/Plugin/WebformElement/WebformTelephone.php:116","Auto detect","","",FALSE,"","",""
 "src/Plugin/WebformElement/WebformComputedBase.php:207","Auto-detect","","",FALSE,"","",""
@@ -1882,7 +1882,7 @@ Mixed: Mixed
 "src/Element/WebformLocationPlaces.php:41","County","","",FALSE,"","",""
 "src/WebformHelpManager.php:986","Create a Webform Handler in Drupal 8 | Matt Arnold","","",FALSE,"","",""
 "src/WebformAddonsManager.php:1196","Create a new user upon form submission.","","",FALSE,"","",""
-"modules/webform_node/src/Form/WebformNodeReferencesAddForm.php:135","Create content","","",FALSE,"","",""
+"modules/webform_node/src/Form/WebformNodeReferencesAddForm.php:135","Create content","Inhalt erstellen","",FALSE,"","",""
 "src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:757","Create new submission view","","",FALSE,"","",""
 "modules/webform_submission_export_import/src/Form/WebformSubmissionExportImportUploadForm.php:335","Create new submissions.","","",FALSE,"","",""
 "src/WebformAddonsManager.php:1625","Create reports from Webform Submissions on a timely basis.","","",FALSE,"","",""
@@ -1892,7 +1892,7 @@ Mixed: Mixed
 "webform.links.menu.yml:0","Create webforms and manage submissions.","","",FALSE,"","",""
 "config/optional/views.view.webform_submissions.yml:0;0;0;0","Created","Erstellt","",FALSE,"","",""
 "src/Commands/WebformCliService.php:372","Created @destination","","",FALSE,"","",""
-"src/WebformSubmissionExporter.php:602","Created date","","",FALSE,"","",""
+"src/WebformSubmissionExporter.php:602","Created date","Erstellungsdatum","",FALSE,"","",""
 "src/WebformAddonsManager.php:559","Creates a navigation setting for webform that allows users to navigate forwards and backwards through wizard pages when the wizard navigation progress bar is enabled.","","",FALSE,"","",""
 "src/WebformAddonsManager.php:227","Creates a new DropzoneJS element that you can add to webforms.","","",FALSE,"","",""
 "src/WebformAddonsManager.php:235","Creates a new DropzoneJS element that you can add to webforms. It provides a user-friendly way for users to upload multiple files in a form field.","","",FALSE,"","",""
@@ -2968,7 +2968,7 @@ Extra Large: Extra Large
 "src/WebformHelpManager.php:938","Forms (Form API) | Drupalize.me","","",FALSE,"","",""
 "src/WebformAddonsManager.php:422","Formset","","",FALSE,"","",""
 "src/Plugin/WebformElement/WebformMapping.php:251","Four","","",FALSE,"","",""
-"src/Utility/WebformDateHelper.php:86","Friday","","",FALSE,"","",""
+"src/Utility/WebformDateHelper.php:86","Friday","Freitag","",FALSE,"","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:1222","From","","",FALSE,"","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:459;1344","From email","","",FALSE,"","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:459","From email address","","",FALSE,"","",""
@@ -3465,7 +3465,19 @@ September: September
 October: October
 November: November
 December: December
-","","",FALSE,"","",""
+","Januar: Januar
+Februar: Februar
+März: März
+April: April
+Mai: Mai
+Juni: Juni
+Juli: Juli
+August: August
+September: September
+Oktober: Oktober
+November: November
+Dezember: Dezember
+","",FALSE,"","",""
 "src/Plugin/WebformElement/WebformCodeMirror.php:143","JavaScript","","",FALSE,"","",""
 "modules/webform_share/src/Form/WebformShareEmbedForm.php:73","JavaScript -- The embedded webform will be inserted using JavaScript.","","",FALSE,"","",""
 "modules/webform_share/src/Form/WebformShareEmbedForm.php:84","JavaScript code","","",FALSE,"","",""

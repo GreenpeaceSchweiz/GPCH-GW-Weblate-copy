@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"social_role_visibility.module:42","About","","","False","","",""
+"social_role_visibility.module:42","About","Info","","False","","",""
 "social_role_visibility.module:43","Add a new visibility option","","","False","","",""
 "social_role_visibility.info.yml:0","Add a new visibility option based on roles","","","False","","",""
 "social_role_visibility.module:1040","CM+","","","False","","",""

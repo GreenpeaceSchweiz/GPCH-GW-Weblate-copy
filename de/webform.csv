@@ -934,7 +934,7 @@ WY: Wyoming
 "src/WebformAddonsManager.php:679","AXEPTA e-POSitivity Payment Gateways","","","False","","",""
 "src/Plugin/WebformElement/DateList.php:205","Abbreviate month","","","False","","",""
 "src/Plugin/WebformElement/WebformHeight.php:122","Abbreviated units (ft and in)","","","False","","",""
-"src/WebformHelpManager.php:812","About","","","False","","",""
+"src/WebformHelpManager.php:812","About","Info","","False","","",""
 "src/WebformHelpManager.php:880","About Webform & the Drupal community","","","False","","",""
 "src/Plugin/WebformElement/WebformScale.php:116","Above","","","False","","",""
 "src/Plugin/WebformElement/Range.php:199","Above (Floating)","","","False","","",""
@@ -1509,7 +1509,7 @@ Yukon: Yukon
 "src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:621","Authenticated and anonymous users","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:620","Authenticated users","","","False","","",""
 "src/WebformEntityListBuilder.php:246","Author","","","False","","",""
-"src/EntitySettings/WebformEntitySettingsGeneralForm.php:417","Author information","","","False","","",""
+"src/EntitySettings/WebformEntitySettingsGeneralForm.php:417","Author information","Informationen zum:r Autor:in","","False","","",""
 "src/EntitySettings/WebformEntitySettingsGeneralForm.php:421","Authored by","","","False","","",""
 "src/Plugin/WebformElement/WebformTelephone.php:116","Auto detect","","","False","","",""
 "src/Plugin/WebformElement/WebformComputedBase.php:207","Auto-detect","","","False","","",""
@@ -1882,7 +1882,7 @@ Mixed: Mixed
 "src/Element/WebformLocationPlaces.php:41","County","","","False","","",""
 "src/WebformHelpManager.php:986","Create a Webform Handler in Drupal 8 | Matt Arnold","","","False","","",""
 "src/WebformAddonsManager.php:1196","Create a new user upon form submission.","","","False","","",""
-"modules/webform_node/src/Form/WebformNodeReferencesAddForm.php:135","Create content","","","False","","",""
+"modules/webform_node/src/Form/WebformNodeReferencesAddForm.php:135","Create content","Inhalt erstellen","","False","","",""
 "src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:757","Create new submission view","","","False","","",""
 "modules/webform_submission_export_import/src/Form/WebformSubmissionExportImportUploadForm.php:335","Create new submissions.","","","False","","",""
 "src/WebformAddonsManager.php:1625","Create reports from Webform Submissions on a timely basis.","","","False","","",""
@@ -1892,7 +1892,7 @@ Mixed: Mixed
 "webform.links.menu.yml:0","Create webforms and manage submissions.","","","False","","",""
 "config/optional/views.view.webform_submissions.yml:0;0;0;0","Created","Erstellt","","False","","",""
 "src/Commands/WebformCliService.php:372","Created @destination","","","False","","",""
-"src/WebformSubmissionExporter.php:602","Created date","","","False","","",""
+"src/WebformSubmissionExporter.php:602","Created date","Erstellungsdatum","","False","","",""
 "src/WebformAddonsManager.php:559","Creates a navigation setting for webform that allows users to navigate forwards and backwards through wizard pages when the wizard navigation progress bar is enabled.","","","False","","",""
 "src/WebformAddonsManager.php:227","Creates a new DropzoneJS element that you can add to webforms.","","","False","","",""
 "src/WebformAddonsManager.php:235","Creates a new DropzoneJS element that you can add to webforms. It provides a user-friendly way for users to upload multiple files in a form field.","","","False","","",""
@@ -2968,7 +2968,7 @@ Extra Large: Extra Large
 "src/WebformHelpManager.php:938","Forms (Form API) | Drupalize.me","","","False","","",""
 "src/WebformAddonsManager.php:422","Formset","","","False","","",""
 "src/Plugin/WebformElement/WebformMapping.php:251","Four","","","False","","",""
-"src/Utility/WebformDateHelper.php:86","Friday","","","False","","",""
+"src/Utility/WebformDateHelper.php:86","Friday","Freitag","","False","","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:1222","From","","","False","","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:459;1344","From email","","","False","","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:459","From email address","","","False","","",""
@@ -3465,7 +3465,19 @@ September: September
 October: October
 November: November
 December: December
-","","","False","","",""
+","Januar: Januar
+Februar: Februar
+März: März
+April: April
+Mai: Mai
+Juni: Juni
+Juli: Juli
+August: August
+September: September
+Oktober: Oktober
+November: November
+Dezember: Dezember
+","","False","","",""
 "src/Plugin/WebformElement/WebformCodeMirror.php:143","JavaScript","","","False","","",""
 "modules/webform_share/src/Form/WebformShareEmbedForm.php:73","JavaScript -- The embedded webform will be inserted using JavaScript.","","","False","","",""
 "modules/webform_share/src/Form/WebformShareEmbedForm.php:84","JavaScript code","","","False","","",""
@@ -3781,7 +3793,7 @@ Dr: Dr
 "modules/webform_toggles/src/Plugin/WebformElement/WebformToggleTrait.php:47","Modern","","","False","","",""
 "modules/webform_devel/src/Form/WebformDevelEntityFormApiExportForm.php:85","Module info","","","False","","",""
 "src/WebformAddonsManager.php:831","Mollie for Drupal","","","False","","",""
-"src/Utility/WebformDateHelper.php:82","Monday","","","False","","",""
+"src/Utility/WebformDateHelper.php:82","Monday","Montag","","False","","",""
 "config/install/webform.webform_options.months.yml:0","Months","","","False","","",""
 "config/install/webform.settings.yml:0","More","","","False","","",""
 "src/Plugin/WebformElement/WebformMore.php:49","More text","","","False","","",""
@@ -4654,7 +4666,7 @@ Friend: Friend
 "src/Plugin/WebformElement/WebformSame.php:9","Same as…","","","False","","",""
 "src/Plugin/WebformElement/WebformManagedFileBase.php:1059","Sanitize file name","","","False","","",""
 "src/WebformAddonsManager.php:1585","Sanitizes submissions to remove potentially sensitive data.","","","False","","",""
-"src/Utility/WebformDateHelper.php:87","Saturday","","","False","","",""
+"src/Utility/WebformDateHelper.php:87","Saturday","Samstag","","False","","",""
 "src/Form/WebformVariantFormBase.php:244","Save","","","False","","",""
 "modules/webform_ui/src/Form/WebformUiElementFormBase.php:321;428","Save + Add element","","","False","","",""
 "config/install/webform.settings.yml:0","Save Draft","","","False","","",""
@@ -5069,7 +5081,7 @@ Submitted values are:
 "src/Element/WebformName.php:46","Suffix","","","False","","",""
 "src/Plugin/WebformElementBase.php:3052","Summary","","","False","","",""
 "src/Plugin/WebformElementBase.php:3048","Summary attributes","","","False","","",""
-"src/Utility/WebformDateHelper.php:81","Sunday","","","False","","",""
+"src/Utility/WebformDateHelper.php:81","Sunday","Sonntag","","False","","",""
 "config/install/webform.webform_options.days.yml:0","Sunday: Sunday
 Monday: Monday
 Tuesday: Tuesday
@@ -5077,7 +5089,14 @@ Wednesday: Wednesday
 Thursday: Thursday
 Friday: Friday
 Saturday: Saturday
-","","","False","","",""
+","Sonntag: Sonntag
+Montag: Montag
+Dienstag: Dienstag
+Mittwoch: Mittwoch
+Donnerstag: Donnerstag
+Freitag: Freitag
+Samstag: Samstag
+","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:684","Supported modules","","","False","","",""
 "modules/webform_options_custom/webform_options_custom.module:46","Svg-pan-zoom is used by custom options elements.","","","False","","",""
 "src/WebformAddonsManager.php:1305","Swift Mailer <em>(requires Mail System)</em>","","","False","","",""
@@ -5641,7 +5660,7 @@ Saturday: Saturday
 "modules/webform_options_custom/src/Entity/WebformOptionsCustom.php:339","Three -- This is the number 3.","","","False","","",""
 "src/Plugin/WebformElement/OptionsBase.php:865","Three columns","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:473","Throbber","","","False","","",""
-"src/Utility/WebformDateHelper.php:85","Thursday","","","False","","",""
+"src/Utility/WebformDateHelper.php:85","Thursday","Donnerstag","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigElementsForm.php:182","Tidy HTML markup","","","False","","",""
 "src/Commands/WebformCliService.php:626","Tidying @file…","","","False","","",""
 "src/Plugin/WebformElement/WebformTime.php:9","Time","","","False","","",""
@@ -5732,7 +5751,7 @@ Saturday: Saturday
 "src/Plugin/WebformHandler/ActionWebformHandler.php:12","Trigger an action on a submission.","","","False","","",""
 "src/Element/WebformElementStates.php:152","Trigger/Value","","","False","","",""
 "src/Commands/WebformSanitizeSubmissionsCommands.php:97","Truncate webform submission tables.","","","False","","",""
-"src/Utility/WebformDateHelper.php:83","Tuesday","","","False","","",""
+"src/Utility/WebformDateHelper.php:83","Tuesday","Dienstag","","False","","",""
 "src/Plugin/WebformElement/WebformCodeMirror.php:145","Twig","","","False","","",""
 "modules/webform_entity_print_attachment/src/Plugin/WebformElement/WebformEntityPrintAttachment.php:92","Twig template","","","False","","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:496","Twig template…","","","False","","",""
@@ -6301,7 +6320,7 @@ Saturday: Saturday
 "webform.routing.yml:0","Webforms: Submissions purge","","","False","","",""
 "modules/webform_templates/webform_templates.routing.yml:0;0","Webforms: Templates","","","False","","",""
 "webform.routing.yml:0","Webforms: Variants configuration","","","False","","",""
-"src/Utility/WebformDateHelper.php:84","Wednesday","","","False","","",""
+"src/Utility/WebformDateHelper.php:84","Wednesday","Mittwoch","","False","","",""
 "src/Utility/WebformDateHelper.php:202","Week","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsGeneralForm.php:486","Weight","","","False","","",""
 "src/Form/WebformResultsCustomForm.php:379","Weight for @label","","","False","","",""
@@ -6943,7 +6962,7 @@ evaluation_details:
       - authenticated
 ","","","False","","",""
 "src/Plugin/WebformHandler/RemotePostWebformHandler.php:227","converted","","","False","","",""
-"modules/webform_ui/src/Form/WebformUiElementDuplicateForm.php:38","created","","","False","","",""
+"modules/webform_ui/src/Form/WebformUiElementDuplicateForm.php:38","created","erstellt","","False","","",""
 "modules/webform_options_custom/src/Entity/WebformOptionsCustom.php:15;15","custom options","","","False","","",""
 "src/Element/WebformElementAttributes.php:75","custom…","","","False","","",""
 "modules/webform_scheduled_email/src/WebformScheduledEmailManager.php:125","date","","","False","","",""

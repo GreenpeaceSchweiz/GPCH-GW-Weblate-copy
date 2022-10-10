@@ -56,7 +56,7 @@ Dr: Dr
 "modules/webform_toggles/src/Plugin/WebformElement/WebformToggleTrait.php:47","Modern","","",FALSE,"","",""
 "modules/webform_devel/src/Form/WebformDevelEntityFormApiExportForm.php:85","Module info","","",FALSE,"","",""
 "src/WebformAddonsManager.php:831","Mollie for Drupal","","",FALSE,"","",""
-"src/Utility/WebformDateHelper.php:82","Monday","","",FALSE,"","",""
+"src/Utility/WebformDateHelper.php:82","Monday","Montag","",FALSE,"","",""
 "config/install/webform.webform_options.months.yml:0","Months","","",FALSE,"","",""
 "config/install/webform.settings.yml:0","More","","",FALSE,"","",""
 "src/Plugin/WebformElement/WebformMore.php:49","More text","","",FALSE,"","",""
@@ -929,7 +929,7 @@ Friend: Friend
 "src/Plugin/WebformElement/WebformSame.php:9","Same as…","","",FALSE,"","",""
 "src/Plugin/WebformElement/WebformManagedFileBase.php:1059","Sanitize file name","","",FALSE,"","",""
 "src/WebformAddonsManager.php:1585","Sanitizes submissions to remove potentially sensitive data.","","",FALSE,"","",""
-"src/Utility/WebformDateHelper.php:87","Saturday","","",FALSE,"","",""
+"src/Utility/WebformDateHelper.php:87","Saturday","Samstag","",FALSE,"","",""
 "src/Form/WebformVariantFormBase.php:244","Save","","",FALSE,"","",""
 "modules/webform_ui/src/Form/WebformUiElementFormBase.php:321;428","Save + Add element","","",FALSE,"","",""
 "config/install/webform.settings.yml:0","Save Draft","","",FALSE,"","",""
@@ -1344,7 +1344,7 @@ Submitted values are:
 "src/Element/WebformName.php:46","Suffix","","",FALSE,"","",""
 "src/Plugin/WebformElementBase.php:3052","Summary","","",FALSE,"","",""
 "src/Plugin/WebformElementBase.php:3048","Summary attributes","","",FALSE,"","",""
-"src/Utility/WebformDateHelper.php:81","Sunday","","",FALSE,"","",""
+"src/Utility/WebformDateHelper.php:81","Sunday","Sonntag","",FALSE,"","",""
 "config/install/webform.webform_options.days.yml:0","Sunday: Sunday
 Monday: Monday
 Tuesday: Tuesday
@@ -1352,7 +1352,14 @@ Wednesday: Wednesday
 Thursday: Thursday
 Friday: Friday
 Saturday: Saturday
-","","",FALSE,"","",""
+","Sonntag: Sonntag
+Montag: Montag
+Dienstag: Dienstag
+Mittwoch: Mittwoch
+Donnerstag: Donnerstag
+Freitag: Freitag
+Samstag: Samstag
+","",FALSE,"","",""
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:684","Supported modules","","",FALSE,"","",""
 "modules/webform_options_custom/webform_options_custom.module:46","Svg-pan-zoom is used by custom options elements.","","",FALSE,"","",""
 "src/WebformAddonsManager.php:1305","Swift Mailer <em>(requires Mail System)</em>","","",FALSE,"","",""
@@ -1916,7 +1923,7 @@ Saturday: Saturday
 "modules/webform_options_custom/src/Entity/WebformOptionsCustom.php:339","Three -- This is the number 3.","","",FALSE,"","",""
 "src/Plugin/WebformElement/OptionsBase.php:865","Three columns","","",FALSE,"","",""
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:473","Throbber","","",FALSE,"","",""
-"src/Utility/WebformDateHelper.php:85","Thursday","","",FALSE,"","",""
+"src/Utility/WebformDateHelper.php:85","Thursday","Donnerstag","",FALSE,"","",""
 "src/Form/AdminConfig/WebformAdminConfigElementsForm.php:182","Tidy HTML markup","","",FALSE,"","",""
 "src/Commands/WebformCliService.php:626","Tidying @file…","","",FALSE,"","",""
 "src/Plugin/WebformElement/WebformTime.php:9","Time","","",FALSE,"","",""
@@ -2007,7 +2014,7 @@ Saturday: Saturday
 "src/Plugin/WebformHandler/ActionWebformHandler.php:12","Trigger an action on a submission.","","",FALSE,"","",""
 "src/Element/WebformElementStates.php:152","Trigger/Value","","",FALSE,"","",""
 "src/Commands/WebformSanitizeSubmissionsCommands.php:97","Truncate webform submission tables.","","",FALSE,"","",""
-"src/Utility/WebformDateHelper.php:83","Tuesday","","",FALSE,"","",""
+"src/Utility/WebformDateHelper.php:83","Tuesday","Dienstag","",FALSE,"","",""
 "src/Plugin/WebformElement/WebformCodeMirror.php:145","Twig","","",FALSE,"","",""
 "modules/webform_entity_print_attachment/src/Plugin/WebformElement/WebformEntityPrintAttachment.php:92","Twig template","","",FALSE,"","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:496","Twig template…","","",FALSE,"","",""
@@ -2576,7 +2583,7 @@ Saturday: Saturday
 "webform.routing.yml:0","Webforms: Submissions purge","","",FALSE,"","",""
 "modules/webform_templates/webform_templates.routing.yml:0;0","Webforms: Templates","","",FALSE,"","",""
 "webform.routing.yml:0","Webforms: Variants configuration","","",FALSE,"","",""
-"src/Utility/WebformDateHelper.php:84","Wednesday","","",FALSE,"","",""
+"src/Utility/WebformDateHelper.php:84","Wednesday","Mittwoch","",FALSE,"","",""
 "src/Utility/WebformDateHelper.php:202","Week","","",FALSE,"","",""
 "src/EntitySettings/WebformEntitySettingsGeneralForm.php:486","Weight","","",FALSE,"","",""
 "src/Form/WebformResultsCustomForm.php:379","Weight for @label","","",FALSE,"","",""
@@ -3218,7 +3225,7 @@ evaluation_details:
       - authenticated
 ","","",FALSE,"","",""
 "src/Plugin/WebformHandler/RemotePostWebformHandler.php:227","converted","","",FALSE,"","",""
-"modules/webform_ui/src/Form/WebformUiElementDuplicateForm.php:38","created","","",FALSE,"","",""
+"modules/webform_ui/src/Form/WebformUiElementDuplicateForm.php:38","created","erstellt","",FALSE,"","",""
 "modules/webform_options_custom/src/Entity/WebformOptionsCustom.php:15;15","custom options","","",FALSE,"","",""
 "src/Element/WebformElementAttributes.php:75","custom…","","",FALSE,"","",""
 "modules/webform_scheduled_email/src/WebformScheduledEmailManager.php:125","date","","",FALSE,"","",""

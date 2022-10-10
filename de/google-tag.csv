@@ -3,7 +3,7 @@
 "src/Form/SettingsForm.php:38","<br />After configuring the module settings and default properties for a new container, <strong>add a container</strong> on the <a href="":url"">container management page</a>.","","","False","","",""
 "src/Form/ContainerTrait.php:263","A valid container ID is case sensitive and formatted like GTM-xxxxxx.","","","False","","",""
 "src/Form/ContainerTrait.php:304","A valid environment ID is case sensitive and formatted like env-x.","","","False","","",""
-"src/ContainerController.php:28","Add @entity-type","","","False","","",""
+"src/ContainerController.php:28","Add @entity-type","'@entity-type hinzufügen'","","False","","",""
 "google_tag.routing.yml:0","Add Google Tag container","","","False","","",""
 "src/Form/ContainerTrait.php:50","Add classes to the data layer","","","False","","",""
 "google_tag.links.action.yml:0","Add container","","","False","","",""

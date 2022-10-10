@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"antibot.module:24","About","","","False","","",""
+"antibot.module:24","About","Info","","False","","",""
 "antibot.permissions.yml:0","Access to the Antibot configurations","","","False","","",""
 "antibot.permissions.yml:0","Administer antibot configuration","","","False","","",""
 "antibot.links.menu.yml:0","Antibot","","","False","","",""
