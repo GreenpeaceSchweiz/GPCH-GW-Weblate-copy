@@ -7,7 +7,7 @@ library(weblatetools)
 # Initialize some base parameters. "to.project" is set here instead of in
 # copyTranslations() or postFile() to avoid mistakenly writing to the wrong
 # project.
-setup(api.url = "https://translate.getopensocial.com/api",
+setup(base.url = "https://translate.getopensocial.com",
       token = Sys.getenv("WEBLATE_PAT"),
       to.project = "gpch",
       debug = Sys.getenv("GHACTION_DEBUG") == "TRUE"
