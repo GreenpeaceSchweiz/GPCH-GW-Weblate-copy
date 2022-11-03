@@ -2,7 +2,7 @@
 "weight.views.inc:24","'@title Selector'","","",FALSE,"","",""
 "weight.views.inc:20","'@title Selector (@field)'","","",FALSE,"","",""
 "weight.info.yml:0","Allows arbitrary ordering of entities.","","",FALSE,"","",""
-"src/Plugin/Field/FieldFormatter/WeightFieldFormatter.php:8","Default","","",FALSE,"","",""
+"src/Plugin/Field/FieldFormatter/WeightFieldFormatter.php:8","Default","Standard","",FALSE,"","",""
 "weight.info.yml:0","Field types","Feldtypen","",FALSE,"","",""
 "src/Plugin/views/field/WeightSelector.php:67","Range","","",FALSE,"","",""
 "src/Plugin/views/field/WeightSelector.php:68","The range of weights available to select. For

@@ -1,0 +1,6 @@
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"config/install/taxonomy.vocabulary.ethnicity.yml:0","Ethnicities for a user's profile.","","",FALSE,"","",""
+"config/install/taxonomy.vocabulary.ethnicity.yml:0","Ethnicity","","",FALSE,"","",""
+"social_ethnicity.info.yml:0","Provides profile field configuration for ethnicity listing.","","",FALSE,"","",""
+"social_ethnicity.info.yml:0","Social","","",FALSE,"","",""
+"social_ethnicity.info.yml:0","Social Ethnicity","","",FALSE,"","",""

@@ -2,7 +2,7 @@
 "social_profile_extra.info.yml:0","Extends Social Profile module with additional fields.","","","False","","",""
 "config/schema/social_profile_extra.schema.yml:0","Field","","","False","","",""
 "config/schema/social_profile_extra.schema.yml:0","Fields","","","False","","",""
-"src/Plugin/Field/FieldFormatter/SocialProfileExtraLinkFormatter.php:8","Link","","","False","","",""
+"src/Plugin/Field/FieldFormatter/SocialProfileExtraLinkFormatter.php:8","Link","Link","","False","","",""
 "social_profile_extra.info.yml:0","Social","Sozial","","False","","",""
 "social_profile_extra.module:112;115","Social Links","","","False","","",""
 "social_profile_extra.info.yml:0","Social Profile Extra","","","False","","",""

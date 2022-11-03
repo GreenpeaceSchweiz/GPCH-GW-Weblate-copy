@@ -25,7 +25,7 @@
 "src/Plugin/better_exposed_filters/sort/SortWidgetBase.php:69","Combines the sort by options and order (ascending or decending) into a single list.  Use this to display ""Option1 (ascending)"", ""Option1 (descending)"", ""Option2 (ascending)"", ""Option2 (descending)"" in a single form element. Sort order should first be exposed by selecting <em>Allow people to choose the sort order</em>.","","",FALSE,"","",""
 "src/Plugin/views/exposed_form/BetterExposedFilters.php:237","Configure a delay in ms before triggering autosubmit on textfields.","","",FALSE,"","",""
 "src/Plugin/better_exposed_filters/filter/Sliders.php:101","Custom","","",FALSE,"","",""
-"src/Plugin/better_exposed_filters/sort/DefaultWidget.php:7","Default","","",FALSE,"","",""
+"src/Plugin/better_exposed_filters/sort/DefaultWidget.php:7","Default","Standard","",FALSE,"","",""
 "src/Plugin/views/exposed_form/BetterExposedFilters.php:236","Delay for textfield autosubmit","","",FALSE,"","",""
 "src/Plugin/better_exposed_filters/filter/Sliders.php:89","Determines the size or amount of each interval or step the slider takes between the min and max.","","",FALSE,"","",""
 "config/schema/better_exposed_filters.filter.schema.yml:0","Display checkbox/radio options inline","","",FALSE,"","",""

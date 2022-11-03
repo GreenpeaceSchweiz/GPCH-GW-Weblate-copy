@@ -1,7 +1,7 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "modules/flag_follower/config/install/views.view.flag_followers_content.yml:0",", ",", ","","False","","",""
 "modules/flag_follower/config/install/views.view.flag_followers_content.yml:0","'- All -'","'- Alle -'","","False","","",""
-"modules/flag_follower/config/install/views.view.flag_followers.yml:0","1","1@count","","False","","",""
+"modules/flag_follower/config/install/views.view.flag_followers.yml:0","1","1","","False","","",""
 "flag.views.inc:67","'@entity_label flag'","","","False","","",""
 "flag.tokens.inc:85","'@flag flag count'","","","False","","",""
 "flag.tokens.inc:89","'@flag flag link'","","","False","","",""

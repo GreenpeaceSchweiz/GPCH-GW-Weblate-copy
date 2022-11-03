@@ -41,7 +41,7 @@
 "gender.module:25","Before using this module on your site, consider whether you need to collect gender information at all.","","",FALSE,"","",""
 "gender.module:119","Bigender","","",FALSE,"","",""
 "gender.module:41","Configuring fields created with this module","","",FALSE,"","",""
-"src/Plugin/Field/FieldWidget/GenderDefaultWidget.php:12","Default","","",FALSE,"","",""
+"src/Plugin/Field/FieldWidget/GenderDefaultWidget.php:12","Default","Standard","",FALSE,"","",""
 "gender.module:132","Demi-agender","","",FALSE,"","",""
 "gender.module:111","Demi-boy","","",FALSE,"","",""
 "gender.module:117","Demi-fluid","","",FALSE,"","",""

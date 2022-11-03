@@ -26,7 +26,7 @@
 "src/Form/ProfileTypeForm.php:82","Create a new revision when a profile is modified","","",FALSE,"","",""
 "src/Entity/Profile.php:330","Created","Erstellt","",FALSE,"","",""
 "profile.module:35","Creating profiles","","",FALSE,"","",""
-"src/Entity/Profile.php:325","Data","","",FALSE,"","",""
+"src/Entity/Profile.php:325","Data","Daten","",FALSE,"","",""
 "src/Entity/Profile.php:318","Default","Standard","",FALSE,"","",""
 "src/ProfileTypeListBuilder.php:50","Delete","Löschen","",FALSE,"","",""
 "config/schema/profile.schema.yml:0","Delete profile configuration","","",FALSE,"","",""

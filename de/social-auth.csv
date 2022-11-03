@@ -61,7 +61,7 @@
 "src/Entity/SocialAuth.php:168","The additional data kept for future use.","","","False","","",""
 "src/Form/SocialAuthSettingsForm.php:138","The path is not valid. It must begin with <em>/, #</em> or <em>?</em>","","","False","","",""
 "src/Entity/SocialAuth.php:173","The time that the entity was created.","","","False","","",""
-"src/Entity/SocialAuth.php:178","The time that the entity was last edited.","","","False","","",""
+"src/Entity/SocialAuth.php:178","The time that the entity was last edited.","Der letzte Aktualisierungszeitpunkt der Entität.","","False","","",""
 "src/Entity/SocialAuth.php:158","The unique user ID in the provider.","","","False","","",""
 "src/Controller/OAuth2ControllerBase.php:204;265","There has been an error when creating plugin.","","","False","","",""
 "src/Form/SocialAuthSettingsForm.php:72","These settings allow you to configure how Social Auth module behaves on your Drupal site","","","False","","",""

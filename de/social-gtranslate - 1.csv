@@ -1,7 +1,7 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "src/Plugin/Block/GtranslateBlock.php:10","Accessibility","","",FALSE,"","",""
 "social_gtranslate.info.yml:0","Provides block to translate site via Google","","",FALSE,"","",""
-"templates/gtranslate-list.html.twig:42","Reset","","",FALSE,"","",""
+"templates/gtranslate-list.html.twig:42","Reset","Zurücksetzen","",FALSE,"","",""
 "templates/gtranslate-list.html.twig:10","Reset language","","",FALSE,"","",""
 "templates/gtranslate-list.html.twig:25","Select your language","","",FALSE,"","",""
 "social_gtranslate.info.yml:0","Social","Sozial","",FALSE,"","",""

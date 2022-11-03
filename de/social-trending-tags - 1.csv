@@ -1,0 +1,7 @@
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"social_trending_tags.info.yml:0","A custom block to generate a list of trending tags dynamically according to specific filters.","","",FALSE,"","",""
+"src/ContentBuilder.php:169","No matching trending tags found","","",FALSE,"","",""
+"social_trending_tags.info.yml:0","Social","","",FALSE,"","",""
+"social_trending_tags.info.yml:0","Social Trending Tags Block","","",FALSE,"","",""
+"social_trending_tags.module:44","Tags","Tags","",FALSE,"","",""
+"social_trending_tags.module:101;169","The selected content types are not referenced to the selected taxonomy.","","",FALSE,"","",""

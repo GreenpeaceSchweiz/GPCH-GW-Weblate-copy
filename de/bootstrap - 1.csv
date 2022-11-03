@@ -88,7 +88,7 @@
 "templates/system/pager.html.twig:63;69","Current page","Aktuelle Seite","",FALSE,"","",""
 "src/Plugin/Provider/Custom.php:9","Custom","Benutzerdefiniert","",FALSE,"","",""
 "src/Plugin/Setting/Advanced/Cdn/CdnCustom.php:18","Custom URLs","","",FALSE,"","",""
-"src/Plugin/Setting/Advanced/Cdn/CdnJsdelivrTheme.php:13","Default","","",FALSE,"","",""
+"src/Plugin/Setting/Advanced/Cdn/CdnJsdelivrTheme.php:13","Default","Standard","",FALSE,"","",""
 "src/Plugin/Setting/General/Buttons/ButtonSize.php:7","Default button size","Standard-Buttongrösse","",FALSE,"","",""
 "src/Plugin/Setting/JavaScript/Popovers/PopoverContent.php:7","Default content value if <code>data-content</code> or <code>data-target</code> attributes are not present.","","",FALSE,"","",""
 "src/Plugin/Setting/General/Images/ImageShape.php:7","Default image shape","Standard-Bildumriss","",FALSE,"","",""

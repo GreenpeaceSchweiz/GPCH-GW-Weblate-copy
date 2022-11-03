@@ -1,5 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "config/install/views.view.birthday.yml:0","'- All -'","'- Alle -'","",FALSE,"","",""
+"config/install/views.view.birthday.yml:0;0","/birthday","","",FALSE,"","",""
 "config/install/views.view.birthday.yml:0","All","","",FALSE,"","",""
 "social_birthday.info.yml:0","Allows for the module to select a birthday field on the profile and use the widgets","","",FALSE,"","",""
 "config/install/views.view.birthday.yml:0;0","Apply","Anwenden","",FALSE,"","",""
@@ -38,4 +39,4 @@
 "config/install/views.view.birthday.yml:0","page_currentyear","","",FALSE,"","",""
 "config/install/views.view.birthday.yml:0","sort_birthday_next","","",FALSE,"","",""
 "config/install/views.view.birthday.yml:0","« First","","",FALSE,"","",""
-"config/install/views.view.birthday.yml:0","‹ Previous","","",FALSE,"","",""
+"config/install/views.view.birthday.yml:0","‹ Previous","‹ Vorherige","",FALSE,"","",""

@@ -136,7 +136,7 @@
 "includes/field_ui.inc:264","Update","Aktualisieren","","False","","",""
 "src/Plugin/field_group/FieldGroupFormatter/Tabs.php:98","Vertical","Vertikal","","False","","",""
 "contrib/field_group_migrate/src/Plugin/migrate/source/d7/FieldGroup.php:111","View mode","Ansichtsmodus","","False","","",""
-"src/Plugin/field_group/FieldGroupFormatter/DetailsSidebar.php:41","Weight","","","False","","",""
+"src/Plugin/field_group/FieldGroupFormatter/DetailsSidebar.php:41","Weight","Gewichtung","","False","","",""
 "src/Plugin/field_group/FieldGroupFormatter/DetailsSidebar.php:55","Weight: @weight","","","False","","",""
 "src/Plugin/field_group/FieldGroupFormatter/Tabs.php:106","Width Breakpoint","","","False","","",""
 "src/Plugin/field_group/FieldGroupFormatter/HtmlElement.php:124","Yes","Ja","","False","","",""

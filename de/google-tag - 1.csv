@@ -102,7 +102,7 @@
 "src/Plugin/Condition/Domain.php:76","This value must be set to ""Active domain"" for the context to work.","","",FALSE,"","",""
 "google_tag.install:205","Updated the snippet parent URI and added the flush_snippets setting. The old snippet directory was not deleted.","","",FALSE,"","",""
 "src/Form/ContainerTrait.php:153","User role","","",FALSE,"","",""
-"src/ContainerListBuilder.php:22","Weight","","",FALSE,"","",""
+"src/ContainerListBuilder.php:22","Weight","Gewichtung","",FALSE,"","",""
 "src/Form/ContainerTrait.php:59","White-listed classes","","",FALSE,"","",""
 "src/Entity/Container.php:12","container","","",FALSE,"","",""
 "src/Entity/Container.php:12","containers","","",FALSE,"","",""

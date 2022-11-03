@@ -33,7 +33,7 @@
 "src/ServerListBuilder.php:31","Clients","","",FALSE,"","",""
 "src/Entity/AuthorizationCode.php:48","Code","","",FALSE,"","",""
 "src/Entity/Token.php:34","Code ID","","",FALSE,"","",""
-"src/Form/ScopeForm.php:89","Default","","",FALSE,"","",""
+"src/Form/ScopeForm.php:89","Default","Standard","",FALSE,"","",""
 "config/schema/oauth2_server.schema.yml:0","Default scope","","",FALSE,"","",""
 "src/Form/ServerDeleteConfirmForm.php:41","Delete","Löschen","",FALSE,"","",""
 "oauth2_server.routing.yml:0","Delete server","","",FALSE,"","",""

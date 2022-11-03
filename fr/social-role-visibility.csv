@@ -19,4 +19,5 @@
 "src/Service/VisibilityElementManager.php:275","Visible only to @label members","","","False","","",""
 "social_role_visibility.module:550","You can not delete this role because you have follow entities with this visibility (see above)","","","False","","",""
 "src/Form/VisibilityRoleForm.php:145","You can not uncheck this box because you have follow entities with this visibility (see above)","","","False","","",""
+"social_role_visibility.module:1229","all users with this role can see it","","","False","","",""
 "social_role_visibility.module:952","only visible to members with the assigned role(s)","Visibilité réservée aux membres disposant d'un rôle spécifique (fonctionnalité administrateur)","","False","","",""

@@ -30,7 +30,7 @@
 "admin_toolbar_tools/admin_toolbar_tools.info.yml:0","Administration","","","False","","",""
 "admin_toolbar_tools/src/Controller/ToolbarController.php:204","All caches cleared.","Alle Caches geleert.","","False","","",""
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:353","All menus","","","False","","",""
-"admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:108","All types","","","False","","",""
+"admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:108","All types","Alle Typen","","False","","",""
 "admin_toolbar_tools/src/Plugin/Derivative/ExtraLinks.php:413","Block types","","","False","","",""
 "admin_toolbar_tools/src/Controller/ToolbarController.php:215","CSS and JavaScript cache cleared.","CSS- und JavaScript-Cache geleert.","","False","","",""
 "admin_toolbar_tools/src/Form/AdminToolbarToolsSettingsForm.php:91","Check it if you want to enable the hoverintent feature.","","","False","","",""

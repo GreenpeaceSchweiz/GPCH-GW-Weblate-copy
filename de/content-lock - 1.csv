@@ -102,7 +102,7 @@
 "src/Form/ContentLockSettingsForm.php:177","To allow editing multiple translations concurrently you need to install %module","Um das gleichzeitige Bearbeiten mehrerer Übersetzungen zu ermöglichen muss das Modul %module installiert werden.","",FALSE,"","",""
 "config/schema/content_lock.schema.yml:0","Types","Typen","",FALSE,"","",""
 "src/ContentLock/ContentLock.php:577","Unlock","Entsperren","",FALSE,"","",""
-"config/optional/views.view.locked_content.yml:0","Unpublished","Nicht veröffentlicht","",FALSE,"","",""
+"config/optional/views.view.locked_content.yml:0","Unpublished","Unveröffentlicht","",FALSE,"","",""
 "src/Form/ContentLockSettingsForm.php:90","Users trying to edit a content locked still see the content lock message.","Benutzer, die versuchen, einen gesperrten Inhalt zu bearbeiten, wird immer noch eine Meldung darüber angezeigt, dass der Inhalt bereits von einem anderen Benutzer bearbeitet wird und deshalb momentan nicht bearbeitet werden kann.","",FALSE,"","",""
 "content_lock.module:445","Uses ""all"" settings","Verendet ""alle"" Einstellungen","",FALSE,"","",""
 "config/schema/content_lock.views.schema.yml:0","Value","Wert","",FALSE,"","",""

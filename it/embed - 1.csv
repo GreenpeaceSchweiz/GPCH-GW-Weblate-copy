@@ -19,6 +19,7 @@
 "config/schema/embed.schema.yml:0","Embed type settings","","",FALSE,"","",""
 "src/Form/EmbedSettingsForm.php:78","File directory","Cartella file","",FALSE,"","",""
 "config/schema/embed.schema.yml:0","File scheme for button icons","","",FALSE,"","",""
+"embed.info.yml:0","Filters","","",FALSE,"","",""
 "src/EmbedButtonListBuilder.php:21","Icon","Icona","",FALSE,"","",""
 "src/EmbedButtonListBuilder.php:39","Icon for the @label button.","","",FALSE,"","",""
 "config/schema/embed.schema.yml:0","Image file URI","","",FALSE,"","",""

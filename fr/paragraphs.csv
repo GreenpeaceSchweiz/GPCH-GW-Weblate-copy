@@ -325,6 +325,7 @@
 "src/Plugin/Field/FieldWidget/ParagraphsWidget.php:1433","You did not add any @title types yet.","Vous n'avez pas ajouté de type @title pour l'instant.","","False","","",""
 "src/Plugin/EntityReferenceSelection/ParagraphSelection.php:133","You did not add any Paragraph types yet, click <a href="":here"">here</a> to add one.","Vous n'avez ajouté aucun type de paragraphe pour le moment, cliquez <a href="":here"">ici</a> pour en ajouter un.","","False","","",""
 "src/Plugin/Field/FieldWidget/ParagraphsWidget.php:689","You have unsaved changes on this @title item.","Il y a des modifications non enregistrées sur cet élément @title.","","False","","",""
+"modules/paragraphs_library/config/install/views.view.paragraphs_library.yml:0","admin/content/entity-usage/paragraphs_library_item/{{ id }}","","","False","","",""
 "src/Plugin/Field/FieldWidget/ParagraphsWidget.php:2445","all languages","toutes les langues","","False","","",""
 "src/Plugin/Field/FieldWidget/ParagraphsWidget.php:1649;1653","to %type","","","False","","",""
 "modules/paragraphs_library/config/optional/views.view.paragraphs_library_browser.yml:0","‹‹","","","False","","",""

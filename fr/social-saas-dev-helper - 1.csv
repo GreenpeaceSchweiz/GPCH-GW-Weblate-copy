@@ -1,0 +1,8 @@
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"social_saas_dev_helper.info.yml:0","Dev helpers","","",FALSE,"","",""
+"src/Plugin/DemoContent/SaaSFile.php:7","File","","",FALSE,"","",""
+"src/Plugin/DemoContent/SaaSGroup.php:9","Group","","",FALSE,"","",""
+"src/Plugin/DemoContent/SaaSPost.php:9","Post","","",FALSE,"","",""
+"social_saas_dev_helper.info.yml:0","SaaS","","",FALSE,"","",""
+"social_saas_dev_helper.info.yml:0","Social SaaS Dev Helper","","",FALSE,"","",""
+"src/Plugin/DemoContent/SaaSTopic.php:17","Topic","","",FALSE,"","",""

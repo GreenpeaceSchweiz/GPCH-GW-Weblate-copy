@@ -9,7 +9,7 @@
 "social_certificate.module:505","For successfully completing a course.","","","False","","",""
 "social_certificate.module:475","For successfully completing the course %name.","","","False","","",""
 "social_certificate.module:118","Format","","","False","","",""
-"social_certificate.module:99","Header","","","False","","",""
+"social_certificate.module:99","Header","Überschrift","","False","","",""
 "social_certificate.module:173","Identifier","","","False","","",""
 "social_certificate.module:75","Image","","","False","","",""
 "social_certificate.module:123","Landscape","","","False","","",""

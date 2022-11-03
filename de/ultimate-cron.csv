@@ -255,7 +255,7 @@
 "src/Plugin/ultimate_cron/Scheduler/Crontab.php:10","Use crontab rules for scheduling jobs.","","","False","","",""
 "src/Commands/UltimateCronCommands.php:73","User","","","False","","",""
 "ultimate_cron.permissions.yml:0","View cron jobs","","","False","","",""
-"config/schema/ultimate_cron.schema.yml:0","Weight","","","False","","",""
+"config/schema/ultimate_cron.schema.yml:0","Weight","Gewichtung","","False","","",""
 "src/Plugin/ultimate_cron/Launcher/SerialLauncher.php:113","Which thread to run in when invoking with ?thread=N. Note: This setting only has an effect when cron is run through cron.php with an argument ?thread=N or through Drush with --options=thread=N.","","","False","","",""
 "src/Form/LauncherSettingsForm.php:73","Which thread to run jobs in.","","","False","","",""
 "config/schema/ultimate_cron.schema.yml:0","Which thread to use","","","False","","",""

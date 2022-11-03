@@ -66,6 +66,6 @@
 "src/Form/RestrictionPluginConfigForm.php:71","There are no restriction plugins defined.","","",FALSE,"","",""
 "src/Plugin/LayoutBuilderRestriction/EntityViewModeRestriction.php:261","There is a restriction on %block placement in the %layout %region region for %type content.","","",FALSE,"","",""
 "modules/layout_builder_restrictions_by_region/src/Form/AllowedBlocksForm.php:365","There is unsaved Layout Builder Restrictions configuration.","","",FALSE,"","",""
-"src/Form/RestrictionPluginConfigForm.php:69","Weight","","",FALSE,"","",""
+"src/Form/RestrictionPluginConfigForm.php:69","Weight","Gewichtung","",FALSE,"","",""
 "src/Form/RestrictionPluginConfigForm.php:115","Weight for @title","","",FALSE,"","",""
 "config/schema/layout_builder_restrictions.schema.yml:0","Weighting and active status of Layout Builder Restrictions plugins","","",FALSE,"","",""

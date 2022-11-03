@@ -68,7 +68,7 @@
 "modules/search_api_location_views/src/Plugin/views/argument/SearchApiLocationPoint.php:47","The radius (in km) around the argument point to set the distance filter.","","",FALSE,"","",""
 "src/Plugin/search_api_location/location_input/Map.php:69","The radius border weight in pixels.","","",FALSE,"","",""
 "src/LocationInput/LocationInputPluginBase.php:47","Type of distance input","","",FALSE,"","",""
-"modules/search_api_location_geocoder/src/Plugin/search_api_location/location_input/Geocode.php:130","Weight","","",FALSE,"","",""
+"modules/search_api_location_geocoder/src/Plugin/search_api_location/location_input/Geocode.php:130","Weight","Gewichtung","",FALSE,"","",""
 "modules/search_api_location_geocoder/src/Plugin/search_api_location/location_input/Geocode.php:149","Weight for @title","","",FALSE,"","",""
 "modules/search_api_location_views/src/Plugin/views/argument/SearchApiLocationPoint.php:62","You have to enter a numeric radius greater than 0.","","",FALSE,"","",""
 "modules/search_api_location_views/src/Plugin/views/filter/SearchApiFilterLocation.php:153","between","","",FALSE,"","",""

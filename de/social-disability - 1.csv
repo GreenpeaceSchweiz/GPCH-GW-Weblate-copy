@@ -1,0 +1,8 @@
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"config/install/field.field.profile.profile.field_disability.yml:0","Disability","Behinderung","",FALSE,"","",""
+"config/install/field.storage.profile.field_disability.yml:0","No","Nein","",FALSE,"","",""
+"social_disability.info.yml:0","Provides profile field for disability options.","","",FALSE,"","",""
+"config/install/field.storage.profile.field_disability.yml:0","Rather not say","","",FALSE,"","",""
+"social_disability.info.yml:0","Social","","",FALSE,"","",""
+"social_disability.info.yml:0","Social Disability","","",FALSE,"","",""
+"config/install/field.storage.profile.field_disability.yml:0","Yes","Ja","",FALSE,"","",""

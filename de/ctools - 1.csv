@@ -116,5 +116,5 @@
 "src/Wizard/EntityFormWizardBase.php:109","Updated @entity-type %label.","","",FALSE,"","",""
 "src/Plugin/Block/EntityView.php:89","View mode","","",FALSE,"","",""
 "modules/ctools_block/src/Plugin/Block/EntityField.php:214","Visually Hidden","","",FALSE,"","",""
-"modules/ctools_views/src/Plugin/Display/Block.php:174","Weight","","",FALSE,"","",""
+"modules/ctools_views/src/Plugin/Display/Block.php:174","Weight","Gewichtung","",FALSE,"","",""
 "modules/ctools_views/src/Plugin/Display/Block.php:234","Weight for @title","","",FALSE,"","",""

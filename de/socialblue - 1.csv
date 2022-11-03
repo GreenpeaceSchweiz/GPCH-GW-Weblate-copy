@@ -87,7 +87,7 @@
 "theme-settings.php:188","One line","","",FALSE,"","",""
 "theme-settings.php:169","Open Social","","",FALSE,"","",""
 "theme-settings.php:37","Opensocial settings","Open-Social-Einstellungen","",FALSE,"","",""
-"socialblue.info.yml:0","Page title","","",FALSE,"","",""
+"socialblue.info.yml:0","Page title","Seitentitel","",FALSE,"","",""
 "templates/profile/profile--profile--default--sky.html.twig:81","Phone","Telefon","",FALSE,"","",""
 "color/color.inc:11","Primary color","Primäre Farbe","",FALSE,"","",""
 "templates/profile/profile--profile--statistic.html.twig:63","Private message","Private Nachricht","",FALSE,"","",""

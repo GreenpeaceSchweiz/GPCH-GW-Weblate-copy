@@ -91,7 +91,7 @@
 "src/Controller/MigrationController.php:199","Process","","",FALSE,"","",""
 "src/Controller/MigrationController.php:205","Process plugin","","",FALSE,"","",""
 "src/Controller/MigrationController.php:134","Query","Abfrage","",FALSE,"","",""
-"src/Form/MigrationExecuteForm.php:94","Reset","","",FALSE,"","",""
+"src/Form/MigrationExecuteForm.php:94","Reset","Zurücksetzen","",FALSE,"","",""
 "src/Form/MigrationExecuteForm.php:92","Rollback","","",FALSE,"","",""
 "src/Form/MigrationExecuteForm.php:220","Rollback completed","","",FALSE,"","",""
 "src/Form/MigrationExecuteForm.php:223","Rollback of !name migration failed.","","",FALSE,"","",""

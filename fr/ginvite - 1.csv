@@ -10,7 +10,6 @@
 "src/Form/BulkGroupInvitationConfirm.php:141","An error occurred during processing","","",FALSE,"","",""
 "src/Form/BulkGroupInvitationConfirm.php:185","An error occurred while processing @operation with arguments : @args","","",FALSE,"","",""
 "config/optional/views.view.my_invitations.yml:0","Apply","","",FALSE,"","",""
-"src/Form/BulkGroupInvitationConfirm.php:109","Are you sure you want to send a invitation to all e-mails listed bellow?","","",FALSE,"","",""
 "config/optional/views.view.my_invitations.yml:0","Asc","","",FALSE,"","",""
 "src/Form/BulkGroupInvitation.php:140","Back to group","","",FALSE,"","",""
 "src/Plugin/GroupContentEnabler/GroupInvitation.php:306;324","Body","","",FALSE,"","",""

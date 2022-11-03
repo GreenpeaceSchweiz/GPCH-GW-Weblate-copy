@@ -15,7 +15,7 @@
 "src/Form/SocialRealtimeCollaborationForm.php:184","Collaboration URLs","","",FALSE,"","",""
 "modules/social_collaboration_tab/social_collaboration_tab.module:134","Collaboration settings","","",FALSE,"","",""
 "modules/social_collaboration_tab/social_collaboration_tab.routing.yml:0","Collaboration tab settings","","",FALSE,"","",""
-"modules/social_collaboration_tab/src/Form/SocialCollaborationTabSettingsForm.php:46","Comments","","",FALSE,"","",""
+"modules/social_collaboration_tab/src/Form/SocialCollaborationTabSettingsForm.php:46","Comments","Commentaires","",FALSE,"","",""
 "modules/social_collaboration_tab/modules/social_collaboration_tab_idea/social_collaboration_tab_idea.install:94","Configuration for the idea collaboration form has been created.","","",FALSE,"","",""
 "modules/social_collaboration_tab/modules/social_collaboration_tab_topic/social_collaboration_tab_topic.install:130","Configuration for the topic collaboration form has been created.","","",FALSE,"","",""
 "src/Form/SocialRealtimeCollaborationForm.php:152","Copy value from the %field field.","","",FALSE,"","",""

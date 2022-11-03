@@ -42,7 +42,7 @@
 "modules/social_discussion_room/social_discussion_room.routing.yml:0","Discussion rooms","","","False","","",""
 "config/schema/social_discussion.schema.yml:0","Discussion settings","","","False","","",""
 "templates/node--discussion--featured.html.twig:14;17","Discussion: &nbsp;","","","False","","",""
-"modules/social_discussion_room/src/Controller/RoomController.php:192","Discussions","","","False","","",""
+"modules/social_discussion_room/src/Controller/RoomController.php:192","Discussions","Diskussionen","","False","","",""
 "src/Plugin/UserExportPlugin/UserAnalyticsDiscussionsCreated.php:24;9","Discussions created","","","False","","",""
 "social_discussion.routing.yml:0","Discussions settings","","","False","","",""
 "modules/social_discussion_group/social_discussion_group.module:146","Discussions were disabled and attached discussions were unpublished.","","","False","","",""

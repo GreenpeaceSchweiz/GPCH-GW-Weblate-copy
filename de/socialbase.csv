@@ -99,7 +99,7 @@
 "templates/block/block--views-exposed-filter-block.html.twig:54","Open filter","Filter öffnen","","False","","",""
 "templates/file/download-count-file-field-formatter.html.twig:4","Open or download file","Öffne oder lade die Datei herunter","","False","","",""
 "templates/system/pager.html.twig:73","Page","Seite","","False","","",""
-"socialbase.info.yml:0","Page title","","","False","","",""
+"socialbase.info.yml:0","Page title","Seitentitel","","False","","",""
 "templates/views/views-mini-pager.html.twig:17","Pagination","Seitennummerierung","","False","","",""
 "config/schema/socialbase.schema.yml:0","Path to custom favicon","","","False","","",""
 "config/schema/socialbase.schema.yml:0","Path to custom logo","","","False","","",""

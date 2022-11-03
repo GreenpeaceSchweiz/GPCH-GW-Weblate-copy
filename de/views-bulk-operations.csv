@@ -29,7 +29,7 @@
 "config/schema/views_bulk_operations.views.schema.yml:0","Configuration array for the plugin","","","False","","",""
 "src/Plugin/views/field/ViewsBulkOperationsBulkForm.php:431","Configuration form on new page (configurable actions)","","","False","","",""
 "src/Form/ConfigureAction.php:91","Configure ""%action"" action applied to the selection","","","False","","",""
-"config/schema/views_bulk_operations.views.schema.yml:0","Default","","","False","","",""
+"config/schema/views_bulk_operations.views.schema.yml:0","Default","Standard","","False","","",""
 "modules/views_bulk_operations_example/views_bulk_operations_example.info.yml:0","Defines an example action with all possible options.","","","False","","",""
 "src/Plugin/Action/EntityDeleteAction.php:33","Delete entities","","","False","","",""
 "src/Plugin/Action/EntityDeleteAction.php:9","Delete selected entities / translations","","","False","","",""
