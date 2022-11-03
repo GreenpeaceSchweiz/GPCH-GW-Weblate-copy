@@ -27,40 +27,64 @@ if(Sys.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch" &&
 }
 
 # COPY
-cat("=== GERMANY ===========================\n")
+cat("=== OS-GERMAN =========================\n")
 
 new_de <- copyTranslations(components = slugs,
                            to.language = "de_CH",
-                           from.project = "gpde",
+                           from.project = "open-social",
                            from.language = "de",
 #                          filter = "filter this translation",
                            replace = as.data.frame(cbind(pattern = c("ß"),
                                                          replace = c("ss"))),
+                           download.method = "public",
                            verbose = TRUE)
+
+cat("=== OS-FRENCH =========================\n")
+
+new_fr <- copyTranslations(components = slugs,
+                           to.language = "fr_CH",
+                           from.project = "open-social",
+                           from.language = "fr",
+#                          filter = "weGreen",
+#                          replace = as.data.frame(cbind(pattern = c("ß"),
+#                                                        replace = c("ss"))),
+                           download.method = "public",
+                           verbose = TRUE)
+
+cat("=== GERMANY ===========================\n")
+
+new_gpde <- copyTranslations(components = slugs,
+                             to.language = "de_CH",
+                             from.project = "gpde",
+                             from.language = "de",
+#                            filter = "filter this translation",
+                             replace = as.data.frame(cbind(pattern = c("ß"),
+                                                           replace = c("ss"))),
+                             verbose = TRUE)
 
 
 cat("=== FRANCE ===========================\n")
 
-new_fr <- copyTranslations(components = slugs,
-                           to.language = "fr_CH",
-                           from.project = "gpfr",
-                           from.language = "fr",
-                           filter = "weGreen",
-#                          replace = as.data.frame(cbind(pattern = c("ß"),
-#                                                        replace = c("ss"))),
-                           verbose = TRUE)
+new_gpfr <- copyTranslations(components = slugs,
+                             to.language = "fr_CH",
+                             from.project = "gpfr",
+                             from.language = "fr",
+                             filter = "weGreen",
+#                            replace = as.data.frame(cbind(pattern = c("ß"),
+#                                                          replace = c("ss"))),
+                             verbose = TRUE)
 
 
 cat("=== ITALY ===========================\n")
 
-new_it <- copyTranslations(components = slugs,
-                           to.language = "it_CH",
-                           from.project = "gpit",
-                           from.language = "it",
-                           filter = "Standup",
-#                          replace = as.data.frame(cbind(pattern = c("ß"),
-#                                                        replace = c("ss"))),
-                           verbose = TRUE)
+new_gpit <- copyTranslations(components = slugs,
+                             to.language = "it_CH",
+                             from.project = "gpit",
+                             from.language = "it",
+                             filter = "Standup",
+#                            replace = as.data.frame(cbind(pattern = c("ß"),
+#                                                          replace = c("ss"))),
+                             verbose = TRUE)
 
 # For commit message
-system(paste("echo 'new_tl_count=", (new_de + new_fr + new_it),"' >> $GITHUB_ENV", sep =""))
+system(paste("echo 'new_tl_count=", (new_de + new_fr + new_gpde + new_gpfr + new_gpit),"' >> $GITHUB_ENV", sep =""))
