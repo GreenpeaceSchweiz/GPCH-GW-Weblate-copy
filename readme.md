@@ -1,4 +1,4 @@
-This repository controls the periodic copying of translations from gpde/gpfr/gpit into gpch (using [GreenpeaceSchweiz/weblatetools](https://github.com/GreenpeaceSchweiz/weblatetools))
+This repository controls the periodic copying of translations from open-social, gpde, gpfr, gpit into gpch (using [GreenpeaceSchweiz/weblatetools](https://github.com/GreenpeaceSchweiz/weblatetools))
 
 Main components:
 - `/.github/workflows/copy.yml` defines the scheduled github action that runs the script and commits the updated translation and log files afterwards.
