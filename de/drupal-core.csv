@@ -198,7 +198,7 @@
 "modules/media_library/js/media_library.ui.js:0","1 item selected","","","False","","",""
 "modules/node/node.admin.inc:172","1 item successfully processed:","1 Element wurde erfolgreich verarbeitet:","","False","","",""
 "includes/common.inc:0","1 min","1 Minute","","False","","",""
-"modules/datetime_range/src/Plugin/Field/FieldWidget/DateRangeDatelistWidget.php:119","1 minute","1 Minute","","True","","",""
+"modules/datetime_range/src/Plugin/Field/FieldWidget/DateRangeDatelistWidget.php:119","1 minute","1 Minute","","False","","",""
 "lib/Drupal/Core/Datetime/DateFormatter.php:245","1 month","1 Monat","","False","","",""
 "modules/tracker/js/tracker-history.js:0","1 new","1 neu","","False","","",""
 "modules/comment/js/node-new-comments-link.js:0","1 new comment","Ein neuer Kommentar","","False","","",""
