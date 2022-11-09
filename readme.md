@@ -7,4 +7,6 @@ Main components:
 - log files: `log.csv` (summary, one line per language copied) and files in `/logs` (detailed, one file per language copied)
 - Folders `/de`, `/it`, `/fr`: The translation files. These are not relevant but tracked for potential debugging reasons.
 
-If you want to fork this project, note that authentication with Weblate happens through a personal access token that needs to be stored as a Github secret in the repository with the name `WEBLATE_PAT`.
+If you want to fork this project:
+- Don't forget to provide your own Weblate API key. This is of course not copied when you fork the project.
+- Make sure to specify your own Weblate project in the `setup()` call in `copy.R`. Otherwise you risk changing someone else's translations.
