@@ -3,6 +3,7 @@ This repository controls the periodic copying of translations from open-social, 
 Main components:
 - `/.github/workflows/copy.yml` defines the scheduled github action that runs the script and commits the updated translation and log files afterwards.
 - `copy.R` is the script defining how to copy translations.
+- Weblate API key, stored as a GitHub Secret with the name `WEBLATE_PAT` (in repository settings > secrets > actions)
 - log files: `log.csv` (summary, one line per language copied) and files in `/logs` (detailed, one file per language copied)
 - Folders `/de`, `/it`, `/fr`: The translation files. These are not relevant but tracked for potential debugging reasons.
 
