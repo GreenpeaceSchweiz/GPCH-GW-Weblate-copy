@@ -35,7 +35,7 @@ jobs:
     - name: Install packages
       run: |
         R -e 'install.packages("devtools")'
-        R -e 'devtools::install_github("GreenpeaceSchweiz/weblatetools@v2.0.0")'
+        R -e 'devtools::install_github("GreenpeaceSchweiz/weblatetools@v2")'
         
     # Run R script
     - name: Copy
