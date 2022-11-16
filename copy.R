@@ -36,6 +36,7 @@ new_de <- copyTranslations(components = slugs,
 #                          filter = "filter this translation",
                            replace = as.data.frame(cbind(pattern = c("ß"),
                                                          replace = c("ss"))),
+                           fuzzy = c("\\*"), # Gender-Stern
                            download.method = "public",
                            verbose = TRUE)
 
@@ -45,9 +46,6 @@ new_fr <- copyTranslations(components = slugs,
                            to.language = "fr_CH",
                            from.project = "open-social",
                            from.language = "fr",
-#                          filter = "weGreen",
-#                          replace = as.data.frame(cbind(pattern = c("ß"),
-#                                                        replace = c("ss"))),
                            download.method = "public",
                            verbose = TRUE)
 
@@ -57,9 +55,9 @@ new_gpde <- copyTranslations(components = slugs,
                              to.language = "de_CH",
                              from.project = "gpde",
                              from.language = "de",
-#                            filter = "filter this translation",
                              replace = as.data.frame(cbind(pattern = c("ß"),
                                                            replace = c("ss"))),
+                             fuzzy = c("\\*"), # Gender-Stern
                              verbose = TRUE)
 
 
@@ -69,9 +67,7 @@ new_gpfr <- copyTranslations(components = slugs,
                              to.language = "fr_CH",
                              from.project = "gpfr",
                              from.language = "fr",
-                             filter = "weGreen",
-#                            replace = as.data.frame(cbind(pattern = c("ß"),
-#                                                          replace = c("ss"))),
+                             fuzzy = c("weGreen"),
                              verbose = TRUE)
 
 
@@ -81,9 +77,7 @@ new_gpit <- copyTranslations(components = slugs,
                              to.language = "it_CH",
                              from.project = "gpit",
                              from.language = "it",
-                             filter = "Standup",
-#                            replace = as.data.frame(cbind(pattern = c("ß"),
-#                                                          replace = c("ss"))),
+                             fuzzy = c("Standup"),
                              verbose = TRUE)
 
 # For commit message
