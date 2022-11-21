@@ -1,4 +1,4 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"gpde_core.info.yml:0","GPDE Core","","",FALSE,"","",""
-"gpde_core.info.yml:0","Provides core features.","","",FALSE,"","",""
-"gpde_core.info.yml:0","gpde","gpit","",FALSE,"","",""
+"gpde_core.info.yml:0","GPDE Core","","","False","","",""
+"gpde_core.info.yml:0","Provides core features.","","","False","","",""
+"gpde_core.info.yml:0","gpde","gpit","","False","","",""

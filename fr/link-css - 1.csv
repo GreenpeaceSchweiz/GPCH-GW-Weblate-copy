@@ -1,16 +1,16 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"src/LinkCssAdminForm.php:41","<a href=""/admin/config/development/performance"">Aggregate CSS files</a> is turned on! This development module working when <em>Aggregate CSS files</em> is turned off.","","",FALSE,"","",""
-"link_css.info.yml:0","Development","Développement","",FALSE,"","",""
-"link_css.info.yml:0","Include CSS files using <link> element instead of @import.","","",FALSE,"","",""
+"src/LinkCssAdminForm.php:41","<a href=""/admin/config/development/performance"">Aggregate CSS files</a> is turned on! This development module working when <em>Aggregate CSS files</em> is turned off.","","","False","","",""
+"link_css.info.yml:0","Development","Développement","","False","","",""
+"link_css.info.yml:0","Include CSS files using <link> element instead of @import.","","","False","","",""
 "link_css.module:36","Internet Explorer <=7 which will not load more than 31
         linked stylesheets. The current page links to @count. Disable Link CSS
-        module or turn on CSS aggregation to ensure compatibility.","","",FALSE,"","",""
-"src/LinkCssAdminForm.php:57","Internet Explorer <=7 will not load more than 31 linked styelsheets. Display a warning if this limit is exceeded.","","",FALSE,"","",""
+        module or turn on CSS aggregation to ensure compatibility.","","","False","","",""
+"src/LinkCssAdminForm.php:57","Internet Explorer <=7 will not load more than 31 linked styelsheets. Display a warning if this limit is exceeded.","","","False","","",""
 "src/LinkCssAdminForm.php:48","Leave core CSS files loaded with @import. This helps
       avoid hitting IE's limit and saves any live refresh scripts monitoring
-      files which are unlikely to change","","",FALSE,"","",""
-"link_css.info.yml:0","Link CSS","","",FALSE,"","",""
-"link_css.routing.yml:0","Link CSS Settings","","",FALSE,"","",""
-"link_css.links.menu.yml:0","Manage Link-CSS settings","","",FALSE,"","",""
-"src/LinkCssAdminForm.php:46","Skip system links","","",FALSE,"","",""
-"src/LinkCssAdminForm.php:55","Warn if IE limit exceeded","","",FALSE,"","",""
+      files which are unlikely to change","","","False","","",""
+"link_css.info.yml:0","Link CSS","","","False","","",""
+"link_css.routing.yml:0","Link CSS Settings","","","False","","",""
+"link_css.links.menu.yml:0","Manage Link-CSS settings","","","False","","",""
+"src/LinkCssAdminForm.php:46","Skip system links","","","False","","",""
+"src/LinkCssAdminForm.php:55","Warn if IE limit exceeded","","","False","","",""

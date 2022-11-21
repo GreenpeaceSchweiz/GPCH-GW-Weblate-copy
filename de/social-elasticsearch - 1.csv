@@ -1,4 +1,4 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"social_elasticsearch.info.yml:0","Social","Sozial","",FALSE,"","",""
-"social_elasticsearch.info.yml:0","Use elasticsearch in Open Social","","",FALSE,"","",""
-"social_elasticsearch.info.yml:0","social_elasticsearch","","",FALSE,"","",""
+"social_elasticsearch.info.yml:0","Social","Sozial","","False","","",""
+"social_elasticsearch.info.yml:0","Use elasticsearch in Open Social","","","False","","",""
+"social_elasticsearch.info.yml:0","social_elasticsearch","","","False","","",""
