@@ -33,7 +33,6 @@
 "src/Plugin/Field/FieldFormatter/Video.php:147","Make the video fill the width of it's container, adjusting to the size of the user's screen.","","","False","","",""
 "src/Plugin/Field/FieldFormatter/Colorbox.php:163","Maximum Width","","","False","","",""
 "src/Plugin/Field/FieldType/VideoEmbedField.php:11","Media","Média","","False","","",""
-"modules/video_embed_media/modules/vem_migrate_oembed/src/Commands/VemCommands.php:50","Migration complete.","","","False","","",""
 "config/schema/video_embed_field.schema.yml:0;0","Modal max width","","","False","","",""
 "video_embed_field.permissions.yml:0","Never autoplay videos","","","False","","",""
 "src/Plugin/Field/FieldFormatter/Thumbnail.php:152","Provider URL","","","False","","",""

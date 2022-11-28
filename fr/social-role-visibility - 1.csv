@@ -5,6 +5,7 @@
 "social_role_visibility.module:962","CM+","","","False","","",""
 "src/Form/VisibilityRoleForm.php:67","If enabled, Content Managers will not be able to see or edit content that has visibility enabled for that role.","","","False","","",""
 "src/Form/VisibilityRoleForm.php:87","Limit access to profile details","","","False","","",""
+"src/Form/VisibilityRoleForm.php:65","Please note: You can not change the name of the role after creation.","","","False","","",""
 "social_role_visibility.module:300","Please select role(s)","","","False","","",""
 "src/Form/VisibilityRoleForm.php:66","Restrict access for Content Managers","","","False","","",""
 "config/schema/social_role_visibility.schema.yml:0","Restrict access for Content managers","","","False","","",""
