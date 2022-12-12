@@ -121,7 +121,7 @@
 "config/install/simple_oauth.oauth2_token.bundle.refresh_token.yml:0","Refresh token","","","False","","",""
 "src/Entity/Form/Oauth2TokenSettingsForm.php:135","Refresh token expiration time","","","False","","",""
 "simple_oauth.install:175","Remember previous approval","","","False","","",""
-"src/Entity/Form/Oauth2ScopeForm.php:123;147","Role","","","False","","",""
+"src/Entity/Form/Oauth2ScopeForm.php:123;147","Role","Rolle","","False","","",""
 "src/Entity/Form/Oauth2ScopeForm.php:171","Save scope","","","False","","",""
 "src/Entity/Oauth2Scope.php:12","Scope","","","False","","",""
 "src/Plugin/Field/FieldType/Oauth2ScopeReferenceItem.php:38","Scope ID","","","False","","",""

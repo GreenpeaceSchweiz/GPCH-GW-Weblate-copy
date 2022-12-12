@@ -3733,6 +3733,6 @@ Two-spirit: Two-spirit
 "src/Plugin/WebformElementBase.php:2515","Maxlength","","","False","","",""
 "src/Plugin/WebformElement/WebformScale.php:97","Medium (@size)","","","False","","",""
 "src/Plugin/WebformElement/DateTime.php:243","Medium date - @format (@date)","","","False","","",""
-"modules/webform_demo/webform_demo_group/config/install/group.role.webform_group_b-member.yml:0","Member","","","False","","",""
+"modules/webform_demo/webform_demo_group/config/install/group.role.webform_group_b-member.yml:0","Member","Mitglied","","False","","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:482;1368","Message","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsConfirmationForm.php:84","Message (reloads the current page/form and displays the confirmation message at the top of the page)","","","False","","",""

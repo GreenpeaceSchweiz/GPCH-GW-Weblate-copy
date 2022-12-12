@@ -100,4 +100,4 @@
 "src/Form/LocalSettingsForm.php:55","Which ROLES should be allowed to login with local accounts?","","","False","","",""
 "src/Form/LocalSettingsForm.php:61","Which users should be allowed to login with local accounts?","","","False","","",""
 "src/Controller/SimplesamlphpAuthController.php:174","You are not allowed to login via this service.","","","False","","",""
-"config/schema/simplesamlphp_auth.schema.yml:0","role","","","False","","",""
+"config/schema/simplesamlphp_auth.schema.yml:0","role","Rolle","","False","","",""
