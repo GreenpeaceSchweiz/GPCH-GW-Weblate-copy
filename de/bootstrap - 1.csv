@@ -391,7 +391,7 @@
 "docs/theme-settings.twig:51","see: @replacement","","","False","","",""
 "src/Plugin/Setting/JavaScript/Modals/ModalSelectText.php:9","selectText","","","False","","",""
 "src/Plugin/Setting/JavaScript/Tooltips/TooltipSelector.php:7","selector","Selektor","","False","","",""
-"src/Plugin/Setting/JavaScript/Modals/ModalShow.php:7","show","Anzeigen","","False","","",""
+"src/Plugin/Setting/JavaScript/Modals/ModalShow.php:7","show","anzeigen","","False","","",""
 "src/Plugin/Setting/JavaScript/Popovers/PopoverTitle.php:7","title","Titel","","False","","",""
 "src/Plugin/Setting/JavaScript/Tooltips/TooltipPlacement.php:7","top","oben","","False","","",""
 "src/Plugin/Setting/JavaScript/Tooltips/TooltipTrigger.php:7","trigger","Auslösen","","False","","",""

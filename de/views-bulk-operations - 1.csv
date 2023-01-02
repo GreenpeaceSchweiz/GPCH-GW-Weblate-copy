@@ -10,7 +10,7 @@
 "config/schema/views_bulk_operations.views.schema.yml:0","Action plugin ID","","","False","","",""
 "views_bulk_operations.drush.inc:198","Action processing results: @results.","","","False","","",""
 "src/Plugin/views/field/ViewsBulkOperationsBulkForm.php:459","Action title","Aktionstitel","","False","","",""
-"src/Form/ViewsBulkOperationsFormTrait.php:131","Action will be executed on all items in the view.","","","False","","",""
+"src/Form/ViewsBulkOperationsFormTrait.php:131","Action will be executed on all items in the view.","Die Aktion wird für alle Elemente in der Ansicht ausgeführt.","","False","","",""
 "modules/actions_permissions/actions_permissions.info.yml:0","Actions Permissions","","","False","","",""
 "src/Plugin/views/field/ViewsBulkOperationsBulkForm.php:526","Add confirmation step","","","False","","",""
 "modules/actions_permissions/actions_permissions.info.yml:0","Adds access permissions on all actions allowing admins to restrict access on a per-role basis.","","","False","","",""

@@ -30,6 +30,6 @@
 "src/Plugin/UserExportPlugin/UserWorkingHours.php:26;11","Working hours","","","False","","",""
 "social_profile_extra.module:428","Working today from","","","False","","",""
 "social_profile_extra.module:428","and","","","False","","",""
-"templates/field--profile--field-profile-work-experience--sky.html.twig:10","at","","","False","","",""
+"templates/field--profile--field-profile-work-experience--sky.html.twig:10","at","von","","False","","",""
 "modules/social_out_of_office/social_out_of_office.module:96","is out of office from @start_date to @end_date","","","False","","",""
 "templates/field--profile--field-profile-work-experience--sky.html.twig:20","now","","","False","","",""

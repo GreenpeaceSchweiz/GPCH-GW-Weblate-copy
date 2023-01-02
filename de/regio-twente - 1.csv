@@ -146,7 +146,7 @@
 "html/themes/custom/regiotwente/os-builder/kss-assets/drupal-core.js:0","You have unsaved changes.","","","False","","",""
 "html/themes/custom/regiotwente/templates/profile/profile--profile--default.html.twig:105","Your expertise","","","False","","",""
 "html/themes/custom/regiotwente/templates/profile/profile--profile--default.html.twig:112","Your interests","","","False","","",""
-"html/themes/custom/regiotwente/templates/profile/profile--profile--teaser.html.twig:45","at","","","False","","",""
+"html/themes/custom/regiotwente/templates/profile/profile--profile--teaser.html.twig:45","at","von","","False","","",""
 "html/modules/custom/regiotwente_landing_page/config/install/views.view.newest_users.yml:0","filter_no_admin","","","False","","",""
 "html/modules/custom/regiotwente_core/config/install/views.view.activity_stream.yml:0;0","header_postblock","","","False","","",""
 "html/modules/features/regiotwente_helper/regiotwente_helper.info.yml:0","regiotwente","","","False","","",""
