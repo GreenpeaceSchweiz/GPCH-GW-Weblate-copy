@@ -4,7 +4,7 @@
 "config/install/views.view.poll_list.yml:0",",",",","","False","","",""
 "config/install/views.view.poll_list.yml:0","'- All -'","'- Alle -'","","False","","",""
 "src/Form/PollViewForm.php:250","1 vote","1 Stimme","","False","","",""
-"src/Form/PollViewForm.php:255","'@percentage%'","'@prozent%'","","False","","",""
+"src/Form/PollViewForm.php:255","'@percentage%'","'@percentage%'","","False","","",""
 "src/Form/PollForm.php:49","A feed named %feed already exists. Enter a unique question.","Ein Feed namens %feed existiert bereits. Gebe eine einmalige Frage ein.","","False","","",""
 "src/Entity/Poll.php:301","A flag indicating whether anonymous users are allowed to vote.","Eine Markierung, die anzeigt ob auch anonyme Nutzer:innen abstimmen dürfen.","","False","","",""
 "src/Entity/Poll.php:340","A flag indicating whether the poll is active.","Eine Markierung, die anzeigt ob eine Umfrage aktiv ist.","","False","","",""
