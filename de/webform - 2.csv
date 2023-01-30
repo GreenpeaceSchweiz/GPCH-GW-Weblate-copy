@@ -251,7 +251,7 @@ Dr: Dr
 "src/WebformSubmissionExporter.php:674","Order","","","False","","",""
 "src/WebformSubmissionExporter.php:675","Order submissions by ascending (oldest first) or descending (newest first).","","","False","","",""
 "src/Plugin/WebformElement/WebformCompositeBase.php:706","Ordered list","","","False","","",""
-"src/Plugin/WebformElement/Address.php:180","Organization","","","False","","",""
+"src/Plugin/WebformElement/Address.php:180","Organization","Organisation","","False","","",""
 "src/Plugin/WebformElementBase.php:2564","Organization job title","","","False","","",""
 "src/Plugin/WebformElementBase.php:2565","Organization name","","","False","","",""
 "src/Plugin/WebformElement/WebformImageFile.php:71","Original Image","","","False","","",""

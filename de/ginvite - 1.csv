@@ -78,7 +78,6 @@
 "src/Form/BulkGroupInvitation.php:133","You can copy/paste multiple emails, enter one email per line.","","","False","","",""
 "src/Controller/InvitationOperations.php:112","You have accepted the invitation.","","","False","","",""
 "src/Controller/InvitationOperations.php:152","You have declined the @group_bundle invitation.","","","False","","",""
-"src/EventSubscriber/GinviteSubscriber.php:94","You have pending group invitations. <a href=""@url"">Visit your profile</a> to see them.","","","False","","",""
 "config/optional/views.view.my_invitations.yml:0","ginvite/{{ id }}/accept?destination=/user/{{ uid }}/invitations","","","False","","",""
 "config/optional/views.view.my_invitations.yml:0","ginvite/{{ id }}/decline?destination=/user/{{ uid }}/invitations","","","False","","",""
 "config/optional/views.view.group_invitations.yml:0","{{ arguments.gid|placeholder }} invitations","","","False","","",""

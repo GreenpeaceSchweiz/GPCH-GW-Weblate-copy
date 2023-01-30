@@ -3,6 +3,7 @@
 "modules/social_challenge_phase/config/install/core.entity_view_display.phase.phase.small_teaser.yml:0","'-'","","","False","Date range separator","",""
 "social_challenge.module:451;518;535","'- Any -'","'- beliebig -'","","False","","",""
 "templates/group--challenge--teaser.html.twig:56","1 idea","","","False","","",""
+"social_challenge.module:1495","1 membership invite for @type: @group_name","","","False","","",""
 "templates/group--challenge--teaser.html.twig:31","1 participant","","","False","","",""
 "modules/social_challenge_phase/social_challenge_phase.tokens.inc:154","<p><strong><u>@phase-title</u> of the @challenge-link challenge has ended. Take a look at the new ideas!</strong></p>","","","False","","",""
 "modules/social_challenge_phase/social_challenge_phase.tokens.inc:162","<p><strong><u>@phase-title</u> of the @challenge-link challenge has ended. This was the last phase of the challenge. @ending</strong></p>","","","False","","",""
@@ -21,7 +22,7 @@
 "modules/social_challenge_kpi/social_challenge_kpi.module:13","About","Info","","False","","",""
 "modules/social_idea_coauthors/src/Controller/CoauthorController.php:114","Accept","Akzeptieren","","False","","",""
 "modules/social_challenge_phase/src/Plugin/ActivityAction/PhaseEndedActivityAction.php:8","Action that is triggered when phase was ended","","","False","","",""
-"src/Plugin/views/filter/ChallengePhasesStatus.php:202","Active","Aktiv","","False","","",""
+"social_challenge.module:560;685","Active","Aktiv","","False","","",""
 "templates/group--challenge--teaser.html.twig:68","Active phase","","","False","","",""
 "modules/social_idea_coauthors/social_idea_coauthors.module:241","Add another co-author","","","False","","",""
 "social_challenge.routing.yml:0","Add challenge","","","False","","",""
@@ -47,7 +48,7 @@
 "modules/social_challenge_phase/social_challenge_phase.module:189","Best","","","False","","",""
 "social_challenge.module:402","By submitting this form you will become a member of the challenge.","","","False","","",""
 "modules/social_challenge_phase/social_challenge_phase.tokens.inc:58","CTA button","","","False","","",""
-"templates/group--challenge--small-teaser.html.twig:9","Challenge","","","False","","",""
+"social_challenge.module:740","Challenge","","","False","","",""
 "src/Plugin/search_api/processor/ChallengePhasesStatus.php:78","Challenge ""active/inactive"" status by phases.","","","False","","",""
 "social_challenge.module:1232","Challenge Events","","","False","","",""
 "social_challenge.module:1240","Challenge Participants","","","False","","",""
@@ -59,11 +60,13 @@
 "modules/social_challenge_phase/social_challenge_phase.tokens.inc:53","Challenge statistics section","","","False","","",""
 "src/Plugin/search_api/processor/ChallengePhasesStatus.php:13","Challenge status by phases.","","","False","","",""
 "templates/group--challenge--teaser.html.twig:10;14","Challenge: &nbsp;","","","False","","",""
+"config/optional/group.content_type.challenge-group_invitation.yml:0","Challenge: Challenge Invitation","","","False","","",""
 "social_challenge.links.task.yml:0","Challenges","","","False","","",""
 "src/Plugin/UserExportPlugin/UserAnalyticsChallengesCreated.php:24;9","Challenges created","","","False","","",""
 "modules/social_challenge_phase/src/Entity/Phase.php:181","Changed","Geändert","","False","","",""
 "social_challenge.module:740","Closed Challenge","","","False","","",""
 "modules/social_closed_challenge/src/Plugin/MultipleContentBlock/ClosedChallengeContent.php:7","Closed challenge","","","False","","",""
+"modules/social_closed_challenge/config/optional/group.content_type.cc-group_invitation.yml:0","Closed challenge: Challenge Invitation","","","False","","",""
 "modules/social_idea_coauthors/config/optional/block.block.views_block__idea_coauthors_idea_coauthors.yml:0;0","Co-authors","Co-Autoren","","False","","",""
 "modules/social_idea_coauthors/src/Controller/CoauthorController.php:218","Co-authorship request was accepted. Your response has been sent to the requester as a private message.","Der Antrag auf Co-Autorenschaft wurde angenommen. Deine Antwort wurde als private Nachricht an die:den Anfragende:n gesendet.","","False","","",""
 "modules/social_idea_coauthors/src/Controller/CoauthorController.php:252","Co-authorship request was declined. Your response has been sent to the requester as a private message.","Der Antrag auf Co-Autorenschaft wurde abgelehnt. Deine Antwort wurde als private Nachricht an die:den Anfragende:n gesendet.","","False","","",""
@@ -76,6 +79,7 @@
 "modules/social_challenge_phase/templates/phase--active--small-teaser.html.twig:78","Create ideas","","","False","","",""
 "modules/social_challenge_phase/src/Entity/Phase.php:177","Created","Erstellt","","False","","",""
 "modules/social_idea/templates/node--social-idea--featured.html.twig:47","Created by","","","False","","",""
+"modules/social_secret_challenge/config/optional/group.content_type.sc-group_invitation.yml:0","Creates invitations to challenge.","","","False","","",""
 "src/Plugin/Block/GroupAddIdeaBlock.php:126","Creating an idea is not made possible in this phase.","","","False","","",""
 "modules/social_challenge_phase/social_challenge_phase.module:292","Date","","","False","","",""
 "modules/social_idea_coauthors/src/Controller/CoauthorController.php:120","Decline","Ablehnen","","False","","",""
@@ -101,6 +105,69 @@
 "modules/social_idea_coauthors/src/Controller/CoauthorController.php:122","Hello :idea_owner, <br><br> I would like to contribute to the idea @node_link. Please let me know if it's OK. <br><br> @accept_link | @decline_link","","","False","","",""
 "modules/social_idea_coauthors/src/Controller/CoauthorController.php:140","Hello :requester, <br><br> Thank you for your interest. Unfortunately, your request is declined. <br><br> Please feel free to participate by voting for this idea or leave your comments.","","","False","","",""
 "modules/social_idea_coauthors/src/Controller/CoauthorController.php:132","Hello :requester, <br><br> Thank you for your interest. You have been added as a coauthor of the idea @node_link. <br><br> Look forward to collaborating with you.","","","False","","",""
+"config/optional/group.content_type.challenge-group_invitation.yml:0","Hi there!
+
+Your invitation to the challenge [group:title] on [site:name] has been cancelled
+Kind regards,
+The [site:name] team","","","False","","",""
+"modules/social_closed_challenge/config/optional/group.content_type.cc-group_invitation.yml:0","Hi there!
+
+Your invitation to the closed challenge [group:title] on [site:name] has been cancelled
+Kind regards,
+The [site:name] team","","","False","","",""
+"modules/social_secret_challenge/config/optional/group.content_type.sc-group_invitation.yml:0","Hi there!
+
+Your invitation to the secret challenge [group:title] on [site:name] has been cancelled
+Kind regards,
+The [site:name] team","","","False","","",""
+"config/optional/group.content_type.challenge-group_invitation.yml:0","Hi,<br /><br /> I would like to invite you to join my challenge [group:title] on [site:name].<br /><br />Kind regards,<br />[current-user:display-name]<br /><br /><table class=""btn-wrapp"">
+	<tbody>
+		<tr>
+			<td class=""align-center""><a class=""btn-link btn-link-bg btn-link-one"" href=""[group_content:register_link]"">View challenge</a></td>
+			<td class=""align-center""><a class=""btn-link btn-link-bg btn-link-one"" href=""[site:url]"">About [site:name]</a></td>
+		</tr>
+	</tbody>
+</table>","","","False","","",""
+"modules/social_closed_challenge/config/optional/group.content_type.cc-group_invitation.yml:0","Hi,<br /><br /> I would like to invite you to join my closed challenge [group:title] on [site:name].<br /><br />Kind regards,<br />[current-user:display-name]<br /><br /><table class=""btn-wrapp"">
+	<tbody>
+		<tr>
+			<td class=""align-center""><a class=""btn-link btn-link-bg btn-link-one"" href=""[group_content:register_link]"">View challenge</a></td>
+			<td class=""align-center""><a class=""btn-link btn-link-bg btn-link-one"" href=""[site:url]"">About [site:name]</a></td>
+		</tr>
+	</tbody>
+</table>","","","False","","",""
+"modules/social_secret_challenge/config/optional/group.content_type.sc-group_invitation.yml:0","Hi,<br /><br /> I would like to invite you to join my secret challenge [group:title] on [site:name].<br /><br />Kind regards,<br />[current-user:display-name]<br /><br /><table class=""btn-wrapp"">
+	<tbody>
+		<tr>
+			<td class=""align-center""><a class=""btn-link btn-link-bg btn-link-one"" href=""[group_content:register_link]"">View challenge</a></td>
+			<td class=""align-center""><a class=""btn-link btn-link-bg btn-link-one"" href=""[site:url]"">About [site:name]</a></td>
+		</tr>
+	</tbody>
+</table>","","","False","","",""
+"config/optional/group.content_type.challenge-group_invitation.yml:0","Hi,<br /><br />I would like to invite you to join my challenge [group:title] on [site:name].<br /><br />Kind regards,<br />[current-user:display-name]<br /><br /><table class=""btn-wrapp"">
+	<tbody>
+		<tr>
+			<td class=""align-center""><a class=""btn-link btn-link-bg btn-link-one"" href=""[group_content:my_invitations_link]"">View challenge</a></td>
+			<td class=""align-center""><a class=""btn-link btn-link-bg btn-link-one"" href=""[site:url]"">About [site:name]</a></td>
+		</tr>
+	</tbody>
+</table>","","","False","","",""
+"modules/social_closed_challenge/config/optional/group.content_type.cc-group_invitation.yml:0","Hi,<br /><br />I would like to invite you to join my closed challenge [group:title] on [site:name].<br /><br />Kind regards,<br />[current-user:display-name]<br /><br /><table class=""btn-wrapp"">
+	<tbody>
+		<tr>
+			<td class=""align-center""><a class=""btn-link btn-link-bg btn-link-one"" href=""[group_content:my_invitations_link]"">View challenge</a></td>
+			<td class=""align-center""><a class=""btn-link btn-link-bg btn-link-one"" href=""[site:url]"">About [site:name]</a></td>
+		</tr>
+	</tbody>
+</table>","","","False","","",""
+"modules/social_secret_challenge/config/optional/group.content_type.sc-group_invitation.yml:0","Hi,<br /><br />I would like to invite you to join my secret challenge [group:title] on [site:name].<br /><br />Kind regards,<br />[current-user:display-name]<br /><br /><table class=""btn-wrapp"">
+	<tbody>
+		<tr>
+			<td class=""align-center""><a class=""btn-link btn-link-bg btn-link-one"" href=""[group_content:my_invitations_link]"">View challenge</a></td>
+			<td class=""align-center""><a class=""btn-link btn-link-bg btn-link-one"" href=""[site:url]"">About [site:name]</a></td>
+		</tr>
+	</tbody>
+</table>","","","False","","",""
 "modules/social_idea_coauthors/src/Plugin/Block/RequestCoauthorship.php:139","I want to contribute","","","False","","",""
 "modules/social_challenge_phase/src/Entity/Phase.php:126","ID","ID","","False","","",""
 "modules/social_idea/social_idea.module:166","Idea settings","","","False","","",""
@@ -109,11 +176,13 @@
 "modules/social_idea/src/Plugin/UserExportPlugin/UserAnalyticsIdeasCreated.php:24;9","Ideas created","","","False","","",""
 "templates/group--challenge--small-teaser.html.twig:18","Ideation phase","","","False","","",""
 "modules/social_challenge_kpi/social_challenge_kpi.info.yml:0","Implements KPI Analytics for Social Challenge feature.","","","False","","",""
-"src/Plugin/views/filter/ChallengePhasesStatus.php:203","Inactive","","","False","","",""
+"social_challenge.module:561","Inactive","","","False","","",""
 "templates/views-view--challenge-ideas.html.twig:85","Informative message","","","False","","",""
 "modules/social_challenge_phase/social_challenge_phase.tokens.inc:29","Intro for phase statistics message.","","","False","","",""
 "social_challenge.module:727","Invitation only","Nur via Einladung","","False","","",""
 "social_challenge.module:719","Invitation only.","","","False","","",""
+"modules/social_secret_challenge/config/optional/field.field.group_content.sc-group_invitation.invitation_status.yml:0","Invitation status","","","False","","",""
+"modules/social_secret_challenge/config/optional/field.field.group_content.sc-group_invitation.invitee_mail.yml:0","Invitee email","","","False","","",""
 "modules/social_vote/src/Plugin/VoteResultFunction/Jury.php:8","Jury","","","False","","",""
 "modules/social_challenge_phase/src/Form/PhaseForm.php:25","Language","Sprache","","False","","",""
 "modules/social_challenge_phase/src/Entity/Phase.php:168","Language code","Sprachkürzel","","False","","",""
@@ -164,8 +233,10 @@
 "modules/social_idea_coauthors/src/Plugin/Block/RequestCoauthorship.php:20","Request co-authorship of an idea","","","False","","",""
 "modules/social_idea_coauthors/config/optional/block.block.requestcoauthorship_sky.yml:0","Request coauthorship","","","False","","",""
 "modules/social_idea_coauthors/src/Plugin/Block/RequestCoauthorship.php:141","Request sent","Anfrage wurde gesendet","","False","","",""
+"modules/social_secret_challenge/config/optional/field.field.group_content.sc-group_invitation.group_roles.yml:0","Roles","","","False","","",""
 "social_challenge.module:1309","Say something to the challenge","","","False","","",""
 "modules/social_secret_challenge/src/Plugin/MultipleContentBlock/SecretChallengeContent.php:7","Secret challenge","","","False","","",""
+"modules/social_secret_challenge/config/optional/group.content_type.sc-group_invitation.yml:0","Secret challenge: Challenge Invitation","","","False","","",""
 "templates/group--challenge--statistic--sky.html.twig:34","See challenge information","","","False","","",""
 "modules/social_challenge_phase/social_challenge_phase.tokens.inc:380","See completed challenge","","","False","","",""
 "modules/social_idea/social_idea.module:155","Select the phases this idea should belong to","","","False","","",""
@@ -231,9 +302,13 @@
 "templates/group--challenge--teaser.html.twig:102","You have joined","Du bist Mitglied","","False","Is a member","",""
 "templates/challenge-add-list.html.twig:15","You have not created any challenges types yet. Go to the Group types creation page to add a new challenge type.","","","False","","",""
 "modules/social_vote/templates/social-vote-teaser.html.twig:36","You have voted","","","False","","",""
+"modules/social_secret_challenge/config/optional/group.content_type.sc-group_invitation.yml:0","Your invitation is no longer available","","","False","","",""
 "modules/social_idea_coauthors/src/Controller/CoauthorController.php:93","Your request has been sent to the idea author as a private message.","","","False","","",""
 "modules/social_vote/src/Controller/VoteController.php:66","Your vote was added.","","","False","","",""
 "modules/social_vote/src/Controller/VoteController.php:89","Your vote was canceled.","","","False","","",""
+"config/optional/group.content_type.challenge-group_invitation.yml:0;0","[current-user:display-name] has invited you to join a challenge on [site:name].","","","False","","",""
+"modules/social_closed_challenge/config/optional/group.content_type.cc-group_invitation.yml:0;0","[current-user:display-name] has invited you to join a closed challenge on [site:name].","","","False","","",""
+"modules/social_secret_challenge/config/optional/group.content_type.sc-group_invitation.yml:0;0","[current-user:display-name] has invited you to join a secret challenge on [site:name].","","","False","","",""
 "modules/social_idea/templates/node--social-idea--featured.html.twig:102","about @label","Über @label","","False","","",""
 "social_challenge.module:1040","challenges","","","False","","",""
 "modules/social_idea/templates/node--social-idea--teaser.html.twig:56","co-author","","","False","","",""
