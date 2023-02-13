@@ -1140,7 +1140,7 @@ Lingua delle pagine di amministrazione</em>nella pagina del profilo di un utente
 "modules/views/src/Plugin/views/wizard/WizardPluginBase.php:628","All","Tutto","","False","","",""
 "modules/jsonapi/jsonapi.install:69","All (create, read, update, delete)","Tutti (creati, letti, aggiornati, cancellati)","","False","","",""
 "modules/media_library/js/media_library.view.js:0","All @count items selected","Tutti e @count gli elementi selezionati","","False","","",""
-"modules/ckeditor5/src/Plugin/CKEditor5Plugin/Language.php:70","All @count languages","Tutte le @count lingue","","False","","",""
+"modules/ckeditor/src/Plugin/CKEditorPlugin/Language.php:114","All @count languages","Tutte le @count lingue","","False","","",""
 "modules/content_moderation/src/Form/ContentModerationConfigureEntityTypesForm.php:132","All @entity_type types","Tutte le @entity_type tipologie","","False","","",""
 "modules/system/src/Form/PrepareModulesEntityUninstallForm.php:257","All @entity_type_plural have been deleted.","Tutti @entity_type_plural saranno rimossi.","","False","","",""
 "modules/content_moderation/src/Form/ContentModerationConfigureEntityTypesForm.php:134","All @entity_type_plural_label","Tutti @entity_type_plural_label","","False","","",""
@@ -3721,3 +3721,4 @@ Lingua delle pagine di amministrazione</em>nella pagina del profilo di un utente
 "modules/help_topics/help_topics/core.appearance.html.twig:12","Extending and Customizing Your Site chapter in the User Guide","","","False","","",""
 "modules/help_topics/help_topics/core.extending.html.twig:1","Extending and modifying your site functionality","","","False","","",""
 "modules/help_topics/help_topics/core.extending.html.twig:7","Extending overview","","","False","","",""
+"modules/search/search.module:76","Extending the Search module","","","False","","",""

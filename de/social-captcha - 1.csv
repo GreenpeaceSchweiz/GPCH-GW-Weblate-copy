@@ -1,6 +1,4 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"social_captcha.links.menu.yml:0","Prevent spam accounts by enabling CAPTCHA for the signup page.","","","False","","",""
 "social_captcha.info.yml:0","Provides Captcha integration with Open Social forms.","","","False","","",""
 "social_captcha.info.yml:0","Social","Sozial","","False","","",""
 "social_captcha.info.yml:0","Social CAPTCHA","","","False","","",""
-"social_captcha.links.menu.yml:0","Spam protection (CAPTCHA)","","","False","","",""

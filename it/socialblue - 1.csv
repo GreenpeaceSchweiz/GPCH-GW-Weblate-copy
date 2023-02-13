@@ -55,7 +55,7 @@
 "templates/node/event/node--event--featured--sky.html.twig:35","Event schedule","","","False","","",""
 "templates/profile/profile--profile--default--sky.html.twig:111","Expertise","Esperienze","","False","","",""
 "templates/profile/profile--profile--teaser--sky.html.twig:7","Follower","","","False","","",""
-"templates/profile/profile--profile--teaser--sky.html.twig:9","Following","","","False","","",""
+"templates/profile/profile--profile--teaser--sky.html.twig:9","Following","Seguente","","False","","",""
 "theme-settings.php:134","Font","Carattere","","False","","",""
 "config/schema/socialblue.schema.yml:0","Font primary","","","False","","",""
 "theme-settings.php:55","Fonts","Caratteri","","False","","",""

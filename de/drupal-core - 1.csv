@@ -1127,7 +1127,7 @@
 "modules/views/src/Plugin/views/wizard/WizardPluginBase.php:628","All","Alle","","False","","",""
 "modules/jsonapi/jsonapi.install:69","All (create, read, update, delete)","","","False","","",""
 "modules/media_library/js/media_library.view.js:0","All @count items selected","Alle @count Einträge ausgewählt","","False","","",""
-"modules/ckeditor5/src/Plugin/CKEditor5Plugin/Language.php:70","All @count languages","Alle @count Sprachen","","False","","",""
+"modules/ckeditor/src/Plugin/CKEditorPlugin/Language.php:114","All @count languages","Alle @count Sprachen","","False","","",""
 "modules/content_moderation/src/Form/ContentModerationConfigureEntityTypesForm.php:132","All @entity_type types","Alle @entity_type-Typen","","False","","",""
 "modules/system/src/Form/PrepareModulesEntityUninstallForm.php:257","All @entity_type_plural have been deleted.","Alle @entity_type_plural wurden gelöscht.","","False","","",""
 "modules/content_moderation/src/Form/ContentModerationConfigureEntityTypesForm.php:134","All @entity_type_plural_label","Alle @entity_type_plural_label","","False","","",""
@@ -3707,3 +3707,4 @@ Siehe <a href=""http://php.net/manual/function.strtotime.php"">strtotime</a> fü
 "modules/help_topics/help_topics/core.appearance.html.twig:12","Extending and Customizing Your Site chapter in the User Guide","","","False","","",""
 "modules/help_topics/help_topics/core.extending.html.twig:1","Extending and modifying your site functionality","","","False","","",""
 "modules/help_topics/help_topics/core.extending.html.twig:7","Extending overview","","","False","","",""
+"modules/search/search.module:76","Extending the Search module","Das Suchmodul erweitern","","False","","",""

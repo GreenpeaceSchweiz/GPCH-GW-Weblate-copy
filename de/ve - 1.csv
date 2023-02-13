@@ -40,7 +40,6 @@
 "modules/ve_zoom/config/optional/field.field.ve.ve_zoom.field_connection_type.yml:0","Connection Type","","","False","","",""
 "modules/ve_zoom/ve_zoom.module:490","Couldn't create a meeting on Zoom service, for <strong>@title</strong>. please contact your system administrator.","Für <strong>@title</strong> konnte kein Meeting im Zoom-Dienst erstellt werden. Bitte kontaktieren Sie Ihren Systemadministrator.","","False","","",""
 "modules/ve_bbb/src/VeBbbServices/BbbMeeting.php:242","Couldn't create room! please contact system administrator.","","","False","","",""
-"modules/ve_zoom/src/VeZoomServices/ZoomMeeting.php:644","Couldn't find a Zoom users in your account, please check your Zoom licenses and your Zoom account.","","","False","","",""
 "src/Form/VeLicenseForm.php:275","Couldn't generate API token. Make sure you entered valid API credentials and the license is not connected with another website.","","","False","","",""
 "modules/ve_bbb/src/VeBbbServices/BbbMeeting.php:391","Couldn't get meeting URL! please contact system administrator.","","","False","","",""
 "modules/ve_bbb/src/VeBbbServices/BbbMeeting.php:284","Couldn't get meeting info! please contact system administrator.","","","False","","",""
