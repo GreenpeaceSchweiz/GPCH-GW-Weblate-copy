@@ -112,7 +112,7 @@
 "poll.permissions.yml:0","View polls","Umfragen ansehen","","False","","",""
 "src/Form/PollViewForm.php:214","View results","Ergebnisse ansehen","","False","","",""
 "poll.module:34","Viewing polls","Umfragen ansehen","","False","","",""
-"src/Form/PollViewForm.php:68;204","Vote","Stimme","","False","","",""
+"src/Form/PollViewForm.php:68;204","Vote","Jetzt abstimmen","","False","","",""
 "poll.module:115","Vote form of the poll or the results depending on current user.","Abstimmungsform der Umfrage oder der Ergebnisse je nach aktuellem:aktueller Benutzer:in.","","False","","",""
 "poll.module:114","Vote form/Results","Abstimmungsform/ Ergebnis","","False","","",""
 "src/PollListBuilder.php:46","Votes","Stimmen","","False","","",""

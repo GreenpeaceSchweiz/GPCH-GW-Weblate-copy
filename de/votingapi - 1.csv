@@ -126,7 +126,7 @@
 "src/Plugin/migrate/source/d7/Vote.php:41","Value Type","","","False","","",""
 "src/VoteTypeListBuilder.php:22","Value type","Werttyp","","False","","",""
 "src/VoteTypeForm.php:154","View","Ansicht","","False","","",""
-"src/Entity/VoteViewsData.php:21","Vote","Stimme","","False","","",""
+"src/Entity/VoteViewsData.php:21","Vote","Jetzt abstimmen","","False","","",""
 "src/Plugin/migrate/source/d7/Vote.php:37","Vote ID","","","False","","",""
 "src/Entity/VoteResultViewsData.php:21","Vote Result","Abstimmungsergebnis","","False","","",""
 "votingapi.views.inc:74;81","Vote Result ""@result_function"" for @plural_label","","","False","","",""
