@@ -159,7 +159,6 @@
 "flag.tokens.inc:43","Flagging date","","","False","","",""
 "flag.tokens.inc:38","Flaggings","","","False","","",""
 "modules/flag_follower/config/install/views.view.flag_followers_content.yml:0","Flags","Bandiere","","False","","",""
-"src/Form/FlagFormBase.php:208","Flags are usually controlled through links that allow users to toggle their behavior. You can choose how users interact with flags by changing options here. It is legitimate to have none of the following checkboxes ticked, if, for some reason, you wish <a href=""@placement-url"">to place the the links on the page yourself</a>.","","","False","","",""
 "modules/flag_follower/config/install/flag.flag.following.yml:0","Follow this user","","","False","","",""
 "modules/flag_follower/config/install/views.view.flag_followers.yml:0;0;0","Followers","Seguaci","","False","","",""
 "modules/flag_follower/config/install/views.view.flag_followers.yml:0","Following","Seguente","","False","","",""

@@ -1,8 +1,4 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"jquery_ui_accordion.module:16","About","À propos","","False","","",""
-"jquery_ui_accordion.module:17","Drupal 8 includes jQuery UI in core, however it is no longer actively maintained and has been marked deprecated. This module provides the jQuery UI accordion library for any themes and modules that require it.","","","False","","",""
-"jquery_ui_accordion.module:18","For more information about the deprecation of jQuery UI, see this <a href="":change-record"">change record</a>","","","False","","",""
 "jquery_ui_accordion.info.yml:0","Provides jQuery UI Accordion library.","","","False","","",""
-"jquery_ui_accordion.module:19","Visit the <a href="":project_link"">jQuery UI Accordion project page</a> on Drupal.org for more information.","","","False","","",""
 "jquery_ui_accordion.info.yml:0","jQuery UI","","","False","","",""
 "jquery_ui_accordion.info.yml:0","jQuery UI Accordion","","","False","","",""

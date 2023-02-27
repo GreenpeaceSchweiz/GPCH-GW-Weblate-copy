@@ -3,7 +3,8 @@
 "src/Form/CropWidgetForm.php:159","<@no-preview>","","","False","","",""
 "modules/image_widget_crop_examples/src/Controller/FrontPage.php:59;100","<a href=""@url"">@label","","","False","","",""
 "image_widget_crop.install:29","<strong>:type</strong> file : Libraries module is active but an error detected with your cropper libraries configuration. To use cropper library with <i>'libraries'</i> module you must have the following structure <i>`:libraries_cropper`</i>","","","False","","",""
-"src/Element/ImageCrop.php:476","'@crop_required is required.'","","","False","","",""
+"src/Element/ImageCrop.php:477","'@crop_required is required.'","","","False","","",""
+"src/Element/ImageCrop.php:146","'@label (required)'","","","False","","",""
 "image_widget_crop.module:22","About","Informazioni","","False","","",""
 "modules/image_widget_crop_examples/config/optional/core.base_field_override.node.crop_media_example.promote.yml:0","ActivÃ©","","","False","","",""
 "src/Plugin/Field/FieldWidget/ImageCropWidget.php:225","Always expand crop area","","","False","","",""
@@ -16,7 +17,7 @@
 "image_widget_crop.install:38","Correctly configured","","","False","","",""
 "modules/image_widget_crop_examples/config/optional/crop.type.crop_16_9.yml:0","Crop 16:9","","","False","","",""
 "modules/image_widget_crop_examples/config/optional/crop.type.crop_4_3.yml:0","Crop 4:3","","","False","","",""
-"src/Element/ImageCrop.php:418","Crop @property is smaller than the allowed @hard_limitpx for @crop_name","","","False","","",""
+"src/Element/ImageCrop.php:419","Crop @property is smaller than the allowed @hard_limitpx for @crop_name","","","False","","",""
 "modules/image_widget_crop_examples/config/optional/node.type.crop_media_example.yml:0","Crop Media Example","","","False","","",""
 "modules/image_widget_crop_examples/config/optional/node.type.crop_responsive_example.yml:0","Crop Responsive Example","","","False","","",""
 "modules/image_widget_crop_examples/config/optional/node.type.crop_simple_example.yml:0","Crop Simple Example","","","False","","",""
@@ -36,10 +37,11 @@
 "src/Form/CropWidgetForm.php:122","Custom Cropper CSS file","","","False","","",""
 "src/Form/CropWidgetForm.php:112","Custom Cropper library","","","False","","",""
 "modules/image_widget_crop_examples/config/optional/core.base_field_override.node.crop_media_example.promote.yml:0","DÃ©sactivÃ©","","","False","","",""
+"modules/image_widget_crop_examples/image_widget_crop_examples.info.yml:0","Examples","","","False","","",""
 "image_widget_crop.install:38","Files not found","","","False","","",""
 "modules/image_widget_crop_examples/config/optional/crop.type.crop_free_ratio.yml:0","Free crop","","","False","","",""
 "src/Form/CropWidgetForm.php:143","General configuration","","","False","","",""
-"src/Element/ImageCrop.php:527","Height","Altezza","","False","","",""
+"src/Element/ImageCrop.php:528","Height","Altezza","","False","","",""
 "modules/image_widget_crop_examples/config/optional/field.field.media.image_with_crop.field_media_image.yml:0","Image","Immagine","","False","","",""
 "modules/image_widget_crop_examples/config/optional/field.field.node.crop_responsive_example.field_image_crop_simple.yml:0","Image Crop Responsive","","","False","","",""
 "modules/image_widget_crop_examples/config/optional/field.field.node.crop_simple_example.field_image_crop_simple.yml:0","Image Crop Simple","","","False","","",""
@@ -63,7 +65,7 @@
 "modules/image_widget_crop_examples/config/optional/node.type.crop_simple_example.yml:0","Implementation of ImageWidgetCrop with basic (core) File field.","","","False","","",""
 "modules/image_widget_crop_examples/config/optional/node.type.crop_media_example.yml:0","Implementation of ImageWidgetCrop with media integration.","","","False","","",""
 "config/schema/image_widget_crop.schema.yml:0","Library URL","","","False","","",""
-"modules/image_widget_crop_examples/image_widget_crop_examples.info.yml:0","Media","Media","","False","","",""
+"image_widget_crop.info.yml:0","Media","Media","","False","","",""
 "modules/image_widget_crop_examples/config/optional/image.style.medium_4_3.yml:0","Medium - (300 x 330) with crop 4:3","","","False","","",""
 "modules/image_widget_crop_examples/config/optional/image.style.medium_crop_simple.yml:0","Medium with crop simple","","","False","","",""
 "src/ImageWidgetCropManager.php:443","No File element found.","","","False","","",""
@@ -78,12 +80,12 @@
 "config/schema/image_widget_crop.schema.yml:0","Preview image style","Anteprima stile immagine","","False","","",""
 "src/Plugin/Field/FieldWidget/ImageCropWidget.php:380","Preview image style: @style","Stile immagine anteprima: @style","","False","","",""
 "config/schema/image_widget_crop.schema.yml:0","Progress indicator","Indicatore di avanzamento","","False","","",""
-"modules/image_widget_crop_examples/config/optional/core.base_field_override.node.crop_media_example.promote.yml:0","Promu en page d'accueil","","","False","","",""
+"modules/image_widget_crop_examples/config/optional/core.base_field_override.node.crop_media_example.promote.yml:0","Promoted to homepage","","","False","","",""
 "image_widget_crop.info.yml:0","Provides an interface for using the features of the Crop API.","","","False","","",""
 "modules/image_widget_crop_examples/image_widget_crop_examples.info.yml:0","Provides an out of box example implementation of ImageWidgetCrop.","","","False","","",""
 "src/Plugin/Field/FieldWidget/ImageCropWidget.php:215","Required crop types","","","False","","",""
 "src/Plugin/Field/FieldWidget/ImageCropWidget.php:395","Required crop types : @list","","","False","","",""
-"src/Element/ImageCrop.php:184","Reset crop","Reimposta ritaglio","","False","","",""
+"src/Element/ImageCrop.php:185","Reset crop","Reimposta ritaglio","","False","","",""
 "src/Form/CropWidgetForm.php:185","Set Crop Type as required","","","False","","",""
 "src/Form/CropWidgetForm.php:191","Set active crop as required.","","","False","","",""
 "src/Form/CropWidgetForm.php:123","Set the URL or local path for the file, or leave empty to use installed library (if installed) or a <a href=""@file"">CDN</a> fallback. You can retrieve the CSS file from <a href=""@url"">Cropper CDN</a>.","","","False","","",""
@@ -95,7 +97,7 @@
 "src/ImageWidgetCropManager.php:364;411","The CropType ('@cropType') is not active or not defined. Please verify configuration of image style or ImageWidgetCrop formatter configuration","","","False","","",""
 "src/ImageWidgetCropManager.php:151","The crop ""@cropType"" was successfully added for image ""@filename"".","Il ritaglio ""@cropType"" è stato aggiunto con successo all'immagine ""@filename"".","","False","","",""
 "src/ImageWidgetCropManager.php:166","The crop ""@cropType"" was successfully deleted for image ""@filename"".","","","False","","",""
-"src/ImageWidgetCropManager.php:126","The crop ""@cropType"" were successfully updated for image ""@filename"".","","","False","","",""
+"src/ImageWidgetCropManager.php:126","The crop ""@cropType"" was successfully updated for image ""@filename"".","","","False","","",""
 "src/Element/ImageCrop.php:84","The file ""@file"" is not valid on element @name.","","","False","","",""
 "src/ImageWidgetCropManager.php:191","The file ""@file"" is not valid, your crop is not applied.","","","False","","",""
 "config/schema/image_widget_crop.schema.yml:0;0","The preview image will be cropped","","","False","","",""
@@ -103,18 +105,19 @@
 "src/Form/CropWidgetForm.php:241","The provided local file does not exist.","","","False","","",""
 "src/Form/CropWidgetForm.php:251","The remote URL for the library does not appear to be valid: @message.","","","False","","",""
 "src/Plugin/Field/FieldWidget/ImageCropWidget.php:206","The type of crop to apply to your image. If your Crop Type not appear here, set an image style use your Crop Type","","","False","","",""
-"modules/image_widget_crop_examples/src/Form/ImageWidgetCropExamplesForm.php:104","The uploaded image will be displayed on this page using the image style choosen below.","","","False","","",""
-"modules/image_widget_crop_examples/config/optional/field.field.node.crop_simple_example.field_image_crop_simple.yml:0","This Field is configured to display an 16:9 small image on fullContent.","","","False","","",""
-"modules/image_widget_crop_examples/config/optional/field.field.node.crop_responsive_example.field_image_crop_simple.yml:0","This Field is configured to display on different image (with different crop zone/ratio) depending on <b>BARTIK</b> breakpoint by default on fullContent.<br/>
-<b>Image Style dependin breakpoint :</b>
+"modules/image_widget_crop_examples/src/Form/ImageWidgetCropExamplesForm.php:104","The uploaded image will be displayed on this page using the image style chosen below.","","","False","","",""
+"modules/image_widget_crop_examples/config/optional/field.field.node.crop_simple_example.field_image_crop_simple.yml:0","This Field is configured to display an 16:9 small image in the Default display.","","","False","","",""
+"modules/image_widget_crop_examples/config/optional/field.field.media.image.field_image_crop.yml:0","This Field is configured to display an 16:9 small image on fullContent.","","","False","","",""
+"modules/image_widget_crop_examples/config/optional/field.field.node.crop_responsive_example.field_image_crop_simple.yml:0","This Field is configured to display different images (with different crop zone/ratio) depending on <b>Bartik</b> theme's breakpoint in the Default display.<br/>
+<b>Image Style breakpoints:</b>
 <ul>
 <li>Wide (min-width: 851px) => Small - (320 x 180) with crop 16:9</li>
-<li>NARROW (min-width: 851px to max-width: 850px) => Medium with crop simple</li>
-<li>MOBILE  => Medium - (300 x 330) with crop 4:3</li>
-<li>FALLBACK =>  Small - (320 x 180) with crop 16:9</li>
+<li>Narrow (min-width: 851px to max-width: 850px) => Medium with crop simple</li>
+<li>Mobile  => Medium - (300 x 330) with crop 4:3</li>
+<li>Fallback =>  Small - (320 x 180) with crop 16:9</li>
 </ul><br/>
 
-To exepriment different reaction change configuration <a href=""/admin/config/media/responsive-image-style/crop_example_responsive"" target=""_blank"">HERE</a><br/>","","","False","","",""
+To experiment with different reactions change the <a href=""/admin/config/media/responsive-image-style/crop_example_responsive"" target=""_blank"">Crop Example Responsive Image Style</a><br/>","","","False","","",""
 "src/Element/ImageCrop.php:121","This crop definition affects more usages of this image","","","False","","",""
 "modules/image_widget_crop_examples/config/optional/core.base_field_override.node.crop_simple_example.title.yml:0","Title","Titolo","","False","","",""
 "image_widget_crop.module:24","Try module","","","False","","",""
@@ -123,9 +126,9 @@ To exepriment different reaction change configuration <a href=""/admin/config/me
 "src/Plugin/Field/FieldWidget/ImageCropWidget.php:377","Warn the user if the crop is used more than once: @bool","","","False","","",""
 "src/Form/CropWidgetForm.php:173","Warn user when a file have multiple usages","","","False","","",""
 "modules/image_widget_crop_examples/src/Controller/FrontPage.php:71","Welcome to Image Widget Crop example.","","","False","","",""
-"src/Element/ImageCrop.php:526","Width","Larghezza","","False","","",""
-"src/Element/ImageCrop.php:524","X coordinate","","","False","","",""
-"src/Element/ImageCrop.php:525","Y coordinate","","","False","","",""
-"image_widget_crop.module:25","You can Test ImageWidgetCrop in action directly with the sub-module, ""ImageWidgetCrop example"" to test differents usecase of this module","","","False","","",""
+"src/Element/ImageCrop.php:527","Width","Larghezza","","False","","",""
+"src/Element/ImageCrop.php:525","X coordinate","","","False","","",""
+"src/Element/ImageCrop.php:526","Y coordinate","","","False","","",""
+"image_widget_crop.module:25","You can Test ImageWidgetCrop in action directly with the sub-module, ""ImageWidgetCrop example"" to test different use case of this module","","","False","","",""
 "modules/image_widget_crop_examples/src/Controller/FrontPage.php:75","You can test the functionality with custom content types created for the demonstration of features from Image Widget Crop:","","","False","","",""
 "src/Form/CropWidgetForm.php:159","no preview","nessuna anteprima","","False","","",""

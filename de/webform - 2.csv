@@ -5649,7 +5649,7 @@ actions:
 "modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:82","ready to be sent.","","","False","","",""
 "src/WebformEntityConditionsManager.php:61","required","","","False","","",""
 "modules/webform_scheduled_email/src/WebformScheduledEmailManager.php:259;479","rescheduled","","","False","","",""
-"src/Plugin/WebformElement/WebformActions.php:130","reset","","","False","","",""
+"src/Plugin/WebformElement/WebformActions.php:130","reset","Zurücksetzen","","False","","",""
 "src/Form/WebformResultsCustomForm.php:231","results per page","","","False","","",""
 "modules/webform_scheduled_email/src/WebformScheduledEmailManager.php:251;478","scheduled","","","False","","",""
 "modules/webform_scheduled_email/src/WebformScheduledEmailManager.php:709","scheduled email not sent","","","False","","",""
