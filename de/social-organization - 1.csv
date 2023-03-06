@@ -96,7 +96,7 @@ to create the organization straight away and it will be published immediately","
  on this platform yet.","","","False","","",""
 "src/Service/SocialOrganizationHelper.php:231","It looks like you're not yet a member of
 <strong>@organization_name</strong>. <strong>@link</strong>","","","False","","",""
-"config/install/views.view.organizations.yml:0","Items per page","","","False","","",""
+"config/install/views.view.organizations.yml:0","Items per page","Elemente pro Seite","","False","","",""
 "src/Entity/Organization.php:411","Join methods","","","False","","",""
 "src/Form/SocialOrganizationJoinForm.php:39","Join organization","","","False","","",""
 "src/Controller/SocialOrganizationController.php:73","Join organization %label","","","False","","",""

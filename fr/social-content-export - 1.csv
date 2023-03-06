@@ -17,7 +17,7 @@
 "src/Plugin/Action/ExportContent.php:23","Export the selected content to CSV","Exporter le contenu sélectionné au format CSV","","False","","",""
 "src/Plugin/ContentExportPlugin/ContentGroup.php:12","Group","","","False","","",""
 "src/Plugin/CommentExportPlugin/CommentId.php:8","ID","","","False","","",""
-"src/Plugin/ContentExportPlugin/ContentAnalyticsLikes.php:8","Likes","","","False","","",""
+"src/Plugin/ContentExportPlugin/ContentAnalyticsLikes.php:8","Likes","J'aime","","False","","",""
 "social_content_export.info.yml:0","Social","","","False","","",""
 "social_content_export.info.yml:0","Social Content Export","","","False","","",""
 "src/Plugin/ContentExportPlugin/ContentTitle.php:8","Title","","","False","","",""

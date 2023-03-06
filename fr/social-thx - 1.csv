@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "social_thx.module:124;158","Could not write reward to blockchain.","","","False","","",""
-"src/Plugin/AutomationAction/RewardThxAction.php:13","Data","","","False","","",""
+"src/Plugin/AutomationAction/RewardThxAction.php:13","Data","Données","","False","","",""
 "src/Plugin/AutomationAction/RewardThxAction.php:13","Gamification","","","False","","",""
 "social_thx.info.yml:0","Module to handle thx reward in social_gamification.","","","False","","",""
 "src/Plugin/AutomationAction/RewardThxAction.php:13","Reward","","","False","","",""

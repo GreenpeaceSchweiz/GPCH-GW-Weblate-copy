@@ -2,7 +2,7 @@
 "social_datalayer.permissions.yml:0","Administer datalayer settings","","","False","","",""
 "social_datalayer.permissions.yml:0","Allows access to administering settings for the datalayer module.","","","False","","",""
 "social_datalayer.links.menu.yml:0","Configure the datalayer settings.","","","False","","",""
-"src/Plugin/AutomationAction/DatalayerUserLoginAction.php:10","Data","","","False","","",""
+"src/Plugin/AutomationAction/DatalayerUserLoginAction.php:10","Data","Daten","","False","","",""
 "src/Plugin/AutomationAction/DatalayerUserSearchAction.php:12","Datalayer","","","False","","",""
 "src/Form/DatalayerSettingsForm.php:36","Debug settings","","","False","","",""
 "src/Form/DatalayerSettingsForm.php:46","Enable debug mode","","","False","","",""

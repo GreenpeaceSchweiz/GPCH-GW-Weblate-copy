@@ -6,7 +6,7 @@
 "templates/node--event--event-calendar--sky.html.twig:19","Enrolled","","","False","","",""
 "src/Plugin/Block/SocialEvenCalendar.php:14","Event Calendar","","","False","","",""
 "config/install/core.entity_view_mode.node.event_calendar.yml:0","Event calendar","","","False","","",""
-"templates/node--event--event-calendar--sky.html.twig:33;37","Event date","","","False","","",""
+"templates/node--event--event-calendar--sky.html.twig:33;37","Event date","Date de l'évênement","","False","","",""
 "social_calendar.module:67","Event type(s)","","","False","","",""
 "templates/node--event--event-calendar--sky.html.twig:4;7","Event: &nbsp;","","","False","","",""
 "src/Plugin/Block/SocialEvenCalendar.php:192","Filters","","","False","","",""
