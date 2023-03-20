@@ -1,4 +1,27 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"social_cookie.install:33","<h2>We value your privacy</h2>
+<p>We and 3rd parties use cookies to enhance your experience. These include
+necessary, analytical and marketing cookies. By clicking ”Accept Cookies” you 
+consent to our use of cookies. You can update your choice at any time in your 
+settings.</p>","","","False","","",""
+"social_cookie.install:30","Accept All","","","False","","",""
+"config/install/eu_cookie_compliance.cookie_category.analytical_cookies.yml:0","Analytical cookies","","","False","","",""
+"config/install/eu_cookie_compliance.cookie_category.analytical_cookies.yml:0","Any cookies that help us monitor anonymized site traffic and analytics, as well as cookies that let us run tests to optimize our site’s experience. This could be from 3rd party companies, such as Google Analytics.","","","False","","",""
+"templates/eu-cookie-compliance-popup-info-custom.html.twig:71","Back","","","False","","",""
+"templates/eu-cookie-compliance-popup-info-custom.html.twig:55","Close","","","False","","",""
+"templates/eu-cookie-compliance-popup-info-custom.html.twig:52","Close cookie popup","","","False","","",""
+"social_cookie.install:31","Confirm my choices","","","False","","",""
+"config/install/eu_cookie_compliance.cookie_category.marketing_cookies.yml:0","Cookies that allow us to customize and measure the effectiveness of our marketing. These can be used to serve you advertising after you have left our site (retargetting cookies).","","","False","","",""
+"templates/eu-cookie-compliance-popup-info-custom.html.twig:106","Customize","","","False","","",""
+"templates/eu-cookie-compliance-popup-info-custom.html.twig:75","Customize Consent Preference","","","False","","",""
+"src/Plugin/Filter/SocialCookieUrlEmbedFilter.php:18","Display embedded URLs with consent","","","False","","",""
 "social_cookie.info.yml:0","EU Cookie compliance module.","","","False","","",""
+"src/Plugin/Filter/SocialCookieUrlEmbedFilter.php:18","Embeds URLs using data attribute: data-embed-url.","","","False","","",""
+"config/install/eu_cookie_compliance.cookie_category.marketing_cookies.yml:0","Marketing cookies","","","False","","",""
+"config/install/eu_cookie_compliance.cookie_category.strictly_necessary_cookies.yml:0","Necessary cookies are absolutely essential to allow basic functionalities and security features of the website. These cookies do not store any personally identifiable data.","","","False","","",""
+"social_cookie.install:32","Read our Privacy Policy","","","False","","",""
+"social_cookie.install:29","Reject All","","","False","","",""
 "social_cookie.info.yml:0","Social","Sozial","","False","","",""
 "social_cookie.info.yml:0","Social Cookie","","","False","","",""
+"config/install/eu_cookie_compliance.cookie_category.strictly_necessary_cookies.yml:0","Strictly necessary cookies","","","False","","",""
+"templates/eu-cookie-compliance-popup-info-custom.html.twig:86","Toggle arrow","","","False","","",""
