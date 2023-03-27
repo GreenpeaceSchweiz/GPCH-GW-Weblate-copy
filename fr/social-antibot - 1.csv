@@ -1,4 +1,4 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"social_antibot.info.yml:0","Provides Antibot integration with Open Social forms.","","","False","","",""
-"social_antibot.info.yml:0","Social","","","False","","",""
-"social_antibot.info.yml:0","Social Antibot","","","False","","",""
+"social_antibot.info.yml:0","Provides Antibot integration with Open Social forms.","Permet l'intégration d'Antibot avec les formulaires Open Social.","","True","","",""
+"social_antibot.info.yml:0","Social","Social","","False","","",""
+"social_antibot.info.yml:0","Social Antibot","Antibot social","","True","","",""
