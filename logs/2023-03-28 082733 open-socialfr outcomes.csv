@@ -1,0 +1,6 @@
+"component","status code","not found","skipped","accepted","total","result","count"
+"Total","0","145","9549","1207","10904","2","10904"
+"drupal-core","200","68","2657","0","2726","FALSE","2726"
+"drupal-core","200","12","2007","706","2726","TRUE","2726"
+"drupal-core","200","29","2195","501","2726","TRUE","2726"
+"drupal-core","200","36","2690","0","2726","FALSE","2726"
