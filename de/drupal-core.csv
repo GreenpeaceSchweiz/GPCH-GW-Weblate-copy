@@ -1108,7 +1108,7 @@
 "modules/aggregator/config/optional/views.view.aggregator_sources.yml:0","Aggregator sources","Aggregator-Quellen","","False","","",""
 "modules/aggregator/src/Plugin/Field/FieldFormatter/AggregatorTitleFormatter.php:11","Aggregator title","Aggregator-Titel","","False","","",""
 "lib/Drupal/Core/Locale/CountryManager.php:48","Albania","Albanien","","False","","",""
-"lib/Drupal/Core/Annotation/ContextDefinition.php:7","Album","","","False","","",""
+"lib/Drupal/Core/Annotation/ContextDefinition.php:7","Album","Album","","False","","",""
 "lib/Drupal/Core/Logger/RfcLogLevel.php:95","Alert","Alarm","","False","","",""
 "lib/Drupal/Core/Locale/CountryManager.php:107","Algeria","Algerien","","False","","",""
 "modules/rest/src/Plugin/views/row/DataFieldRow.php:77","Alias","","","False","","",""

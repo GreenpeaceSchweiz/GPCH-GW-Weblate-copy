@@ -11,8 +11,8 @@
         are not rendered anymore, instead we use a collapsible fieldset.
         Fields like revision, URL Redirect are unset. The preview button is removed and more.","","","False","","",""
 "templates/node/node--teaser--sky.html.twig:9","Author name","","","False","","",""
-"templates/node/album/node--album--hero--sky.html.twig:79","Back to @owner's Albums","","","False","","",""
-"templates/node/album/node--album--hero--sky.html.twig:81","Back to owner's albums","","","False","","",""
+"templates/node/album/node--album--hero--sky.html.twig:79","Back to @owner's Albums","Zurück zu @owner's Alben","","False","","",""
+"templates/node/album/node--album--hero--sky.html.twig:81","Back to owner's albums","Zurück zu @owner's Alben","","False","","",""
 "theme-settings.php:46","Border radius","Randradius","","False","","",""
 "socialblue.info.yml:0","Breadcrumb","","","False","","",""
 "theme-settings.php:77","Button border radius (px)","Radius der Schaltflächenränder (px)","","False","","",""

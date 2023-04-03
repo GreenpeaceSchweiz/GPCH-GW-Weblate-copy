@@ -1,16 +1,16 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"social_pendo.module:50","A unique name for this client.","Un nom unique pour ce client.","","True","","",""
-"social_pendo.module:48","Client Name","Nom du client","","True","","",""
-"social_pendo.module:70","Debug track event data","Déboguer les données des événements de piste","","True","","",""
-"social_pendo.info.yml:0","Integrates Pendo Insights with Open Social","Intégration de Pendo Insights avec Open Social","","True","","",""
-"social_pendo.module:20","Pendo client name is missing, please add one <a href=""@url"">here</a>.","Le nom du client Pendo est manquant, veuillez en ajouter un <a href=""@url"">ici</a>.","","True","","",""
-"src/EventSubscriber/SocialPendoEventSubscriber.php:137","Response: @code","Réponse : @code","","True","","",""
+"social_pendo.module:50","A unique name for this client.","Un nom unique pour ce client.","","False","","",""
+"social_pendo.module:48","Client Name","Nom du client","","False","","",""
+"social_pendo.module:70","Debug track event data","Déboguer les données des événements de piste","","False","","",""
+"social_pendo.info.yml:0","Integrates Pendo Insights with Open Social","Intégration de Pendo Insights avec Open Social","","False","","",""
+"social_pendo.module:20","Pendo client name is missing, please add one <a href=""@url"">here</a>.","Le nom du client Pendo est manquant, veuillez en ajouter un <a href=""@url"">ici</a>.","","False","","",""
+"src/EventSubscriber/SocialPendoEventSubscriber.php:137","Response: @code","Réponse : @code","","False","","",""
 "social_pendo.info.yml:0","Social","Social","","False","","",""
-"social_pendo.info.yml:0","Social Pendo","Pendo social","","True","","",""
+"social_pendo.info.yml:0","Social Pendo","Pendo social","","False","","",""
 "social_pendo.module:63","To find your ""Pendo track event secret key"", navigate to 
 your Subscription Settings and choose your app. Under the ""App Details,"" click 
 on ""Show"" next to ""Track Event Shared Secret.""","Pour trouver votre ""clé secrète de l'événement Pendo Track"", accédez à 
 vos paramètres d'abonnement et choisissez votre application. Sous ""Détails de l'application"", cliquez 
-sur ""Show"" à côté de ""Track Event Shared Secret"".","","True","","",""
-"social_pendo.module:55","Track API endpoint","Point de terminaison de l'API de suivi","","True","","",""
-"social_pendo.module:61","Track event secret key","Clé secrète de l'événement de suivi","","True","","",""
+sur ""Show"" à côté de ""Track Event Shared Secret"".","","False","","",""
+"social_pendo.module:55","Track API endpoint","Point de terminaison de l'API de suivi","","False","","",""
+"social_pendo.module:61","Track event secret key","Clé secrète de l'événement de suivi","","False","","",""

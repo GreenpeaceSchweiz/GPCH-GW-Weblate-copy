@@ -39,7 +39,7 @@
 "config/install/migrate_plus.migration.gpi_user_tracker.yml:0","Migrate user login data to the user tracker","","","False","","",""
 "src/Form/GpiMigrateSettings.php:100","Migrating data older than set to:","","","False","","",""
 "gpi_migrate.info.yml:0","Migration scripts from Greenwire to Open Social","","","False","","",""
-"config/install/migrate_plus.migration.gpi_album.yml:0","Node album","","","False","","",""
+"config/install/migrate_plus.migration.gpi_album.yml:0","Node album","Node Album","","False","","",""
 "config/install/migrate_plus.migration.gpi_blog.yml:0","Node blog","","","False","","",""
 "config/install/migrate_plus.migration.gpi_document.yml:0","Node document","","","False","","",""
 "config/install/migrate_plus.migration.gpi_event.yml:0","Node event","","","False","","",""
