@@ -1,4 +1,4 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"social_seo.info.yml:0","Social","","","False","","",""
-"social_seo.info.yml:0","Social SEO","","","False","","",""
-"social_seo.info.yml:0","Wrapper around seo modules","","","False","","",""
+"social_seo.info.yml:0","Social","Sozial","","False","","",""
+"social_seo.info.yml:0","Social SEO","Soziales SEO","","False","","",""
+"social_seo.info.yml:0","Wrapper around seo modules","Wrapper um seo-Module","","False","","",""
