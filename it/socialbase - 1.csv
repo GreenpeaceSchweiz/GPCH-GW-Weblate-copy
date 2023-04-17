@@ -69,7 +69,7 @@
 "templates/views/views-mini-pager.html.twig:34","Go to next page","Vai alla pagina successiva","","False","","",""
 "templates/system/pager.html.twig:69","Go to page @key","","","False","","",""
 "templates/views/views-mini-pager.html.twig:21","Go to previous page","Vai alla pagina precedente","","False","","",""
-"templates/node/event/node--event--teaser.html.twig:54","Group","","","False","","",""
+"templates/node/event/node--event--teaser.html.twig:54","Group","Gruppo","","False","","",""
 "templates/group/group--teaser.html.twig:61;64","Group: &nbsp;@label","","","False","","",""
 "config/schema/socialbase.schema.yml:0","Header","","","False","","",""
 "config/schema/socialbase.schema.yml:0","Hero","","","False","","",""

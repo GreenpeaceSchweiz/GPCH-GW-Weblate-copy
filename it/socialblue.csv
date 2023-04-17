@@ -62,7 +62,7 @@
 "socialblue.info.yml:0","Footer","","","False","","",""
 "theme-settings.php:70","Form control border radius (px)","","","False","","",""
 "config/schema/socialblue.schema.yml:0","Form control radius","","","False","","",""
-"templates/group/group--teaser--sky.html.twig:64","Group","","","False","","",""
+"templates/group/group--teaser--sky.html.twig:64","Group","Gruppo","","False","","",""
 "socialblue.info.yml:0","Header","","","False","","",""
 "theme-settings.php:177;185","Header style","","","False","","",""
 "socialblue.info.yml:0","Header top","","","False","","",""

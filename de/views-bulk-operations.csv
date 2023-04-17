@@ -23,7 +23,7 @@
 "src/Form/ViewsBulkOperationsFormTrait.php:248","Cancel","Abbrechen","","False","","",""
 "src/Plugin/Action/CancelUserAction.php:14","Cancel the selected user accounts","Ausgewählte Benutzerkonten löschen","","False","","",""
 "src/Form/ViewsBulkOperationsFormTrait.php:266","Canceled ""%action"".","Abgebrochene ""%action"".","","False","","",""
-"src/Plugin/Action/CancelUserAction.php:114","Cancelling user account","","","False","","",""
+"src/Plugin/Action/CancelUserAction.php:114","Cancelling user account","Account löschen","","False","","",""
 "src/Plugin/views/field/ViewsBulkOperationsBulkForm.php:800","Clear","Leeren","","False","","",""
 "config/schema/views_bulk_operations.views.schema.yml:0","Clear selection when exposed filters change","","","False","","",""
 "src/Plugin/views/field/ViewsBulkOperationsBulkForm.php:445","Clear selection when exposed filters change.","","","False","","",""

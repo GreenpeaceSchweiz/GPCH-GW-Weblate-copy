@@ -18,7 +18,7 @@
 "ginvite.routing.yml:0","Decline invitation","","","False","","",""
 "config/optional/views.view.my_invitations.yml:0","Desc","","","False","","",""
 "config/optional/views.view.group_invitations.yml:0","Email","","","False","","",""
-"config/optional/views.view.my_invitations.yml:0","Group","","","False","","",""
+"config/optional/views.view.my_invitations.yml:0","Group","Gruppo","","False","","",""
 "src/Plugin/GroupContentEnabler/GroupInvitation.php:17","Group Invitation","","","False","","",""
 "config/optional/views.view.group_invitations.yml:0;0","Group invitations","","","False","","",""
 "ginvite.info.yml:0","Group invite","","","False","","",""

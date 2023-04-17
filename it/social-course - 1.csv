@@ -59,7 +59,7 @@
 "templates/node--course-section--teaser.html.twig:43","Finished","Finito","","False","","",""
 "templates/block--course-material-navigation.html.twig:32","Go back","Torna indietro","","False","","",""
 "templates/block--course-navigation.html.twig:23;26","Go to the course section","","","False","","",""
-"social_course.module:779;980;1073","Group","","","False","","",""
+"social_course.module:779;980;1073","Group","Gruppo","","False","","",""
 "src/Entity/CourseEnrollment.php:94","Group ID","ID gruppo","","False","","",""
 "config/install/paragraphs.paragraphs_type.image_text.yml:0","Image + Text","Immagine + Testo","","False","","",""
 "config/install/paragraphs.paragraphs_type.images.yml:0","Images","Immagini","","False","","",""
