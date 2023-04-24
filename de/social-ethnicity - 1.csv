@@ -2,5 +2,5 @@
 "config/install/taxonomy.vocabulary.ethnicity.yml:0","Ethnicities for a user's profile.","Ethnien für das Profil eines Benutzers.","","False","","",""
 "config/install/taxonomy.vocabulary.ethnicity.yml:0","Ethnicity","Ethnizität","","False","","",""
 "social_ethnicity.info.yml:0","Provides profile field configuration for ethnicity listing.","Ermöglicht die Konfiguration von Profilfeldern für die Auflistung von Ethnien.","","False","","",""
-"social_ethnicity.info.yml:0","Social","Sozial","","False","","",""
+"social_ethnicity.info.yml:0","Social","Social","","False","","",""
 "social_ethnicity.info.yml:0","Social Ethnicity","Soziale Ethnizität","","False","","",""

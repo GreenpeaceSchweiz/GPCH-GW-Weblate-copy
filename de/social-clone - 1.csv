@@ -10,7 +10,7 @@
 "social_clone.info.yml:0","Provides clone functionality for any entity.","Bietet Klon-Funktionalität für jede Entität.","","False","","",""
 "src/Plugin/Cloner/Form/EntityDefaultCloneForm.php:65","Published","veröffentlicht","","False","","",""
 "src/Form/SocialCloneSettingsForm.php:63","Select entity types you want to have be able to clone.","Wählen Sie die Entitätstypen aus, die Sie klonen können möchten.","","False","","",""
-"social_clone.info.yml:0","Social","Sozial","","False","","",""
+"social_clone.info.yml:0","Social","Social","","False","","",""
 "social_clone.info.yml:0","Social Clone","Sozialer Klon","","False","","",""
 "config/schema/social_clone.schema.yml:0","Social Clone settings","Social Clone Einstellungen","","False","","",""
 "src/Plugin/Cloner/Form/EntityDefaultCloneForm.php:58","Take ownership of the newly created cloned content.","Übernehmen Sie das Eigentum an den neu erstellten geklonten Inhalten.","","False","","",""

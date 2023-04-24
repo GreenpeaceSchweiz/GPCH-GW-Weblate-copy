@@ -139,7 +139,7 @@
 "social_course.module:416","View my courses","","","False","","",""
 "social_course.permissions.yml:0","View own unpublished groups","","","False","","",""
 "social_course.permissions.yml:0","View unpublished groups","","","False","","",""
-"templates/group--course-basic--teaser.html.twig:45","Visibility","","","False","","",""
+"templates/group--course-basic--teaser.html.twig:45","Visibility","Sichtbarkeit","","False","","",""
 "social_course.module:559","Weight","Gewichtung","","False","","",""
 "social_course.module:576","Weight for @title","Reihenfolge für @title","","False","","",""
 "social_course.module:608","When enabled, course sections and other information can only be accessed by members after the course starts. Enrolment can only take place before the course has started.

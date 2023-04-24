@@ -106,7 +106,7 @@
 "color/color.inc:20","Section navbar background","Hintergrund für den Abschnitt ""navbar""","","False","","",""
 "color/color.inc:21","Section navbar text","","","False","","",""
 "templates/profile/profile--profile--statistic.html.twig:77","See full profile","Das ganze Profil ansehen","","False","","",""
-"templates/group/group--statistic.html.twig:25","See group information","Gruppen Information ansehen","","False","","",""
+"templates/group/group--statistic.html.twig:25","See group information","Gruppeninformation ansehen","","False","","",""
 "templates/node/node--hero--sky.html.twig:238","Share this page","Diese Seite teilen","","False","","",""
 "socialblue.info.yml:0","Sidebar First","","","False","","",""
 "socialblue.info.yml:0","Sidebar Second","","","False","","",""

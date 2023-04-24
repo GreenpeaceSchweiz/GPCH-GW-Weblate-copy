@@ -39,7 +39,7 @@
 "src/Plugin/Field/FieldType/SocialVideo.php:10","Reference","Verweis","","False","","",""
 "src/Plugin/Field/FieldFormatter/SocialVideoFormatter.php:15","Render external video.","Externes Video rendern.","","False","","",""
 "src/Form/EditorVideoDialog.php:137","Save","Speichern","","False","","",""
-"social_video.info.yml:0","Social","Sozial","","False","","",""
+"social_video.info.yml:0","Social","Social","","False","","",""
 "src/Plugin/Field/FieldWidget/SocialVideoWidget.php:7","Social Video","Soziales Video","","False","","",""
 "src/Plugin/Field/FieldWidget/SocialVideoPostWidget.php:10","Social Video Post","Sozialer Videobeitrag","","False","","",""
 "social_video.routing.yml:0","Social Video Settings","Einstellungen für soziale Videos","","False","","",""

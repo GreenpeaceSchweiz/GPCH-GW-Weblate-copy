@@ -18,7 +18,7 @@
 "src/Plugin/Block/SocialEvenCalendar.php:143","Next","Weiter","","False","","",""
 "src/Plugin/Block/SocialEvenCalendar.php:131","Previous","Zurück","","False","","",""
 "social_calendar.info.yml:0","Provides the ability to add event calendar to the dashboard.","Bietet die Möglichkeit, dem Dashboard einen Veranstaltungskalender hinzuzufügen.","","False","","",""
-"social_calendar.info.yml:0","Social","Sozial","","False","","",""
+"social_calendar.info.yml:0","Social","Social","","False","","",""
 "social_calendar.info.yml:0","Social Calendar","Sozialer Kalender","","False","","",""
 "templates/node--event--event-calendar--sky.html.twig:49","The event will take place at the","Die Veranstaltung findet statt am","","False","","",""
 "templates/node--event--event-calendar--sky.html.twig:62","This event is posted in","Diese Veranstaltung wurde geteilt in","","False","","",""

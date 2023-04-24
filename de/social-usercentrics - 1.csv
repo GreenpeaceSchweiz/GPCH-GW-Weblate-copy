@@ -9,7 +9,7 @@
 "social_usercentrics.info.yml:0","Module to insert JS snippet from User Centrics","Modul zum Einfügen von JS-Snippets aus User Centrics","","False","","",""
 "social_usercentrics.permissions.yml:0","Set User Centrics Javascript","Benutzerzentrierung Javascript einstellen","","False","","",""
 "social_usercentrics.links.menu.yml:0","Settings for User Centric.","Einstellungen für User Centric.","","False","","",""
-"social_usercentrics.info.yml:0","Social","Sozial","","False","","",""
+"social_usercentrics.info.yml:0","Social","Social","","False","","",""
 "social_usercentrics.info.yml:0","Social User Centrics","Soziale Nutzerzentrierung","","False","","",""
 "src/Form/SocialUserCentricsForm.php:57","The output location of the User Centrics JS.","Der Ausgabeort der User Centrics JS.","","False","","",""
 "src/Form/SocialUserCentricsForm.php:40","Turn User Centrics JS on or off.","Schalten Sie User Centrics JS ein oder aus.","","False","","",""

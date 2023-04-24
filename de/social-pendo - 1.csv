@@ -5,7 +5,7 @@
 "social_pendo.info.yml:0","Integrates Pendo Insights with Open Social","Integriert Pendo Insights mit Open Social","","False","","",""
 "social_pendo.module:20","Pendo client name is missing, please add one <a href=""@url"">here</a>.","Der Pendo-Kundenname fehlt, bitte fügen Sie hier einen <a href=""@url"">ein</a>.","","False","","",""
 "src/EventSubscriber/SocialPendoEventSubscriber.php:137","Response: @code","Antwort: @code","","False","","",""
-"social_pendo.info.yml:0","Social","Sozial","","False","","",""
+"social_pendo.info.yml:0","Social","Social","","False","","",""
 "social_pendo.info.yml:0","Social Pendo","Soziales Pendo","","False","","",""
 "social_pendo.module:63","To find your ""Pendo track event secret key"", navigate to 
 your Subscription Settings and choose your app. Under the ""App Details,"" click 

@@ -26,7 +26,7 @@
 "modules/social_newsletter_landing_page/social_newsletter_landing_page.info.yml:0","Provides possibility to add signup block on Landing pages","Bietet die Möglichkeit, einen Anmeldeblock auf Landing Pages hinzuzufügen","","False","","",""
 "social_mailchimp.info.yml:0","Provides synchronization with Mailchimp system","Bietet Synchronisierung mit dem Mailchimp-System","","False","","",""
 "social_mailchimp.module:111","Sign up for @url","Registrieren Sie sich für @url","","False","","",""
-"modules/social_newsletter_landing_page/social_newsletter_landing_page.info.yml:0","Social","Sozial","","False","","",""
+"modules/social_newsletter_landing_page/social_newsletter_landing_page.info.yml:0","Social","Social","","False","","",""
 "social_mailchimp.info.yml:0","Social Mailchimp","Soziales Mailchimp","","False","","",""
 "modules/social_newsletter_dashboard/social_newsletter_dashboard.info.yml:0","Social Newsletter Dashboard","Dashboard für soziale Newsletter","","False","","",""
 "modules/social_newsletter_landing_page/social_newsletter_landing_page.info.yml:0","Social Newsletter Landing Page","Soziale Newsletter Landing Page","","False","","",""

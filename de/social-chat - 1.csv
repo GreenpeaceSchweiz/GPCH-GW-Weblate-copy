@@ -140,7 +140,7 @@
 "src/Plugin/GraphQL/DataProducer/Mutation/ViewerSendUserChatMessage.php:16","Send a user message in a conversation.","Senden Sie eine Benutzernachricht in einer Unterhaltung.","","False","","",""
 "src/Plugin/GraphQL/DataProducer/Mutation/ViewerSendUserChatMessageInput.php:13","SendUserMessageInput","SendUserMessageInput","","False","","",""
 "src/Entity/ChatMessage.php:160","Sent at","Gesendet um","","False","","",""
-"social_chat.info.yml:0","Social","Sozial","","False","","",""
+"social_chat.info.yml:0","Social","Social","","False","","",""
 "social_chat.info.yml:0","Social Chat","Sozialer Chat","","False","","",""
 "src/Plugin/GraphQL/DataProducer/Connection/UserConversations.php:12","Sort key","Sortierschlüssel","","False","","",""
 "src/Entity/ChatParticipant.php:240","Status","Status","","False","","",""

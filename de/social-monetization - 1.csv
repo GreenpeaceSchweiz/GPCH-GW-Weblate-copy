@@ -282,7 +282,7 @@ Wenn sich Ihr Preis geändert hat, löschen Sie bitte ein Produkt und erstellen 
 "modules/social_monetization_stripe_migration/src/BatchService.php:127","Skipping customer @email, as it doesn't have any active subscriptions","Überspringen des Kunden @email, da er keine aktiven Abonnements hat","","False","","",""
 "modules/social_monetization_stripe_migration/src/BatchService.php:191","Skipping subscription with id @id, for user @email, since the user already has the same subscription.","Überspringen des Abonnements mit der ID @id, für den Benutzer @email, da der Benutzer bereits das gleiche Abonnement hat.","","False","","",""
 "modules/social_monetization_stripe_migration/src/BatchService.php:148","Skipping subscription with id @id, for user @email, the product @product_id doesn't exist in Open Social","Überspringen des Abonnements mit der ID @id, für den Benutzer @email, das Produkt @product_id existiert nicht in Open Social","","False","","",""
-"modules/social_monetization_user/social_monetization_user.info.yml:0","Social","Sozial","","False","","",""
+"modules/social_monetization_user/social_monetization_user.info.yml:0","Social","Social","","False","","",""
 "social_monetization.routing.yml:0","Social Monetization","Soziale Monetarisierung","","False","","",""
 "modules/social_monetization_event/social_monetization_event.info.yml:0","Social Monetization Event","Veranstaltung zur sozialen Monetarisierung","","False","","",""
 "modules/social_monetization_kpi/social_monetization_kpi.info.yml:0","Social Monetization KPI","Soziale Monetarisierung KPI","","False","","",""

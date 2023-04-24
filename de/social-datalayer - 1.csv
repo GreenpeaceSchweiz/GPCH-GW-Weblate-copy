@@ -16,7 +16,7 @@
 "src/Plugin/AutomationAction/DatalayerUserSearchAction.php:12","Push search information to datalayer (GTM)","Suchinformationen in die Datenschicht übertragen (GTM)","","False","","",""
 "src/Plugin/AutomationAction/DatalayerUserRegisterAction.php:11","Push user registration information to datalayer (GTM)","Benutzerregistrierungsinformationen an die Datenschicht weiterleiten (GTM)","","False","","",""
 "social_datalayer.info.yml:0","Pushes events to the Google Tag Manager datalayer.","Gibt Ereignisse an die Google Tag Manager-Datenebene weiter.","","False","","",""
-"social_datalayer.info.yml:0","Social","Sozial","","False","","",""
+"social_datalayer.info.yml:0","Social","Social","","False","","",""
 "config/schema/social_datalayer.schema.yml:0","Social Datalayer","Soziale Datenschicht","","False","","",""
 "modules/social_datalayer_gpi/social_datalayer_gpi.info.yml:0","Social Datalayer GPI","Soziale Datenschicht GPI","","False","","",""
 "social_datalayer.routing.yml:0","Social Datalayer Settings","Einstellungen der sozialen Datenschicht","","False","","",""

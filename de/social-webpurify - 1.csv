@@ -30,7 +30,7 @@
 "src/Form/SocialWebpurifySettingsForm.php:185","Select post types that need replacing profanity in text.","Wählen Sie Beitragstypen aus, bei denen Schimpfwörter im Text ersetzt werden müssen.","","False","","",""
 "src/Form/SocialWebpurifySettingsForm.php:216","Select taxonomy vocabularies that need replacing profanity in text.","Wählen Sie Taxonomievokabulare aus, die durch Schimpfwörter im Text ersetzt werden müssen.","","False","","",""
 "social_webpurify.links.menu.yml:0","Set the configuration to purify profanity","Konfiguration zur Reinigung von Schimpfwörtern einstellen","","False","","",""
-"social_webpurify.info.yml:0","Social","Sozial","","False","","",""
+"social_webpurify.info.yml:0","Social","Social","","False","","",""
 "social_webpurify.info.yml:0","Social WebPurify","Soziales WebPurify","","False","","",""
 "src/Form/SocialWebpurifySettingsForm.php:210","Taxonomy vocabularies","Taxonomische Vokabulare","","False","","",""
 "social_webpurify.module:184","The @field contain profanity words!","Die Website @field enthält Schimpfwörter!","","False","","",""

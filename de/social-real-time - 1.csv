@@ -15,6 +15,6 @@
 "src/RealTime/RabbitMQ/RabbitMQClient.php:224","Received an incorrectly formatted message from RabbitMQ: {e}","Eine falsch formatierte Nachricht von RabbitMQ erhalten: {e}","","False","","",""
 "src/RealTime/RabbitMQ/RabbitMQClient.php:215","Received unsupported RabbitMQ message of type '{type}'","Nicht unterstützte RabbitMQ-Nachricht vom Typ '{type}' empfangen","","False","","",""
 "server/src/App.php:131","Skipped component '{label}' because its dependencies weren't satisfied.","Die Komponente '{label}' wurde übersprungen, da ihre Abhängigkeiten nicht erfüllt waren.","","False","","",""
-"social_real_time.info.yml:0","Social","Sozial","","False","","",""
+"social_real_time.info.yml:0","Social","Social","","False","","",""
 "social_real_time.info.yml:0","Social Real Time","Soziale Echtzeit","","False","","",""
 "src/RealTime/SubscriptionRootFinderTrait.php:51","selected_field was not a FragmentSpreadNode or FieldNode instance.","selected_field war keine FragmentSpreadNode- oder FieldNode-Instanz.","","False","","",""

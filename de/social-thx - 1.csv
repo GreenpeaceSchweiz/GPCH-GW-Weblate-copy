@@ -5,7 +5,7 @@
 "social_thx.info.yml:0","Module to handle thx reward in social_gamification.","Modul zur Handhabung von Thx-Belohnungen in social_gamification.","","False","","",""
 "src/Plugin/AutomationAction/RewardThxAction.php:13","Reward","Belohnung","","False","","",""
 "src/Plugin/AutomationAction/RewardThxAction.php:13","Reward some tokens (ERC-20) for the given action","Belohne einige Token (ERC-20) für die angegebene Aktion","","False","","",""
-"social_thx.info.yml:0","Social","Sozial","","False","","",""
+"social_thx.info.yml:0","Social","Social","","False","","",""
 "social_thx.info.yml:0","Social Thx","Soziales Thx","","False","","",""
 "src/Plugin/AutomationAction/RewardThxAction.php:13","Specifies the data to be modified using a data selector, e.g. 'post, comment, node.author.name'.","Gibt die zu ändernden Daten mit Hilfe eines Datenselektors an, z. B. ""post, comment, node.author.name"".","","False","","",""
 "src/Plugin/AutomationAction/RewardThxAction.php:13","The reward_id","Die Reward_id","","False","","",""

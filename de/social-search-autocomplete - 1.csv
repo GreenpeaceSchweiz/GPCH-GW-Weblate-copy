@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "social_search_autocomplete.info.yml:0","Adds autocomplete suggestions to the site search.","Fügt der Website-Suche Vorschläge zur automatischen Vervollständigung hinzu.","","False","","",""
 "social_search_autocomplete.module:45","See all results","Alle Ergebnisse anzeigen","","False","","",""
-"social_search_autocomplete.info.yml:0","Social","Sozial","","False","","",""
+"social_search_autocomplete.info.yml:0","Social","Social","","False","","",""
 "social_search_autocomplete.info.yml:0","Social Search Autocomplete","Soziale Suche Autovervollständigen","","False","","",""

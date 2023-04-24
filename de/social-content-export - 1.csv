@@ -18,6 +18,6 @@
 "src/Plugin/ContentExportPlugin/ContentGroup.php:12","Group","Gruppe","","False","","",""
 "src/Plugin/CommentExportPlugin/CommentId.php:8","ID","ID","","False","","",""
 "src/Plugin/ContentExportPlugin/ContentAnalyticsLikes.php:8","Likes","Likes","","False","","",""
-"social_content_export.info.yml:0","Social","Sozial","","False","","",""
+"social_content_export.info.yml:0","Social","Social","","False","","",""
 "social_content_export.info.yml:0","Social Content Export","Export von sozialen Inhalten","","False","","",""
 "src/Plugin/ContentExportPlugin/ContentTitle.php:8","Title","Titel","","False","","",""

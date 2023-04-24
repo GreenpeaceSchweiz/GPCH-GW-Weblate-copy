@@ -13,7 +13,7 @@
 "src/Plugin/Block/NavigationBlock.php:217","Revisions","Revisionen","","False","","",""
 "social_layout_builder.module:63","Save","Speichern","","False","","",""
 "social_layout_builder.module:113","Section title","Titel des Abschnitts","","False","","",""
-"social_layout_builder.info.yml:0","Social","Sozial","","False","","",""
+"social_layout_builder.info.yml:0","Social","Social","","False","","",""
 "social_layout_builder.info.yml:0","Social Layout Builder","Social Layout Builder","","False","","",""
 "config/optional/block.block.socialblue_sociallayoutbuldernavigation.yml:0","Social Layout Builder Navigation","Social Layout Builder Navigation","","False","","",""
 "src/Plugin/Block/NavigationBlock.php:227","Translate","Übersetzen","","False","","",""

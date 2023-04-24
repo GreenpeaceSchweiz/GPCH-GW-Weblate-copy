@@ -2232,7 +2232,7 @@ Samstag: Samstag
 "webform.routing.yml:0","View webform variants","","","False","","",""
 "src/WebformHelpManager.php:1187","Views module | Drupal.org","","","False","","",""
 "src/WebformAddonsManager.php:895","Vipps Recurring Payments","","","False","","",""
-"src/Plugin/WebformElementBase.php:2132","Visibility","","","False","","",""
+"src/Plugin/WebformElementBase.php:2132","Visibility","Sichtbarkeit","","False","","",""
 "src/Plugin/WebformElement/WebformWizardPage.php:146","Visible","","","False","","",""
 "src/Plugin/WebformElementBase.php:2144","Visible (Slide)","","","False","","",""
 "src/WebformHelpManager.php:1666","Visit the Webform <a href=""https://www.drupal.org/node/2856146"">documentation pages</a> for an <a href=""https://www.drupal.org/node/2834423"">introduction</a>, <a href=""https://www.drupal.org/node/2837024"">features overview</a>, <a href=""https://www.drupal.org/node/2932764"">articles</a>, <a href=""https://www.drupal.org/node/2860989"">recipes</a>, and more...","","","False","","",""

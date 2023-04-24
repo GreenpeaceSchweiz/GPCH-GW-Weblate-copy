@@ -15,5 +15,5 @@
 "src/Form/SocialCloneGroupSettingsForm.php:91","Group types","Gruppentypen","","False","","",""
 "src/Form/SocialCloneGroupSettingsForm.php:92","Group types which allowed to be cloned","Gruppentypen, die geklont werden dürfen","","False","","",""
 "social_clone_group.info.yml:0","Provides possibility to clone existing groups.","Bietet die Möglichkeit, bestehende Gruppen zu klonen.","","False","","",""
-"social_clone_group.info.yml:0","Social","Sozial","","False","","",""
+"social_clone_group.info.yml:0","Social","Social","","False","","",""
 "social_clone_group.info.yml:0","Social Clone Group","Gruppe Sozialer Klon","","False","","",""

@@ -58,7 +58,7 @@
 "social_auth_extra.info.yml:0","Open Social coupling for the Social API Auth module.","Open-Social-Kopplung für das Modul Social API Auth.","","False","","",""
 "modules/social_sso/social_sso.info.yml:0","Provides autorizathion with social networks for Open Social","Bietet Autorizathion mit sozialen Netzwerken für Open Social","","False","","",""
 "social_auth_extra.module:107","Sign up","Registrieren","","False","","",""
-"modules/social_sso/social_sso.info.yml:0","Social","Sozial","","False","","",""
+"modules/social_sso/social_sso.info.yml:0","Social","Social","","False","","",""
 "social_auth_extra.info.yml:0","Social Auth Extra","Social Auth Extra","","False","","",""
 "modules/social_auth_facebook/social_auth_facebook.info.yml:0","Social Auth Facebook","Soziale Autorität Facebook","","False","","",""
 "modules/social_auth_facebook/social_auth_facebook.install:17","Social Auth Facebook requires Facebook PHP Library. Make sure the library is installed via Composer.","Social Auth Facebook erfordert die Facebook PHP-Bibliothek. Stellen Sie sicher, dass die Bibliothek über Composer installiert ist.","","False","","",""

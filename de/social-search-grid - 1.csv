@@ -61,7 +61,7 @@
 "modules/social_search_grid_promoted/config/schema/social_search_grid_promoted.schema.yml:0","Search recommended block","Suche im empfohlenen Block","","False","","",""
 "social_search_grid.module:50","See all @label","Alle sehen @label","","False","","",""
 "social_search_grid.links.menu.yml:0","Settings for new search grid view.","Einstellungen für die neue Suchgitteransicht.","","False","","",""
-"modules/social_search_grid_promoted/social_search_grid_promoted.info.yml:0","Social","Sozial","","False","","",""
+"modules/social_search_grid_promoted/social_search_grid_promoted.info.yml:0","Social","Social","","False","","",""
 "social_search_grid.info.yml:0","Social Search Grid","Soziales Suchraster","","False","","",""
 "modules/social_search_grid_promoted/social_search_grid_promoted.info.yml:0","Social Search Promoted","Soziale Suche gefördert","","False","","",""
 "config/schema/social_search_grid.schema.yml:0","Social search grid settings","Einstellungen des sozialen Suchrasters","","False","","",""
