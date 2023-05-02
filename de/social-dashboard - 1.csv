@@ -1,7 +1,7 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "social_dashboard.module:113","Create New Dashboard","Neues Dashboard erstellen","","False","","",""
 "config/optional/node.type.dashboard.yml:0","Dashboard","Dashboard","","False","","",""
-"config/optional/field.field.node.dashboard.field_dashboard_image.yml:0","Image","","","False","","",""
+"config/optional/field.field.node.dashboard.field_dashboard_image.yml:0","Image","Bild","","False","","",""
 "social_dashboard.install:334","Image field.","","","False","","",""
 "config/optional/field.field.node.dashboard.layout_builder__layout.yml:0","Layout","","","False","","",""
 "social_dashboard.module:115","New Dashboard","Neues Dashboard","","False","","",""

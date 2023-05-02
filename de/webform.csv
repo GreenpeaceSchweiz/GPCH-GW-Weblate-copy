@@ -3327,7 +3327,7 @@ Cell: Cell
 "src/EntitySettings/WebformEntitySettingsGeneralForm.php:153","Ignore disabled results warning","","","False","","",""
 "modules/webform_scheduled_email/templates/webform-handler-scheduled-email-summary.html.twig:20","Ignore past:","","","False","","",""
 "src/Controller/WebformPluginHandlerController.php:66","Ignored","","","False","","",""
-"src/Plugin/WebformElement/WebformSignature.php:143","Image","","","False","","",""
+"src/Plugin/WebformElement/WebformSignature.php:143","Image","Bild","","False","","",""
 "modules/webform_image_select/webform_image_select.module:35","Image Picker is used by the Image select element.","","","False","","",""
 "src/Plugin/WebformElement/WebformImageFile.php:8","Image file","","","False","","",""
 "modules/webform_image_select/src/Plugin/WebformElement/WebformImageSelect.php:249","Image options","","","False","","",""
@@ -7681,7 +7681,7 @@ notes:
 "modules/webform_toggles/src/Plugin/WebformElement/WebformToggleTrait.php:46","iPhone","","","False","","",""
 "src/Element/WebformElementStates.php:399","if","","","False","","",""
 "modules/webform_scheduled_email/src/WebformScheduledEmailManager.php:482","ignored","","","False","","",""
-"modules/webform_image_select/src/Plugin/WebformElement/WebformImageSelect.php:59","image","","","False","","",""
+"modules/webform_image_select/src/Plugin/WebformElement/WebformImageSelect.php:59","image","Bild","","False","","",""
 "modules/webform_image_select/src/Plugin/WebformElement/WebformImageSelect.php:60","images","","","False","","",""
 "modules/webform_templates/config/install/webform.webform.template_job_application.yml:0","information:
   '#title': 'Your Information'

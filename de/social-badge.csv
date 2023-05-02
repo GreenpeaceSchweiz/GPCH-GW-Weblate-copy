@@ -11,7 +11,7 @@
 "src/Entity/Badge.php:98","Description","","","False","","",""
 "social_badge.routing.yml:0","Edit badge","","","False","","",""
 "src/Service/SocialBadgeManager.php:286","Finished with an error.","","","False","","",""
-"src/Entity/Badge.php:112","Image","","","False","","",""
+"src/Entity/Badge.php:112","Image","Bild","","False","","",""
 "social_badge.post_update.php:57","Nothing to process","","","False","","",""
 "src/Service/SocialBadgeManager.php:256","Now processing user profiles :progress of :count","","","False","","",""
 "src/Service/SocialBadgeManager.php:280","One user profile processed.","","","False","","",""

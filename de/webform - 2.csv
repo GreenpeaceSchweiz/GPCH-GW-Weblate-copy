@@ -3944,7 +3944,7 @@ notes:
 "modules/webform_toggles/src/Plugin/WebformElement/WebformToggleTrait.php:46","iPhone","","","False","","",""
 "src/Element/WebformElementStates.php:399","if","","","False","","",""
 "modules/webform_scheduled_email/src/WebformScheduledEmailManager.php:482","ignored","","","False","","",""
-"modules/webform_image_select/src/Plugin/WebformElement/WebformImageSelect.php:59","image","","","False","","",""
+"modules/webform_image_select/src/Plugin/WebformElement/WebformImageSelect.php:59","image","Bild","","False","","",""
 "modules/webform_image_select/src/Plugin/WebformElement/WebformImageSelect.php:60","images","","","False","","",""
 "modules/webform_templates/config/install/webform.webform.template_job_application.yml:0","information:
   '#title': 'Your Information'
