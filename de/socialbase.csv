@@ -86,7 +86,7 @@
 "templates/node/event/node--event--teaser.html.twig:32","Located at:","Befindet sich hier:","","False","","",""
 "config/schema/socialbase.schema.yml:0","Logo settings","","","False","","",""
 "templates/block/block--system-menu-block--main.html.twig:38","Menu","Menü","","False","","",""
-"templates/profile/profile--profile--teaser.html.twig:105","Message","","","False","","",""
+"templates/profile/profile--profile--teaser.html.twig:105","Message","Nachricht","","False","","",""
 "src/Plugin/Preprocess/GroupSettingsHelp.php:50","Method to join","Beitrittsmethode","","False","","",""
 "templates/system/links.html.twig:45;47","More options","Weitere Optionen","","False","","",""
 "templates/views/views-mini-pager.html.twig:28","Newer items","Neuere Einträge","","False","","",""

@@ -1240,7 +1240,7 @@ Widowed: Widowed
 "src/Plugin/WebformElementBase.php:2578","Street address (multiline)","","","False","","",""
 "src/Breadcrumb/WebformBreadcrumbBuilder.php:196","Structure","","","False","","",""
 "modules/webform_examples/config/install/webform.webform.example_style_guide.yml:0","Style Guide containing examples of all elements and layouts.","","","False","","",""
-"src/Plugin/WebformHandler/EmailWebformHandler.php:485;1363;1473","Subject","","","False","","",""
+"src/Plugin/WebformHandler/EmailWebformHandler.php:485;1363;1473","Subject","Betreff","","False","","",""
 "templates/webform-handler-email-summary.html.twig:20","Subject:","","","False","","",""
 "src/WebformHelpManager.php:819","Submission","","","False","","",""
 "src/WebformSubmissionNotesForm.php:113","Submission @sid notes saved.","","","False","","",""

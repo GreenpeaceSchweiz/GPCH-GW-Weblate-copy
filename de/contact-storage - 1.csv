@@ -87,7 +87,7 @@
 "contact_storage.module:78","Show the preview button?","","","False","","",""
 "config/install/views.view.contact_messages.yml:0","Sort by","Sortieren nach","","False","","",""
 "src/Plugin/Field/FieldType/OptionsEmailItem.php:11","Stores e-mail recipients for the provided options.","","","False","","",""
-"config/install/views.view.contact_messages.yml:0","Subject","","","False","","",""
+"config/install/views.view.contact_messages.yml:0","Subject","Betreff","","False","","",""
 "config/schema/contact_storage.schema.yml:0","Submit Text","","","False","","",""
 "contact_storage.module:54","Submit button text","","","False","","",""
 "src/Plugin/Field/FieldType/OptionsEmailItem.php:29","Text value","","","False","","",""

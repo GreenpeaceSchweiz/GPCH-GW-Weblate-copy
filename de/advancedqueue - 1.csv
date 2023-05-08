@@ -53,7 +53,7 @@
 "config/schema/advancedqueue.schema.yml:0","Machine-readable name","","","False","","",""
 "advancedqueue.links.menu.yml:0","Manage your queues.","","","False","","",""
 "config/install/views.view.advancedqueue_jobs.yml:0","Master","","","False","","",""
-"config/install/views.view.advancedqueue_jobs.yml:0","Message","","","False","","",""
+"config/install/views.view.advancedqueue_jobs.yml:0","Message","Nachricht","","False","","",""
 "config/install/views.view.advancedqueue_jobs.yml:0","Message: {{ message }}","","","False","","",""
 "config/install/views.view.advancedqueue_jobs.yml:0","No jobs found","","","False","","",""
 "src/Plugin/AdvancedQueue/Backend/NullBackend.php:7","Null","","","False","","",""

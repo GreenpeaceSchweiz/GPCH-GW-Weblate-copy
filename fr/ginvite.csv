@@ -76,7 +76,7 @@
 "src/Plugin/Validation/Constraint/PreventDuplicatedConstraintValidator.php:73","User with such email already a member of this @group_bundle.","","","False","","",""
 "src/Plugin/GroupContentEnabler/GroupInvitation.php:283","When accepting an invitation, the group membership entity form will be rendered. Enabling this option will bypass this step and the membership will be generated immediately. This is especially useful if your membership entity provides no configuration at all and the invitation accept route renders an empty form with a single submit button.","","","False","","",""
 "src/Form/BulkGroupInvitation.php:133","You can copy/paste multiple emails, enter one email per line.","","","False","","",""
-"src/Controller/InvitationOperations.php:112","You have accepted the invitation.","","","False","","",""
+"src/Controller/InvitationOperations.php:112","You have accepted the invitation.","Vous avez accepté l'invitation.","","False","","",""
 "src/Controller/InvitationOperations.php:152","You have declined the @group_bundle invitation.","","","False","","",""
 "config/optional/views.view.my_invitations.yml:0","ginvite/{{ id }}/accept?destination=/user/{{ uid }}/invitations","","","False","","",""
 "config/optional/views.view.my_invitations.yml:0","ginvite/{{ id }}/decline?destination=/user/{{ uid }}/invitations","","","False","","",""

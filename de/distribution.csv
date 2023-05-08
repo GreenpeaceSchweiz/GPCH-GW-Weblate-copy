@@ -104,14 +104,15 @@ False\\|My unmuted groups'","","","False","","",""
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> hat [social_taxonomy:indefinite_article] [social_taxonomy:content_type] erstellt mit Tags, denen du folgst. <a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title] </a>.</p>
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> hat [social_taxonomy:indefinite_article] [social_taxonomy:content_type] erstellt mit Tags, denen du folgst.<a href=""[message:field_message_related_object:entity:url:absolute]"">[message:node-title] </a>.</p>
 
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
 ","","False","","",""
 "modules/social_features/social_follow_taxonomy/modules/social_follow_tag/config/install/message.template.update_node_following_tag.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> added tag(s) you follow to [social_taxonomy:indefinite_article] [social_taxonomy:content_type].</p>
-","","","False","","",""
+","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> hat Tags zu [social_taxonomy:indefinite_article] [social_taxonomy:content_type] hinzugefügt.</p>
+","","False","","",""
 "modules/social_features/social_event/modules/social_event_managers/config/optional/message.template.member_added_by_event_organiser.yml:0;0","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> added you to the event [social_event:event_iam_organizing]</p>
 ","<p><a href=""[message:author:url:absolute]"">[message:author:display-name]</a> hat dich zu der Veranstaltung [social_event:event_iam_organizing] hinzugefügt</p>
 ","","False","","",""
@@ -584,7 +585,7 @@ False\\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_comment_post_profile.yml:0","A person commented on a post on my profile","Jemand hat einen Beitrag auf meinem Profil kommentiert","","False","","",""
 "modules/social_features/social_follow_content/config/install/message.template.create_comment_following_node.yml:0","A person commented on content I am following","Jemand hat einen Inhalt kommentiert, welchem ich folge","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_comment_author_node_post.yml:0","A person commented on content created or organised by me","Jemand hat einen meiner erstellten oder organisierten Inhalte kommentiert","","False","","",""
-"modules/social_features/social_follow_taxonomy/modules/social_follow_tag/config/install/message.template.create_node_following_tag.yml:0","A person create content with tag I am following","","","False","","",""
+"modules/social_features/social_follow_taxonomy/modules/social_follow_tag/config/install/message.template.create_node_following_tag.yml:0","A person create content with tag I am following","Eine Person hat Inhalte mit einem Tag erstellt, dem ich folge","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_post_profile.yml:0","A person created a post on my profile","Jemand hat einen Beitrag auf meinem Profil erstellt","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_post_profile_stream.yml:0","A person created a post on my profile and I see it on the stream","Jemand hat einen Beitrag auf meinem Profil erstellt und ich kann diesen im Stream sehen","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_content_in_joined_group.yml:0","A person created a post, event or topic in a group I joined","Ein:e Nutzer:in hat einen Beitrag, eine Veranstaltung oder einen Inhalt in einer Gruppe erstellt, in der ich Mitglied bin","","False","","",""
@@ -598,7 +599,7 @@ False\\|My unmuted groups'","","","False","","",""
 "modules/social_features/social_activity/config/install/message.template.create_comment_reply.yml:0","A person replied on my comments","Jemand hat auf meinen Kommentar geantwortet","","False","","",""
 "modules/social_features/social_mentions/config/install/message.template.create_comment_reply_mention.yml:0","A person replied to a comment where I am mentioned","Jemand hat auf einen Kommentar geantwortet, in dem ich erwähnt wurde","","False","","",""
 "modules/social_features/social_group/modules/social_group_request/config/install/message.template.request_to_join_a_group.yml:0","A person requests membership to a group I manage","Eine Person beantragt die Mitgliedschaft in einer von mir verwalteten Gruppe","","False","","",""
-"modules/social_features/social_follow_taxonomy/modules/social_follow_tag/config/install/message.template.update_node_following_tag.yml:0","A person update content and add tag I am following","","","False","","",""
+"modules/social_features/social_follow_taxonomy/modules/social_follow_tag/config/install/message.template.update_node_following_tag.yml:0","A person update content and add tag I am following","Eine Person hat Inhalte aktualisiert und einen Tag hinzugefügt, dem ich folge","","False","","",""
 "modules/social_features/social_landing_page/config/install/field.field.paragraph.block.field_block_reference_secondary.yml:0","A secondary block will be printed in a side column, keep in mind it will take 1/3","","","False","","",""
 "modules/social_features/social_landing_page/config/install/paragraphs.paragraphs_type.hero_small.yml:0","A section similiar to the Hero, but a bit smaller, so it takes up less room in the view port","","","False","","",""
 "modules/social_features/social_landing_page/config/install/paragraphs.paragraphs_type.hero.yml:0","A section with a background image and buttons (optional). Looks good on top of each page. Also nice as a seperator.","","","False","","",""

@@ -36,4 +36,3 @@
 "modules/social_collaboration_request/social_collaboration_request.module:18","User can request co-authorship","Un utente può richiedere la co-creazione","","False","","",""
 "modules/social_collaboration_request/src/Controller/CollaborationRequestController.php:79","You cannot request co-authorship for another user","Non puoi richiedere la co-creazione per un altro utente","","False","","",""
 "modules/social_collaboration_request/src/Controller/CollaborationRequestController.php:93","Your request has been sent to the content author as a private message.","La tua richiesta è stata inviata all'autore del contenuto come messaggio privato.","","False","","",""
-"social_collaboration.info.yml:0","social","social","","False","","",""

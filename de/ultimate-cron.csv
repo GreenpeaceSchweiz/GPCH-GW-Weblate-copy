@@ -128,7 +128,7 @@
 "config/schema/ultimate_cron.schema.yml:0","Maximum number of logs to keep","","","False","","",""
 "config/schema/ultimate_cron.schema.yml:0","Maximum number of threads","","","False","","",""
 "config/schema/ultimate_cron.schema.yml:0","Maximum time for the job to run","","","False","","",""
-"src/Controller/JobController.php:58","Message","","","False","","",""
+"src/Controller/JobController.php:58","Message","Nachricht","","False","","",""
 "config/schema/ultimate_cron.schema.yml:0","Method","","","False","","",""
 "src/CronJobListBuilder.php:62","Missing","","","False","","",""
 "src/Form/CronJobForm.php:56","Module","","","False","","",""

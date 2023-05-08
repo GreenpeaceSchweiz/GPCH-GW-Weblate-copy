@@ -62,7 +62,7 @@
 "modules/sendgrid_integration_reports/js/sendgrid_integration_reports.js:0","Spam Drops","","","False","","",""
 "modules/sendgrid_integration_reports/src/Controller/SendGridReportsController.php:224","Spam Reports","","","False","","",""
 "modules/sendgrid_integration_reports/src/Form/SendGridReportsSettingsForm.php:83","Start date in the format of mm/dd/YYYY. Defaults to 30 days back.","","","False","","",""
-"src/Form/SendGridTestForm.php:107","Subject","","","False","","",""
+"src/Form/SendGridTestForm.php:107","Subject","Betreff","","False","","",""
 "config/schema/sendgrid_integration.schema.yml:0","Test defaults","","","False","","",""
 "src/Plugin/Mail/SendGridMail.php:397","The %header of your message is not supported by SendGrid and will be sent as text/plain instead.","","","False","","",""
 "modules/sendgrid_integration_reports/src/Form/SendGridReportsSettingsForm.php:116","The %start could not be later than %end.","","","False","","",""

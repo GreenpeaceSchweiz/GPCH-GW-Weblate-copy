@@ -116,7 +116,7 @@
 "src/ServerListBuilder.php:46","Status","","","False","","",""
 "config/schema/oauth2_server.schema.yml:0","Store encrypted token string","","","False","","",""
 "src/Form/ServerForm.php:109","Strongly recommended for login providers.","","","False","","",""
-"src/Entity/TokenIdentifier.php:41","Subject","","","False","","",""
+"src/Entity/TokenIdentifier.php:41","Subject","Betreff","","False","","",""
 "src/Entity/TokenIdentifier.php:52","The JSON Token Identifier.","","","False","","",""
 "src/Entity/TokenIdentifier.php:42","The JWT subject, usually a username or email.","","","False","","",""
 "src/Entity/TokenIdentifier.php:37","The OAuth2 Client of the client.","","","False","","",""

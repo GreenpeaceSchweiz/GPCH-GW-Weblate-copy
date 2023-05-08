@@ -77,7 +77,7 @@
 "templates/group/group--teaser--sky.html.twig:117","Located at:","","","False","","",""
 "theme-settings.php:93","Logo for e-mails","Logo für E-Mails","","False","","",""
 "templates/profile/profile--profile--teaser--sky.html.twig:11","Member","Mitglied","","False","","",""
-"templates/profile/profile--profile--statistic.html.twig:31","Message","","","False","","",""
+"templates/profile/profile--profile--statistic.html.twig:31","Message","Nachricht","","False","","",""
 "color/color.inc:18","Navigation active item background","Hintergrund für den aktiven Menüpunkt in der Navigation","","False","","",""
 "color/color.inc:19","Navigation active item text","Text für den aktiven Menüpunkt in der Navigation","","False","","",""
 "color/color.inc:16","Navigation background","Hintergrund der Navigation","","False","","",""

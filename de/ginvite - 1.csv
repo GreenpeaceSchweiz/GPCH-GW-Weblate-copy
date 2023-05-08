@@ -63,7 +63,7 @@
 "src/Plugin/GroupContentEnabler/GroupInvitation.php:330","Send invitation e-mail to already registered users","","","False","","",""
 "src/Form/BulkGroupInvitationConfirm.php:139","Sending Invites","","","False","","",""
 "config/optional/views.view.my_invitations.yml:0","Sort by","Sortieren nach","","False","","",""
-"src/Plugin/GroupContentEnabler/GroupInvitation.php:300;318","Subject","","","False","","",""
+"src/Plugin/GroupContentEnabler/GroupInvitation.php:300;318","Subject","Betreff","","False","","",""
 "src/Form/BulkGroupInvitation.php:147","Submit","","","False","","",""
 "src/Plugin/GroupContentEnabler/GroupInvitation.php:266","This field has been disabled by the plugin to guarantee the functionality that's expected of it.","","","False","","",""
 "src/Form/BulkGroupInvitationConfirm.php:75","Unable to proceed, please try again.","","","False","","",""

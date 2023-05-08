@@ -168,7 +168,7 @@
 "src/Plugin/GraphQL/DataProducer/Menu/MenuLinks.php:15","Menu links","","","False","","",""
 "src/Plugin/GraphQL/DataProducer/Menu/MenuTree/MenuTreeLink.php:8","Menu tree link","","","False","","",""
 "src/Plugin/GraphQL/DataProducer/Menu/MenuTree/MenuTreeSubtree.php:8","Menu tree subtree","","","False","","",""
-"src/Controller/ValidationController.php:57","Message","","","False","","",""
+"src/Controller/ValidationController.php:57","Message","Nachricht","","False","","",""
 "config/schema/graphql.schema.yml:0","Name","","","False","","",""
 "src/Controller/ValidationController.php:70","No missing resolvers.","","","False","","",""
 "src/Controller/ValidationController.php:64","No orphaned resolvers.","","","False","","",""
