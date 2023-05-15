@@ -697,7 +697,7 @@
 "src/Plugin/search_api/processor/IgnoreCharacters.php:160","Symbol, Math Characters","","","False","","",""
 "src/Plugin/search_api/processor/IgnoreCharacters.php:159","Symbol, Modifier Characters","","","False","","",""
 "src/Plugin/search_api/processor/IgnoreCharacters.php:161","Symbol, Other Characters","","","False","","",""
-"config/schema/search_api.views.schema.yml:0","Tag","","","False","","",""
+"config/schema/search_api.views.schema.yml:0","Tag","Tag","","False","","",""
 "src/Plugin/search_api/processor/HtmlFilter.php:115","Tag boosts","","","False","","",""
 "config/schema/search_api.views.schema.yml:0","Tag-based caching (Search API)","","","False","","",""
 "src/Plugin/search_api/processor/HtmlFilter.php:139;144","Tags is not a valid YAML map. See @link for information on how to write correctly formed YAML.","","","False","","",""

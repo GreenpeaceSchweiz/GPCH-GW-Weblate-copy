@@ -222,7 +222,7 @@
 "src/Plugin/AutomationAction/SystemSendEmail.php:12","Subject","","","False","","",""
 "src/Plugin/AutomationAction/SystemEmailToUsersOfRole.php:159","Successfully sent email to %number out of %count users having the role(s) %roles","","","False","","",""
 "src/Plugin/AutomationAction/SystemSendEmail.php:126","Successfully sent email to %recipient","","","False","","",""
-"src/Form/Expression/ConditionForm.php:98","Summary","","","False","","",""
+"src/Form/Expression/ConditionForm.php:98","Summary","Résumé","","False","","",""
 "src/Context/Form/ContextFormTrait.php:89","Switch to data selection","","","False","","",""
 "src/Context/Form/ContextFormTrait.php:89","Switch to the direct input mode","","","False","","",""
 "src/Plugin/AutomationAction/SystemSendEmail.php:12","System","","","False","","",""

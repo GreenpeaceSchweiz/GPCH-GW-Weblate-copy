@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"src/Form/EuCookieComplianceConfigForm.php:293","""Accept all categories"" button label","""Accepter toutes les catégories"" étiquette du bouton","","False","","",""
+"src/Form/EuCookieComplianceConfigForm.php:293","""Accept all categories"" button label","""Accepter tous les cookies"" étiquette du bouton","","False","","",""
 "src/Form/EuCookieComplianceConfigForm.php:279","""Save preferences"" button label","""Enregistrer les préférences"" étiquette du bouton","","False","","",""
 "src/Form/EuCookieComplianceConfigForm.php:707","""Thank you"" banner message","Message de bannière ""Merci""","","False","","",""
 "eu_cookie_compliance.module:763","'%name must be a HEX value (without leading #) or empty.'","","","False","","",""

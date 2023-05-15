@@ -83,7 +83,7 @@
 "config/optional/views.view.votingapi_votes.yml:0","Sort by","Sortieren nach","","False","","",""
 "config/schema/votingapi_widgets.schema.yml:0;0","Status","Status","","False","","",""
 "src/Plugin/VoteResultFunction/Sum.php:7","Sum","Summe","","False","","",""
-"src/Plugin/migrate/source/d7/Vote.php:42","Tag","","","False","","",""
+"src/Plugin/migrate/source/d7/Vote.php:42","Tag","Tag","","False","","",""
 "src/Form/SettingsForm.php:114","Tally results at cron-time","Beim Cron-Lauf Ergebnisse ermitteln","","False","","",""
 "src/Form/SettingsForm.php:113","Tally results whenever a vote is cast","Mit jeder Stimmabgabe die Ergebnisse fortschreiben","","False","","",""
 "src/Entity/VoteResult.php:180","The ID from the voted entity","","","False","","",""

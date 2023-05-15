@@ -1948,7 +1948,7 @@ Mixed: Mixed
 "src/Plugin/WebformHandler/SettingsWebformHandler.php:169","Custom settings (YAML)","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigElementsForm.php:107","Custom tags","","","False","","",""
 "src/Plugin/WebformElement/WebformTime.php:106","Custom time format…","","","False","","",""
-"src/WebformSubmissionListBuilder.php:695","Customize","","","False","","",""
+"src/WebformSubmissionListBuilder.php:695","Customize","Personnaliser","","False","","",""
 "src/Form/WebformResultsCustomForm.php:112;127","Customize default table","","","False","","",""
 "src/Form/WebformResultsCustomForm.php:112;141","Customize my table","","","False","","",""
 "modules/webform_node/webform_node.routing.yml:0","Customize table","","","False","","",""
@@ -5070,7 +5070,7 @@ Submitted values are:
 "src/Element/WebformLocationPlaces.php:42","Suburb","","","False","","",""
 "src/Form/WebformSubmissionResendForm.php:167","Successfully re-sent %label.","","","False","","",""
 "src/Element/WebformName.php:46","Suffix","","","False","","",""
-"src/Plugin/WebformElementBase.php:3052","Summary","","","False","","",""
+"src/Plugin/WebformElementBase.php:3052","Summary","Résumé","","False","","",""
 "src/Plugin/WebformElementBase.php:3048","Summary attributes","","","False","","",""
 "src/Utility/WebformDateHelper.php:81","Sunday","","","False","","",""
 "config/install/webform.webform_options.days.yml:0","Sunday: Sunday

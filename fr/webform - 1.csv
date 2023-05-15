@@ -1948,7 +1948,7 @@ Mixed: Mixed
 "src/Plugin/WebformHandler/SettingsWebformHandler.php:169","Custom settings (YAML)","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigElementsForm.php:107","Custom tags","","","False","","",""
 "src/Plugin/WebformElement/WebformTime.php:106","Custom time format…","","","False","","",""
-"src/WebformSubmissionListBuilder.php:695","Customize","","","False","","",""
+"src/WebformSubmissionListBuilder.php:695","Customize","Personnaliser","","False","","",""
 "src/Form/WebformResultsCustomForm.php:112;127","Customize default table","","","False","","",""
 "src/Form/WebformResultsCustomForm.php:112;141","Customize my table","","","False","","",""
 "modules/webform_node/webform_node.routing.yml:0","Customize table","","","False","","",""

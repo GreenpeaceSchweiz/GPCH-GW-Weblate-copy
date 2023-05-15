@@ -270,7 +270,7 @@
 "modules/toolbar/toolbar.module:27","Tabs are buttons, displayed in a bar across the top of the screen. Some tabs execute an action (such as starting Edit mode), while other tabs toggle which tray is open.","Reiter sind Buttons, die in einer Leiste am oberen Rand des Bildschirms dargestellt werden. Mit einigen Reitern können Sie eine Aktion (wie das Starten des Bearbeitungsmodus) ausführen, während andere Reiter ausklappbare Einstellungsleisten anzeigen oder ausblenden.","","False","","",""
 "modules/system/config/schema/system.schema.yml:0","Tabs block","Reiterblock","","False","","",""
 "themes/claro/templates/navigation/menu-local-task.html.twig:21","Tabs display toggle","","","False","","",""
-"modules/views/src/Plugin/views/cache/Tag.php:24","Tag","","","False","","",""
+"modules/views/src/Plugin/views/cache/Tag.php:24","Tag","Tag","","False","","",""
 "modules/filter/src/Plugin/Filter/FilterHtml.php:396","Tag Description","Tag-Beschreibung","","False","","",""
 "modules/search/config/schema/search.schema.yml:0","Tag a weight","Gewichtung Tag a","","False","","",""
 "modules/search/config/schema/search.schema.yml:0","Tag b weight","Gewichtung Tag b","","False","","",""

@@ -93,7 +93,7 @@
 "html/themes/custom/regiotwente/color/color.inc:11","Primary color","","","False","","",""
 "html/themes/custom/regiotwente/templates/profile/profile--profile--hero.html.twig:67","Private message","","","False","","",""
 "html/modules/custom/regiotwente_core/regiotwente_core.module:34","Profile of @account","","","False","","",""
-"html/themes/custom/regiotwente/templates/profile/profile--profile--default.html.twig:119","Profile tags","","","False","","",""
+"html/themes/custom/regiotwente/templates/profile/profile--profile--default.html.twig:119","Profile tags","Profil-Tags","","False","","",""
 "html/modules/custom/regiotwente_saml/regiotwente_saml.info.yml:0","Provides Regio Twente ADFS configuration","","","False","","",""
 "html/modules/features/regiotwente_helper/regiotwente_helper.info.yml:0","Provides Regiotwente helper features.","","","False","","",""
 "html/themes/custom/regiotwente/os-builder/kss-assets/drupal-core.js:0","Re-order rows by numerical weight instead of dragging.","","","False","","",""

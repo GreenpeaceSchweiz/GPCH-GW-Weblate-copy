@@ -5117,7 +5117,7 @@ Samstag: Samstag
 "src/Plugin/WebformElement/WebformTable.php:200","Table settings","","","False","","",""
 "src/Plugin/WebformElement/WebformTableSort.php:7","Table sort","","","False","","",""
 "src/Plugin/WebformElement/WebformTableSelectSort.php:5","Tableselect sort","","","False","","",""
-"src/Plugin/WebformElement/WebformEntityReferenceTrait.php:596","Tags","","","False","","",""
+"src/Plugin/WebformElement/WebformEntityReferenceTrait.php:596","Tags","Tags","","False","","",""
 "src/Form/WebformSubmissionsPurgeForm.php:84","Take a few minutes to complete","","","False","","",""
 "src/WebformSubmissionExporter.php:724","Tar archive (*.tar.gz)","","","False","","",""
 "src/Plugin/WebformElement/WebformEntityReferenceTrait.php:212","Teaser","Teaser","","False","","",""
