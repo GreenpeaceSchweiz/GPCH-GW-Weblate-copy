@@ -1342,7 +1342,7 @@ Submitted values are:
 "src/Element/WebformLocationPlaces.php:42","Suburb","","","False","","",""
 "src/Form/WebformSubmissionResendForm.php:167","Successfully re-sent %label.","","","False","","",""
 "src/Element/WebformName.php:46","Suffix","Suffix","","False","","",""
-"src/Plugin/WebformElementBase.php:3052","Summary","","","False","","",""
+"src/Plugin/WebformElementBase.php:3052","Summary","Zusammenfassung","","False","","",""
 "src/Plugin/WebformElementBase.php:3048","Summary attributes","","","False","","",""
 "src/Utility/WebformDateHelper.php:81","Sunday","Sonntag","","False","","",""
 "config/install/webform.webform_options.days.yml:0","Sunday: Sunday

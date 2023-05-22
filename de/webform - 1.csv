@@ -2399,7 +2399,7 @@ Mixed: Mixed
 "src/Controller/WebformAddonsController.php:141","EXPERIMENTAL","","","False","","",""
 "src/WebformAddonsManager.php:1697","Easily embed webforms into CKEditor with a webform media type that integrates with core's media library.","","","False","","",""
 "src/WebformAddonsManager.php:727","Ecomail webform","","","False","","",""
-"src/Plugin/WebformHandler/RemotePostWebformHandler.php:1058","Edit","","","False","","",""
+"src/Plugin/WebformHandler/RemotePostWebformHandler.php:1058","Edit","Bearbeiten","","False","","",""
 "src/WebformSubmissionForm.php:1344","Edit '@label' (@start of @end)","","","False","","",""
 "modules/webform_cards/js/webform_cards.js:0","Edit '@title'","","","False","","",""
 "src/Form/WebformHandlerEditForm.php:19","Edit @label handler","","","False","","",""

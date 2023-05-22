@@ -247,7 +247,7 @@
 "config/schema/paragraphs_type.schema.yml:0","Settings for base paragraphs behavior plugin","Einstellungen des Basisseitenabschnittverhaltens-Plugins","","False","","",""
 "src/Form/ParagraphsSettingsForm.php:34","Show unpublished Paragraphs","","","False","","",""
 "modules/paragraphs_library/config/optional/views.view.paragraphs_library_browser.yml:0","Sort by","Sortieren nach","","False","","",""
-"modules/paragraphs_library/config/install/core.entity_view_mode.paragraphs_library_item.summary.yml:0","Summary","","","False","","",""
+"modules/paragraphs_library/config/install/core.entity_view_mode.paragraphs_library_item.summary.yml:0","Summary","Zusammenfassung","","False","","",""
 "modules/paragraphs_demo/config/install/paragraphs.paragraphs_type.text.yml:0","Text","","","False","","",""
 "modules/paragraphs_demo/config/install/paragraphs.paragraphs_type.text_image.yml:0","Text + Image","","","False","","",""
 "modules/paragraphs_library/src/Plugin/Validation/Constraint/ParagraphsLibraryItemHasAllowedParagraphsTypeConstraint.php:29","The @library_item_field_label field cannot contain a @paragraphs_type_label paragraph, because the parent @paragraph_field_label field disallows it.","","","False","","",""

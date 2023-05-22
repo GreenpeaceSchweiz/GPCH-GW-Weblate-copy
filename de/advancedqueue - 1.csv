@@ -28,7 +28,7 @@
 "src/Plugin/views/field/Operations.php:70","Delete","Löschen","","False","","",""
 "advancedqueue.routing.yml:0","Delete job","","","False","","",""
 "config/install/views.view.advancedqueue_jobs.yml:0","Desc","Absteigend","","False","","",""
-"advancedqueue.links.task.yml:0","Edit","","","False","","",""
+"advancedqueue.links.task.yml:0","Edit","Bearbeiten","","False","","",""
 "advancedqueue.views.inc:159","Expire date","","","False","","",""
 "src/Commands/AdvancedQueueCommands.php:93","Failure","","","False","","",""
 "src/Plugin/AdvancedQueue/Backend/BackendBase.php:103","How long a job is reserved for processing.","","","False","","",""

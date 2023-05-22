@@ -109,7 +109,7 @@
 "config/schema/data_policy.schema.yml:0","Status","Status","","False","","",""
 "src/Form/DataPolicyAddForm.php:114","Successfully created a new ""%name"" entity.","","","False","","",""
 "src/Form/InformBlockForm.php:86","Summarise what data is collected.","","","False","","",""
-"src/Form/InformBlockForm.php:82","Summary","","","False","","",""
+"src/Form/InformBlockForm.php:82","Summary","Zusammenfassung","","False","","",""
 "src/Form/InformBlockForm.php:114","The %label Example was not saved.","","","False","","",""
 "src/Entity/DataPolicy.php:209","The name of the Data policy entity.","","","False","","",""
 "src/Entity/UserConsent.php:183","The time that the entity was created.","Der Erstellungszeitpunkt der Entität.","","False","","",""

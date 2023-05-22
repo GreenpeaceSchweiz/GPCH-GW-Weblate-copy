@@ -64,7 +64,7 @@
 "src/Plugin/Field/FieldFormatter/Oauth2ScopeReferenceLabelFormatter.php:8","Display the label of the referenced OAuth2 scopes.","","","False","","",""
 "src/Plugin/ScopeProvider/DynamicScopeProvider.php:7","Dynamic (entity)","","","False","","",""
 "simple_oauth.routing.yml:0","Dynamic scopes","","","False","","",""
-"simple_oauth.links.task.yml:0","Edit","","","False","","",""
+"simple_oauth.links.task.yml:0","Edit","Bearbeiten","","False","","",""
 "simple_oauth.permissions.yml:0","Edit Access Token entities","","","False","","",""
 "simple_oauth.permissions.yml:0","Edit OAuth2 scopes","","","False","","",""
 "simple_oauth.routing.yml:0","Edit scope","","","False","","",""

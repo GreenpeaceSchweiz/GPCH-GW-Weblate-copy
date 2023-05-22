@@ -104,7 +104,7 @@
 "modules/ctools_block/config/schema/ctools_block.schema.yml:0","Settings","Einstellungen","","False","","",""
 "modules/ctools_views/src/Plugin/Display/Block.php:281","Sort ascending","Aufsteigend sortieren","","False","","",""
 "modules/ctools_views/src/Plugin/Display/Block.php:282","Sort descending","Absteigend sortieren","","False","","",""
-"src/Form/ManageConditions.php:73","Summary","","","False","","",""
+"src/Form/ManageConditions.php:73","Summary","Zusammenfassung","","False","","",""
 "src/Form/ResolverRelationshipConfigure.php:114","That machine name is in use by another context definition.","","","False","","",""
 "src/Wizard/EntityFormWizardBase.php:112","The @entity-type %label has been added.","","","False","","",""
 "src/Wizard/EntityFormWizardBase.php:108","The @entity-type %label has been updated.","","","False","","",""

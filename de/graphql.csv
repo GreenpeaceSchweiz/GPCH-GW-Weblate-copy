@@ -61,7 +61,7 @@
 "src/Plugin/LanguageNegotiation/OperationLanguageNegotiation.php:9","Determines the language in the context of an operation.","","","False","","",""
 "js/persisted_queries.js:0","Disabled","","","False","","",""
 "src/Plugin/GraphQL/DataProducer/XML/XMLParse.php:7","Document","","","False","","",""
-"graphql.routing.yml:0","Edit","","","False","","",""
+"graphql.routing.yml:0","Edit","Bearbeiten","","False","","",""
 "src/Form/ServerForm.php:106","Edit %label server","","","False","","",""
 "src/Plugin/GraphQL/DataProducer/Utility/Seek.php:7","Element","","","False","","",""
 "src/Plugin/GraphQL/DataProducer/User/PasswordReset.php:15","Email","","","False","","",""

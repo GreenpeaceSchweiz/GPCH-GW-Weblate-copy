@@ -45,7 +45,7 @@
 "oauth2_server.routing.yml:0","Disable server","","","False","","",""
 "src/ServerListBuilder.php:58","Disabled","","","False","","",""
 "src/Form/ServerDisableConfirmForm.php:27","Disabling a server will also disable all attached scopes and clients. This action cannot be undone.","","","False","","",""
-"src/ScopeListBuilder.php:28","Edit","","","False","","",""
+"src/ScopeListBuilder.php:28","Edit","Bearbeiten","","False","","",""
 "src/Form/ServerForm.php:81","Enabled","","","False","","",""
 "src/Form/ServerForm.php:129","Enabled grant types","","","False","","",""
 "config/schema/oauth2_server.schema.yml:0","Enforce state","","","False","","",""
