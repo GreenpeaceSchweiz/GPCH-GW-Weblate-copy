@@ -1,7 +1,7 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "social_poll.info.yml:0","Allows community managers to create polls for their members.","","","False","","",""
 "config/install/core.entity_view_mode.poll.block.yml:0","Block","","","False","","",""
-"config/install/core.entity_view_mode.poll.group.yml:0","Group","","","False","","",""
+"config/install/core.entity_view_mode.poll.group.yml:0","Group","Gruppe","","False","","",""
 "config/optional/block.block.socialblue_group_polls_block.yml:0","Group polls","","","False","","",""
 "src/Plugin/Block/SocialPollRecentBlock.php:15","Lists (Views)","Listen (Ansichten)","","False","","",""
 "templates/block--social-poll-recent-block.html.twig:38","Most recent Poll","Neueste Umfrage","","False","","",""

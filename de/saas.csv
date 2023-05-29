@@ -89,7 +89,7 @@
 "html/modules/custom/social_saas_core/src/Form/SaasSocialGeolocationForm.php:116","Geolocation has been disabled.","","","False","","",""
 "html/modules/custom/social_saas_core/src/Form/SaasSocialGeolocationForm.php:105","Geolocation has been enabled.","","","False","","",""
 "html/modules/custom/social_saas_core/src/Controller/DashboardController.php:221","Google Analytics","","","False","","",""
-"html/modules/custom/social_saas_dev_helper/src/Plugin/DemoContent/SaaSGroup.php:9","Group","","","False","","",""
+"html/modules/custom/social_saas_dev_helper/src/Plugin/DemoContent/SaaSGroup.php:9","Group","Gruppe","","False","","",""
 "html/modules/custom/social_saas_core/src/Controller/DashboardController.php:217","Group Quick Join settings","","","False","","",""
 "html/modules/custom/social_saas_core/src/Controller/DashboardController.php:73","Group overview","","","False","","",""
 "html/modules/custom/social_saas_core/src/Controller/DashboardController.php:213","Group settings","","","False","","",""
