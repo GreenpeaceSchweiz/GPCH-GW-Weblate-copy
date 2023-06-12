@@ -12,7 +12,6 @@
 "social_role_visibility.info.yml:0","Social","","","False","","",""
 "social_role_visibility.info.yml:0","Social Role Visibility","","","False","","",""
 "social_role_visibility.module:473","The @name doesn't have enough permissions to see the group content.","","","False","","",""
-"social_role_visibility.module:459","The group visibility is set to @role, the user @name doesn't have this role.","","","False","","",""
 "config/schema/social_role_visibility.schema.yml:0","Third party settings for role visibility","Einstellungen von Drittanbietern für die Sichtbarkeit von Rollen","","False","","",""
 "src/Form/VisibilityRoleForm.php:88","This option lets you hide this role’s profile details from people with different roles. People with the same role will still be able to interact with each other’s profile details.","","","False","","",""
 "social_role_visibility.module:1010;1022;1081","Visibility by role","Sichtbarkeit nach Rolle","","False","","",""

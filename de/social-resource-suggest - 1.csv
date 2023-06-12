@@ -1,6 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "src/Entity/ResourceSuggestion.php:214","A boolean indicating whether the Resource library suggestion is published.","","","False","","",""
-"src/ResourceSuggestionListBuilder.php:119","Accept","","","False","","",""
+"src/ResourceSuggestionListBuilder.php:119","Accept","Akzeptieren","","False","","",""
 "social_resource_suggest.permissions.yml:0","Accept resource suggestion entities","","","False","","",""
 "social_resource_suggest.permissions.yml:0","Administer resource suggestion Settings","","","False","","",""
 "social_resource_suggest.permissions.yml:0","Administer resource suggestion entities","","","False","","",""

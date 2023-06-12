@@ -14,7 +14,7 @@ settings.</p>","<h2>Diamo valore alla tua privacy</h2>
 "social_cookie.install:31","Confirm my choices","","","False","","",""
 "config/install/eu_cookie_compliance.cookie_category.marketing_cookies.yml:0","Cookies that allow us to customize and measure the effectiveness of our marketing. These can be used to serve you advertising after you have left our site (retargetting cookies).","","","False","","",""
 "templates/eu-cookie-compliance-popup-info-custom.html.twig:106","Customize","","","False","","",""
-"templates/eu-cookie-compliance-popup-info-custom.html.twig:75","Customize Consent Preference","","","False","","",""
+"templates/eu-cookie-compliance-popup-info-custom.html.twig:75","Customize Consent Preference","Modifica le tue preferenze","","False","","",""
 "src/Plugin/Filter/SocialCookieUrlEmbedFilter.php:18","Display embedded URLs with consent","","","False","","",""
 "social_cookie.info.yml:0","EU Cookie compliance module.","","","False","","",""
 "src/Plugin/Filter/SocialCookieUrlEmbedFilter.php:18","Embeds URLs using data attribute: data-embed-url.","","","False","","",""

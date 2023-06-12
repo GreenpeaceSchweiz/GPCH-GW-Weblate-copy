@@ -2,7 +2,7 @@
 "config/optional/views.view.my_invitations.yml:0;0;0;0;0",", ","","","False","","",""
 "config/optional/views.view.my_invitations.yml:0","'- All -'","'- Alle -'","","False","","",""
 "src/Form/BulkGroupInvitationConfirm.php:179","'@err'","","","False","","",""
-"config/optional/views.view.my_invitations.yml:0;0","Accept","","","False","","",""
+"config/optional/views.view.my_invitations.yml:0;0","Accept","Akzeptieren","","False","","",""
 "ginvite.routing.yml:0","Accept invitation and join group","","","False","","",""
 "src/Plugin/GroupContentEnabler/GroupInvitation.php:282","Accept invitations immediately","","","False","","",""
 "config/optional/views.view.my_invitations.yml:0","All","","","False","","",""
