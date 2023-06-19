@@ -13,7 +13,7 @@
 "layout_builder_restrictions.permissions.yml:0","Allows access to configuration for layout builder restrictions.","","","False","","",""
 "modules/layout_builder_restrictions_by_region/src/Form/FormAlter.php:253","Apply block restrictions on a region-by-region basis","","","False","","",""
 "modules/layout_builder_restrictions_by_region/src/Form/FormAlter.php:252","Apply block restrictions to all regions in layout","","","False","","",""
-"src/Form/MoveBlockForm.php:77","Back","","","False","","",""
+"src/Form/MoveBlockForm.php:77","Back","Zurück","","False","","",""
 "src/Traits/PluginHelperTrait.php:110","Block","","","False","","",""
 "config/schema/layout_builder_restrictions.schema.yml:0;0","Block ID","","","False","","",""
 "src/Form/FormAlter.php:120","Blocks available for placement (all layouts & regions)","","","False","","",""
