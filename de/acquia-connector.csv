@@ -133,7 +133,7 @@
 "src/Form/SpiChangeForm.php:96","Name","","","False","","",""
 "src/Form/SetupForm.php:112","Need a subscription? <a href="":url"">Get one</a>.","","","False","","",""
 "src/Form/CredentialForm.php:83","Network key","","","False","","",""
-"src/Form/SetupForm.php:109","Next","","","False","","",""
+"src/Form/SetupForm.php:109","Next","Weiter","","False","","",""
 "acquia_search/config/optional/views.view.acquia_search.yml:0","Next ›","","","False","","",""
 "src/Commands/AcquiaConnectorCommands.php:89","No Acquia SPI custom tests were detected.","","","False","","",""
 "acquia_connector.install:154","No custom tests were detected in any module.","","","False","","",""
