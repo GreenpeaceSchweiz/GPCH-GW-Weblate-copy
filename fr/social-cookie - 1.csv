@@ -5,6 +5,8 @@ necessary, analytical and marketing cookies. By clicking ”Accept Cookies” yo
 consent to our use of cookies. You can update your choice at any time in your 
 settings.</p>","","","False","","",""
 "social_cookie.install:30","Accept All","","","False","","",""
+"social_cookie.permissions.yml:0","Administer Social Cookie settings","","","False","","",""
+"social_cookie.permissions.yml:0","Allow to access all avalaible options on the cookie settings form","","","False","","",""
 "config/install/eu_cookie_compliance.cookie_category.analytical_cookies.yml:0","Analytical cookies","","","False","","",""
 "config/install/eu_cookie_compliance.cookie_category.analytical_cookies.yml:0","Any cookies that help us monitor anonymized site traffic and analytics, as well as cookies that let us run tests to optimize our site’s experience. This could be from 3rd party companies, such as Google Analytics.","","","False","","",""
 "templates/eu-cookie-compliance-popup-info-custom.html.twig:71","Back","","","False","","",""
