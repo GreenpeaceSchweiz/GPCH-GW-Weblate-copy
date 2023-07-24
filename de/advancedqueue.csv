@@ -8,7 +8,7 @@
 "advancedqueue.info.yml:0","Advanced Queue","","","False","","",""
 "config/install/views.view.advancedqueue_jobs.yml:0","Advanced Queue jobs","","","False","","",""
 "advancedqueue.views.inc:13","Advanced queue","","","False","","",""
-"config/install/views.view.advancedqueue_jobs.yml:0","All","","","False","","",""
+"config/install/views.view.advancedqueue_jobs.yml:0","All","Alle","","False","","",""
 "config/install/views.view.advancedqueue_jobs.yml:0","Apply","Anwenden","","False","","",""
 "src/Form/DeleteJob.php:41","Are you sure you want to delete job @job_id from the @queue queue?","","","False","","",""
 "src/Form/ReleaseJob.php:41","Are you sure you want to release job @job_id from the @queue queue?","","","False","","",""

@@ -12,7 +12,7 @@
 "src/VoteTypeForm.php:156","Added vote type %name.","","","False","","",""
 "votingapi.permissions.yml:0","Administer Vote Types","","","False","","",""
 "votingapi.permissions.yml:0","Administer Voting API","Voting-API-Modul verwalten","","False","","",""
-"config/optional/views.view.votingapi_votes.yml:0","All","","","False","","",""
+"config/optional/views.view.votingapi_votes.yml:0","All","Alle","","False","","",""
 "config/optional/views.view.votingapi_votes.yml:0","All Votes","","","False","","",""
 "votingapi.permissions.yml:0","Allow access to configure Voting API.","","","False","","",""
 "votingapi.permissions.yml:0","Allow access to create/edit vote types.","","","False","","",""

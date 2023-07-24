@@ -25,7 +25,7 @@
 "modules/redirect_404/redirect_404.links.menu.yml:0","Add redirects for 404 pages.","","","False","","",""
 "redirect.permissions.yml:0","Administer global URL redirection settings","","","False","","",""
 "redirect.permissions.yml:0","Administer individual URL redirections","","","False","","",""
-"modules/redirect_404/redirect_404.module:42","All","","","False","","",""
+"modules/redirect_404/redirect_404.module:42","All","Alle","","False","","",""
 "redirect.module:260","All languages","","","False","","",""
 "config/schema/redirect.schema.yml:0","Allow redirections on admin paths.","","","False","","",""
 "modules/redirect_domain/redirect_domain.info.yml:0","Allows users to redirect between domains.","","","False","","",""

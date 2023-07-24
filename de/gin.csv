@@ -11,7 +11,7 @@
 "gin.theme:622","Claro Green","","","False","","",""
 "gin.theme:688","Classic","","","False","","",""
 "templates/navigation/menu--toolbar--gin.html.twig:114","Close","","","False","","",""
-"templates/node/node-edit-form.html.twig:36","Content","","","False","","",""
+"templates/node/node-edit-form.html.twig:36","Content","Inhalt","","False","","",""
 "gin.theme:626;902","Custom","","","False","","",""
 "gin.theme:594","Custom Accent color","","","False","","",""
 "gin.theme:634","Custom Focus color (BETA)","","","False","","",""
