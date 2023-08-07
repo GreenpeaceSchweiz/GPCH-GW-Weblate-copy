@@ -12,10 +12,17 @@
 "modules/social_o365_delve/src/Form/SocialO365DelveSettingsForm.php:233","Create referenced entities if they don't already exist","","","False","","",""
 "modules/social_o365_delve/src/Form/SocialO365DelveSettingsForm.php:260","Decide which Address field to map to","","","False","","",""
 "modules/social_o365_delve/src/Form/SocialO365DelveSettingsForm.php:119","Description","","","False","","",""
+"modules/o365_os/o365_os.info.yml:0","Integrations to integrate the Office 365 module better with Open Social.","","","False","","",""
 "social_o365.module:19","Log in","","","False","","",""
 "modules/social_o365_delve/social_o365_delve.links.task.yml:0","Microsoft Azure & Delve","","","False","","",""
+"modules/o365_os/o365_os.info.yml:0","Microsoft Office","","","False","","",""
+"modules/o365_os/o365_os.module:152;163;165","Microsoft Teams","","","False","","",""
+"modules/o365_os/o365_os.module:151","Microsoft Teams icon","","","False","","",""
 "modules/social_o365_delve/src/Form/SocialO365DelveSettingsForm.php:117","Microsoft user property","","","False","","",""
+"modules/o365_os/o365_os.module:188","My email","","","False","","",""
+"modules/o365_os/o365_os.routing.yml:0","My latest emails","","","False","","",""
 "social_o365.module:45","Office 365","","","False","","",""
+"modules/o365_os/o365_os.info.yml:0","Office 365 - Open Social integration","","","False","","",""
 "modules/social_o365_delve/social_o365_delve.routing.yml:0","Office 365 Azure & Delve settings","","","False","","",""
 "modules/social_o365_delve/src/Form/SocialO365DelveSettingsForm.php:108","On this page you can configure all the fields from Microsoft to be mapped with fields in Open Social.
         When a user logs in we will try to collect data from your Microsoft instance based on the Microsoft user property
@@ -66,4 +73,5 @@
 "modules/social_o365_delve/src/SocialO365DelveUserManager.php:595","True if the account is enabled; otherwise, false.","","","False","","",""
 "modules/social_o365_delve/src/Form/SocialO365DelveSettingsForm.php:357","Two letter country code (ISO standard).","","","False","","",""
 "modules/social_o365_delve/src/Form/SocialO365DelveSettingsForm.php:118","Type","","","False","","",""
+"modules/o365_os/o365_os.module:186","View my email","","","False","","",""
 "modules/social_o365_delve/src/SocialO365DelveUserManager.php:680","true if the user is a resource account; otherwise, false.","","","False","","",""
