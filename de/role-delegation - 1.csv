@@ -8,7 +8,7 @@
 "role_delegation.info.yml:0","Permissions","","","False","","",""
 "role_delegation.info.yml:0","Role Delegation","","","False","","",""
 "src/Plugin/EntityReferenceSelection/RoleChangeSelection.php:8","Role change","","","False","","",""
-"src/Form/RoleDelegationSettingsForm.php:73","Roles","","","False","","",""
+"src/Form/RoleDelegationSettingsForm.php:73","Roles","Rollen","","False","","",""
 "src/Form/RoleDelegationSettingsForm.php:82","Save","Speichern","","False","","",""
 "src/Form/RoleDelegationSettingsForm.php:112","The roles have been updated.","","","False","","",""
 "role_delegation.module:36","This module allows site administrators to grant some roles the authority to assign selected roles to users, without them needing the <em>administer permissions</em> permission.","","","False","","",""

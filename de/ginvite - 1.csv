@@ -58,7 +58,7 @@
 "config/optional/views.view.group_invitations.yml:0","Remove invitation","","","False","","",""
 "config/optional/views.view.group_invitations.yml:0","Remove member link","","","False","","",""
 "config/optional/views.view.my_invitations.yml:0","Reset","Zurücksetzen","","False","","",""
-"config/optional/views.view.my_invitations.yml:0","Roles","","","False","","",""
+"config/optional/views.view.my_invitations.yml:0","Roles","Rollen","","False","","",""
 "src/Form/BulkGroupInvitation.php:132","Select Recipients","","","False","","",""
 "src/Plugin/GroupContentEnabler/GroupInvitation.php:330","Send invitation e-mail to already registered users","","","False","","",""
 "src/Form/BulkGroupInvitationConfirm.php:139","Sending Invites","","","False","","",""

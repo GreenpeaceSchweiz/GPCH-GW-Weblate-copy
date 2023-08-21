@@ -54,7 +54,7 @@ The Acquia Telemetry module sends anonymized data about Acquia product usage to 
 "modules/lightning_contact_form/lightning_contact_form.info.yml:0","Provides a site-wide contact form with basic default configuration.","","","False","","",""
 "modules/lightning_page/config/install/core.base_field_override.node.page.status.yml:0","Publishing status","","","False","","",""
 "modules/lightning_search/config/install/views.view.search.yml:0","Reset","Zurücksetzen","","False","","",""
-"modules/lightning_roles/lightning_roles.links.menu.yml:0","Roles","","","False","","",""
+"modules/lightning_roles/lightning_roles.links.menu.yml:0","Roles","Rollen","","False","","",""
 "modules/lightning_search/config/install/views.view.search.yml:0;0;0","Search","","","False","","",""
 "config/schema/lightning_core.schema.yml:0","Semantic version number","","","False","","",""
 "lightning_core.info.yml:0","Shared functionality for the Lightning distribution.","","","False","","",""
