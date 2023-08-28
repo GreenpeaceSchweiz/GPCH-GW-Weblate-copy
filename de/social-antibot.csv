@@ -1,1 +1,4 @@
-{"detail":"Not found."}
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"social_antibot.info.yml:0","Provides Antibot integration with Open Social forms.","","","False","","",""
+"social_antibot.info.yml:0","Social","","","False","","",""
+"social_antibot.info.yml:0","Social Antibot","","","False","","",""

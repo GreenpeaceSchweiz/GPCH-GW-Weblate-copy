@@ -1,1 +1,11 @@
-{"detail":"Not found."}
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"social_thx.module:124;158","Could not write reward to blockchain.","","","False","","",""
+"src/Plugin/AutomationAction/RewardThxAction.php:13","Data","","","False","","",""
+"src/Plugin/AutomationAction/RewardThxAction.php:13","Gamification","","","False","","",""
+"social_thx.info.yml:0","Module to handle thx reward in social_gamification.","","","False","","",""
+"src/Plugin/AutomationAction/RewardThxAction.php:13","Reward","","","False","","",""
+"src/Plugin/AutomationAction/RewardThxAction.php:13","Reward some tokens (ERC-20) for the given action","","","False","","",""
+"social_thx.info.yml:0","Social","","","False","","",""
+"social_thx.info.yml:0","Social Thx","","","False","","",""
+"src/Plugin/AutomationAction/RewardThxAction.php:13","Specifies the data to be modified using a data selector, e.g. 'post, comment, node.author.name'.","","","False","","",""
+"src/Plugin/AutomationAction/RewardThxAction.php:13","The reward_id","","","False","","",""

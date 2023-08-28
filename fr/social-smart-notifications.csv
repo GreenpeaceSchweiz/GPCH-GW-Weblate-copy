@@ -1,1 +1,6 @@
-{"detail":"Not found."}
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"social_smart_notifications.info.yml:0","Allows notification to be routed to active or the most recently used devices.","","","False","","",""
+"src/RealTime/SmartNotificationHandler.php:457","Failed to unregister push endpoints for @user: @message","","","False","","",""
+"src/RealTime/SmartNotificationHandler.php:412","RPC Call for Web Push Notification preparation did not provide auth details.","","","False","","",""
+"social_smart_notifications.info.yml:0","Social","","","False","","",""
+"social_smart_notifications.info.yml:0","Social Smart Notifications","","","False","","",""

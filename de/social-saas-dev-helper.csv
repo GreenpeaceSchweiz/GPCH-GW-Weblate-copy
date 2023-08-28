@@ -1,1 +1,8 @@
-{"detail":"Not found."}
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"social_saas_dev_helper.info.yml:0","Dev helpers","","","False","","",""
+"src/Plugin/DemoContent/SaaSFile.php:7","File","","","False","","",""
+"src/Plugin/DemoContent/SaaSGroup.php:9","Group","","","False","","",""
+"src/Plugin/DemoContent/SaaSPost.php:9","Post","","","False","","",""
+"social_saas_dev_helper.info.yml:0","SaaS","","","False","","",""
+"social_saas_dev_helper.info.yml:0","Social SaaS Dev Helper","","","False","","",""
+"src/Plugin/DemoContent/SaaSTopic.php:17","Topic","","","False","","",""

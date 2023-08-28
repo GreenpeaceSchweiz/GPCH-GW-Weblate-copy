@@ -1,4 +1,6 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"src/Plugin/WebformHandler/EmailWebformHandler.php:482;1368","Message","Nachricht","","False","","",""
+"src/EntitySettings/WebformEntitySettingsConfirmationForm.php:84","Message (reloads the current page/form and displays the confirmation message at the top of the page)","","","False","","",""
 "src/Plugin/WebformElement/WebformMessage.php:140","Message ID","","","False","","",""
 "src/Plugin/WebformElement/WebformMessage.php:113","Message close effect","","","False","","",""
 "src/Plugin/WebformElement/WebformMessage.php:103","Message content","","","False","","",""
@@ -1094,6 +1096,7 @@ Friend: Friend
 "src/WebformAddonsManager.php:879","Sherpa Webform","","","False","","",""
 "src/Plugin/WebformElement/DateTime.php:244","Short date - @format (@date)","","","False","","",""
 "modules/webform_example_variant/config/install/webform.webform.webform_example_variant_segments.yml:0","Short form","","","False","","",""
+"src/Form/WebformResultsCustomForm.php:230","Show","Anzeigen","","False","Show {limit} results per page","",""
 "modules/webform_examples_accessibility/webform_examples_accessibility.module:54","Show accessibility","","","False","","",""
 "src/Plugin/WebformElementBase.php:2897","Show add element button","","","False","","",""
 "config/install/webform.settings.yml:0","Show all","","","False","","",""
@@ -3567,6 +3570,7 @@ actions:
 "src/WebformEntityConditionsManager.php:59","expanded","","","False","","",""
 "src/Controller/WebformPluginExporterController.php:69","exporter","","","False","","",""
 "src/Controller/WebformPluginExporterController.php:70","exporters","","","False","","",""
+"src/Plugin/WebformElement/WebformHeight.php:72","feet","","","False","Imperial height unit","",""
 "modules/webform_templates/config/install/webform.webform.template_subscribe.yml:0","first_name:
   '#title': 'First Name'
   '#type': textfield
@@ -3715,6 +3719,7 @@ comments_card:
     '#title': Comments
     '#type': textarea
 ","","","False","","",""
+"src/Plugin/WebformElement/WebformHeight.php:73","foot","","","False","Imperial height unit","",""
 "src/Plugin/WebformElement/WebformDisplayOnTrait.php:75","form only","","","False","","",""
 "modules/webform_examples_accessibility/config/install/webform.webform.example_accessibility_containers.yml:0","form_element:
   '#type': textfield
@@ -3935,6 +3940,7 @@ notes:
   '#type': textfield
   '#title': Notes
 ","","","False","","",""
+"src/Plugin/WebformElement/WebformHeight.php:65;66","ft","","","False","Imperial height unit abbreviate","",""
 "config/install/webform.settings.yml:0","h2","","","False","","",""
 "src/Controller/WebformTestController.php:96","handler","","","False","","",""
 "src/Controller/WebformPluginHandlerController.php:90;251","handlers","","","False","","",""
@@ -3946,6 +3952,10 @@ notes:
 "modules/webform_scheduled_email/src/WebformScheduledEmailManager.php:482","ignored","","","False","","",""
 "modules/webform_image_select/src/Plugin/WebformElement/WebformImageSelect.php:59","image","Bild","","False","","",""
 "modules/webform_image_select/src/Plugin/WebformElement/WebformImageSelect.php:60","images","","","False","","",""
+"src/Plugin/WebformElement/WebformHeight.php:67;68","in","","","False","Imperial height unit abbreviate","",""
+"src/Form/WebformResultsCustomForm.php:214","in","","","False","Sort by {sort} in {direction} order","",""
+"src/Plugin/WebformElement/WebformHeight.php:75","inch","","","False","Imperial height unit","",""
+"src/Plugin/WebformElement/WebformHeight.php:74","inches","","","False","Imperial height unit","",""
 "modules/webform_templates/config/install/webform.webform.template_job_application.yml:0","information:
   '#title': 'Your Information'
   '#type': webform_section
@@ -5568,6 +5578,7 @@ web:
 "src/WebformEntityConditionsManager.php:62","optional","","","False","","",""
 "src/Element/WebformOptions.php:33","options","","","False","","",""
 "src/Plugin/WebformElement/DateBase.php:617","or","","","False","","",""
+"src/Form/WebformResultsCustomForm.php:215","order","","","False","Sort by {sort} in {direction} order","",""
 "modules/webform_templates/config/install/webform.webform.template_session_evaluation.yml:0","overall:
   '#type': radios
   '#title': 'How was the session overall?'
@@ -5879,14 +5890,3 @@ webform_example_element_multiple:
 "templates/webform-submission-navigation.html.twig:28","›","","","False","","",""
 "modules/webform_demo/webform_demo_event_registration/config/install/views.view.webform_demo_events.yml:0","››","","","False","","",""
 "src/Form/WebformHelpVideoForm.php:106","▶ Watch more videos","","","False","","",""
-"src/Element/WebformHeight.php:134","Feet","","","False","Imperial height unit","",""
-"src/Element/WebformHeight.php:146","Inches","","","False","Imperial height unit","",""
-"src/Plugin/WebformElement/WebformHeight.php:72","feet","","","False","Imperial height unit","",""
-"src/Plugin/WebformElement/WebformHeight.php:73","foot","","","False","Imperial height unit","",""
-"src/Plugin/WebformElement/WebformHeight.php:75","inch","","","False","Imperial height unit","",""
-"src/Plugin/WebformElement/WebformHeight.php:74","inches","","","False","Imperial height unit","",""
-"src/Plugin/WebformElement/WebformHeight.php:65;66","ft","","","False","Imperial height unit abbreviate","",""
-"src/Plugin/WebformElement/WebformHeight.php:67;68","in","","","False","Imperial height unit abbreviate","",""
-"src/Form/WebformResultsCustomForm.php:230","Show","Anzeigen","","False","Show {limit} results per page","",""
-"src/Form/WebformResultsCustomForm.php:214","in","","","False","Sort by {sort} in {direction} order","",""
-"src/Form/WebformResultsCustomForm.php:215","order","","","False","Sort by {sort} in {direction} order","",""

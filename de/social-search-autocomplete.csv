@@ -1,1 +1,5 @@
-{"detail":"Not found."}
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"social_search_autocomplete.info.yml:0","Adds autocomplete suggestions to the site search.","","","False","","",""
+"social_search_autocomplete.module:45","See all results","","","False","","",""
+"social_search_autocomplete.info.yml:0","Social","","","False","","",""
+"social_search_autocomplete.info.yml:0","Social Search Autocomplete","","","False","","",""

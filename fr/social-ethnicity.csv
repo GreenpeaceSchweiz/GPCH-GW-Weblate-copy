@@ -1,1 +1,6 @@
-{"detail":"Not found."}
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"config/install/taxonomy.vocabulary.ethnicity.yml:0","Ethnicities for a user's profile.","","","False","","",""
+"config/install/taxonomy.vocabulary.ethnicity.yml:0","Ethnicity","","","False","","",""
+"social_ethnicity.info.yml:0","Provides profile field configuration for ethnicity listing.","","","False","","",""
+"social_ethnicity.info.yml:0","Social","","","False","","",""
+"social_ethnicity.info.yml:0","Social Ethnicity","","","False","","",""
