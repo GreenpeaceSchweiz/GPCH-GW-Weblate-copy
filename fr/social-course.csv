@@ -156,7 +156,7 @@
 "templates/node--course-section--teaser.html.twig:96","completed","terminé","","False","","",""
 "social_course.module:779;895;976;992","course","cours","","False","","",""
 "modules/social_course_basic/modules/social_course_basic_invite/config/install/core.entity_form_display.group_content.course_basic-group_invitation.default.yml:0","example@example.com","example@example.com","","False","","",""
-"templates/group--course-basic--statistic--sky.html.twig:64","finished","","","False","","",""
+"templates/group--course-basic--statistic--sky.html.twig:64","finished","terminé","","False","","",""
 "social_course.module:777;895;976;992","group","groupe","","False","","",""
 "social_course.module:1295","in the course","dans le cours","","False","","",""
 "templates/group--course-basic--statistic--sky.html.twig:56","member","Membre","","False","","",""
