@@ -1,0 +1,20 @@
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"linkedin_insights_tag.permissions.yml:0","Administer LinkedIn Insights","","","False","","",""
+"linkedin_insights_tag.info.yml:0","Allows to embed LinkedIn Insights Tag on pages.","","","False","","",""
+"src/Form/LinkedinInsightsAdminSettingsForm.php:57","Choose this option whenever you want to force
+        the tracking to only use the image pixel and not javascript.","","","False","","",""
+"linkedin_insights_tag.links.menu.yml:0","Configure LinkedIn Insights script loading behavior.","","","False","","",""
+"src/Form/LinkedinInsightsAdminSettingsForm.php:56","Force image usage only","","","False","","",""
+"src/Form/LinkedinInsightsAdminSettingsForm.php:49","If none of the roles are selected, all
+       users will be tracked.If a user has any of the roles checked, that user
+       will be tracked (or excluded, depending on the setting above).","","","False","","",""
+"config/schema/linkedin_insights_tag.schema.yml:0","Image only","","","False","","",""
+"linkedin_insights_tag.routing.yml:0","LinkedIn Insights","","","False","","",""
+"linkedin_insights_tag.info.yml:0","LinkedIn Insights Tag","","","False","","",""
+"linkedin_insights_tag.links.menu.yml:0","LinkedIn Insights Tag settings","","","False","","",""
+"config/schema/linkedin_insights_tag.schema.yml:0","LinkedIn Insights settings","","","False","","",""
+"src/Form/LinkedinInsightsAdminSettingsForm.php:46","Load Linkedin Insights for following user roles:","","","False","","",""
+"src/Form/LinkedinInsightsAdminSettingsForm.php:40","Partner ID","","","False","","",""
+"src/Form/LinkedinInsightsAdminSettingsForm.php:36","Partner ID provided by Linkedin Insights.","","","False","","",""
+"linkedin_insights_tag.permissions.yml:0","Perform configuration changes for LinkedIn insights.","","","False","","",""
+"config/schema/linkedin_insights_tag.schema.yml:0","Roles","","","False","","",""

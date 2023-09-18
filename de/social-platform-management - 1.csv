@@ -1,0 +1,5 @@
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"social_platform_management.info.yml:0","Automated platform management for Open Social","","","False","","",""
+"src/Access/HealthCheckAccessCheck.php:39","Could not serve health_check because an invalid key was used.","","","False","","",""
+"social_platform_management.info.yml:0","Social","","","False","","",""
+"social_platform_management.info.yml:0","Social Platform Management","","","False","","",""

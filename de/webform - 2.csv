@@ -3951,7 +3951,7 @@ notes:
 "src/Element/WebformElementStates.php:399","if","","","False","","",""
 "modules/webform_scheduled_email/src/WebformScheduledEmailManager.php:482","ignored","","","False","","",""
 "modules/webform_image_select/src/Plugin/WebformElement/WebformImageSelect.php:59","image","Bild","","False","","",""
-"modules/webform_image_select/src/Plugin/WebformElement/WebformImageSelect.php:60","images","","","False","","",""
+"modules/webform_image_select/src/Plugin/WebformElement/WebformImageSelect.php:60","images","Bilder","","False","","",""
 "src/Plugin/WebformElement/WebformHeight.php:67;68","in","","","False","Imperial height unit abbreviate","",""
 "src/Form/WebformResultsCustomForm.php:214","in","","","False","Sort by {sort} in {direction} order","",""
 "src/Plugin/WebformElement/WebformHeight.php:75","inch","","","False","Imperial height unit","",""
