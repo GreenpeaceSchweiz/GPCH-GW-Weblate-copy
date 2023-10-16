@@ -10,7 +10,7 @@
 "src/Form/SocialWebpurifySettingsForm.php:230","Enable user validation","","","False","","",""
 "src/Form/SocialWebpurifySettingsForm.php:129","Enable validation mode","","","False","","",""
 "src/Form/SocialWebpurifySettingsForm.php:123","Enter the developer key provided to you by <a href=""http://www.webpurify.com"" target=""_blank"">WebPurify</a>","","","False","","",""
-"src/Form/SocialWebpurifySettingsForm.php:137","Entity types","","","False","","",""
+"src/Form/SocialWebpurifySettingsForm.php:137","Entity types","Entitätstypen","","False","","",""
 "src/Form/SocialWebpurifySettingsForm.php:115","General Configuration","","","False","","",""
 "src/Form/SocialWebpurifySettingsForm.php:195","Groups","","","False","","",""
 "social_webpurify.module:24","How to configure WebPurify","","","False","","",""

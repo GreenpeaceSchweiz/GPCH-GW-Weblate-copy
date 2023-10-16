@@ -12,7 +12,7 @@
 "modules/social_webhooks_user_login/src/Form/SocialWebhooksUserLoginSettings.php:49","First time log in","","","False","","",""
 "src/Form/SocialWebhooksSettings.php:80","Insert","","","False","","",""
 "social_webhooks.links.menu.yml:0","Settings for Social Webhooks.","","","False","","",""
-"modules/social_webhooks_user_login/social_webhooks_user_login.info.yml:0","Social","Sozial","","False","","",""
+"modules/social_webhooks_user_login/social_webhooks_user_login.info.yml:0","Social","","","False","","",""
 "social_webhooks.info.yml:0","Social Webhooks","","","False","","",""
 "social_webhooks.permissions.yml:0","Social Webhooks settings","","","False","","",""
 "modules/social_webhooks_user_login/social_webhooks_user_login.info.yml:0","Social Webhooks: User Login events","","","False","","",""

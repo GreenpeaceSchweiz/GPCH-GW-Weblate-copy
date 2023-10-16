@@ -5,7 +5,7 @@
 "modules/social_kpi_lite_user_login/social_kpi_lite_user_login.info.yml:0","Custom","Benutzerdefiniert","","False","","",""
 "social_kpi_lite.info.yml:0","Implements KPI Analytics for Open Social distribution.","","","False","","",""
 "social_kpi_lite.links.menu.yml:0;0","KPI Analytics","","","False","","",""
-"modules/social_kpi_lite_tagged_content/social_kpi_lite_tagged_content.info.yml:0","Social","Sozial","","False","","",""
+"modules/social_kpi_lite_tagged_content/social_kpi_lite_tagged_content.info.yml:0","Social","","","False","","",""
 "social_kpi_lite.info.yml:0","Social KPI (Lite)","","","False","","",""
 "social_kpi_lite.routing.yml:0","Social KPI Analytics","","","False","","",""
 "modules/social_kpi_lite_tag_followers/social_kpi_lite_tag_followers.info.yml:0","Social KPI Tag Followers","","","False","","",""

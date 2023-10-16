@@ -21,7 +21,7 @@
 "social_birthday.module:119","Post a birthday wish","","","False","","",""
 "config/install/views.view.birthday.yml:0;0","Reset","Zurücksetzen","","False","","",""
 "config/install/views.view.birthday.yml:0;0","See more","","","False","","",""
-"social_birthday.info.yml:0","Social","Sozial","","False","","",""
+"social_birthday.info.yml:0","Social","","","False","","",""
 "social_birthday.info.yml:0","Social Birthday","","","False","","",""
 "config/install/views.view.birthday.yml:0;0","Sort by","Sortieren nach","","False","","",""
 "social_birthday.module:133","Today","Heute","","False","","",""

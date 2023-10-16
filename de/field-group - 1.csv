@@ -21,7 +21,7 @@
 "contrib/field_group_migrate/src/Plugin/migrate/source/d7/FieldGroup.php:110","Bundle","Subtyp","","False","","",""
 "includes/field_ui.inc:270","Cancel","Abbrechen","","False","","",""
 "config/schema/field_group.field_group_formatter_plugin.schema.yml:0","Classes of the fieldgroup","CSS-Klassen der Feldgruppe","","False","","",""
-"includes/field_ui.inc:400","Clone","Duplizieren","","False","","",""
+"includes/field_ui.inc:400","Clone","Klonen","","False","","",""
 "includes/field_ui.inc:393","Clone fieldgroups from selected display to the current display","","","False","","",""
 "src/Plugin/field_group/FieldGroupFormatter/HtmlElement.php:178","Collapsible","Zusammenklappbar","","False","","",""
 "src/Form/FieldGroupAddForm.php:234","Create group","Gruppe erstellen","","False","","",""

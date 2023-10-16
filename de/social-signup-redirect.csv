@@ -6,7 +6,7 @@
 "social_signup_redirect.module:69","Redirect after completing password","","","False","","",""
 "social_signup_redirect.module:70","Redirect after completing profile","","","False","","",""
 "social_signup_redirect.module:32","Redirect after registration","","","False","","",""
-"social_signup_redirect.info.yml:0","Social","Sozial","","False","","",""
+"social_signup_redirect.info.yml:0","Social","","","False","","",""
 "social_signup_redirect.info.yml:0","Social Signup Redirect","","","False","","",""
 "social_signup_redirect.module:42","Static URL","","","False","","",""
 "social_signup_redirect.module:38","Type of redirect","","","False","","",""

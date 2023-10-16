@@ -112,7 +112,7 @@
 "social_course.module:731","Select a member","Mitglied auswählen","","False","","",""
 "social_course.module:607","Set starting date and time","","","False","","",""
 "src/Form/CourseJoinAnonymousForm.php:103","Sign up","Registrieren","","False","","",""
-"modules/social_course_statistics/social_course_statistics.info.yml:0","Social","Sozial","","False","","",""
+"modules/social_course_statistics/social_course_statistics.info.yml:0","Social","","","False","","",""
 "modules/social_course_advanced/modules/social_course_advanced_invite/social_course_advanced_invite.info.yml:0","Social Advanced Course Invite","","","False","","",""
 "modules/social_course_advanced/modules/social_course_advanced_request/social_course_advanced_request.info.yml:0","Social Advanced Course Request","","","False","","",""
 "modules/social_course_basic/modules/social_course_basic_invite/social_course_basic_invite.info.yml:0","Social Basic Course Invite","","","False","","",""

@@ -35,7 +35,7 @@
 "config/schema/social_o365.schema.yml:0","Role","Rolle","","False","","",""
 "modules/social_o365_delve/src/SocialO365DelveUserManager.php:600","Sets the age group of the user. Allowed values: null, minor, notAdult and adult.","","","False","","",""
 "social_o365.module:18","Sign up","Registrieren","","False","","",""
-"modules/social_o365_delve/social_o365_delve.info.yml:0","Social","Sozial","","False","","",""
+"modules/social_o365_delve/social_o365_delve.info.yml:0","Social","","","False","","",""
 "social_o365.info.yml:0","Social Office 365","","","False","","",""
 "modules/social_o365_delve/social_o365_delve.info.yml:0","Social Office 365 Azure & Delve integration","","","False","","",""
 "modules/social_o365_delve/src/SocialO365DelveUserManager.php:469","Something went wrong Beta: @error","","","False","","",""

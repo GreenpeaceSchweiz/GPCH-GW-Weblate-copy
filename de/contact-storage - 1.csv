@@ -19,7 +19,7 @@
 "config/install/views.view.contact_messages.yml:0","Asc","aufsteigend","","False","","",""
 "src/MessageEditForm.php:23","Author name","","","False","","",""
 "config/schema/contact_storage.schema.yml:0","Autoreply format","","","False","","",""
-"src/Form/ContactFormCloneForm.php:145","Clone","","","False","","",""
+"src/Form/ContactFormCloneForm.php:145","Clone","Klonen","","False","","",""
 "contact_storage.module:34","Configuring contact message pages","","","False","","",""
 "config/schema/contact_storage.views.schema.yml:0","Contact Message bulk form","","","False","","",""
 "config/schema/contact_storage.schema.yml:0","Contact Storage settings","","","False","","",""

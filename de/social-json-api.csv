@@ -12,6 +12,6 @@
 "src/Form/SocialJsonApiSettings.php:70","OAuth 2.0 Grants","","","False","","",""
 "src/Form/SocialJsonApiSettings.php:69","Open Social JSON API Documentation","","","False","","",""
 "social_json_api.links.menu.yml:0","Settings for Social JSON API.","","","False","","",""
-"social_json_api.info.yml:0","Social","Sozial","","False","","",""
+"social_json_api.info.yml:0","Social","","","False","","",""
 "social_json_api.info.yml:0","Social JSON API","","","False","","",""
 "social_json_api.info.yml:0","This module enables a JSON API for your Open Social site.","","","False","","",""

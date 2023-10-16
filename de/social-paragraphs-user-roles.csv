@@ -1,4 +1,4 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"social_paragraphs_user_roles.info.yml:0","Social","Sozial","","False","","",""
+"social_paragraphs_user_roles.info.yml:0","Social","","","False","","",""
 "social_paragraphs_user_roles.info.yml:0","Social Paragraphs User Roles","","","False","","",""
 "social_paragraphs_user_roles.info.yml:0","This modules adds the possibility to configure the visibility of sections by user roles.","","","False","","",""

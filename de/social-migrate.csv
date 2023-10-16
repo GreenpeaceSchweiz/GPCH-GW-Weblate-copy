@@ -31,7 +31,7 @@
 "social_migrate.info.yml:0","Provides users transfer from legacy platform","","","False","","",""
 "src/Form/MigrateUsersSettingsForm.php:128","Send invites","","","False","","",""
 "src/Plugin/QueueWorker/SendInvites.php:12","Send invites to the imported users","","","False","","",""
-"social_migrate.info.yml:0","Social","Sozial","","False","","",""
+"social_migrate.info.yml:0","Social","","","False","","",""
 "social_migrate.info.yml:0","Social Migrate","","","False","","",""
 "src/Form/MigrateUsersForm.php:67","Source","Quelle","","False","","",""
 "social_migrate.module:135","Subject","Betreff","","False","","",""

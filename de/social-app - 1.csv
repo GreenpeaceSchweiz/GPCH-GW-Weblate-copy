@@ -26,7 +26,7 @@
 "src/Form/SocialAppSettingsForm.php:182","No","","","False","","",""
 "src/Plugin/ActivitySend/SocialAppPushSend.php:18","Push notifications to the Open Social mobile app.","","","False","","",""
 "src/Form/SocialAppSettingsForm.php:222","Save","Speichern","","False","","",""
-"social_app.info.yml:0","Social","Sozial","","False","","",""
+"social_app.info.yml:0","Social","","","False","","",""
 "social_app.info.yml:0","Social App","","","False","","",""
 "src/RealTime/FirebaseClient.php:195","Some of the recipients will not be able to receive the notification, please check response.","","","False","","",""
 "src/Form/SocialAppSettingsForm.php:125","Team name","","","False","","",""

@@ -26,7 +26,7 @@
 "modules/social_admin_notifications/social_admin_notifications.info.yml:0","Provides notifications about system activity for administrators.","","","False","","",""
 "modules/social_admin_notifications/social_admin_notifications.permissions.yml:0","Receive e-mail notifications about platform activity","","","False","","",""
 "modules/social_admin_notifications/config/install/field.field.message.create_user_platform.field_message_related_object.yml:0","Related object","Zugehöriges Objekt","","False","","",""
-"modules/social_admin_notifications/social_admin_notifications.info.yml:0","Social","Sozial","","False","","",""
+"modules/social_admin_notifications/social_admin_notifications.info.yml:0","Social","","","False","","",""
 "social_admin.info.yml:0","Social Admin","","","False","","",""
 "modules/social_admin_notifications/social_admin_notifications.info.yml:0","Social Admin Notifications","","","False","","",""
 "modules/social_admin_notifications/social_admin_notifications.module:20","System Email notifications","","","False","","",""

@@ -5,6 +5,6 @@
 "social_wootric.permissions.yml:0","Allows access to the Wootric survey, presented as per the Wootric settings.","","","False","","",""
 "src/Form/SocialWootricSettingsForm.php:69","Disable the open social survey.","","","False","","",""
 "social_wootric.info.yml:0","Module to add a Wootric survey to our site.","","","False","","",""
-"social_wootric.info.yml:0","Social","Sozial","","False","","",""
+"social_wootric.info.yml:0","Social","","","False","","",""
 "social_wootric.info.yml:0","Social Wootric","","","False","","",""
 "social_wootric.routing.yml:0","Wootric settings","","","False","","",""

@@ -55,7 +55,7 @@
 "modules/social_course_scorm_statistics/src/Controller/ScormStatisticsController.php:193","See more details","","","False","","",""
 "social_course_scorm.links.task.yml:0","Settings","Einstellungen","","False","","",""
 "templates/html--course-scorm--load.html.twig:51","Skip to main content","Direkt zum Inhalt","","False","","",""
-"modules/social_course_scorm_statistics/social_course_scorm_statistics.info.yml:0","Social","Sozial","","False","","",""
+"modules/social_course_scorm_statistics/social_course_scorm_statistics.info.yml:0","Social","","","False","","",""
 "social_course_scorm.info.yml:0","Social Course SCORM","","","False","","",""
 "modules/social_course_scorm_statistics/social_course_scorm_statistics.info.yml:0","Social Course SCORM Statistics","","","False","","",""
 "modules/social_course_scorm_statistics/src/Controller/ScormStatisticsController.php:337","Status","Status","","False","","",""

@@ -17,7 +17,7 @@
 "src/Service/SocialBadgeManager.php:280","One user profile processed.","","","False","","",""
 "config/install/core.entity_view_mode.badge.preview.yml:0","Preview","","","False","","",""
 "social_badge.info.yml:0","Provides possibility to add badges for users after they finished course.","","","False","","",""
-"social_badge.info.yml:0","Social","Sozial","","False","","",""
+"social_badge.info.yml:0","Social","","","False","","",""
 "social_badge.info.yml:0","Social Badge","","","False","","",""
 "config/install/core.entity_view_mode.badge.teaser.yml:0","Teaser","Teaser","","False","","",""
 "src/Entity/Badge.php:88","Title","Titel","","False","","",""

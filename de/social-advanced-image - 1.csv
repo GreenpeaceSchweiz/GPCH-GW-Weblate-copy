@@ -22,7 +22,7 @@
 "src/Entity/ImageAttribute.php:101","Name","Name","","False","","",""
 "src/Plugin/Field/FieldWidget/AdvancedImageCropAttributeWidget.php:96","No","Nein","","False","","",""
 "src/Plugin/Field/FieldType/AdvancedImageItem.php:8","Reference","Verweis","","False","","",""
-"social_advanced_image.info.yml:0","Social","Sozial","","False","","",""
+"social_advanced_image.info.yml:0","Social","","","False","","",""
 "social_advanced_image.info.yml:0","Social Advanced Image","","","False","","",""
 "src/Plugin/Field/FieldWidget/AdvancedImageCropAttributeWidget.php:148","The copyright attribute is used as a tooltip when the mouse hovers over the image.","Das Copyright-Attribut wird als Tooltip verwendet, wenn die Maus über das Bild fährt.","","False","","",""
 "src/Entity/ImageAttribute.php:135","The copyright value.","Der Copyright Wert.","","False","","",""

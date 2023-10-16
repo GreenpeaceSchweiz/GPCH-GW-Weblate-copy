@@ -28,7 +28,7 @@
 "social_collaboration.links.menu.yml:0","Settings for collaboration and multiple editors","","","False","","",""
 "src/Form/SocialCollaborationSettingsForm.php:93","Show co-authors block","","","False","","",""
 "config/schema/social_collaboration.schema.yml:0","Show co-authors block.","","","False","","",""
-"modules/social_collaboration_request/social_collaboration_request.info.yml:0","Social","Sozial","","False","","",""
+"modules/social_collaboration_request/social_collaboration_request.info.yml:0","Social","","","False","","",""
 "social_collaboration.info.yml:0","Social Collaboration","","","False","","",""
 "modules/social_collaboration_request/social_collaboration_request.info.yml:0","Social Collaboration Request","","","False","","",""
 "config/schema/social_collaboration.schema.yml:0","Social Collaboration Settings","","","False","","",""

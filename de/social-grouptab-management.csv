@@ -3,7 +3,7 @@
 "social_grouptab_management.info.yml:0","Allows site managers to manage which navigation tabs are available in a group.","","","False","","",""
 "social_grouptab_management.module:146","Group members landing tab","Reiter auf dem Gruppenmitglieder zuerst landen sollen","","False","","",""
 "social_grouptab_management.module:57","Landing tab for members","Reiter auf dem Mitglieder landen sollen","","False","","",""
-"social_grouptab_management.info.yml:0","Social","Sozial","","False","","",""
+"social_grouptab_management.info.yml:0","Social","","","False","","",""
 "social_grouptab_management.info.yml:0","Social Group Tab Management","","","False","","",""
 "social_grouptab_management.module:92","Tab Management","Tab-Management","","False","","",""
 "social_grouptab_management.module:52","Tabs","Reiter","","False","","",""

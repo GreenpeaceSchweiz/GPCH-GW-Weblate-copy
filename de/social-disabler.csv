@@ -6,6 +6,6 @@
 "social_disabler.routing.yml:0","Disabler settings","","","False","","",""
 "social_disabler.links.menu.yml:0","Event and Group functionality.","","","False","","",""
 "social_disabler.info.yml:0","Hide pages and blocks based on events.","","","False","","",""
-"social_disabler.info.yml:0","Social","Sozial","","False","","",""
+"social_disabler.info.yml:0","Social","","","False","","",""
 "social_disabler.info.yml:0","Social Disabler","","","False","","",""
 "config/schema/social_disabler.schema.yml:0","Social Disabler settings","","","False","","",""

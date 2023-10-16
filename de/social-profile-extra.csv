@@ -15,7 +15,7 @@
 "src/Plugin/UserExportPlugin/UserManager.php:103;15","Manager","","","False","","",""
 "social_profile_extra.module:425","Outside of working hours","","","False","","",""
 "modules/social_out_of_office/social_out_of_office.info.yml:0","Provides out of office functionality.","","","False","","",""
-"social_profile_extra.info.yml:0","Social","Sozial","","False","","",""
+"social_profile_extra.info.yml:0","Social","","","False","","",""
 "modules/social_out_of_office/social_out_of_office.info.yml:0","Social (experimental)","","","False","","",""
 "social_profile_extra.module:112;115","Social Links","","","False","","",""
 "modules/social_out_of_office/social_out_of_office.info.yml:0","Social Out of office","","","False","","",""

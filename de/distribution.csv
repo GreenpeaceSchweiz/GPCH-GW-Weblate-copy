@@ -503,7 +503,12 @@ False\\|My unmuted groups'","","","False","","",""
 <p>[message:preview]</p>
 
 <p>[message:cta_button]</p>
-","","","False","","",""
+","<p>Dies ist eine Bestätigung, dass du dich für die Veranstaltung <em>[social_event:event_iam_organizing]</em> angemeldet hast.</p>
+
+<p>[message:preview]</p>
+
+<p>[message:cta_button]</p>
+","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/config/install/message.template.invite_event_enrollment.yml:0","<p>You have been invited for the even [social_event:event_iam_organizing] by [message:author:display-name]</p>
 ","<p>Du wurdest zu der Veranstaltung [social_event:event_iam_organizing] von [message:author:display-name] eingeladen</p>
 ","","False","","",""
@@ -2907,7 +2912,7 @@ Titel (absteigend)|Z - A","","False","","",""
 "modules/social_features/social_core/config/install/crop.type.hero_small.yml:0","Small hero","","","False","","",""
 "modules/social_features/social_core/config/install/crop.type.profile_small.yml:0","Small sized profile image","Kleinformat Profilbild","","False","","",""
 "modules/social_features/social_group/config/install/core.entity_view_mode.group.small_teaser.yml:0","Small teaser","","","False","","",""
-"modules/social_features/social_user_export/social_user_export.info.yml:0","Social","Sozial","","False","","",""
+"modules/social_features/social_user_export/social_user_export.info.yml:0","Social","","","False","","",""
 "modules/social_features/social_group/modules/social_group_flexible_group/modules/social_flexible_group_book/social_flexible_group_book.info.yml:0","Social (Experimental)","","","False","","",""
 "modules/social_features/social_profile/modules/social_profile_preview/social_profile_preview.info.yml:0","Social (experimental)","","","False","","",""
 "modules/social_features/social_activity/social_activity.info.yml:0","Social Activity","","","False","","",""

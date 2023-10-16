@@ -13,7 +13,7 @@
 "templates/gtranslate-list.html.twig:10","Reset language","","","False","","",""
 "templates/gtranslate-list.html.twig:25","Select your language","","","False","","",""
 "src/Form/GtranslateSettingsForm.php:38","Selected language for Google Translate","","","False","","",""
-"social_gtranslate.info.yml:0","Social","Sozial","","False","","",""
+"social_gtranslate.info.yml:0","Social","","","False","","",""
 "social_gtranslate.info.yml:0","Social Google Translate","","","False","","",""
 "config/schema/social_gtranslate.schema.yml:0","Social Google Translate Settings","","","False","","",""
 "src/Plugin/Block/GtranslateBlock.php:10","Social Google Translator","","","False","","",""

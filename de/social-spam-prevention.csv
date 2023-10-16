@@ -6,7 +6,7 @@
 "social_spam_prevention.permissions.yml:0","Bypass spam prevention","Spam-Prävention umgehen","","False","","",""
 "social_spam_prevention.permissions.yml:0","Configure Social Spam Prevention settings","Einstellungen zum Schutz vor Spam konfigurieren","","False","","",""
 "social_spam_prevention.permissions.yml:0","Do not block user if he use spam words","Nutzer:in nicht blockieren, wenn diese:r Spam-Wörter benutzt","","False","","",""
-"src/Form/SocialSpamPreventionSettingsForm.php:84","Entity types","","","False","","",""
+"src/Form/SocialSpamPreventionSettingsForm.php:84","Entity types","Entitätstypen","","False","","",""
 "src/Form/SocialSpamPreventionSettingsForm.php:77","If enabled, the user who create a spam content will be blocked","Wenn aktiviert, wird der:die Nutzer:in, der:die einen Spam-Inhalt erstellt hat, blockiert","","False","","",""
 "src/Form/SocialSpamPreventionSettingsForm.php:124","List of words considered as a spam (separated with a comma). </br>
       Please note that for files we're only checking the file name, not its content.","","","False","","",""
@@ -15,7 +15,7 @@
 "social_spam_prevention.links.menu.yml:0","Set the configuration to prevent spam","","","False","","",""
 "social_spam_prevention.links.menu.yml:0","Set the configuration to prevent spam.","","","False","","",""
 "social_spam_prevention.links.task.yml:0","Settings","Einstellungen","","False","","",""
-"social_spam_prevention.info.yml:0","Social","Sozial","","False","","",""
+"social_spam_prevention.info.yml:0","Social","","","False","","",""
 "social_spam_prevention.info.yml:0","Social Spam Prevention","Spam Prävention","","False","","",""
 "social_spam_prevention.links.menu.yml:0","Spam prevention settings","Einstellungen zur Spam Prävention","","False","","",""
 "src/Form/SocialSpamPreventionSettingsForm.php:118","Spam words","Spam Wörter","","False","","",""

@@ -48,7 +48,7 @@
 "src/Form/SocialAuthSettingsForm.php:88","Register and login","","","False","","",""
 "config/schema/social_auth.schema.yml:0","Role","Rolle","","False","","",""
 "config/schema/social_auth.schema.yml:0","Roles for which Social Auth Login is disabled","","","False","","",""
-"social_auth.info.yml:0","Social","Sozial","","False","","",""
+"social_auth.info.yml:0","Social","","","False","","",""
 "social_auth.info.yml:0","Social Auth","","","False","","",""
 "src/Plugin/Block/SocialAuthLoginBlock.php:11","Social Auth Login","","","False","","",""
 "src/Form/SocialAuthSettingsForm.php:70","Social Auth Settings","","","False","","",""

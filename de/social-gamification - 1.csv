@@ -194,7 +194,7 @@
 "modules/social_gamification_milestone/config/install/views.view.tasks_points.yml:0","Processed","","","False","","",""
 "modules/social_gamification_featured/social_gamification_featured.info.yml:0","Provides a leaderboard block for use on dashboard.","","","False","","",""
 "modules/social_gamification_milestone/src/Form/GamificationMilestoneForm.php:153","Publish status","","","False","","",""
-"modules/social_gamification_milestone/config/install/views.view.tasks_points.yml:0;0","Published","","","False","","",""
+"modules/social_gamification_milestone/config/install/views.view.tasks_points.yml:0;0","Published","Veröffentlicht","","False","","",""
 "config/install/views.view.gamification.yml:0;0","Rank","","","False","","",""
 "config/install/social_gamification.gamification_reward.refine_your_interests.yml:0","Refine your interests","","","False","","",""
 "modules/social_gamification_milestone/social_gamification_milestone.module:127","Relate a user to the social gamification milestones.","","","False","","",""

@@ -10,5 +10,5 @@
 "config/optional/paragraphs.paragraphs_type.poll_item.yml:0","Poll item","Umfrage item","","False","","",""
 "src/Plugin/Block/SocialPollRecentBlock.php:75","Select a poll you would like to show in the block, leave it empty to show the most recently created.","Wähle eine Umfrage aus, die du im Block anzeigen möchtest. Lass es leer, um die zuletzt erstellte anzuzeigen.","","False","","",""
 "src/Plugin/Block/SocialPollRecentBlock.php:74","Select a poll.","Wähle eine Umfrage aus.","","False","","",""
-"social_poll.info.yml:0","Social","Sozial","","False","","",""
+"social_poll.info.yml:0","Social","","","False","","",""
 "social_poll.info.yml:0","Social Poll","","","False","","",""

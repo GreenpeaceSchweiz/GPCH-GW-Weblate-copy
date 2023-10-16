@@ -17,7 +17,7 @@
 "src/Commands/SocialEngagementCommands.php:46","Please provide a valid start and end date.","","","False","","",""
 "src/Form/SocialEngagementSettingsForm.php:74","Roles to ignore","","","False","","",""
 "src/Form/SocialEngagementSettingsForm.php:75","Select the user roles to ignore when getting Engagement values.","","","False","","",""
-"social_engagement.info.yml:0","Social","Sozial","","False","","",""
+"social_engagement.info.yml:0","Social","","","False","","",""
 "social_engagement.info.yml:0","Social Engagement Health Index","","","False","","",""
 "src/Plugin/SocialEngagementPlugin/TotalAmountOfCreatedCommentsByLU.php:7","Total amount of created comments by LU","","","False","","",""
 "src/Plugin/SocialEngagementPlugin/TotalAmountOfCreatedContentByLU.php:7","Total amount of created content by LU","","","False","","",""

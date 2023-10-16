@@ -7,7 +7,7 @@
 "social_dashboard.module:115","New Dashboard","Neues Dashboard","","False","","",""
 "social_dashboard.info.yml:0","Provides the ability to create dashboards using the layout builder.","","","False","","",""
 "src/Plugin/LayoutBuilderRestriction/SocialBlockRestriction.php:13","Restrict blocks for the Dashboard","","","False","","",""
-"social_dashboard.info.yml:0","Social","Sozial","","False","","",""
+"social_dashboard.info.yml:0","Social","","","False","","",""
 "src/Plugin/LayoutBuilderRestriction/SocialBlockRestriction.php:13","Social Block Restriction","","","False","","",""
 "social_dashboard.info.yml:0","Social Dashboard","","","False","","",""
 "social_dashboard.permissions.yml:0","View dashboard content","","","False","","",""

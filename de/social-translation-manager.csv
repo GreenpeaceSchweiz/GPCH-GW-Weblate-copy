@@ -13,7 +13,7 @@
 "src/Form/TranslationManagementSettings.php:156","Remove and reimport all translations","","","False","","",""
 "src/Form/TranslationManagementSettings.php:127","Remove customised flag","","","False","","",""
 "src/Service/ProxyService.php:112","Retrieve translations via @proxy with verification set to @verify_cert. This request was @status.","","","False","","",""
-"social_translation_manager.info.yml:0","Social","Sozial","","False","","",""
+"social_translation_manager.info.yml:0","Social","","","False","","",""
 "social_translation_manager.links.task.yml:0","Social Translation Manager","","","False","","",""
 "config/schema/social_translation_manager.schema.yml:0","Social Translation Manager Settings","","","False","","",""
 "config/schema/social_translation_manager.schema.yml:0","The Weblate project name that is used to retrieve the correct translations from Weblate","","","False","","",""

@@ -120,7 +120,7 @@
 "src/Entity/Choise.php:97","Selected answers","","","False","","",""
 "src/Entity/Question.php:132","Shuffle the choices","","","False","","",""
 "src/Entity/Choise.php:92","Shuffled answers","","","False","","",""
-"modules/social_course_quiz_import/social_course_quiz_import.info.yml:0","Social","Sozial","","False","","",""
+"modules/social_course_quiz_import/social_course_quiz_import.info.yml:0","Social","","","False","","",""
 "social_course_quiz.info.yml:0","Social Course Quiz","","","False","","",""
 "modules/social_course_quiz_import/social_course_quiz_import.info.yml:0","Social Course Quiz Import","","","False","","",""
 "social_course_quiz.module:778","Sorry, you have not passed!","","","False","","",""

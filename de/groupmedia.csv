@@ -62,7 +62,7 @@
 "config/optional/views.view.group_media.yml:0","Media type","","","False","","",""
 "config/optional/views.view.group_media.yml:0","Offset","","","False","","",""
 "config/optional/views.view.group_media.yml:0","Page","","","False","","",""
-"config/optional/views.view.group_media.yml:0","Published","","","False","","",""
+"config/optional/views.view.group_media.yml:0","Published","Veröffentlicht","","False","","",""
 "config/optional/views.view.group_media.yml:0","Publisher","","","False","","",""
 "groupmedia.links.action.yml:0","Relate media","","","False","","",""
 "src/Plugin/Action/RemoveMediaFromGroup.php:100","Remove from Group","","","False","","",""
