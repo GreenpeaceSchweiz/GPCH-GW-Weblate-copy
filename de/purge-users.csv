@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"src/Services/UserManagementService.php:130","'%name has been deleted.'","","","False","","",""
+"src/Services/UserManagementService.php:130","'%name has been deleted.'","'%name wurde gelöscht.'","","False","","",""
 "src/Services/UserManagementService.php:119","'%name has been disabled.'","","","False","","",""
 "src/Services/UserManagementService.php:180","'%name has been notified.'","","","False","","",""
 "src/Form/ConfirmationForm.php:94","...and @more more.","","","False","","",""
@@ -29,7 +29,11 @@
 
 Your account has been deleted due the website’s policy to automatically remove users who match certain criteria. If you have concerns regarding the deletion, please talk to the administrator of the website. 
 
-Thank you","","","False","","",""
+Thank you","Liebe:r Nutzer:in, 
+
+Dein Konto wurde aufgrund der Richtlinien der Website gelöscht, Nuter:innen, die bestimmte Kriterien erfüllen, automatisch zu entfernen. Wenn du Bedenken bezüglich der Löschung hast, wende dich bitte an den/die Administrator:in der Website.
+
+Danke","","False","","",""
 "src/Form/SettingsForm.php:56","Dear User, 
 
 Your account will be deleted soon due the website’s policy to automatically remove users who match certain criteria. If you have concerns regarding the deletion, please talk to the administrator of the website.  

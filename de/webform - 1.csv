@@ -13,7 +13,7 @@
 "src/Plugin/WebformHandler/EmailWebformHandler.php:1260","'%form: Email not sent for %handler handler because the <em>@type</em> email (%email) is not valid.'","","","False","","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:1263","'%form: The <em>@type</em> email address (%email) for %handler handler  is not valid.'","","","False","","",""
 "src/Plugin/WebformHandler/ActionWebformHandler.php:226","'%key is not valid element key.'","","","False","","",""
-"src/Form/WebformSubmissionDeleteForm.php:156","'%label has been deleted.'","","","False","","",""
+"src/Form/WebformSubmissionDeleteForm.php:156","'%label has been deleted.'","'%label wurde gelöscht.'","","False","","",""
 "src/WebformOptionsDeleteForm.php:49","'%label is used by the below composite element(s).'","","","False","","",""
 "src/WebformOptionsDeleteForm.php:60","'%label is used by the below webform(s).'","","","False","","",""
 "src/Plugin/Field/FieldFormatter/WebformEntityReferenceEntityFormatter.php:152","'%label webform can not be previewed when editing content.'","","","False","","",""

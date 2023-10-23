@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"modules/social_gamification_milestone/src/Form/GamificationMilestoneDeleteForm.php:40","'%label has been deleted.'","","","False","","",""
+"modules/social_gamification_milestone/src/Form/GamificationMilestoneDeleteForm.php:40","'%label has been deleted.'","'%label wurde gelöscht.'","","False","","",""
 "modules/social_gamification_milestone/templates/social-gamification-milestone-popup.html.twig:71","'+1 badge'","","","False","","",""
 "modules/social_gamification_milestone/src/Controller/MilestonesPopupController.php:107","'+@number points'","","","False","","",""
 "modules/social_gamification_milestone/src/GamificationMilestoneListBuilder.php:199","'+@points point'","","","False","","",""

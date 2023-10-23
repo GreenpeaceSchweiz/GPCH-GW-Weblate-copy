@@ -232,7 +232,7 @@
 "modules/paragraphs_library/src/Form/LibraryItemRevisionRevertForm.php:159","Revert","Zurücksetzen","","False","","",""
 "modules/paragraphs_library/src/Controller/LibraryItemController.php:78","Revision","","","False","","",""
 "modules/paragraphs_library/paragraphs_library.install:229","Revision create time","Erstellungsdatum der Revision","","False","","",""
-"modules/paragraphs_library/src/Form/LibraryItemRevisionDeleteForm.php:93","Revision from %revision-date has been deleted.","","","False","","",""
+"modules/paragraphs_library/src/Form/LibraryItemRevisionDeleteForm.php:93","Revision from %revision-date has been deleted.","Die Revision von %revision-date wurde gelöscht.","","False","","",""
 "modules/paragraphs_library/paragraphs_library.install:142","Revision log message","Protokollnachricht der Revision","","False","","",""
 "modules/paragraphs_library/src/Controller/LibraryItemController.php:163","Revision of %title from %date","Revision von %title vom %date","","False","","",""
 "modules/paragraphs_library/paragraphs_library.install:234","Revision user","Revisionsbenutzer","","False","","",""

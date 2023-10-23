@@ -41,7 +41,7 @@
 "externalauth.views.inc:27","Provider","","","False","","",""
 "config/optional/views.view.authmap.yml:0","Reset","","","False","","",""
 "config/optional/views.view.authmap.yml:0","Sort by","","","False","","",""
-"src/Form/AuthmapDeleteForm.php:141","The link has been deleted.","","","False","","",""
+"src/Form/AuthmapDeleteForm.php:141","The link has been deleted.","Der Link wurde gelöscht.","","False","","",""
 "externalauth.views.inc:28","The name of the authentication provider providing the authname.","","","False","","",""
 "externalauth.views.inc:60","The user linked to the authname.","","","False","","",""
 "externalauth.views.inc:44","Unique authentication name provided by authentication provider.","","","False","","",""

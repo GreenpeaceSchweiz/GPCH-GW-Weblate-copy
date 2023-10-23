@@ -48,6 +48,7 @@
 "src/Plugin/views/style/LimitGrouping.php:93","Offset:","","","False","","",""
 "config/schema/social_search_grid.schema.yml:0","On which field to sort the groups","","","False","","",""
 "modules/social_search_grid_promoted/src/Plugin/Block/PromotedSearchBlock.php:116","Partial search","","","False","","",""
+"modules/social_search_grid_promoted/config/optional/block.block.promotedsearchblock.yml:0","Promoted results","","","False","","",""
 "modules/social_search_grid_promoted/src/Plugin/Block/PromotedSearchBlock.php:14","Promoted search block","","","False","","",""
 "modules/social_search_grid_promoted/social_search_grid_promoted.links.task.yml:0","Promoted search results","","","False","","",""
 "modules/social_search_grid_promoted/social_search_grid_promoted.routing.yml:0","Promoted search results settings","","","False","","",""

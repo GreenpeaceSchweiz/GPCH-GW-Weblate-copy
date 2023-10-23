@@ -36,7 +36,7 @@
 "src/Form/QueueForm.php:179","How long to keep completed items in the database.","","","False","","",""
 "config/schema/advancedqueue.schema.yml:0","Icon","","","False","","",""
 "config/install/views.view.advancedqueue_jobs.yml:0","Items per page","Elemente pro Seite","","False","","",""
-"src/Form/DeleteJob.php:72","Job @job_id has been deleted.","","","False","","",""
+"src/Form/DeleteJob.php:72","Job @job_id has been deleted.","Job @job_id wurde gelöscht.","","False","","",""
 "src/Form/RetryJob.php:70","Job @job_id has been queued for retrying.","","","False","","",""
 "src/Form/ReleaseJob.php:72","Job @job_id has been released.","","","False","","",""
 "config/install/views.view.advancedqueue_jobs.yml:0","Job ID","","","False","","",""

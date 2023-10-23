@@ -49,7 +49,6 @@
 "google_tag.install:98","Google Tag Manager snippet directory","","","False","","",""
 "config/schema/google_tag.schema.yml:0","ID","","","False","","",""
 "src/Form/SettingsForm.php:106","If checked, then each JavaScript snippet will be included as a file. This is <strong>recommended</strong>. Leave unchecked to inline each snippet into the page. This only applies to data layer and script snippets.","","","False","","",""
-"src/Form/SettingsForm.php:113","If checked, then the JavaScript snippet files will be created during a cache rebuild. This is <strong>recommended on production sites</strong>. If not checked, any missing snippet files will be created during a page response.","","","False","","",""
 "src/Form/SettingsForm.php:99","If checked, then the JavaScript snippet will be compacted to remove unnecessary whitespace. This is <strong>recommended on production sites</strong>. Leave unchecked to output a snippet that can be examined using a JavaScript debugger in the browser.","","","False","","",""
 "src/Form/ContainerTrait.php:78","If checked, then the applicable snippets will include the environment items below. Enable <strong>only for development</strong> purposes.","","","False","","",""
 "src/Form/ContainerTrait.php:51","If checked, then the listed classes will be added to the data layer.","","","False","","",""
