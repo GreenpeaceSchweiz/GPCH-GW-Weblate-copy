@@ -1,14 +1,1 @@
-"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"social_pendo.module:50","A unique name for this client.","","","False","","",""
-"social_pendo.module:48","Client Name","","","False","","",""
-"social_pendo.module:70","Debug track event data","","","False","","",""
-"social_pendo.info.yml:0","Integrates Pendo Insights with Open Social","","","False","","",""
-"social_pendo.module:20","Pendo client name is missing, please add one <a href=""@url"">here</a>.","","","False","","",""
-"src/EventSubscriber/SocialPendoEventSubscriber.php:141","Response: @code","","","False","","",""
-"social_pendo.info.yml:0","Social","","","False","","",""
-"social_pendo.info.yml:0","Social Pendo","","","False","","",""
-"social_pendo.module:63","To find your ""Pendo track event secret key"", navigate to 
-your Subscription Settings and choose your app. Under the ""App Details,"" click 
-on ""Show"" next to ""Track Event Shared Secret.""","","","False","","",""
-"social_pendo.module:55","Track API endpoint","","","False","","",""
-"social_pendo.module:61","Track event secret key","","","False","","",""
+{"detail":"Not found."}
