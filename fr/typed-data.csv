@@ -41,7 +41,6 @@
 "src/Plugin/TypedDataFilter/CountFilter.php:11","The count filter counts the number of characters in the input string.","","","False","","",""
 "src/Plugin/TypedDataFormWidget/BrokenWidget.php:62","The field %field_label consists of the data type %data_type which cannot be input or a widget for this data type is not implemented yet.","","","False","","",""
 "src/Plugin/TypedDataFilter/FormatTextFilter.php:11","The format_text filter passes the text through the given filter.","","","False","","",""
-"src/Plugin/TypedDataFilter/ReplaceFilter.php:11","The replace filter substitutes the text given in the first argument with the text given in the second argument.","","","False","","",""
 "src/Plugin/TypedDataFilter/StripTagsFilter.php:11","The striptags filter strips SGML/XML tags and replace adjacent whitespace by one space.","","","False","","",""
 "src/Plugin/TypedDataFilter/TrimFilter.php:11","The trim filter removes whitespace from both the beginning and the end of an input string.","","","False","","",""
 "src/Plugin/TypedDataFilter/UpperFilter.php:11","The upper filter converts the entire input string to upper case.","","","False","","",""

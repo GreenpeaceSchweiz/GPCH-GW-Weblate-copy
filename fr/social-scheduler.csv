@@ -1,4 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"modules/social_scheduler_post/social_scheduler_post.permissions.yml:0","Access to scheduled posts overview page","","","False","","",""
 "social_scheduler.permissions.yml:0","Administer Social scheduler settings","","","False","","",""
 "src/Form/SocialSchedulerSettingsForm.php:87","Allow content editors to schedule publishing","","","False","","",""
 "src/Form/SocialSchedulerSettingsForm.php:114","Allow content editors to schedule unpublishing","","","False","","",""
@@ -13,6 +14,7 @@
 "social_scheduler.info.yml:0","Provides the ability to schedule content publications","","","False","","",""
 "modules/social_scheduler_post/social_scheduler_post.info.yml:0","Provides the ability to schedule post publications","","","False","","",""
 "modules/social_scheduler_post/social_scheduler_post.module:21","Publish on","","","False","","",""
+"modules/social_scheduler_post/social_scheduler_post.permissions.yml:0","Schedule post publication","","","False","","",""
 "modules/social_scheduler_post/social_scheduler_post.routing.yml:0","Scheduled Posts","","","False","","",""
 "src/Form/SocialSchedulerSettingsForm.php:79","Scheduled publishing","","","False","","",""
 "src/Form/SocialSchedulerSettingsForm.php:106","Scheduled unpublishing","","","False","","",""
