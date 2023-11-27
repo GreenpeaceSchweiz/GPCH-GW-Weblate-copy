@@ -38,7 +38,7 @@
 "modules/social_gamification_milestone/config/install/views.view.tasks_points.yml:0","Apply","","","False","","",""
 "src/Form/GamificationRewardDeleteForm.php:18","Are you sure you want to delete %name?","","","False","","",""
 "modules/social_gamification_milestone/config/install/views.view.tasks_points.yml:0","Asc","","","False","","",""
-"social_gamification.module:122","Back","","","False","","",""
+"social_gamification.module:122","Back","Zurück","","False","","",""
 "modules/social_gamification_milestone/config/install/views.view.milestones.yml:0","Badge","","","False","","",""
 "modules/social_gamification_milestone/config/install/views.view.milestones.yml:0","Badges","","","False","","",""
 "social_gamification.install:180","Can't load action @action","","","False","","",""

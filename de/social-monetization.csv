@@ -47,7 +47,7 @@
 "modules/social_monetization_user/src/Form/SubscriptionUpdateConfirmForm.php:68","Are you sure you want to update your subscription?","","","False","","",""
 "modules/social_monetization_user/config/optional/views.view.user_subscriptions_overview.yml:0","Asc","","","False","","",""
 "modules/social_monetization_event/src/Form/TicketBillingForm.php:79","Atendee details","","","False","","",""
-"modules/social_monetization_event/src/Form/TicketOverviewForm.php:211","Back","","","False","","",""
+"modules/social_monetization_event/src/Form/TicketOverviewForm.php:211","Back","Zurück","","False","","",""
 "modules/social_monetization_signup/src/Form/UserSignupSuccess.php:64","Back home","","","False","","",""
 "modules/social_monetization_event/src/Form/TicketBillingForm.php:46","Billing","","","False","","",""
 "modules/social_monetization_event/src/Form/TicketBaseForm.php:165","Billing and Ticket Details","","","False","","",""

@@ -9,7 +9,7 @@
 "src/Plugin/entity_embed/EntityEmbedDisplay/MediaImageDecorator.php:133","Alternate text","","","False","","",""
 "src/Plugin/entity_embed/EntityEmbedDisplay/MediaImageDecorator.php:136","Alternative text is required.<br />(Only in rare cases should this be left empty. To create empty alternative text, enter <code>""""</code> — two double quotes without any content).","","","False","","",""
 "entity_embed.module:28","As mentioned above, this module is especially helpful for embedding media in textual content, but it is not necessarily restricted to that; it allows <em>any</em> entity to be embedded. On an e-commerce site, you may want to embed products, on a company blog you may want to embed past projects, and so on.","","","False","","",""
-"src/Form/EntityEmbedDialog.php:549","Back","","","False","","",""
+"src/Form/EntityEmbedDialog.php:549","Back","Zurück","","False","","",""
 "config/schema/entity_embed.schema.yml:0","Bundle","","","False","","",""
 "src/Plugin/EmbedType/Entity.php:149","Bundles","","","False","","",""
 "src/Form/EntityEmbedDialog.php:621","Cannot embed @type entity @id because it does not have a UUID.","","","False","","",""
