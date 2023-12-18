@@ -71,7 +71,7 @@
 "js/overrides/gin_tableselect.js:0","Select all rows in this table","","","False","","",""
 "gin.theme:553","Settings","Einstellungen","","False","","",""
 "config/schema/gin.schema.yml:0","Shortcut","","","False","","",""
-"js/overrides/gin_tabledrag.js:0;0","Show row weights","","","False","","",""
+"js/overrides/gin_tabledrag.js:0;0","Show row weights","Zeilenreihenfolge anzeigen","","False","","",""
 "gin.theme:696","Sidebar","","","False","","",""
 "gin.theme:911","Sidebar, Vertical Toolbar (Default)","","","False","","",""
 "templates/html.html.twig:48","Skip to main content","","","False","","",""

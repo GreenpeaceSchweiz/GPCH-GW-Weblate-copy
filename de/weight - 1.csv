@@ -4,7 +4,7 @@
 "weight.info.yml:0","Allows arbitrary ordering of entities.","","","False","","",""
 "src/Plugin/Field/FieldFormatter/WeightFieldFormatter.php:8","Default","Standard","","False","","",""
 "weight.info.yml:0","Field types","Feldtypen","","False","","",""
-"src/Plugin/views/field/WeightSelector.php:67","Range","","","False","","",""
+"src/Plugin/views/field/WeightSelector.php:67","Range","Distanz","","False","","",""
 "src/Plugin/views/field/WeightSelector.php:68","The range of weights available to select. For
         example, a range of 20 will allow you to select a weight between -20
         and 20.","","","False","","",""

@@ -18,7 +18,7 @@
 "config/schema/purge_users.schema.yml:0","Blocked users value","","","False","","",""
 "src/Form/SettingsForm.php:295","Body of user before deletion notification e-mail","","","False","","",""
 "src/Form/SettingsForm.php:255","Body of user notification e-mail","","","False","","",""
-"src/Form/ConfirmationForm.php:61","Cancel","","","False","","",""
+"src/Form/ConfirmationForm.php:61","Cancel","Abbrechen","","False","","",""
 "src/Form/SettingsForm.php:326","Check to send email notification before purging users.","","","False","","",""
 "src/Form/SettingsForm.php:275","Check to send email notification to purged users.","","","False","","",""
 "src/Form/ConfirmationForm.php:54","Confirm","","","False","","",""

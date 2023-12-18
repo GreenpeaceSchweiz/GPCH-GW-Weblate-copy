@@ -50,6 +50,6 @@
 "externalauth.info.yml:0","User authentication","","","False","","",""
 "src/Plugin/migrate/source/Authmap.php:30","User’s users.uid.","","","False","","",""
 "externalauth.permissions.yml:0","View external authentication data","","","False","","",""
-"config/optional/views.view.authmap.yml:0;0","delete","","","False","","",""
+"config/optional/views.view.authmap.yml:0;0","delete","Löschen","","False","","",""
 "config/optional/views.view.authmap.yml:0","‹‹","","","False","","",""
 "config/optional/views.view.authmap.yml:0","››","","","False","","",""

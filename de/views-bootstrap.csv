@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"src/Plugin/views/style/ViewsBootstrapPanel.php:79;87;96","'- None -'","","","False","","",""
+"src/Plugin/views/style/ViewsBootstrapPanel.php:79;87;96","'- None -'","'- Keine -'","","False","","",""
 "src/Plugin/views/style/ViewsBootstrapMediaObject.php:61","<None>","","","False","","",""
 "views_bootstrap.module:26","<a href="":docs"">Accordion</a>","","","False","","",""
 "views_bootstrap.module:27","<a href="":docs"">Cards</a>","","","False","","",""

@@ -123,7 +123,7 @@
 "html/themes/custom/regiotwente/regiotwente.info.yml:0","Secondary navigation","","","False","","",""
 "html/modules/custom/regiotwente_landing_page/config/install/field.field.paragraph.block.field_block_reference.yml:0","Select a Block from a list to include","","","False","","",""
 "html/modules/custom/regiotwente_landing_page/config/install/core.entity_view_mode.node.short.yml:0","Short","","","False","","",""
-"html/themes/custom/regiotwente/os-builder/kss-assets/drupal-core.js:0","Show row weights","","","False","","",""
+"html/themes/custom/regiotwente/os-builder/kss-assets/drupal-core.js:0","Show row weights","Zeilenreihenfolge anzeigen","","False","","",""
 "html/themes/custom/regiotwente/regiotwente.info.yml:0","Sidebar First","","","False","","",""
 "html/themes/custom/regiotwente/regiotwente.info.yml:0","Sidebar Second","","","False","","",""
 "html/modules/custom/regiotwente_landing_page/config/install/views.view.regio_twente_news.yml:0","Sort by","Sortieren nach","","False","","",""

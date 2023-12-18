@@ -13,7 +13,7 @@
 "src/SocialMatchTagsOverrides.php:264","Asc","","","False","","",""
 "src/Plugin/Field/FieldWidget/SocialMatchmakingTagsProfileWidget.php:433","Balance","","","False","","",""
 "social_matchmaking.links.menu.yml:0","Customize the notification received by users about their matches","","","False","","",""
-"src/Plugin/Field/FieldWidget/SocialMatchmakingTagsProfileWidget.php:212","Delete","","","False","","",""
+"src/Plugin/Field/FieldWidget/SocialMatchmakingTagsProfileWidget.php:212","Delete","Löschen","","False","","",""
 "src/SocialMatchTagsOverrides.php:265","Desc","","","False","","",""
 "src/Form/SocialMatchmakingSettingsForm.php:93;137","Description","","","False","","",""
 "src/Controller/TagsController.php:23","Edit","","","False","","",""

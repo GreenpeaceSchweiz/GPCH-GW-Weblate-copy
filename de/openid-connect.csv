@@ -43,7 +43,7 @@
 "openid_connect.module:34","Custom OpenID Connect/OAuth2 providers","","","False","","",""
 "src/Plugin/OpenIDConnectClient/OpenIDConnectOktaClient.php:45","Custom scopes, separated by spaces, for example: openid email","","","False","","",""
 "openid_connect.module:32","Default providers","","","False","","",""
-"src/Form/OpenIDConnectClientDeleteForm.php:27","Delete","","","False","","",""
+"src/Form/OpenIDConnectClientDeleteForm.php:27","Delete","Löschen","","False","","",""
 "openid_connect.routing.yml:0","Delete OpenID Connect client","","","False","","",""
 "openid_connect.routing.yml:0","Disable an OpenID Connect client","","","False","","",""
 "src/Controller/OpenIDConnectClientListBuilder.php:45","Disabled","","","False","","",""

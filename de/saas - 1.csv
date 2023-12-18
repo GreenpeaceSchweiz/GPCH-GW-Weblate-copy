@@ -97,7 +97,7 @@
 "html/modules/custom/social_saas_core/src/Controller/DashboardController.php:358","Inform users about data collection.","","","False","","",""
 "html/modules/custom/social_saas_core/src/Controller/DashboardController.php:79","KPI Analytics","","","False","","",""
 "html/modules/custom/social_saas_permissions/src/Plugin/Validation/Constraint/SaasLinkAccessConstraint.php:9","Link URI can be accessed by the user.","","","False","Validation","",""
-"html/modules/custom/social_saas_saml/src/Plugin/Menu/SamlLoginLogoutMenuLink.php:63","Log in","","","False","","",""
+"html/modules/custom/social_saas_saml/src/Plugin/Menu/SamlLoginLogoutMenuLink.php:63","Log in","Anmelden","","False","","",""
 "html/modules/custom/social_saas_saml/src/Plugin/Menu/SamlLoginLogoutMenuLink.php:60","Log out","","","False","","",""
 "html/modules/custom/social_saas_core/src/Controller/DashboardController.php:89","Main menu","","","False","","",""
 "html/modules/custom/social_saas_core/src/Controller/DashboardController.php:256","Maximum Event Enrollment settings","","","False","","",""

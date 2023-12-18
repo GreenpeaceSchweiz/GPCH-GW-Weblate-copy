@@ -18,7 +18,7 @@
 "modules/oe_authentication_user_fields/oe_authentication_user_fields.module:25","First Name","","","False","","",""
 "src/Form/AuthenticationSettingsForm.php:58","Force two factor authentication","","","False","","",""
 "modules/oe_authentication_user_fields/oe_authentication_user_fields.module:30","Last Name","","","False","","",""
-"src/Plugin/Block/LoginBlock.php:58","Log in","","","False","","",""
+"src/Plugin/Block/LoginBlock.php:58","Log in","Anmelden","","False","","",""
 "modules/oe_authentication_eulogin_mock/src/Form/LogoutForm.php:43","Log me out","","","False","","",""
 "src/Plugin/Block/LoginBlock.php:65","Log out","","","False","","",""
 "modules/oe_authentication_eulogin_mock/src/Form/LogoutForm.php:47","No, stay logged in!","","","False","","",""

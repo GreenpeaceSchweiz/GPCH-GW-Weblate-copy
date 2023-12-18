@@ -53,7 +53,7 @@
 "modules/social_auth_linkedin/src/Controller/LinkedInLinkController.php:88;98;114;126;144;153","LinkedIn","","","False","","",""
 "modules/social_auth_linkedin/src/Form/LinkedInAuthSettingsForm.php:39","LinkedIn client settings","","","False","","",""
 "modules/social_auth_linkedin/social_auth_linkedin.module:17","LinkedIn user ID","","","False","","",""
-"src/Form/AuthLoginNoticeForm.php:34","Log in","","","False","","",""
+"src/Form/AuthLoginNoticeForm.php:34","Log in","Anmelden","","False","","",""
 "modules/social_auth_twitter/social_auth_twitter.routing.yml:0","Login","","","False","","",""
 "social_auth_extra.info.yml:0","Open Social coupling for the Social API Auth module.","","","False","","",""
 "modules/social_sso/social_sso.info.yml:0","Provides autorizathion with social networks for Open Social","","","False","","",""

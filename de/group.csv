@@ -267,7 +267,7 @@
 "group.group.permissions.yml:0","Revisioning: Delete revisions","","","False","","",""
 "group.group.permissions.yml:0","Revisioning: Revert revisions","","","False","","",""
 "group.group.permissions.yml:0","Revisioning: View revisions","","","False","","",""
-"src/Entity/Controller/GroupListBuilder.php:182","Revisions","","","False","","",""
+"src/Entity/Controller/GroupListBuilder.php:182","Revisions","Revisionen","","False","","",""
 "config/optional/views.view.group_members.yml:0","Roles","Rollen","","False","","",""
 "src/Entity/Form/GroupContentTypeForm.php:108","Save configuration","Konfigurierung speichern","","False","","",""
 "src/Entity/Form/GroupContentForm.php:83","Save group and membership","","","False","","",""

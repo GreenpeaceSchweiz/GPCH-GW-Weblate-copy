@@ -39,7 +39,7 @@
 "modules/oe_webtools_analytics/modules/oe_webtools_analytics_rules/src/Form/WebtoolsAnalyticsRuleForm.php:92","Created the %label Webtools Analytics rule.","","","False","","",""
 "modules/oe_webtools_globan/src/Form/WebtoolsGlobanSettingsForm.php:80","Dark","","","False","","",""
 "modules/oe_webtools_etrans/src/Plugin/Block/ETransBlock.php:185","Delay","","","False","","",""
-"modules/oe_webtools_analytics/modules/oe_webtools_analytics_rules/src/Form/WebtoolsAnalyticsRuleDeleteForm.php:36","Delete","","","False","","",""
+"modules/oe_webtools_analytics/modules/oe_webtools_analytics_rules/src/Form/WebtoolsAnalyticsRuleDeleteForm.php:36","Delete","Löschen","","False","","",""
 "modules/oe_webtools_globan/config/schema/oe_webtools_globan.schema.yml:0","Display EU flag","","","False","","",""
 "modules/oe_webtools_globan/src/Form/WebtoolsGlobanSettingsForm.php:67","Display the EU flag","","","False","","",""
 "modules/oe_webtools_laco_widget/src/Form/WebtoolsLacoWidgetSettingsForm.php:91","Document","","","False","","",""

@@ -21,7 +21,7 @@
 "src/Plugin/GroupContentEnabler/GroupMedia.php:53","Create @type","","","False","","",""
 "src/Controller/GroupMediaController.php:50","Create a media of type %media_type in the group.","","","False","","",""
 "groupmedia.links.action.yml:0","Create media","","","False","","",""
-"config/optional/views.view.group_media.yml:0","Delete","","","False","","",""
+"config/optional/views.view.group_media.yml:0","Delete","Löschen","","False","","",""
 "config/optional/views.view.group_media.yml:0","Delete Media","","","False","","",""
 "config/optional/views.view.group_media.yml:0","Delete relation","","","False","","",""
 "config/optional/views.view.group_media.yml:0","Delete relation link","","","False","","",""

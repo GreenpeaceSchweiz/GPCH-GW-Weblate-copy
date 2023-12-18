@@ -28,7 +28,7 @@
 "yoast_seo.routing.yml:0","Real-time SEO tokens","","","False","","",""
 "src/Plugin/Field/FieldFormatter/YoastSeoFormatter.php:8","Real-timeSeo formatter","","","False","","",""
 "yoast_seo.info.yml:0","SEO","","","False","","",""
-"src/Form/YoastSeoConfigForm.php:51","Save","","","False","","",""
+"src/Form/YoastSeoConfigForm.php:51","Save","Speichern","","False","","",""
 "src/Plugin/Field/FieldWidget/YoastSeoWidget.php:112","Select a field which is used as the body field.","","","False","","",""
 "src/Controller/YoastSeoController.php:120","Sitemap","","","False","","",""
 "templates/yoast-snippet.html.twig:3","Snippet editor","","","False","","",""

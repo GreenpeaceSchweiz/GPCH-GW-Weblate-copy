@@ -12,7 +12,7 @@
 "src/Plugin/Field/FieldWidget/Select2EntityReferenceWidget.php:309","Contains","","","False","","",""
 "modules/select2_facets/src/Plugin/facets/widget/Select2Widget.php:138","Define a width for the select2 field. It can be either 'element', 'computedstyle', 'style', 'resolve' or any possible CSS unit. E.g. 500px, 50%, 200em. See the <a href='https://select2.org/appearance#container-width'>select2 documentation</a> for further explanations.","","","False","","",""
 "src/Plugin/Field/FieldWidget/Select2Widget.php:42","Define a width for the select2 field. It can be either 'element', 'computedstyle', 'style', 'resolve' or any possible CSS value. E.g. 500px, 50%, 200em. See the <a href='https://select2.org/appearance#container-width'>select2 documentation</a> for further explanations.","","","False","","",""
-"src/Plugin/Field/FieldWidget/Select2EntityReferenceWidget.php:175","Drag to re-order @entity_types.","","","False","","",""
+"src/Plugin/Field/FieldWidget/Select2EntityReferenceWidget.php:175","Drag to re-order @entity_types.","Ziehen, um @entity_types neu zu ordnen.","","False","","",""
 "src/Plugin/Field/FieldWidget/Select2Widget.php:40","Field width","","","False","","",""
 "src/Plugin/Field/FieldWidget/Select2Widget.php:55","Field width: @width","","","False","","",""
 "modules/select2_publish/select2_publish.info.yml:0","Indicates the status of referenced entities.","","","False","","",""

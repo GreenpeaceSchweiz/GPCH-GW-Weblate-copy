@@ -3,7 +3,7 @@
 "social_eu_login.permissions.yml:0","Allows the user to access to EU Login settings page","","","False","","",""
 "social_eu_login.info.yml:0","Authentication against the OpenEuropa Authentication service","","","False","","",""
 "src/Form/EULoginSettingsForm.php:45","Disable EU Login synchronization for fields:","","","False","","",""
-"src/Plugin/Block/SocialEuLoginBlock.php:68;69","Log in","","","False","","",""
+"src/Plugin/Block/SocialEuLoginBlock.php:68;69","Log in","Anmelden","","False","","",""
 "src/Plugin/Block/SocialEuLoginBlock.php:128","Log out","","","False","","",""
 "src/Plugin/Block/SocialEuLoginBlock.php:110;111","Logged in","","","False","","",""
 "social_eu_login.install:18","More about the EU Login","","","False","","",""

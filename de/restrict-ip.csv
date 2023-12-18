@@ -43,7 +43,7 @@
 "restrict_ip.links.menu.yml:0","Restrict IP","","","False","","",""
 "config/schema/restrict_ip.schema.yml:0","Restrict IP settings","","","False","","",""
 "restrict_ip.info.yml:0","Restricts access to the site to a list of user defined IP addresses","","","False","","",""
-"src/Controller/PageController.php:132","Sign in","","","False","","",""
+"src/Controller/PageController.php:132","Sign in","Registrieren","","False","","",""
 "src/EventSubscriber/RestrictIpEventSubscriber.php:111","The page you are trying to access cannot be accessed from your IP address.","","","False","","",""
 "src/Form/ConfigForm.php:139","Warning: If you enable IP restriction, and don't enter your current IP address into the list, you will immediately be locked out of the system upon save, and will not be able to access the system until you are in a location with an allowed IP address. Alternatively you can allow Restrict IP to be bypassed by role, and set at least one of your roles to be bypassed on the @permissions page.","","","False","","",""
 "src/Form/ConfigForm.php:174","When this box is checked, attempts to access the site will be logged to the Drupal log (Recent log entries)","","","False","","",""

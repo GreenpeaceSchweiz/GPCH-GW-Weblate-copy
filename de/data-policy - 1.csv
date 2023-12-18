@@ -99,7 +99,7 @@
 "src/Controller/DataPolicy.php:205","Revision","","","False","","",""
 "src/Form/DataPolicyRevisionDeleteForm.php:124","Revision from %revision-date has been deleted.","Die Revision von %revision-date wurde gelöscht.","","False","","",""
 "src/Entity/DataPolicy.php:244","Revision translation affected","Auswirkung auf die Übersetzung der Version","","False","","",""
-"data_policy.module:173","Revisions","","","False","","",""
+"data_policy.module:173","Revisions","Revisionen","","False","","",""
 "data_policy.permissions.yml:0","Role requires permission <em>view Data policy revisions</em> and <em>edit rights</em> for data policy entities in question or <em>administer data policy entities</em>.","","","False","","",""
 "src/Form/DataPolicyAgreement.php:137","Save","Speichern","","False","","",""
 "src/Form/DataPolicyRevisionEdit.php:129","Saved revision.","","","False","","",""

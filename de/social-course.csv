@@ -71,7 +71,7 @@
 "src/Plugin/Join/SocialCourseDirectJoin.php:69","Join","Beitreten","","False","","",""
 "src/Controller/CourseJoinController.php:37","Join a ""@group_title"" course","","","False","","",""
 "modules/social_course_statistics/templates/group--course-basic--statistics.html.twig:77","Last active","","","False","","",""
-"src/Form/CourseJoinAnonymousForm.php:120","Log in","","","False","","",""
+"src/Form/CourseJoinAnonymousForm.php:120","Log in","Anmelden","","False","","",""
 "src/Entity/CourseEnrollment.php:104","Material ID","","","False","","",""
 "social_course.post_update.php:138","Material is @id","","","False","","",""
 "modules/social_course_basic/modules/social_course_basic_request/src/Controller/BasicCourseRequestController.php:35","Membership has been successfully denied.","Die Mitgliedschaft wurde verwehrt.","","False","","",""

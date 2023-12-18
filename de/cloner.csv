@@ -1,7 +1,7 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "cloner.permissions.yml:0","Access to any cloner form.","","","False","","",""
 "cloner.permissions.yml:0","Bypass all checks for every form clone.","","","False","","",""
-"src/Form/ClonerCloneForm.php:158","Cancel","","","False","","",""
+"src/Form/ClonerCloneForm.php:158","Cancel","Abbrechen","","False","","",""
 "src/Form/ClonerCloneForm.php:152","Clone","Klonen","","False","","",""
 "modules/cloner_examples/src/Plugin/Cloner/ConfigEntity/ImageStyle.php:8","Clone image style","","","False","","",""
 "modules/cloner_examples/src/Plugin/Cloner/ContentEntity/NodeArticle.php:8","Clone node article","","","False","","",""

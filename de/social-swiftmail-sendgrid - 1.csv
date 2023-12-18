@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"src/Plugin/AdvancedQueue/JobType/MassActivitySendEmailJobType.php:528","Based on your @settings, the notification above is sent to you <strong>:frequency</strong>","","","False","","",""
+"src/Plugin/AdvancedQueue/JobType/MassActivitySendEmailJobType.php:528","Based on your @settings, the notification above is sent to you <strong>:frequency</strong>","Basierend auf deinen @settings erhältst du diese Benachrichtigung <strong>:frequency</strong>","","False","","",""
 "social_swiftmail_sendgrid.module:95","Hi <strong>@display_name</strong>","","","False","","",""
 "src/Plugin/AdvancedQueue/JobType/MassActivitySendEmailJobType.php:520","Immediately","","","False","","",""
 "src/Plugin/AdvancedQueue/JobType/MassActivitySendEmailJobType.php:501","Notification from %site_name","","","False","","",""
