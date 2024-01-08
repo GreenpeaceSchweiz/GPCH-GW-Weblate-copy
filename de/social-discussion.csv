@@ -46,6 +46,7 @@ If you want to close comments, please edit the discussion settings.","","","Fals
 "src/Plugin/ActivityContext/DiscussionCommentOwnerActivityContext.php:9","Discussion comment owner","","","False","","",""
 "src/Form/DiscussionConfigForm.php:36","Discussion ends email notification","","","False","","",""
 "src/Plugin/GraphQL/DataProducer/DiscussionModerators.php:11","Discussion moderators","","","False","","",""
+"src/Plugin/EmailBuilder/DiscussionReminderEmailBuilder.php:14;14","Discussion reminder notification","","","False","","",""
 "modules/social_discussion_room/config/install/taxonomy.vocabulary.discussion_room.yml:0","Discussion room","","","False","","",""
 "modules/social_discussion_room/social_discussion_room.routing.yml:0","Discussion rooms","","","False","","",""
 "config/schema/social_discussion.schema.yml:0","Discussion settings","","","False","","",""
