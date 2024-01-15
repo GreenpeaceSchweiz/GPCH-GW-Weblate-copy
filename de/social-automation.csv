@@ -303,7 +303,7 @@
 "social_automation.links.task.yml:0","Workflow events","","","False","","",""
 "social_automation.links.menu.yml:0","Workflow events administration overview.","","","False","","",""
 "src/Form/AutomationSettingsForm.php:74","Write a copy of the debug information to the system database log. This will be visible for users having the permission %permission.","","","False","","",""
-"src/Ui/TempStoreTrait.php:264","You have unsaved changes.","","","False","","",""
+"src/Ui/TempStoreTrait.php:264","You have unsaved changes.","Es gibt nicht gespeicherte Änderungen.","","False","","",""
 "src/Entity/WorkflowComponentConfig.php:12","automation component","","","False","","",""
 "src/Entity/WorkflowComponentConfig.php:12","automation components","","","False","","",""
 "src/Logger/AutomationDebugLog.php:167;184","edit","Bearbeiten","","False","","",""

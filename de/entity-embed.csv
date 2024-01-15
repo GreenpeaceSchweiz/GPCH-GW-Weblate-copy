@@ -50,7 +50,7 @@
 "src/Form/EntityEmbedDialog.php:265","Label","","","False","","",""
 "src/Form/EntityEmbedDialog.php:522","Left","","","False","","",""
 "src/Plugin/Filter/EntityEmbedFilter.php:172","Missing @type.","","","False","","",""
-"src/Form/EntityEmbedDialog.php:321;377","Next","","","False","","",""
+"src/Form/EntityEmbedDialog.php:321;377","Next","Weiter","","False","","",""
 "src/Form/EntityEmbedDialog.php:632","No display options available for ""@type:"" entity ""@id"" while embedding using button ""@button"". Please ensure that at least one Entity Embed Display plugin is allowed for this embed button which is available for this entity.","","","False","","",""
 "src/Form/EntityEmbedDialog.php:631","No display options available for the selected %entity-type. Please select another %entity_type.","","","False","","",""
 "src/Form/EntityEmbedDialog.php:609","No entity selected.","","","False","","",""

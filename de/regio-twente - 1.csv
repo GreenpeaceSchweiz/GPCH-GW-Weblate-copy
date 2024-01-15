@@ -143,7 +143,7 @@
 "html/modules/custom/regiotwente_user_migration/config/install/migrate_plus.migration_group.regiotwente_user.yml:0","User accounts and profiles","","","False","","",""
 "html/modules/custom/regiotwente_user_migration/config/install/migrate_plus.migration.user_profile.yml:0","User profiles","","","False","","",""
 "html/themes/custom/regiotwente/templates/profile/profile--profile--compact_teaser.html.twig:31","View Profile","","","False","","",""
-"html/themes/custom/regiotwente/os-builder/kss-assets/drupal-core.js:0","You have unsaved changes.","","","False","","",""
+"html/themes/custom/regiotwente/os-builder/kss-assets/drupal-core.js:0","You have unsaved changes.","Es gibt nicht gespeicherte Änderungen.","","False","","",""
 "html/themes/custom/regiotwente/templates/profile/profile--profile--default.html.twig:105","Your expertise","","","False","","",""
 "html/themes/custom/regiotwente/templates/profile/profile--profile--default.html.twig:112","Your interests","","","False","","",""
 "html/themes/custom/regiotwente/templates/profile/profile--profile--teaser.html.twig:45","at","von","","False","","",""

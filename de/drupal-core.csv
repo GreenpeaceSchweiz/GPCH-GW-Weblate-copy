@@ -6993,7 +6993,7 @@ Errors:
 "modules/book/src/Plugin/Block/BookNavigationBlock.php:99","Show block on all pages","Den Block auf allen Seiten anzeigen","","False","","",""
 "modules/book/src/Plugin/Block/BookNavigationBlock.php:100","Show block only on book pages","Den Block nur auf Buchseiten anzeigen","","False","","",""
 "modules/comment/src/Plugin/Field/FieldType/CommentItem.php:113","Show comment replies in a threaded list.","Antworten auf Kommentare in einer Baumstruktur anzeigen.","","False","","",""
-"modules/layout_builder/src/Form/PreviewToggleTrait.php:23","Show content preview","","","False","","",""
+"modules/layout_builder/src/Form/PreviewToggleTrait.php:23","Show content preview","Inhaltsvorschau anzeigen","","False","","",""
 "modules/views/src/Plugin/views/display/DisplayPluginBase.php:1476","Show contextual links","Kontextlinks anzeigen","","False","","",""
 "modules/views/src/Plugin/views/display/DisplayPluginBase.php:1473","Show contextual links on this view.","Kontextlinks in dieser Ansicht anzeigen.","","False","","",""
 "modules/locale/locale.admin.es6.js:0","Show description","Beschreibung anzeigen","","False","","",""

@@ -3,7 +3,7 @@
 "src/Plugin/AdvancedQueue/JobType/MassActivitySendEmailJobType.php:528","Based on your @settings, the notification above is sent to you <strong>:frequency</strong>","Basierend auf deinen @settings erhältst du diese Benachrichtigung <strong>:frequency</strong>","","False","","",""
 "src/Plugin/EmailBuilder/SendgridSMTPApiBCCEmailBuilderBase.php:12","Bulk activity emails using Sendgrid's API BCC and substitions","","","False","","",""
 "social_swiftmail_sendgrid.module:95","Hi <strong>@display_name</strong>","","","False","","",""
-"src/Plugin/AdvancedQueue/JobType/MassActivitySendEmailJobType.php:520","Immediately","","","False","","",""
+"src/Plugin/AdvancedQueue/JobType/MassActivitySendEmailJobType.php:520","Immediately","Sofort","","False","","",""
 "src/Plugin/EmailBuilder/SendgridSMTPApiBCCEmailBuilderBase.php:12","Mails using Sendgrid's API BCC and substitions","","","False","","",""
 "src/Plugin/AdvancedQueue/JobType/MassActivitySendEmailJobType.php:501","Notification from %site_name","","","False","","",""
 "social_swiftmail_sendgrid.info.yml:0","Social","","","False","","",""

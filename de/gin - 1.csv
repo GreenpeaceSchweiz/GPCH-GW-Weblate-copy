@@ -98,6 +98,6 @@
 "gin.theme:666","Users can override Gin settings","","","False","","",""
 "gin.theme:901","Yellow","","","False","","",""
 "templates/admin/node-add-list.html.twig:24","You have not created any content types yet. Go to the <a href=""@create-content"">content type creation page</a> to add a new content type.","","","False","","",""
-"js/overrides/gin_tabledrag.js:0;0","You have unsaved changes.","","","False","","",""
+"js/overrides/gin_tabledrag.js:0;0","You have unsaved changes.","Es gibt nicht gespeicherte Änderungen.","","False","","",""
 "js/overrides/gin_media_library.view.js:0","Zero items selected","","","False","","",""
 "config/schema/gin.schema.yml:0","gin settings","","","False","","",""

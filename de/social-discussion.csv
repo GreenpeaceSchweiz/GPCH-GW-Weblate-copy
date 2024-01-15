@@ -122,7 +122,7 @@ If you want to close comments, please edit the discussion settings.","","","Fals
 "modules/social_discussion_room/src/Controller/RoomController.php:198","There are no discussion in the selected room","","","False","","",""
 "src/Form/DiscussionConfigForm.php:72","To add a discussion name use token: [node:title]","","","False","","",""
 "modules/social_discussion_highlight/templates/node--discussion--highlight.html.twig:47;50","Total amount of comments","","","False","","",""
-"modules/social_discussion_highlight/templates/node--discussion--highlight.html.twig:62","Total amount of likes","","","False","","",""
+"modules/social_discussion_highlight/templates/node--discussion--highlight.html.twig:62","Total amount of likes","Gesamtzahl der likes","","False","","",""
 "modules/social_discussion_anonymous/social_discussion_anonymous.permissions.yml:0","View anonymous member link","","","False","","",""
 "social_discussion.module:319","View my discussions","Meine Diskussionen ansehen","","False","","",""
 "templates/node--discussion--hero--sky.html.twig:33","Visibility","Sichtbarkeit","","False","","",""

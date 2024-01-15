@@ -99,7 +99,7 @@
 "src/Plugin/views/style/ViewsBootstrapDropdown.php:99","List class","","","False","","",""
 "src/Plugin/views/style/ViewsBootstrapCarousel.php:126","Medium","","","False","","",""
 "src/Plugin/views/style/ViewsBootstrapMediaObject.php:93","Middle","","","False","","",""
-"templates/views-bootstrap-carousel.html.twig:79","Next","","","False","","",""
+"templates/views-bootstrap-carousel.html.twig:79","Next","Weiter","","False","","",""
 "src/Plugin/views/style/ViewsBootstrapThumbnail.php:194","Number of columns (col-@size)","","","False","","",""
 "src/Plugin/views/style/ViewsBootstrapPanel.php:95","Panel footer field","","","False","","",""
 "src/Plugin/views/style/ViewsBootstrapPanel.php:78","Panel title field","","","False","","",""
