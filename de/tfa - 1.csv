@@ -37,7 +37,7 @@
 "config/schema/tfa.schema.yml:0","Cookie name of TFA trusted browser cookie. Default is ""tfa-trusted-browser"".","","","False","","",""
 "src/Plugin/TfaValidation/TfaHotpValidation.php:171","Counter Window","","","False","","",""
 "src/Plugin/Block/TfaUserLoginBlock.php:107","Create a new user account.","","","False","","",""
-"src/Plugin/Block/TfaUserLoginBlock.php:105","Create new account","","","False","","",""
+"src/Plugin/Block/TfaUserLoginBlock.php:105","Create new account","Neues Benutzerkonto erstellen","","False","","",""
 "src/Form/TfaSetupForm.php:191","Current password","","","False","","",""
 "src/Form/SettingsForm.php:194","Default Validation plugin","","","False","","",""
 "config/schema/tfa.schema.yml:0","Default validation plugin","","","False","","",""

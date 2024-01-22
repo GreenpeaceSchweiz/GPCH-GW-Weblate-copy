@@ -34,7 +34,7 @@
 "modules/social_auth_facebook/src/FacebookAuthManager.php:100","Could not load Facebook user profile: ResponseException: @message","","","False","","",""
 "modules/social_auth_facebook/src/FacebookAuthManager.php:108","Could not load Facebook user profile: SDKException: @message","","","False","","",""
 "modules/social_auth_twitter/src/TwitterAuthManager.php:120","Could not load Twitter user profile: TwitterOAuthException: @message","","","False","","",""
-"src/Form/AuthLoginNoticeForm.php:20","Create new account","","","False","","",""
+"src/Form/AuthLoginNoticeForm.php:20","Create new account","Neues Benutzerkonto erstellen","","False","","",""
 "social_auth_extra.module:300","Creation of user account failed. Please contact site administrator.","","","False","","",""
 "modules/social_auth_facebook/src/Plugin/Network/FacebookAuth.php:146","Define App ID and App Secret on module settings.","","","False","","",""
 "modules/social_auth_linkedin/src/Plugin/Network/LinkedInAuth.php:138","Define Client ID and Client Secret on module settings.","","","False","","",""

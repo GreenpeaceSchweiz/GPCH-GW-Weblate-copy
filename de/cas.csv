@@ -54,7 +54,7 @@
 "src/Form/CasSettings.php:548","Connection timeout","","","False","","",""
 "src/Service/CasProxyHelper.php:175","Contacting service: %service","","","False","","",""
 "src/Service/CasHelper.php:213","Converting query parameter 'returnto' to 'destination'.","","","False","","",""
-"src/Form/BulkAddCasUsers.php:72","Create new accounts","","","False","","",""
+"src/Form/BulkAddCasUsers.php:72","Create new accounts","Neues Benutzerkonto erstellen","","False","","",""
 "src/Form/BulkAddCasUsers.php:103","Creating CAS users...","","","False","","",""
 "src/Form/CasSettings.php:145","Custom Certificate Authority PEM Certificate","","","False","","",""
 "src/Form/CasSettings.php:338","Denied login","","","False","","",""
