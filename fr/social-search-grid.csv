@@ -8,7 +8,7 @@
 "src/Plugin/search_api/processor/Grouping.php:82","Ascending","","","False","","",""
 "modules/social_search_grid_promoted/social_search_grid_promoted.module:47","Assign keywords to a promoted search result to ensure it appears first in search.","","","False","","",""
 "src/Form/SocialSearchGridSettingsForm.php:84","Bundles","","","False","","",""
-"templates/views-view--search-all-grid.html.twig:80","Cant’t find what you’re looking for? Try a more generic search term or searching by category.","","","False","","",""
+"templates/views-view--search-all-grid.html.twig:80","Cant’t find what you’re looking for? Try a more generic search term or searching by category.","Tu ne trouves pas ce que tu es venu chercher ? Essaye peut-être avec des termes plus génériques ou en spécifiant ta recherche par une catégorie.","","False","","",""
 "src/Plugin/search_api/processor/Grouping.php:74","Choose the field by to sort within each group, the groups themselves will be sorted by the main query sorts.","","","False","","",""
 "src/Plugin/search_api/processor/Grouping.php:66","Choose the fields upon which to collapse the results into groups. Note that while selecting multiple fields is technicially supported, it may result in unexpected behaviour.","","","False","","",""
 "modules/social_search_grid_promoted/social_search_grid_promoted.info.yml:0","Community managers have the need to manipulate the search result and promote certain results connected to keywords.","","","False","","",""
