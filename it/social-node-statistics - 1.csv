@@ -19,6 +19,7 @@
 "social_node_statistics.routing.yml:0","Node Statistics","","","False","","",""
 "social_node_statistics.links.menu.yml:0","Node Statistics settings","","","False","","",""
 "config/schema/social_node_statistics.schema.yml:0","Node types views should be tracked for","","","False","","",""
+"src/Plugin/ContentExportPlugin/ContentViews.php:8","Number of views","","","False","","",""
 "src/Form/NodeStatisticsSettingsForm.php:94","Select how long before the views count cache on a node display is invalidated.","","","False","","",""
 "src/Form/NodeStatisticsSettingsForm.php:73","Select which node types views should be tracked for.","","","False","","",""
 "src/Form/NodeStatisticsSettingsForm.php:104","Set the minimum number of new views before the views count cache on a node display is invalidated.","","","False","","",""

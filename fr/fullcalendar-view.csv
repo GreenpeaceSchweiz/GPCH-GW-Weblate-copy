@@ -18,7 +18,7 @@
 "src/Plugin/views/style/FullCalendarDisplay.php:276","Current active language on the page","","","False","","",""
 "src/Plugin/views/style/FullCalendarDisplay.php:118","Current date","","","False","","",""
 "src/Plugin/views/style/FullCalendarDisplay.php:119","Date of first view result","","","False","","",""
-"src/Plugin/views/style/FullCalendarDisplay.php:172","Day","","","False","","",""
+"src/Plugin/views/style/FullCalendarDisplay.php:172","Day","Jour","","False","","",""
 "src/Plugin/views/style/FullCalendarDisplay.php:236","Day/Week are links","","","False","","",""
 "src/Plugin/views/style/FullCalendarDisplay.php:350","Default Language","","","False","","",""
 "src/Plugin/views/style/FullCalendarDisplay.php:129","Default date","","","False","","",""

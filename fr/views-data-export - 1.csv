@@ -84,7 +84,7 @@
 "src/Plugin/views/display/DataExport.php:273","The maximum amount of rows to export.","","","False","","",""
 "src/Plugin/views/display/DataExport.php:380","The maximum amount of rows to export. 0 means unlimited.","","","False","","",""
 "src/Plugin/views/display/DataExport.php:367","The number of rows to process under a request.","","","False","","",""
-"config/schema/views_data_export.views.schema.yml:0","Title","","","False","","",""
+"config/schema/views_data_export.views.schema.yml:0","Title","Titre","","False","","",""
 "src/Plugin/views/style/DataExport.php:110","Trim whitespace","","","False","","",""
 "src/Plugin/views/style/DataExport.php:111","Trims whitespace from beginning and end of CSV cell values.","","","False","","",""
 "src/Plugin/views/style/DataExport.php:119","UTF-8","","","False","","",""

@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "config_modify.info.yml:0","Allows automatic modification of existing config during config installation.","","","False","","",""
 "config_modify.info.yml:0","Config Modify","","","False","","",""
-"config/schema/config_modify.schema.yml:0","Files","","","False","","",""
+"config/schema/config_modify.schema.yml:0","Files","Pièces jointes","","False","","",""
 "config/schema/config_modify.schema.yml:0","Tracks which alter files were applied","","","False","","",""

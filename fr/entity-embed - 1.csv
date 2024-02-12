@@ -74,7 +74,7 @@
 "src/Plugin/entity_embed/EntityEmbedDisplay/MediaImageDecorator.php:147","The title is used as a tool tip when the user hovers the mouse over the image.","","","False","","",""
 "entity_embed.module:26","This module, and the text filter that it provides along with the CKEditor integration, is especially suited to allow content authors to embed media in their textual content: images, video, and so on.","","","False","","",""
 "src/Plugin/entity_embed/EntityEmbedDisplay/MediaImageDecorator.php:135","This text will be used by screen readers, search engines, or when the image cannot be loaded.","","","False","","",""
-"src/Plugin/entity_embed/EntityEmbedDisplay/MediaImageDecorator.php:145","Title","","","False","","",""
+"src/Plugin/entity_embed/EntityEmbedDisplay/MediaImageDecorator.php:145","Title","Titre","","False","","",""
 "src/Form/EntityEmbedDialog.php:296","Type label and pick the right one from suggestions. Note that the unique ID will be saved.","","","False","","",""
 "src/Form/EntityEmbedDialog.php:614","Unable to access @type entity @id.","","","False","","",""
 "src/Form/EntityEmbedDialog.php:641","Unable to load @type entity @id.","","","False","","",""

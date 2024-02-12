@@ -23,7 +23,7 @@
         set by the user, the start and end hours will be disabled, and
         the time slot will be regarded as 'All day open'.","","","False","","",""
 "src/Plugin/Field/FieldFormatter/OfficeHoursFormatterBase.php:290","After hours","","","False","","",""
-"src/Plugin/Field/FieldType/OfficeHoursItemBase.php:104","All day","","","False","","",""
+"src/Plugin/Field/FieldType/OfficeHoursItemBase.php:104","All day","Toute la journée","","False","","",""
 "src/Plugin/Field/FieldFormatter/OfficeHoursFormatterBase.php:222","All day notation","","","False","","",""
 "src/Plugin/Field/FieldFormatter/OfficeHoursFormatterBase.php:353","All day notation for exceptions","","","False","","",""
 "src/Plugin/Field/FieldType/OfficeHoursItemBase.php:249","Allow 'all day' situations","","","False","","",""
@@ -59,7 +59,7 @@
 "config/schema/office_hours.schema.yml:0;0","Currently open message","","","False","","",""
 "src/Plugin/Field/FieldWidget/OfficeHoursExceptionsWidget.php:121","Date","","","False","","",""
 "src/Plugin/Field/FieldFormatter/OfficeHoursFormatterBase.php:335","Date format for exception day","","","False","","",""
-"src/Plugin/Field/FieldType/OfficeHoursItemBase.php:103","Day","","","False","","",""
+"src/Plugin/Field/FieldType/OfficeHoursItemBase.php:103","Day","Jour","","False","","",""
 "config/schema/office_hours.schema.yml:0","Day notation","","","False","","",""
 "config/schema/office_hours.schema.yml:0","Default value","","","False","","",""
 "office_hours.info.yml:0","Defines a 'weekly office hours' field type, allowing you to specify when an Entity is open or closed.","","","False","","",""

@@ -192,7 +192,7 @@
 "modules/o365_profile/src/Plugin/views/field/CallViaTeamsViewsField.php:88","Select the link type","","","False","","",""
 "modules/o365_sso_user/src/Form/SettingsForm.php:189","Select the profile type we need to save data to.","","","False","","",""
 "modules/o365_sso_user/src/Form/SettingsForm.php:91","Selected fields from the Graph API","","","False","","",""
-"modules/o365_teams/src/Form/O365TeamsSendMessageForm.php:106","Send","","","False","","",""
+"modules/o365_teams/src/Form/O365TeamsSendMessageForm.php:106","Send","Envoyer","","False","","",""
 "modules/o365_teams/o365_teams.routing.yml:0","Send a message via Microsoft Teams","","","False","","",""
 "modules/o365_profile/o365_profile.links.task.yml:0","Settings","","","False","","",""
 "o365.links.menu.yml:0","Settings for the Office 365 Connector module","","","False","","",""

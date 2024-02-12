@@ -1,6 +1,4 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"src/Plugin/WebformElementBase.php:2393","More text","","","False","","",""
-"src/Plugin/WebformElementBase.php:2387","More title","","","False","","",""
 "src/WebformHelpManager.php:858;1403","Moving Forward with Webform in Drupal 8: Part II | WebWash","","","False","","",""
 "src/WebformAddonsManager.php:83","Multilingual","","","False","","",""
 "src/Plugin/WebformElement/WebformManagedFileBase.php:1081","Multiple","","","False","","",""
@@ -54,7 +52,7 @@
 "src/Controller/WebformResultsExportController.php:144","No export file ready for download. The file may have already been downloaded by your browser. Visit the <a href="":href"">download export webform</a> to create a new export.","","","False","","",""
 "src/Controller/WebformPluginHandlerController.php:262","No handler available.","","","False","","",""
 "modules/webform_image_select/src/Plugin/WebformElement/WebformImageSelect.php:61","No images found.","","","False","","",""
-"src/Plugin/WebformElementBase.php:234","No items entered. Please add items below.","","","False","","",""
+"webform.post_update.php:110","No items entered. Please add items below.","","","False","","",""
 "src/Plugin/WebformElementBase.php:2866","No items message","","","False","","",""
 "src/Form/WebformBulkFormBase.php:112","No items selected.","","","False","","",""
 "modules/webform_submission_log/src/Controller/WebformSubmissionLogController.php:174","No log messages available.","","","False","","",""
@@ -300,7 +298,7 @@ Friend: Friend
 "modules/webform_ui/src/Form/WebformUiElementFormBase.php:226","Please avoid using the reserved word '@key' as the element's key.","","","False","","",""
 "src/Plugin/WebformElement/TextFormat.php:317","Please check the formats that are available for this element. Leave blank to allow all available formats.","","","False","","",""
 "modules/webform_cards/src/Form/WebformCardsConvertForm.php:44","Please confirm that you want to convert this webform's wizard pages to cards","","","False","","",""
-"src/WebformLibrariesManager.php:197","Please download external libaries using one the <a href="":href"">recommended methods.","","","False","","",""
+"src/WebformLibrariesManager.php:197","Please download external libraries using one the <a href="":href"">recommended methods</a>.","","","False","","",""
 "src/WebformHelpManager.php:2337","Please enable the <strong>Webform UI</strong> module if you would like to add easily add and manage elements using a drag-n-drop user interface.","","","False","","",""
 "src/Plugin/WebformElement/WebformMapping.php:430","Please enter an element type.","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsFormForm.php:677","Please enter an open or close date","","","False","","",""
@@ -1130,6 +1128,8 @@ Widowed: Widowed
 "modules/webform_image_select/src/Plugin/WebformElement/WebformImageSelect.php:217","Space","","","False","","",""
 "src/Plugin/WebformExporter/DelimitedWebformExporter.php:60","Space ( )","","","False","","",""
 "src/WebformSubmissionExporter.php:413","Space ()","","","False","","",""
+"src/WebformAddonsManager.php:1741","Spam Master","","","False","","",""
+"src/WebformAddonsManager.php:1742","Spam Master is a Spam Protection Module that blocks new user registrations, comments, and threads with Real Time anti-spam lists.","","","False","","",""
 "src/WebformAddonsManager.php:1428","SpamAway","","","False","","",""
 "src/Plugin/WebformElement/DateBase.php:307","Specifies the day(s) of the week.","","","False","","",""
 "src/Plugin/WebformElement/WebformHeight.php:137","Specifies the feet's maximum value.","","","False","","",""
@@ -1896,7 +1896,7 @@ Saturday: Saturday
 "src/WebformLibrariesManager.php:417","Tippy.js a tiny, low-level library for creating ""floating"" elements like tooltips, popovers, dropdowns, menus, and more.","","","False","","",""
 "src/WebformLibrariesManager.php:472;481","Tippy.js is the complete tooltip, popover, dropdown, and menu solution for the web, powered by Popper.","","","False","","",""
 "src/WebformLibrariesManager.php:427","Tippy.js is used to provide tooltip behavior for elements.","","","False","","",""
-"modules/webform_demo/webform_demo_group/config/install/core.base_field_override.group.webform_group_b.label.yml:0","Title","","","False","","",""
+"modules/webform_demo/webform_demo_group/config/install/core.base_field_override.group.webform_group_b.label.yml:0","Title","Titre","","False","","",""
 "src/Form/WebformSubmissionResendForm.php:70","Title / Description","","","False","","",""
 "src/WebformEntityVariantsForm.php:80","Title / Notes","","","False","","",""
 "src/Plugin/WebformElementBase.php:3062","Title attributes","","","False","","",""
@@ -1905,7 +1905,7 @@ Saturday: Saturday
 "src/Plugin/WebformElement/WebformSection.php:68","Title tag","","","False","","",""
 "src/Plugin/WebformElement/WebformEntityReferenceTrait.php:260","Title, an entity's title/label","","","False","","",""
 "src/Plugin/WebformElement/WebformLocationBase.php:113","Title/Placeholder","","","False","","",""
-"config/install/webform.webform_options.titles.yml:0","Titles","","","False","","",""
+"config/install/webform.webform_options.titles.yml:0","Titles","Titres","","False","","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:1223","To","","","False","","",""
 "src/Plugin/WebformElement/VerticalTabs.php:135","To add details and fieldsets this vertical tabs element, you must defined a custom <code>'#group': vertical_tab_key</code> property in the details or fieldset element with this vertical tabs' element key.","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:659","To add the .webform-dialog class to a link's attributes, please use the <a href="":editor_advanced_link_href"">D8 Editor Advanced link</a> or <a href="":menu_link_attributes_href"">Menu Link Attributes</a> modules.","","","False","","",""
@@ -5780,6 +5780,7 @@ webform_example_element_multiple:
 "templates/webform-submission-navigation.html.twig:28","›","","","False","","",""
 "modules/webform_demo/webform_demo_event_registration/config/install/views.view.webform_demo_events.yml:0","››","","","False","","",""
 "src/Form/WebformHelpVideoForm.php:106","▶ Watch more videos","","","False","","",""
+"src/WebformLibrariesManager.php:197","Please download external libaries using one the <a href="":href"">recommended methods.","","","False","","",""
 "modules/webform_example_custom_form/config/install/webform.webform.webform_example_custom_form.yml:0","'#attributes':
   'class':
     - 'webform-example-custom-form-settings'
@@ -7307,3 +7308,4 @@ advanced_elements:
     '#output__field_prefix': $
     '#output__field_suffix': '.00'
 ","","","False","","",""
+"src/WebformEntityConditionsManager.php:64","unchecked","","","False","","",""

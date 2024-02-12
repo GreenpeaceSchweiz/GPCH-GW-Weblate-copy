@@ -20,4 +20,4 @@
 "src/Plugin/ContentExportPlugin/ContentAnalyticsLikes.php:8","Likes","","","False","","",""
 "social_content_export.info.yml:0","Social","","","False","","",""
 "social_content_export.info.yml:0","Social Content Export","","","False","","",""
-"src/Plugin/ContentExportPlugin/ContentTitle.php:8","Title","","","False","","",""
+"src/Plugin/ContentExportPlugin/ContentTitle.php:8","Title","Titre","","False","","",""

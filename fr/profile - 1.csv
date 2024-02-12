@@ -111,5 +111,5 @@
 "src/Entity/Profile.php:14","profile","","","False","","",""
 "src/Entity/ProfileType.php:9","profile type","","","False","","",""
 "src/Entity/ProfileType.php:9","profile types","","","False","","",""
-"src/Entity/Profile.php:14","profiles","","","False","","",""
+"src/Entity/Profile.php:14","profiles","profils","","False","","",""
 "src/EntityOwnerTrait.php:43","User ID","","","False","","",""

@@ -2,7 +2,7 @@
 "src/Plugin/Block/SocialEvenCalendar.php:201","'- Any -'","","","False","","",""
 "social_calendar.module:140","Content tag(s)","","","False","","",""
 "templates/node--event--event-calendar--sky.html.twig:76","Content tags","","","False","","",""
-"templates/social-event-calendar.html.twig:18","Day","","","False","","",""
+"templates/social-event-calendar.html.twig:18","Day","Jour","","False","","",""
 "templates/node--event--event-calendar--sky.html.twig:19","Enrolled","","","False","","",""
 "src/Plugin/Block/SocialEvenCalendar.php:14","Event Calendar","","","False","","",""
 "config/install/core.entity_view_mode.node.event_calendar.yml:0","Event calendar","","","False","","",""

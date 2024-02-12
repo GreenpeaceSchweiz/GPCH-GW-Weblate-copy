@@ -59,7 +59,7 @@
 "config/schema/socialbase.schema.yml:0","Favicon settings","Paramêtres d'iöne","","False","","",""
 "templates/node/node--full.html.twig:149","Featured","En vedette","","False","","",""
 "config/schema/socialbase.schema.yml:0","Features settings","Paramètres","","False","","",""
-"templates/node/field--node--field-files.html.twig:3","Files","Fichiers","","False","","",""
+"templates/node/field--node--field-files.html.twig:3","Files","Pièces jointes","","False","","",""
 "templates/system/pager.html.twig:45","First page","Première page","","False","","",""
 "config/schema/socialbase.schema.yml:0","Footer","Pied de page","","False","","",""
 "templates/forum/forum-list.html.twig:54","Forum","Forum","","False","","",""

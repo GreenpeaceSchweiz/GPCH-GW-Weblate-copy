@@ -192,7 +192,7 @@
 "src/Plugin/DataType/SolrField.php:9","Fields from a Solr document.","","","False","","",""
 "src/Plugin/DataType/SolrMultisiteField.php:5","Fields from a multisite Solr document.","","","False","","",""
 "search_api_solr.install:152","File %filename could not be fetched from Solr server for validation: @message","","","False","","",""
-"search_api_solr.links.task.yml:0","Files","","","False","","",""
+"search_api_solr.links.task.yml:0","Files","Pièces jointes","","False","","",""
 "config/install/search_api_solr.solr_cache.cache_filter_default_7_0_0.yml:0","Filter Cache","","","False","","",""
 "config/schema/search_api_solr.schema.yml:0","Finalize index before first search","","","False","","",""
 "src/SolrConnector/SolrConnectorPluginBase.php:209","Finalize timeout","","","False","","",""

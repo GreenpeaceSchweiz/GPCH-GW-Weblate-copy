@@ -154,7 +154,7 @@
 "src/Commands/PrivateMessageCommands.php:65","Proceeding will delete all private messages and private message threads in your system. They cannot be recovered. Do you wish to proceed?","","","False","","",""
 "private_message.module:320","Receive notification of private messages","","","False","","",""
 "src/Form/ConfigForm.php:174","Remove the default CSS of the module","","","False","","",""
-"config/install/private_message.settings.yml:0","Send","","","False","","",""
+"config/install/private_message.settings.yml:0","Send","Envoyer","","False","","",""
 "src/Form/ConfigForm.php:100","Send notifications (users can opt-out)","","","False","","",""
 "src/Form/ConfigForm.php:112","Send notifications of new messages in a thread","","","False","","",""
 "src/Service/PrivateMessageService.php:369;379;391","Send private message","Envoyer un message privé","","False","","",""

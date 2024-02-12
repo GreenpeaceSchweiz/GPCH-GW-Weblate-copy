@@ -24,7 +24,7 @@
 "src/Form/ConfirmationForm.php:54","Confirm","","","False","","",""
 "src/Form/SettingsForm.php:259;299","Customize the body of the notification e-mail sent to the user.","","","False","","",""
 "src/Form/SettingsForm.php:249;290","Customize the subject of the notification e-mail sent to the user.","","","False","","",""
-"src/Form/SettingsForm.php:74;106;139;172;314","Days","","","False","","",""
+"src/Form/SettingsForm.php:74;106;139;172;314","Days","Jours","","False","","",""
 "src/Form/SettingsForm.php:55","Dear User, 
 
 Your account has been deleted due the website’s policy to automatically remove users who match certain criteria. If you have concerns regarding the deletion, please talk to the administrator of the website. 

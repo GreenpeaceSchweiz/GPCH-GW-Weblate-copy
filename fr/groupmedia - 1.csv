@@ -77,7 +77,7 @@
 "groupmedia.tokens.inc:27","The parent group.","","","False","","",""
 "src/Plugin/GroupContentEnabler/GroupMedia.php:11","The title of the media to add to the group","","","False","","",""
 "src/Plugin/GroupContentEnabler/GroupMedia.php:88","This field has been disabled by the plugin to guarantee the functionality that's expected of it.","","","False","","",""
-"src/Plugin/GroupContentEnabler/GroupMedia.php:11","Title","","","False","","",""
+"src/Plugin/GroupContentEnabler/GroupMedia.php:11","Title","Titre","","False","","",""
 "config/schema/groupmedia.schema.yml:0","Tracking enabled","","","False","","",""
 "src/Plugin/MediaFinder/EntityEmbed.php:5","Tracks relationships created with 'Entity Embed' in formatted text fields.","","","False","","",""
 "src/Plugin/MediaFinder/MediaEmbed.php:5","Tracks relationships created with Core's 'Embed media' filter in formatted text fields.","","","False","","",""

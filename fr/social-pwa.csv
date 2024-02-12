@@ -67,7 +67,7 @@
 "src/Form/ManifestSettingsForm.php:120","This is the name the user will see when they add your website to their homescreen. You might want to keep this short.","","","False","","",""
 "src/Form/PushNotificationForm.php:136","This will be the <b>message</b> of the Push Notification.","","","False","","",""
 "src/Form/PushNotificationForm.php:128","This will be the <b>title</b> of the Push Notification. <i>(Static value for now)</i>","","","False","","",""
-"src/Form/PushNotificationForm.php:124","Title","","","False","","",""
+"src/Form/PushNotificationForm.php:124","Title","Titre","","False","","",""
 "src/Form/PushNotificationForm.php:118","To user","","","False","","",""
 "modules/activity_send_push/src/Plugin/ActivitySend/PushActivitySend.php:117","Tried to send an empty push notification for mid: %mid","","","False","","",""
 "modules/activity_send_push/src/Plugin/ActivitySend/PushActivitySend.php:96","Tried to send push notification for activity from message (%mid) that did not have a user recipient.","","","False","","",""

@@ -207,7 +207,7 @@
 "src/Plugin/Field/FieldWidget/RecordingWidget.php:33","Thumbnail","","","False","","",""
 "src/Plugin/Field/FieldFormatter/RecordingDefaultFormatter.php:46","Thumbnail Cloud","","","False","","",""
 "src/Plugin/Field/FieldWidget/RecordingWidget.php:39","Thumbnail on the cloud","","","False","","",""
-"src/Entity/Ve.php:168","Title","","","False","","",""
+"src/Entity/Ve.php:168","Title","Titre","","False","","",""
 "modules/ve_zoom/config/optional/field.field.ve.ve_zoom.field_topic.yml:0","Topic","","","False","","",""
 "src/VeListBuilder.php:73","Total virtual events: @total","","","False","","",""
 "config/optional/views.view.ve_sessions.yml:0","Updated","","","False","","",""

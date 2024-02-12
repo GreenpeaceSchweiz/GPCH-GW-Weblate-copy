@@ -92,7 +92,7 @@
 "src/Form/AdminSettingsForm.php:153","These are the default fonts provided by mPDF. This may not work for HTML content if your styles already have a <em>font-family</em> property.","","","False","","",""
 "src/Form/AdminSettingsForm.php:69","These optional properties can be seen when inspecting the document properties like in Adobe Reader.","","","False","","",""
 "src/Form/AdminSettingsForm.php:314","Tip: Install @token_url module to browse more tokens","","","False","","",""
-"src/Form/AdminSettingsForm.php:75","Title","","","False","","",""
+"src/Form/AdminSettingsForm.php:75","Title","Titre","","False","","",""
 "src/Form/AdminSettingsForm.php:111","Top Margin","","","False","","",""
 "src/Form/AdminSettingsForm.php:261","Use a valid HTML code to write a custom footer content. Example:","","","False","","",""
 "src/Form/AdminSettingsForm.php:247","Use a valid HTML code to write a custom header content. Example:","","","False","","",""

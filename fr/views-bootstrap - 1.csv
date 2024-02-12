@@ -161,7 +161,7 @@
 "src/Plugin/views/style/ViewsBootstrapCarousel.php:122","The min-width breakpoint of the multicolumn carousel.","","","False","","",""
 "src/Plugin/views/style/ViewsBootstrapCarousel.php:109","The number of columns to include in the carousel.","","","False","","",""
 "src/Plugin/views/style/ViewsBootstrapThumbnail.php:195","This adds col-@size to the div.","","","False","","",""
-"src/Plugin/views/style/ViewsBootstrapCarousel.php:157","Title","","","False","","",""
+"src/Plugin/views/style/ViewsBootstrapCarousel.php:157","Title","Titre","","False","","",""
 "src/Plugin/views/style/ViewsBootstrapListGroup.php:76","Title field","","","False","","",""
 "src/Plugin/views/style/ViewsBootstrapTable.php:53","To make a table scroll horizontally on small devices.","","","False","","",""
 "views_bootstrap.module:23","Uses","","","False","","",""
