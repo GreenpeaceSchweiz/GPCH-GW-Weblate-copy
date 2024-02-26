@@ -1941,7 +1941,7 @@ Si vous n’avez pas reçu d’email, regardez dans vos spams ou écrivez à con
 "modules/social_features/social_group/modules/social_group_invite/src/Plugin/Join/SocialGroupInviteJoin.php:121","Invitation only","Seulement sur invitation","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/config/optional/views.view.social_group_invitations.yml:0","Invitation status","Statut","","False","","",""
 "modules/social_features/social_group/modules/social_group_invite/config/optional/views.view.social_group_invitations.yml:0;0","Invitations","","","False","","",""
-"modules/social_features/social_group/templates/join.html.twig:39","Invite","Inviter quelqu'un dans le groupe","","False","","",""
+"modules/social_features/social_group/templates/join.html.twig:39","Invite","Inviter quelqu'un","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/config/install/views.view.user_event_invites.yml:0","Invite date","Date d'invitation","","False","","",""
 "modules/social_features/social_event/modules/social_event_invite/config/install/message.template.invite_event_enrollment.yml:0","Invite event enrollment","","","False","","",""
 "modules/social_features/social_group/social_group.module:743","Invite only","Sur invitation seulement","","False","","",""
