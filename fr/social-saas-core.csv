@@ -15,7 +15,6 @@
 "social_saas_core.routing.yml:0","Geolocation","","","False","","",""
 "src/Form/SaasSocialGeolocationForm.php:142","Geolocation has been disabled.","","","False","","",""
 "src/Form/SaasSocialGeolocationForm.php:128","Geolocation has been enabled.","","","False","","",""
-"social_saas_core.links.task.yml:0","Posts","Contributions","","False","","",""
 "social_saas_core.info.yml:0","SaaS","","","False","","",""
 "src/Form/SaasSocialSharingForm.php:75","Save configuration","","","False","","",""
 "config/schema/social_saas_core.settings.yml:0","Social Geolocation settings","","","False","","",""
