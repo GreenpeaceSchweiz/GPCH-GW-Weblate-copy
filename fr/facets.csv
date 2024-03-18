@@ -29,7 +29,7 @@
 "src/Plugin/facets/query_type/SearchApiDate.php:394","1 second ago","","","False","","",""
 "src/Plugin/facets/query_type/SearchApiDate.php:388","1 second hence","","","False","","",""
 "src/Plugin/facets/query_type/SearchApiDate.php:299;318;338;359;381","1 year","'@count année'","","False","","",""
-"src/Plugin/facets/query_type/SearchApiDate.php:290","1 year ago","","","False","","",""
+"src/Plugin/facets/query_type/SearchApiDate.php:290","1 year ago","Il y a 1 an","","False","","",""
 "src/Plugin/facets/query_type/SearchApiDate.php:286","1 year hence","","","False","","",""
 "src/Plugin/facets/widget/DropdownWidget.php:9","A configurable widget that shows a dropdown.","","","False","","",""
 "src/Plugin/facets/widget/CheckboxWidget.php:5","A configurable widget that shows a list of checkboxes","","","False","","",""

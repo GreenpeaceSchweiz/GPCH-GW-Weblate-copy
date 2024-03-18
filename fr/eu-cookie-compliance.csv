@@ -284,7 +284,7 @@
 "eu_cookie_compliance.module:37","You may want to create a page that would explain how your site uses cookies. Alternatively, if you have a privacy policy, you can link the banner to that page (see next step).","","","False","","",""
 "src/Form/EuCookieComplianceConfigForm.php:1262","Your privacy policy link is pointing at the front page. This is the default value after installation, and unless your privacy policy is actually posted at the front page, you will need to create a separate page for the privacy policy and link to that page.","","","False","","",""
 "src/Form/CookieCategoryDeleteForm.php:43","content @type: deleted @label.","","","False","","",""
-"src/Form/EuCookieComplianceConfigForm.php:1174","days","","","False","","",""
+"src/Form/EuCookieComplianceConfigForm.php:1174","days","jours","","False","","",""
 "src/Form/EuCookieComplianceConfigForm.php:995","ms","","","False","","",""
 "src/Form/EuCookieComplianceConfigForm.php:473;908","px","","","False","","",""
 "src/Form/EuCookieComplianceConfigForm.php:924","px or %","","","False","","",""
