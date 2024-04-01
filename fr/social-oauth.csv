@@ -1,5 +1,5 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"config/install/oauth2_server.server.open_social.yml:0","Open Social","","","False","","",""
+"social_oauth.install:84","Client @client_id was unexpected state because it uses @grant_types grant type(s) and has not been migrated","","","False","","",""
 "social_oauth.info.yml:0","Provides OAuth2 and OpenID Connect functionality for external applications.","","","False","","",""
 "social_oauth.info.yml:0","Social (Experimental)","","","False","","",""
 "social_oauth.info.yml:0","Social OAuth","","","False","","",""

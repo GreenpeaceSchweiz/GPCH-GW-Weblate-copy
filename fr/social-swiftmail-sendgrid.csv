@@ -21,7 +21,7 @@
 "src/Plugin/EmailBuilder/SendgridSMTPApiBCCEmailBuilderBase.php:12","Mails using Sendgrid's API BCC and substitions","","","False","","",""
 "src/Form/SendgridDnsOverview.php:188","No action required","","","False","","",""
 "src/Form/SendgridDnsOverview.php:60;81","No domain found.","","","False","","",""
-"src/Plugin/AdvancedQueue/JobType/MassActivitySendEmailJobType.php:498","Notification from %site_name","","","False","","",""
+"src/Plugin/AdvancedQueue/JobType/MassActivitySendEmailJobType.php:498","Notification from @site_name","","","False","","",""
 "src/Form/SendgridDnsOverview.php:98","Operations","","","False","","",""
 "social_swiftmail_sendgrid.links.menu.yml:0","Overview to maintain whitelisted domains for Sendgrid.","","","False","","",""
 "src/Form/SendgridDnsOverview.php:65;300","SendGrid provided incorrect JSON data when trying to white-label a domain.","","","False","","",""
