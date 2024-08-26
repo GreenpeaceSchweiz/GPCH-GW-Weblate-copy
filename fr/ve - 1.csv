@@ -4,7 +4,6 @@
 "src/Form/VeFieldFormatterForm.php:267","<b>Meeting ID:</b> @meeting_id","","","False","","",""
 "src/Form/VeFieldFormatterForm.php:298","<div class='more-link btn btn-flat'><a href='@meeting_link' title='@title' target='_blank'>@meeting_link_text</a></div>","","","False","","",""
 "modules/ve_zoom/ve_zoom.module:555","<li><strong>@topic</strong> is starting on @start for @duration</li>","","","False","","",""
-"src/Plugin/Field/FieldFormatter/VirtualEventDefaultFormatter.php:182","<p>Virtual Events</p><p>Your licenses is not configured yet or not connected.<br />Check the licenses configurations <a href=""/admin/ve/ve-license"" target=""_blank"">here</a></p>","","","False","","",""
 "src/Plugin/Field/FieldWidget/VirtualEventWidget.php:265","<p>Your licenses is not configured yet or not connected.<br />Check the licenses configurations <a href=""/admin/ve/ve-license"" target=""_blank"">here</a></p>","","","False","","",""
 "src/Form/VeFieldFormatterForm.php:398","'@countdownText'","","","False","","",""
 "src/Entity/Ve.php:187","A boolean indicating whether the virtual event is enabled.","","","False","","",""
@@ -278,4 +277,5 @@
 "modules/ve_bbb/config/optional/field.field.ve.ve_bbb.field_welcome.yml:0","welcome","","","False","","",""
 "config/optional/views.view.ve_sessions.yml:0","‹‹","","","False","","",""
 "config/optional/views.view.ve_sessions.yml:0","››","","","False","","",""
+"src/Plugin/Field/FieldFormatter/VirtualEventDefaultFormatter.php:182","<p>Virtual Events</p><p>Your licenses is not configured yet or not connected.<br />Check the licenses configurations <a href=""/admin/ve/ve-license"" target=""_blank"">here</a></p>","","","False","","",""
 "src/Plugin/Field/FieldFormatter/VirtualEventDefaultFormatter.php:104","This option enables event organizers and authors to do rehearsals before the event is started","","","False","","",""

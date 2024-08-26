@@ -14,7 +14,6 @@
 "social_role_visibility.info.yml:0","Social","","","False","","",""
 "social_role_visibility.info.yml:0","Social Role Visibility","","","False","","",""
 "social_role_visibility.module:395","The @name doesn't have enough permissions to see the group content.","","","False","","",""
-"social_role_visibility.module:656","The group visibility is set to @role, the user @name doesn't have this role(s).","","","False","","",""
 "config/schema/social_role_visibility.schema.yml:0","Third party settings for role visibility","","","False","","",""
 "src/Form/VisibilityRoleForm.php:88","This option lets you hide this role’s profile details from people with different roles. People with the same role will still be able to interact with each other’s profile details.","","","False","","",""
 "social_role_visibility.permissions.yml:0","Use all role visibility options during content creation.","","","False","","",""
@@ -25,4 +24,3 @@
 "src/Form/VisibilityRoleForm.php:145","You can not uncheck this box because you have follow entities with this visibility (see above)","","","False","","",""
 "social_role_visibility.module:1229","all users with this role can see it","","","False","","",""
 "social_role_visibility.module:952","only visible to members with the assigned role(s)","Visibilité réservée aux membres disposant d'un rôle spécifique (fonctionnalité administrateur)","","False","","",""
-"social_role_visibility.module:381","The group visibility is set to @role, the user @name doesn't have this role.","","","False","","",""

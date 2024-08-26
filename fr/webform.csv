@@ -1,7 +1,7 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "modules/webform_demo/webform_demo_event_registration/config/install/field.field.node.webform_demo_event.field_webform_entity_limit_total.yml:0"," people","","","False","","",""
 "src/WebformSubmissionForm.php:1715","""@title: @page"" loaded. (@start of @end)","","","False","","",""
-"config/optional/views.view.webform_submissions.yml:0;0;0;0","#","","","False","","",""
+"src/WebformSubmissionStorage.php:720","#","","","False","","",""
 "src/Form/WebformBulkFormBase.php:164","'%action was applied to @count item.'","","","False","","",""
 "js/webform.element.counter.js:0","'%d character(s) entered'","","","False","","",""
 "js/webform.element.counter.js:0","'%d character(s) remaining'","","","False","","",""
@@ -508,6 +508,7 @@ Retired: Retired
 "src/Plugin/WebformHandler/RemotePostWebformHandler.php:371","401 Unauthorized","","","False","","",""
 "src/Plugin/WebformHandler/RemotePostWebformHandler.php:372","403 Forbidden","","","False","","",""
 "src/Plugin/WebformHandler/RemotePostWebformHandler.php:373","404 Not Found","","","False","","",""
+"src/Plugin/WebformHandler/RemotePostWebformHandler.php:381","444 No Response","","","False","","",""
 "src/Plugin/WebformElement/DateTime.php:357","5 minutes","","","False","","",""
 "src/Plugin/WebformHandler/RemotePostWebformHandler.php:374","500 Internal Server Error","","","False","","",""
 "src/Plugin/WebformHandler/RemotePostWebformHandler.php:375","502 Bad Gateway","","","False","","",""
@@ -578,6 +579,7 @@ Retired: Retired
 "src/Plugin/WebformElement/BooleanBase.php:79","<strong>The return value should only be customized when an external system or service expects a custom string value. (i.e. yes, checked, accepted, etc…)</strong>","","","False","","",""
 "src/WebformHelpManager.php:1743;1880","<strong>Variants</strong> are used for A/B testing, segmentation, and personalization.","","","False","","",""
 "src/Plugin/WebformExporter/TableWebformExporter.php:41","<strong>Warning:</strong> Opening %type files with spreadsheet applications may expose you to <a href="":injection_href"">formula injection</a> or other security vulnerabilities. When the submissions contain data from untrusted users and the downloaded file will be used with Microsoft Excel, use the <a href="":excel_href"">Webform XLSX export</a> module.","","","False","","",""
+"src/Plugin/WebformExporter/TableWebformExporter.php:41","<strong>Warning:</strong> Opening %type files with spreadsheet applications may expose you to <a href="":injection_href"">formula injection</a> or other security vulnerabilities. When the submissions contain data from untrusted users and the downloaded file will be used with Microsoft Excel, use the <strong>XLSX</strong> export format.","","","False","","",""
 "webform.module:889","<strong>Warning</strong>: The below settings give users, permissions, and roles full access to this webform and its submissions.","","","False","","",""
 "webform.module:900","<strong>Warning</strong>: The below settings give users, permissions, and roles full access to this webform's configuration via API requests.","","","False","","",""
 "src/WebformHelpManager.php:1854","<strong>Webform Element</strong> plugins are used to enhance existing render/form elements. Webform element plugins provide default properties, data normalization, custom validation, element configuration form and customizable display formats.","","","False","","",""
@@ -587,7 +589,7 @@ Retired: Retired
 "modules/webform_access/src/WebformAccessTypeListBuilder.php:70","'@count access type'","","","False","","",""
 "modules/webform_options_custom/src/WebformOptionsCustomListBuilder.php:125","'@count custom options'","","","False","","",""
 "src/WebformSubmissionListBuilder.php:724","'@count draft'","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:96","'@count email @message'","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:97","'@count email @message'","","","False","","",""
 "modules/webform_image_select/src/WebformImageSelectImagesListBuilder.php:120","'@count images'","","","False","","",""
 "src/WebformOptionsListBuilder.php:113","'@count option'","","","False","","",""
 "modules/webform_node/src/Controller/WebformNodeReferencesListController.php:409","'@count reference'","","","False","","",""
@@ -604,11 +606,11 @@ Retired: Retired
 "src/Plugin/WebformHandler/EmailWebformHandler.php:1301","'@form: Email not sent for @handler handler because a To, CC, or BCC email was not provided'","","","False","","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:1278","'@form: The '@type' email address (@email) for '@handler' handler is not valid.'","","","False","","",""
 "modules/webform_cards/js/webform_cards.js:0","'@index of @total'","","","False","","",""
-"modules/webform_access/webform_access.tokens.inc:62","'@label (Adminstrators)'","","","False","","",""
+"modules/webform_access/webform_access.tokens.inc:62","'@label (Administrators)'","","","False","","",""
 "modules/webform_access/webform_access.tokens.inc:58","'@label (Custom email addresses)'","","","False","","",""
 "modules/webform_access/webform_access.tokens.inc:50","'@label (Users and custom email addresses)'","","","False","","",""
 "modules/webform_access/webform_access.tokens.inc:54","'@label (Users)'","","","False","","",""
-"modules/webform_access/webform_access.tokens.inc:66","'@label (Users, custom email addresses, Adminstrators)'","","","False","","",""
+"modules/webform_access/webform_access.tokens.inc:66","'@label (Users, custom email addresses, Administrators)'","","","False","","",""
 "modules/webform_options_limit/src/Plugin/WebformHandler/OptionsLimitWebformHandler.php:427","'@label - The element option/checkbox's label.'","","","False","","",""
 "modules/webform_options_limit/src/Plugin/WebformHandler/OptionsLimitWebformHandler.php:845;1414","'@label @message'","","","False","","",""
 "src/Element/WebformOptions.php:139","'@label description'","","","False","","",""
@@ -638,7 +640,8 @@ Retired: Retired
 "src/Plugin/WebformElement/TextBase.php:244","'@name cannot be longer than %max @type but is currently %length @type long.'","","","False","","",""
 "src/Element/WebformEmailConfirm.php:197","'@name cannot be longer than %max characters but is currently %length characters long.'","","","False","","",""
 "src/Utility/WebformElementHelper.php:789;792","'@name field is required.'","","","False","","",""
-"src/Plugin/WebformElement/TextBase.php:247","'@name must be longer than %min @type but is currently %length @type long.'","","","False","","",""
+"src/Plugin/WebformElement/TextBase.php:243","'@name must be %max @type but is currently %length @type long.'","","","False","","",""
+"src/Plugin/WebformElement/TextBase.php:251","'@name must be at least %min @type but is currently %length @type long.'","","","False","","",""
 "src/Commands/WebformCliService.php:818","'@name removed from @path…'","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:499;500;501","'@number milliseconds'","","","False","","",""
 "src/Plugin/WebformElement/DateBase.php:170","'@parent: @child'","","","False","","",""
@@ -733,7 +736,6 @@ Retired: Retired
 "src/WebformLibrariesManager.php:507","A jQuery plugin that makes long, unwieldy select boxes much more user-friendly.","","","False","","",""
 "modules/webform_templates/config/install/webform.webform.template_job_application.yml:0","A job application webform template.","","","False","","",""
 "modules/webform_templates/config/install/webform.webform.template_job_seeker_profile.yml:0","A job seeker profile webform template.","","","False","","",""
-"src/WebformAddonsManager.php:1455","A light-weight, non-intrusive spam protection module that enables rejection of webform submissions which contain preset patterns.","","","False","","",""
 "src/WebformAddonsManager.php:323","A lightweight range slider with multi-touch support and a ton of features.","","","False","","",""
 "src/WebformLibrariesManager.php:436","A lightweight, customizable javascript timepicker plugin for jQuery, inspired by Google Calendar.","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:241","A list of classes that will be provided in ""Button CSS classes"" dropdown. Enter one or more classes on each line. These styles should be available in your theme's CSS file.","","","False","","",""
@@ -1292,7 +1294,7 @@ Yukon: Yukon
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:128","All","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:150","All URL aliases for all webforms have to be manually created.","","","False","","",""
 "src/WebformSubmissionListBuilder.php:637","All [@total]","","","False","","",""
-"modules/webform_access/webform_access.tokens.inc:40","All adminstrators","","","False","","",""
+"modules/webform_access/webform_access.tokens.inc:40","All administrators","","","False","","",""
 "modules/webform_access/webform_access.tokens.inc:36","All custom email addresses","","","False","","",""
 "js/webform.element.details.toggle.js:0","All details have been collapsed.","","","False","","",""
 "js/webform.element.details.toggle.js:0","All details have been expanded.","","","False","","",""
@@ -1490,7 +1492,6 @@ Yukon: Yukon
 "modules/webform_submission_export_import/src/Form/WebformSubmissionExportImportUploadForm.php:328","Are you sure you want to import @submissions?","","","False","","",""
 "src/Commands/WebformCliService.php:437","Are you sure you want to import @total submissions?","","","False","","",""
 "src/Form/WebformSubmissionsPurgeForm.php:52","Are you sure you want to purge all submissions?","","","False","","",""
-"src/Form/AdminConfig/WebformAdminConfigAdvancedForm.php:301","Are you sure you want to repair and remove older webform configuration?","","","False","","",""
 "src/Commands/WebformCliService.php:1081","Are you sure you want update your Drupal installation's composer.json file?","","","False","","",""
 "src/Plugin/WebformElement/WebformMapping.php:386","Arrow character","","","False","","",""
 "modules/webform_demo/webform_demo_event_registration/config/install/views.view.webform_demo_events.yml:0","Asc","","","False","","",""
@@ -1703,7 +1704,7 @@ Mixed: Mixed
 "src/Plugin/WebformElement/WebformTableTrait.php:105","Checkbox","","","False","","",""
 "src/Plugin/WebformElement/WebformCheckboxesOther.php:46","Checkboxes","","","False","","",""
 "src/Plugin/WebformElement/WebformCheckboxesOther.php:9","Checkboxes other","","","False","","",""
-"src/Plugin/WebformElement/BooleanBase.php:88","Checked","","","False","Add check mark","",""
+"src/Element/WebformElementStates.php:1081;1097","Checked","","","False","Add check mark","",""
 "src/Plugin/WebformElement/OptionsBase.php:532","Checklist (gi)","","","False","","",""
 "src/Plugin/WebformElement/OptionsBase.php:531","Checklist (☑/☐)","","","False","","",""
 "src/WebformLibrariesManager.php:498","Choices","","","False","","",""
@@ -1732,7 +1733,7 @@ Mixed: Mixed
 "src/EntitySettings/WebformEntitySettingsFormForm.php:792","Client-side validation is disabled for all forms.","","","False","","",""
 "src/WebformAddonsManager.php:1776","Clientside Validation","","","False","","",""
 "src/Plugin/Field/FieldWidget/WebformEntityReferenceWidgetTrait.php:175;183","Close","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:174","Close date","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:175","Close date","","","False","","",""
 "config/schema/webform.entity.webform.schema.yml:0","Close date/time","","","False","","",""
 "src/Plugin/Field/FieldType/WebformEntityReferenceItem.php:92","Close value","","","False","","",""
 "src/Plugin/Action/WebformEntityCloseAction.php:9","Close webform","","","False","","",""
@@ -1792,7 +1793,7 @@ Mixed: Mixed
 "src/WebformHelpManager.php:1103","Concept: Content Entities and Fields | Drupalize.me","","","False","","",""
 "src/WebformHelpManager.php:906","Concept: Drupal Licensing | Drupalize.me","","","False","","",""
 "src/WebformHelpManager.php:902","Concept: The Drupal Project | Drupalize.me","","","False","","",""
-"src/Controller/WebformPluginHandlerController.php:121","Conditional","","","False","","",""
+"modules/webform_ui/src/WebformUiEntityElementsForm.php:378","Conditional","","","False","","",""
 "src/Element/WebformElementStates.php:113","Conditional Logic (YAML)","","","False","","",""
 "src/Plugin/WebformElementBase.php:2775","Conditional logic","","","False","","",""
 "src/Element/WebformElementStates.php:1039","Conditional logic (Form API #states) has multiple operators.","","","False","","",""
@@ -1845,7 +1846,7 @@ Mixed: Mixed
 "src/WebformHelpManager.php:1611","Congratulations!","","","False","","",""
 "src/WebformHelpManager.php:898","Connecting with the Community | Drupalize.me","","","False","","",""
 "src/WebformAddonsManager.php:1087","Connects your website's contact forms to Streak CRM, automatically creating new contacts upon form submission.","","","False","","",""
-"config/install/webform.webform.contact.yml:0","Contact","","","False","","",""
+"templates/webform-help-support.html.twig:35","Contact","","","False","","",""
 "src/WebformHelpManager.php:725","Contact Documentation","","","False","","",""
 "src/Plugin/WebformElementBase.php:2572","Contact URL","","","False","","",""
 "modules/webform_templates/config/install/webform.webform.template_contact.yml:0","Contact Us","","","False","","",""
@@ -1909,7 +1910,7 @@ Mixed: Mixed
 "src/Plugin/WebformElement/TextBase.php:366","Currency (-)","","","False","","",""
 "templates/webform-progress-tracker.html.twig:45","Current","","","False","","",""
 "modules/webform_cards/webform_cards.module:32","Current card","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:170","Current date","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:171","Current date","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigElementsForm.php:382","Current limit: %limit","","","False","","",""
 "src/Entity/WebformSubmission.php:180","Current page","","","False","","",""
 "webform.tokens.inc:111","Current page title","","","False","","",""
@@ -1958,7 +1959,7 @@ Mixed: Mixed
 "src/WebformSubmissionListBuilder.php:694","Customize my table","","","False","","",""
 "modules/webform_node/webform_node.routing.yml:0","Customize table","","","False","","",""
 "src/Plugin/WebformElement/DateTime.php:246;315","Custom…","","","False","","",""
-"modules/webform_image_select/config/install/webform_image_select.webform_image_select_images.kittens.yml:0","Cute Kittens","","","False","","",""
+"modules/webform_image_select/config/install/webform_image_select.webform_image_select_images.dogs.yml:0","Cute Dogs","","","False","","",""
 "src/WebformHelpManager.php:1195","D8 Webform and Webform Views Integration @ Drupalcamp Colorado","","","False","","",""
 "modules/webform_toggles/src/Plugin/WebformElement/WebformToggleTrait.php:45","Dark","","","False","","",""
 "src/Plugin/WebformHandler/ActionWebformHandler.php:363","Data","","","False","","",""
@@ -1972,9 +1973,9 @@ Mixed: Mixed
 "src/Plugin/WebformElement/Date.php:9","Date","","","False","","",""
 "modules/webform_scheduled_email/webform_scheduled_email.module:95","Date (@format)","","","False","","",""
 "config/install/webform.webform_options.time_zones.yml:0","Date and time","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:179","Date changed","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:178","Date completed","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:177","Date created","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:180","Date changed","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:179","Date completed","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:178","Date created","","","False","","",""
 "src/Plugin/WebformElement/DateBase.php:304","Date days of the week","","","False","","",""
 "src/Plugin/WebformElement/DateTime.php:174","Date element","","","False","","",""
 "src/Plugin/WebformElement/DateTime.php:239","Date format","","","False","","",""
@@ -2015,6 +2016,8 @@ Mixed: Mixed
 "src/Plugin/WebformHandler/SettingsWebformHandler.php:321","Debug: Settings: @title","","","False","","",""
 "templates/webform-variant-override-summary.html.twig:13","Debugging is enabled","","","False","","",""
 "src/Plugin/WebformElement/TextBase.php:380","Decimal","","","False","","",""
+"src/Plugin/WebformElement/TextBase.php:397","Decimal (+/-)","","","False","","",""
+"src/Plugin/WebformElement/TextBase.php:392","Decimal (-)","","","False","","",""
 "src/WebformAddonsManager.php:1813","Decoupled Kit","","","False","","",""
 "modules/webform_submission_log/webform_submission_log.info.yml:0","Dedicated logging and reporting for webform submissions.","","","False","","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:498;1578","Default","","","False","","",""
@@ -2146,7 +2149,7 @@ Mixed: Mixed
 "src/Plugin/WebformElementBase.php:2373","Defaults to the element's title","","","False","","",""
 "src/Plugin/WebformHandler/RemotePostWebformHandler.php:347","Defaults to: %value","","","False","","",""
 "modules/webform_options_limit/src/Plugin/WebformHandler/OptionsLimitWebformHandler.php:24","Define options or checkbox submission limits.","","","False","","",""
-"src/WebformAddonsManager.php:171","Defines a new plugin type to manage tax number valitation. Additionally provides a webform element that uses the same plugin","","","False","","",""
+"src/WebformAddonsManager.php:171","Defines a new plugin type to manage tax number validation. Additionally provides a webform element that uses the same plugin","","","False","","",""
 "src/WebformAddonsManager.php:1366","Defines the following permissions to enable a user to translate a webform's configuration without granting them the 'translate configuration' permission needlessly.","","","False","","",""
 "src/Element/WebformName.php:50","Degree","","","False","","",""
 "config/install/webform.settings.yml:0","Delete","Supprimer","","False","","",""
@@ -2382,6 +2385,7 @@ Mixed: Mixed
 "src/WebformAddonsManager.php:234","Dropzonejs Webform","","","False","","",""
 "src/WebformAddonsManager.php:719","Druminate Webforms","","","False","","",""
 "src/WebformHelpManager.php:1343","Drupal 8 Accessibility","","","False","","",""
+"templates/webform-help-support.html.twig:24","Drupal Association","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigElementsForm.php:235","Drupal core does not automatically delete unused files because unused files could reused.","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigElementsForm.php:340","Drupal core does not automatically delete unused files because unused files could reused. For webform submissions it is recommended that unused files are deleted.","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigElementsForm.php:347","Drupal core does not immediately delete temporary file. For webform submissions it is recommended that temporary files are immediately deleted.","","","False","","",""
@@ -2568,6 +2572,7 @@ Mixed: Mixed
 "src/WebformEntityElementsForm.php:83","Enter a <a href="":form_api_href"">Form API (FAPI)</a> and/or a <a href="":render_api_href"">Render Array</a> as <a href="":yaml_href"">YAML</a>.","","","False","","",""
 "src/Element/WebformElementStates.php:504","Enter a <a href="":href"">regular expression</a>","","","False","","",""
 "src/Plugin/WebformElement/TextBase.php:180","Enter a <a href="":href"">regular expression</a> that the element's value should match.","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:197","Enter a @type or token which returns in a @type in a format compatible with <a href="":href"" target=""_blank"">PHP's strtotime function</a> (eg. @format). If timezone information is not provided, the @type will be interpreted in the site's default timezone (@site_default_tz).","","","False","","",""
 "modules/webform_options_custom/src/WebformOptionsCustomForm.php:242","Enter a comma-delimited list of attribute names. The first matched text attribute will be used for all custom option text. Leave blank if options text is populated using Twig.","","","False","","",""
 "modules/webform_options_custom/src/WebformOptionsCustomForm.php:235","Enter a comma-delimited list of attribute names. The first matched value attribute will be used for all custom option values .Leave blank if options values is populated using Twig.","","","False","","",""
 "src/Controller/WebformAddonsController.php:88","Enter a keyword to filter by.","","","False","","",""
@@ -2580,7 +2585,6 @@ Mixed: Mixed
 "src/Controller/WebformPluginVariantController.php:98","Enter a part of the variant label to filter by.","","","False","","",""
 "src/Controller/WebformPluginVariantController.php:230","Enter a part of the variant name to filter by.","","","False","","",""
 "src/Element/WebformElementComposite.php:151","Enter a unique machine-readable name. Can only contain lowercase letters, numbers, and underscores.","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:195","Enter a valid ISO @type (@format) or token which returns a valid ISO @type.","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigElementsForm.php:380","Enter a value like ""512"" (bytes), ""80 KB"" (kilobytes) or ""50 MB"" (megabytes) in order to restrict the allowed file size. If left empty the file sizes will be limited only by PHP's maximum post and file upload sizes.","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigElementsForm.php:390","Enter a value like ""512"" (bytes), ""80 KB"" (kilobytes) or ""50 MB"" (megabytes) in order to set file upload limit.","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsFormForm.php:604","Enter a value like ""512"" (bytes), ""80 KB"" (kilobytes) or ""50 MB"" (megabytes) in order to set the file upload limit for this form.","","","False","","",""
@@ -3124,7 +3128,6 @@ Graduate or Professional Degree: Graduate or Professional Degree
 Some College: Some College
 ","","","False","","",""
 "modules/webform_icheck/webform_icheck.module:19","Highly customizable checkboxes and radio buttons.","","","False","","",""
-"templates/webform-help-support.html.twig:34","Hire the Webform module's subject matter expert (SME) to ensure the success of your project. I can review your project plan, recommend solutions, and implement custom features.","","","False","","",""
 "src/Breadcrumb/WebformBreadcrumbBuilder.php:163;179;186;193","Home","","","False","","",""
 "config/install/webform.webform_options.phone_types.yml:0","Home: Home
 Office: Office
@@ -3155,7 +3158,7 @@ Cell: Cell
 "src/WebformAddonsManager.php:1676","IMCE","","","False","","",""
 "src/WebformAddonsManager.php:1677","IMCE is an image/file uploader and browser that supports personal directories and quota.","","","False","","",""
 "includes/webform.install.update.inc:2568","IMPORTANT! Elements, containers, and pages that are hidden using conditional logic will now have their submission data cleared when a webform is submitted.","","","False","","",""
-"config/optional/views.view.webform_submissions.yml:0;0;0;0","IP address","","","False","","",""
+"src/Plugin/WebformElement/TextBase.php:389","IP address","","","False","","",""
 "src/Plugin/WebformElement/WebformEmailConfirm.php:89","If 'Automatic' is selected Flexbox layout will only be used if a 'Flexbox layout' element is included in the webform.","","","False","","",""
 "modules/webform_submission_export_import/src/Form/WebformSubmissionExportImportUploadForm.php:148","If UUIDs are included, existing submissions will always be updated.","","","False","","",""
 "modules/webform_submission_export_import/src/Form/WebformSubmissionExportImportUploadForm.php:149","If UUIDs are not included, already imported and unchanged records will not create duplication submissions.","","","False","","",""
@@ -3252,6 +3255,7 @@ Cell: Cell
 "src/Form/AdminConfig/WebformAdminConfigAdvancedForm.php:88","If checked, the Webforms section will be displayed as a top-level administration menu item in the toolbar.","","","False","","",""
 "src/Form/WebformResultsCustomForm.php:256","If checked, the above settings will be used as the default configuration for all associated Webform nodes.","","","False","","",""
 "src/Plugin/WebformElement/WebformLikert.php:487","If checked, the answers will float at the top of the page as the user scrolls-thru the questions.","","","False","","",""
+"src/EntitySettings/WebformEntitySettingsFormForm.php:818","If checked, the browser back button will submit the previous page and navigate back emulating the behavior of user clicking a wizard or preview page's back button.","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:269","If checked, the browser back button will submit the previous page and navigate back emulating the behaviour of user clicking a wizard or preview page's back button.","","","False","","",""
 "src/Plugin/WebformElementBase.php:2851","If checked, the composite sub-element titles will be displayed as the table header labels.","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsFormForm.php:412","If checked, the confirmation page will be included in the progress bar.","","","False","","",""
@@ -3300,7 +3304,7 @@ Cell: Cell
 "src/EntitySettings/WebformEntitySettingsFormForm.php:773","If checked, users will not be allowed to navigate back to the form using the browser's back button.","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:264","If checked, users will not be allowed to navigate back to the webform using the browser's back button.","","","False","","",""
 "modules/webform_example_variant/src/Plugin/WebformVariant/ExampleWebformVariant.php:74","If checked, variant information will be displayed onscreen to all users.","","","False","","",""
-"src/Plugin/WebformElement/WebformVariant.php:207","If checked, variants will be availalbe using query string parameters.","","","False","","",""
+"src/Plugin/WebformElement/WebformVariant.php:207","If checked, variants will be available using query string parameters.","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:529","If checking, form sharing will be enabled for all webform nodes.","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:522","If checking, form sharing will be enabled for all webforms.","","","False","","",""
 "src/Plugin/Field/FieldWidget/WebformEntityReferenceSelectWidget.php:54","If left blank all webforms will be listed in the select menu.","","","False","","",""
@@ -3330,7 +3334,7 @@ Cell: Cell
 "src/Plugin/WebformElementBase.php:2886","If unchecked, the elements will no longer be sortable.","","","False","","",""
 "src/Plugin/WebformElementBase.php:2909","If unchecked, the remove button will be removed from each table row.","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsGeneralForm.php:188","If unchecked, this webform must be attached to a <a href="":node_href"">node</a> or a <a href="":block_href"">block</a> to receive submissions.","","","False","","",""
-"src/WebformHelpManager.php:1583","If you enjoy and value Drupal and the Webform module consider <a href="":href_involved"">getting involved in the Drupal community</a>, <a href="":href_opencollective"">contributing funds to the Webform module's Open Collective</a>, and <a href="":href_support"">hiring professional support</a>.","","","False","","",""
+"src/WebformHelpManager.php:1591","If you enjoy and value Drupal and the Webform module consider <a href="":href_involved"">getting involved in the Drupal community</a>, <a href="":href_join"">joining the Drupal Association</a>, and <a href="":href_opencollective"">contributing funds to the Webform module's Open Collective</a>.","","","False","","",""
 "src/WebformHelpManager.php:2241","If you run into any issues with a webform, you can also attach the below configuration (without any personal information) to a new ticket in the Webform module's <a href="":href"">issue queue</a>.","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsFormForm.php:560","If you wish to include only parts of the submission in the preview, select the elements that should be included. Please note, element specific access controls are still applied to displayed elements.","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:126","If you wish to include only parts of the submission when viewing as HTML, table, or plain text, select the elements that should be included. Please note, element specific access controls are still applied to displayed elements.","","","False","","",""
@@ -3455,7 +3459,7 @@ Cell: Cell
 "third_party_settings/webform.captcha.inc:36","It changes the ""@from"" link label and behavior to ""@to""","","","False","","",""
 "src/WebformHelpManager.php:1796","It is recommended that these libraries are installed in your Drupal installation's /libraries or /web/libraries directory.","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigElementsForm.php:265","It is recommended to use the <a href="":href"">IMCE module</a> to manage webform elements, settings, and configuration files.","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:161","It is strongly recommended that <a href="":href"">submission logging</a> is enable to track scheduled emails.","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:162","It is strongly recommended that <a href="":href"">submission logging</a> is enable to track scheduled emails.","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsFormForm.php:87","It is strongly recommended that you install the <a href="":cache_control_override_href"">Cache Control Override</a> module.","","","False","","",""
 "src/Plugin/WebformElement/Item.php:8","Item","","","False","","",""
 "src/Plugin/WebformElementBase.php:3086","Item format","","","False","","",""
@@ -3490,7 +3494,8 @@ December: December
 "modules/webform_share/src/Form/WebformShareEmbedForm.php:84","JavaScript code","","","False","","",""
 "modules/webform_templates/config/install/webform.webform.template_job_application.yml:0","Job Application","","","False","","",""
 "modules/webform_templates/config/install/webform.webform.template_job_seeker_profile.yml:0","Job Seeker Profile","","","False","","",""
-"src/Plugin/WebformElement/WebformLocationBase.php:112","Key","","","False","","",""
+"templates/webform-help-support.html.twig:26","Join","","","False","","",""
+"modules/webform_ui/src/WebformUiEntityElementsForm.php:363","Key","","","False","","",""
 "src/WebformOptionsForm.php:207","Key-value pairs MUST be specified as ""safe_key: 'Some readable option'"". Use of only alphanumeric characters and underscores is recommended in keys. One option per line. Option groups can be created by using just the group name followed by indented group options.","","","False","","",""
 "src/Element/WebformOptions.php:92","Key-value pairs MUST be specified as ""safe_key: 'Some readable options'"". Use of only alphanumeric characters and underscores is recommended in keys. One option per line.","","","False","","",""
 "modules/webform_shortcuts/webform_shortcuts.module:116","Keyboard shortcut settings","","","False","","",""
@@ -3508,7 +3513,7 @@ December: December
 "src/Plugin/Field/FieldFormatter/WebformEntityReferenceLinkFormatter.php:74","Label: @label","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsFormForm.php:430","Labels","","","False","","",""
 "src/Form/WebformResultsCustomForm.php:286","Labels/values, the human-readable value (value)","","","False","","",""
-"src/Plugin/WebformElement/LanguageSelect.php:89","Langcode","","","False","","",""
+"webform.tokens.inc:99","Langcode","","","False","","",""
 "src/Entity/WebformSubmission.php:196","Language","","","False","","",""
 "src/Plugin/WebformElement/Address.php:220","Language code","","","False","","",""
 "src/Plugin/WebformElement/Address.php:373","Language override","","","False","","",""
@@ -3942,7 +3947,7 @@ Dr: Dr
 "src/Plugin/WebformExporter/TableWebformExporter.php:35","Open HTML table in Excel","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigLibrariesForm.php:124","Open Issues","","","False","","",""
 "src/WebformEntityListBuilder.php:172","Open [@total]","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:173","Open date","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:174","Open date","","","False","","",""
 "config/schema/webform.entity.webform.schema.yml:0","Open date/time","","","False","","",""
 "src/Plugin/WebformElement/WebformActions.php:238","Open delete confirmation form in a modal dialog.","","","False","","",""
 "config/schema/webform.field.schema.yml:0","Open referenced webform in modal dialog","","","False","","",""
@@ -4073,7 +4078,7 @@ Friend: Friend
 "src/Plugin/WebformElement/PasswordConfirm.php:68;69","Password","","","False","","",""
 "src/Plugin/WebformElement/PasswordConfirm.php:9","Password confirm","","","False","","",""
 "src/Plugin/WebformHandler/SettingsWebformHandler.php:136","Paths beginning with a forward slash (/) will redirect be treated as root-relative. Paths without a forward slash (/) will redirect be treated as Drupal relative path.","","","False","","",""
-"src/Plugin/WebformElement/TextBase.php:177","Pattern","","","False","","",""
+"src/Element/WebformElementStates.php:1101","Pattern","","","False","","",""
 "src/Plugin/WebformElement/TextBase.php:334","Pattern %pattern is not a valid regular expression.","","","False","","",""
 "src/Plugin/WebformElement/TextBase.php:185","Pattern message","","","False","","",""
 "src/Plugin/WebformElement/TextBase.php:179","Pattern regular expression","","","False","","",""
@@ -4081,9 +4086,9 @@ Friend: Friend
 "src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:479","Per user","","","False","","",""
 "webform.tokens.inc:169","Per user remaining number of submissions","","","False","","",""
 "webform.tokens.inc:211","Per user remaining number of submissions for a source entity","","","False","","",""
-"src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:497","Per user submission limit","","","False","","",""
+"webform.tokens.inc:153","Per user submission limit","","","False","","",""
 "webform.tokens.inc:195","Per user submission limit for a source entity","","","False","","",""
-"src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:504","Per user submission limit interval","","","False","","",""
+"webform.tokens.inc:157","Per user submission limit interval","","","False","","",""
 "webform.tokens.inc:199","Per user submission limit interval for a source entity","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:519","Per user submission limit interval per source entity","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:527","Per user submission limit message","","","False","","",""
@@ -4106,7 +4111,7 @@ Friend: Friend
 "src/WebformHelpManager.php:1109","Placing webforms as blocks","","","False","","",""
 "src/Plugin/WebformElement/WebformComputedBase.php:209","Plain text","","","False","","",""
 "modules/webform_options_limit/src/Plugin/WebformHandler/OptionsLimitWebformHandler.php:160;204","Please add a new options or checkbox element.","","","False","","",""
-"src/WebformSubmissionForm.php:921","Please add elements to this webform.","","","False","","",""
+"modules/webform_ui/src/WebformUiEntityElementsForm.php:111","Please add elements to this webform.","","","False","","",""
 "src/Plugin/WebformElement/WebformLikert.php:355","Please answer question 1?","","","False","","",""
 "modules/webform_ui/src/Form/WebformUiElementFormBase.php:226","Please avoid using the reserved word '@key' as the element's key.","","","False","","",""
 "src/Plugin/WebformElement/TextFormat.php:317","Please check the formats that are available for this element. Leave blank to allow all available formats.","","","False","","",""
@@ -4119,9 +4124,9 @@ Friend: Friend
 "modules/webform_attachment/src/Plugin/WebformElement/WebformAttachmentBase.php:198","Please enter the attachment's file name with a file extension. The file extension will be used to determine the attachment's content (mime) type.","","","False","","",""
 "src/Commands/WebformCliService.php:400","Please include the CSV path or URI.","","","False","","",""
 "src/Controller/WebformAddonsController.php:132","Please install to the <a href="":href"">@title</a> project to improve the Webform module's user experience.","","","False","","",""
-"config/install/webform.settings.yml:0","Please login to access the uploaded file.","","","False","","",""
-"config/install/webform.settings.yml:0","Please login to access this form.","","","False","","",""
-"config/install/webform.settings.yml:0","Please login to access this submission.","","","False","","",""
+"config/install/webform.settings.yml:0","Please log in to access the uploaded file.","","","False","","",""
+"config/install/webform.settings.yml:0","Please log in to access this form.","","","False","","",""
+"config/install/webform.settings.yml:0","Please log in to access this submission.","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:568","Please make sure authenticated users are allowed to 'view own submission' and 'edit own submission'.","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsFormForm.php:633","Please make sure this webform's action URL or path is setup to handle the webform's submission.","","","False","","",""
 "includes/webform.form_alter.inc:130","Please make sure to backup your website before updating the Webform module.","","","False","","",""
@@ -4228,7 +4233,6 @@ Friend: Friend
 "modules/webform_example_remote_post/src/Controller/WebformExampleRemotePostController.php:30","Processed @type request.","","","False","","",""
 "src/Plugin/WebformElement/ProcessedText.php:106","Processed text element can not be opened within a modal. Please see <a href=""https://www.drupal.org/node/2741877"">Issue #2741877: Nested modals don't work</a>.","","","False","","",""
 "src/Plugin/WebformElement/ProcessedText.php:114","Processed text settings","","","False","","",""
-"templates/webform-help-support.html.twig:33","Professional support","","","False","","",""
 "modules/webform_options_limit/src/Plugin/WebformHandler/OptionsLimitWebformHandler.php:995","Progress","","","False","","",""
 "src/WebformLibrariesManager.php:443","Progress Tracker","","","False","","",""
 "src/WebformLibrariesManager.php:445","Progress Tracker is used by multi-step wizard forms.","","","False","","",""
@@ -4247,7 +4251,8 @@ Friend: Friend
 "third_party_settings/webform.honeypot.inc:72","Protect %label with Honeypot","","","False","","",""
 "config/schema/webform.third_party.antibot.schema.yml:0;0","Protect all webforms with Antibot","","","False","","",""
 "config/schema/webform.third_party.honeypot.schema.yml:0;0","Protect all webforms with Honeypot","","","False","","",""
-"src/WebformAddonsManager.php:1454;1528","Protected Submissions","","","False","","",""
+"src/WebformAddonsManager.php:1717","Protected Forms","","","False","","",""
+"src/WebformAddonsManager.php:1718","Protected Forms is a light-weight, non-intrusive spam protection module that enables rejection of node, comment, webform, user profile, contact form, private message and revision log submissions which contain undesired language characters or preset patterns.","","","False","","",""
 "src/WebformAddonsManager.php:179","Provide a webform element with the radios-to-slider jQuery plugin support.","","","False","","",""
 "src/WebformAddonsManager.php:1139","Provide a webform handler for sending submission data to SendGrids Contact/Marketing/Lists API.","","","False","","",""
 "src/WebformAddonsManager.php:1858","Provide revisions and moderation for Webforms.","","","False","","",""
@@ -4281,7 +4286,7 @@ Friend: Friend
 "src/WebformAddonsManager.php:1155","Provides a Webform handler for posting a message to a slack channel when a submission is saved.","","","False","","",""
 "src/WebformAddonsManager.php:936","Provides a Webform handler that integrates with Copper CRM.","","","False","","",""
 "src/WebformAddonsManager.php:1027","Provides a Webform handler that integrates with Hubspot.","","","False","","",""
-"src/WebformAddonsManager.php:728","Provides a Webform handler to add contact to the list of direct e-mailing service Ecomail.cz.","","","False","","",""
+"src/WebformAddonsManager.php:855","Provides a Webform handler to add contact to the list of direct emailing service Ecomail.cz.","","","False","","",""
 "src/WebformAddonsManager.php:455","Provides a Webform submission handler that sets an arbitrary cookie after submission.","","","False","","",""
 "src/WebformAddonsManager.php:1435;1493","Provides a Zammad Webform Handler, for sending Webform submissions to a Zammad instance.","","","False","","",""
 "src/WebformAddonsManager.php:856","Provides a composite Webform address element with autocompletion based on PostcodeAPI.nu data.","","","False","","",""
@@ -4426,7 +4431,7 @@ Friend: Friend
 "src/WebformAddonsManager.php:995","Provides components and integration to receive donations with webforms using the Payments module.","","","False","","",""
 "modules/webform_shortcuts/webform_shortcuts.info.yml:0","Provides configurable keyboard shortcuts to create and save webform elements.","","","False","","",""
 "modules/webform_devel/webform_devel.info.yml:0","Provides development tools for the Webform module.","","","False","","",""
-"src/WebformAddonsManager.php:1545","Provides e-mail double opt-in functionality.","","","False","","",""
+"src/WebformAddonsManager.php:1832","Provides email double opt-in functionality.","","","False","","",""
 "src/WebformAddonsManager.php:1748","Provides encryption for webform elements.","","","False","","",""
 "modules/webform_examples_accessibility/webform_examples_accessibility.info.yml:0","Provides example webforms for reviewing and testing accessibility.","","","False","","",""
 "modules/webform_examples/webform_examples.info.yml:0","Provides examples of all webform elements and functionality which can used for demonstrating and testing advanced functionality or used as cut-n-paste code snippets for creating new webforms.","","","False","","",""
@@ -4475,7 +4480,7 @@ Friend: Friend
 "src/WebformAddonsManager.php:1500","Query webform submission data.","","","False","","",""
 "src/Plugin/WebformElement/Captcha.php:215","Question description","","","False","","",""
 "src/Plugin/WebformElement/Captcha.php:211","Question title","","","False","","",""
-"src/Plugin/WebformElement/WebformLikert.php:119;418","Questions","","","False","","",""
+"src/Element/WebformLikert.php:81","Questions","","","False","","",""
 "src/Plugin/WebformElement/WebformLikert.php:426","Questions description display","","","False","","",""
 "src/WebformAddonsManager.php:1281","Queue Mail","","","False","","",""
 "src/WebformAddonsManager.php:1282","Queues webform email sending so that instead of being sent immediately it is sent on cron or via some other queue processor.","","","False","","",""
@@ -4675,7 +4680,7 @@ Friend: Friend
 "src/Plugin/WebformElementBase.php:2530","Rows","","","False","","",""
 "src/WebformAddonsManager.php:863","Rules Webform","","","False","","",""
 "src/WebformAddonsManager.php:672","Run Ansible playbooks using a Webform handler.","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:114","Run cron task","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:115","Run cron task","","","False","","",""
 "src/WebformSubmissionStorage.php:725","SID","","","False","","",""
 "src/WebformAddonsManager.php:1297","SMTP Authentication Support","","","False","","",""
 "src/WebformAddonsManager.php:86","SPAM Protection","","","False","","",""
@@ -4690,7 +4695,7 @@ Friend: Friend
 "src/Plugin/WebformElement/WebformManagedFileBase.php:1059","Sanitize file name","","","False","","",""
 "src/WebformAddonsManager.php:1585","Sanitizes submissions to remove potentially sensitive data.","","","False","","",""
 "src/Utility/WebformDateHelper.php:87","Saturday","","","False","","",""
-"src/Form/WebformVariantFormBase.php:244","Save","","","False","","",""
+"modules/webform_ui/src/Form/WebformUiElementFormBase.php:311","Save","","","False","","",""
 "modules/webform_ui/src/Form/WebformUiElementFormBase.php:321;428","Save + Add element","","","False","","",""
 "config/install/webform.settings.yml:0","Save Draft","","","False","","",""
 "modules/webform_devel/src/Form/WebformDevelEntityFormApiExportForm.php:34","Save configuration","","","False","","",""
@@ -4712,10 +4717,10 @@ Friend: Friend
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:125","Scheduled","","","False","","",""
 "src/WebformEntityListBuilder.php:310","Scheduled (@state)","","","False","","",""
 "src/WebformEntityListBuilder.php:174","Scheduled [@total]","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:152;16","Scheduled email","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:153;17","Scheduled email","","","False","","",""
 "modules/webform_scheduled_email/src/WebformScheduledEmailManager.php:723","Scheduled email @action for @handler handler.","","","False","","",""
 "modules/webform_scheduled_email/webform_scheduled_email.module:86","Scheduled email settings","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:126","Scheduled email status (@total)","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:127","Scheduled email status (@total)","","","False","","",""
 "modules/webform_scheduled_email/config/schema/webform_scheduled_email.settings.schema.yml:0","Scheduled email type (date or date/time)","","","False","","",""
 "modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:278","Scheduled emails are automatically sent starting at midnight using <a href="":href"">cron</a>, which is executed at predefined interval.","","","False","","",""
 "modules/webform_scheduled_email/webform_scheduled_email.module:93","Scheduled emails are queued and sent via hourly <a href=""@href"">cron tasks</a>. To schedule an email for a specific time, site administrators must increase the cron task execution frequency.","","","False","","",""
@@ -4816,7 +4821,7 @@ Friend: Friend
 "src/WebformAddonsManager.php:1038","Sendinblue: Digital Marketing Tool","","","False","","",""
 "src/WebformHelpManager.php:1201","Sending webform email attachments","","","False","","",""
 "src/WebformAddonsManager.php:1046","Sendpulse: Online Marketing","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:16","Sends a webform submission via a scheduled email.","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:17","Sends a webform submission via a scheduled email.","","","False","","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:23","Sends a webform submission via an email.","","","False","","",""
 "src/Plugin/Mail/WebformPhpMail.php:8","Sends the message as plain text or HTML, using PHP's native mail() function.","","","False","","",""
 "src/WebformAddonsManager.php:831","Sends webform submission to Discord via webhook.","","","False","","",""
@@ -4932,12 +4937,12 @@ Widowed: Widowed
 "webform.tokens.inc:75;79","Source URL","","","False","","",""
 "src/Plugin/WebformElement/WebformMapping.php:407","Source description display","","","False","","",""
 "src/Plugin/WebformElement/WebformSame.php:69","Source element","","","False","","",""
-"src/EntitySettings/WebformEntitySettingsFormForm.php:130","Source entity","","","False","","",""
+"webform.tokens.inc:289","Source entity","","","False","","",""
 "config/schema/webform.block.schema.yml:0","Source entity id","","","False","","",""
-"config/schema/webform.block.schema.yml:0","Source entity type","","","False","","",""
+"webform.tokens.inc:67;71","Source entity type","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsFormForm.php:127","Source entity: Webform","","","False","","",""
 "src/Plugin/WebformElement/WebformMapping.php:400","Source options","","","False","","",""
-"src/Plugin/WebformElement/WebformMapping.php:396","Source title","","","False","","",""
+"webform.tokens.inc:295","Source title","","","False","","",""
 "modules/webform_image_select/src/Plugin/WebformElement/WebformImageSelect.php:217","Space","","","False","","",""
 "src/Plugin/WebformExporter/DelimitedWebformExporter.php:60","Space ( )","","","False","","",""
 "src/WebformSubmissionExporter.php:413","Space ()","","","False","","",""
@@ -4983,7 +4988,6 @@ Widowed: Widowed
 "src/WebformSubmissionExporter.php:689","Starred/flagged submissions","","","False","","",""
 "config/install/webform.settings.yml:0","Start","","","False","","",""
 "templates/webform-help-support.html.twig:27","Starting at $5 a month","","","False","","",""
-"templates/webform-help-support.html.twig:36","Starting at $800","","","False","","",""
 "src/Plugin/WebformElement/WebformAutocomplete.php:122","Starts with","","","False","","",""
 "src/Plugin/WebformHandler/ActionWebformHandler.php:335","State","","","False","","",""
 "webform.tokens.inc:123","State (Label)","","","False","","",""
@@ -5061,7 +5065,7 @@ Widowed: Widowed
 "src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:232","Submission user columns","","","False","","",""
 "config/schema/webform.entity.webform.schema.yml:0","Submission user duplicate","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:220","Submission user settings","","","False","","",""
-"modules/webform_devel/src/Form/WebformDevelSubmissionApiForm.php:80","Submission values","","","False","","",""
+"webform.tokens.inc:222","Submission values","","","False","","",""
 "templates/webform-handler-debug-summary.html.twig:13","Submission values will be displayed onscreen.","","","False","","",""
 "config/schema/webform.settings.schema.yml:0","Submission view","","","False","","",""
 "config/schema/webform.entity.webform.schema.yml:0","Submission view replace","","","False","","",""
@@ -5219,7 +5223,7 @@ Saturday: Saturday
 "modules/webform_templates/config/install/webform.webform.template_session_evaluation.yml:0","Thank you for your feedback.","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigElementsForm.php:590","The ""@name"" option must contain a valid value. You may either leave the text field empty or enter a string like ""512"" (bytes), ""80 KB"" (kilobytes) or ""50 MB"" (megabytes).","","","False","","",""
 "src/Plugin/WebformHandler/EmailWebformHandler.php:473","The ""Reply-To:"" email header is used for replying to the email that is received.  For example, if you collect a customers email, you would want to reply-to them. If you collect a lead generation form and want to reply to the coordinator, you would reply-to them.","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:321","The %field date is required. Please enter a @type in the format %format.","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:323","The %field @type field is required. Please enter a @type or token which returns in a @type in a format compatible with <a href="":href"" target=""_blank"">PHP's strtotime function</a> (eg. @format).","","","False","","",""
 "src/Controller/WebformTestController.php:83","The %handler email/handler for the %webform webform does not exist.","","","False","","",""
 "src/WebformEntityElementsValidator.php:435","The %key element can not be removed because the %title webform has <a href="":href"">results</a>.","","","False","","",""
 "src/WebformEntityElementsValidator.php:478","The %key element can not be removed because the %title webform has related <a href="":href"">variants</a>.","","","False","","",""
@@ -5320,6 +5324,7 @@ Saturday: Saturday
 "src/Plugin/Field/FieldWidget/WebformEntityReferenceWidgetTrait.php:318","The @title close date cannot be before the open date","","","False","","",""
 "src/Plugin/WebformElement/DateBase.php:478","The @title could not be interpreted in <a href=""https://www.gnu.org/software/tar/manual/html_chapter/tar_7.html#Date-input-formats"">GNU Date Input Format</a>.","","","False","","",""
 "src/Element/WebformLocationBase.php:143","The @title is not valid.","","","False","","",""
+"templates/webform-help-support.html.twig:25","The Drupal Association is an educational non-profit organization that tasks itself with fostering and supporting the Drupal software project, the community and its growth.","","","False","","",""
 "src/WebformHelpManager.php:990","The Drupal mail system | Pronovix","","","False","","",""
 "src/Commands/WebformCliService.php:957","The HTML tidy PHP addon is required to generate HTML documentation.","","","False","","",""
 "src/Plugin/WebformElementBase.php:3103","The HTML to display for a single element value. You may include HTML or <a href="":href"">Twig</a>. You may enter data from the submission as per the ""variables"" below.","","","False","","",""
@@ -5367,7 +5372,7 @@ Saturday: Saturday
 "webform.tokens.inc:204","The amount of time before the next allowed submission per user for the webform source entity.","","","False","","",""
 "webform.tokens.inc:162","The amount of time before the next allowed submission per user for the webform.","","","False","","",""
 "src/Entity/WebformSubmission.php:201","The associated webform.","","","False","","",""
-"modules/webform_attachment/src/Plugin/WebformElement/WebformAttachmentBase.php:184","The attachment's link will only be diplayed on the form after the submission is completed.","","","False","","",""
+"modules/webform_attachment/src/Plugin/WebformElement/WebformAttachmentBase.php:184","The attachment's link will only be displayed on the form after the submission is completed.","","","False","","",""
 "modules/webform_cards/webform_cards.module:497","The automatic saving of drafts only applies to previewing when using cards. Please try using the <a href="":href"">Webform autosave module</a>.","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:144","The base path has to start with a slash and cannot end with a slash.","","","False","","",""
 "src/Form/WebformDeleteMultipleFormBase.php:46","The below @item will be deleted.","","","False","","",""
@@ -5588,9 +5593,8 @@ Saturday: Saturday
 "src/Form/AdminConfig/WebformAdminConfigAdvancedForm.php:277","This action cannot be undone.","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigAdvancedForm.php:281","This action will…","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigAdvancedForm.php:103","This behavior is disabled when the <a href="":href"">Tippy.js library is disabled</a.","","","False","","",""
-"src/EntitySettings/WebformEntitySettingsFormForm.php:199","This behavior is not supoported when Ajax is enabled.","","","False","","",""
+"src/EntitySettings/WebformEntitySettingsFormForm.php:199","This behavior is not supported when Ajax is enabled.","","","False","","",""
 "src/Plugin/WebformElement/DateBase.php:325","This can cause unexpected validation errors.","","","False","","",""
-"src/Form/AdminConfig/WebformAdminConfigAdvancedForm.php:303","This cannot be undone!!!","","","False","","",""
 "modules/webform_scheduled_email/drush/webform_scheduled_email.drush.inc:45","This command will export webform submissions to a file.","","","False","","",""
 "src/Plugin/WebformElement/WebformComputedBase.php:196","This computed element's value will only be available as a token or exported value.","","","False","","",""
 "modules/webform_demo/webform_demo_region_contact/config/install/webform.webform.demo_region_contact.yml:0","This email is sent to employees.","","","False","","",""
@@ -5617,8 +5621,8 @@ Saturday: Saturday
 "src/Plugin/WebformElementBase.php:2857","This is used as the table header for this webform element when displaying multiple values.","","","False","","",""
 "src/Plugin/WebformElementBase.php:2862","This is used by the add/remove (+/-) icons.","","","False","","",""
 "modules/webform_cards/src/Plugin/WebformElement/WebformCard.php:136","This is used for the Next Page button on the card.","","","False","","",""
-"src/Plugin/WebformElement/WebformWizardPage.php:118","This is used for the Next Page button on the page before this page break.","","","False","","",""
-"src/Plugin/WebformElement/WebformWizardPage.php:124","This is used for the Previous Page button on the page after this page break.","","","False","","",""
+"src/Plugin/WebformElement/WebformWizardPage.php:125","This is used for the Next Page button on the page after this page break.","","","False","","",""
+"src/Plugin/WebformElement/WebformWizardPage.php:119","This is used for the Previous Page button on the page before this page break.","","","False","","",""
 "modules/webform_cards/src/Plugin/WebformElement/WebformCard.php:142","This is used for the Previous button on the card.","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsFormForm.php:485","This is used for the next page button within a wizard.","","","False","","",""
 "modules/webform_cards/webform_cards.module:471","This is used for the next page button within a wizard/cards.","","","False","","",""
@@ -5747,19 +5751,19 @@ Saturday: Saturday
 "modules/webform_toggles/webform_toggles.module:18","Toggles is used to provide a toggle element.","","","False","","",""
 "src/Entity/WebformSubmission.php:151","Token","","","False","","",""
 "webform.tokens.inc:400","Tokens related to user roles that can receive email. <em>This token is only available to a Webform email handler's 'To', 'CC', and 'BCC' email recipients.</em>","","","False","","",""
-"modules/webform_access/webform_access.tokens.inc:20","Tokens related to webform access group types. <em>This token is only available to a Webform email handler's 'To', 'CC', and 'BCC' email recipents.</em>","","","False","","",""
-"modules/webform_node/webform_node.tokens.inc:17","Tokens related to webform submission.","","","False","","",""
+"modules/webform_access/webform_access.tokens.inc:20","Tokens related to webform access group types. <em>This token is only available to a Webform email handler's 'To', 'CC', and 'BCC' email recipients.</em>","","","False","","",""
+"webform.tokens.inc:41","Tokens related to webform submission.","","","False","","",""
 "webform.tokens.inc:324","Tokens related to webforms.","","","False","","",""
 "src/Plugin/WebformElementBase.php:2429","Tooltip","","","False","","",""
 "src/Plugin/WebformElement/WebformFlexbox.php:63","Top (flex-start)","","","False","","",""
 "modules/webform_options_limit/src/Plugin/WebformHandler/OptionsLimitWebformHandler.php:994","Total","","","False","","",""
-"src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:381","Total submissions","","","False","","",""
+"webform.tokens.inc:144","Total submissions","","","False","","",""
 "webform.tokens.inc:186","Total submissions for source entity","","","False","","",""
-"src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:393","Total submissions limit","","","False","","",""
-"src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:400","Total submissions limit interval","","","False","","",""
-"src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:415","Total submissions limit interval per source entity","","","False","","",""
+"webform.tokens.inc:132","Total submissions limit","","","False","","",""
+"webform.tokens.inc:136","Total submissions limit interval","","","False","","",""
+"webform.tokens.inc:178","Total submissions limit interval per source entity","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:423","Total submissions limit message","","","False","","",""
-"src/EntitySettings/WebformEntitySettingsSubmissionsForm.php:408","Total submissions limit per source entity","","","False","","",""
+"webform.tokens.inc:174","Total submissions limit per source entity","","","False","","",""
 "config/schema/webform.entity.webform.schema.yml:0","Track wizard progress in the URL","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsFormForm.php:498","Track wizard progress in the URL by","","","False","","",""
 "modules/webform_cards/webform_cards.module:475","Track wizard/cards progress in the URL by","","","False","","",""
@@ -5813,7 +5817,7 @@ Saturday: Saturday
 "config/schema/webform.action.schema.yml:0","Unarchive webform configuration","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigLibrariesForm.php:84","Uncheck the below optional external libraries that you do not want to be used by any webforms.","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigSubmissionsForm.php:239","Uncheck the below settings to allow webform administrators to choose which results should be replaced with submission views.","","","False","","",""
-"src/Plugin/WebformElement/BooleanBase.php:87","Unchecked","","","False","Remove check mark","",""
+"src/Element/WebformElementStates.php:1082;1098","Unchecked","","","False","Remove check mark","",""
 "src/EntitySettings/WebformEntitySettingsGeneralForm.php:197","Unchecking this box will delete ALL aliases you may have created for this form via the <a href="":path_alias"">path</a> module.","","","False","","",""
 "src/WebformHelpManager.php:1059","Understanding Hooks | Drupal.org","","","False","","",""
 "src/WebformHelpManager.php:1025","Understanding a webform submission","","","False","","",""
@@ -6015,10 +6019,10 @@ Saturday: Saturday
 "src/WebformAddonsManager.php:98","Web services","","","False","","",""
 "src/WebformHelpManager.php:1394;1410;1416;1422;1428;1434;1440;1452;1458;1464;1470;1476;1488;1494;1500;1512","WebWash","","","False","","",""
 "src/Plugin/DevelGenerate/WebformSubmissionDevelGenerateTrait.php:116;123","Webform","","","False","","",""
-"src/Plugin/DevelGenerate/WebformSubmissionDevelGenerate.php:132;139","Webform","","","False","form","",""
+"src/WebformSubmissionStorage.php:807;1195","Webform","","","False","form","",""
 "src/Breadcrumb/WebformBreadcrumbBuilder.php:182","Webform","","","False","module","",""
 "src/WebformEntityAddForm.php:208","Webform %label created.","","","False","","",""
-"src/WebformEntityElementsForm.php:160","Webform %label elements saved.","","","False","","",""
+"modules/webform_ui/src/WebformUiEntityElementsForm.php:263","Webform %label elements saved.","","","False","","",""
 "src/WebformEntityHandlersForm.php:244","Webform %label handler saved.","","","False","","",""
 "src/Form/WebformResultsClearForm.php:109","Webform %label submissions cleared.","","","False","","",""
 "src/WebformEntityVariantsForm.php:382","Webform %label variant saved.","","","False","","",""
@@ -6027,7 +6031,7 @@ Saturday: Saturday
 "includes/webform.install.requirements.inc:249","Webform <a href="":href"">Spam protection module</a> missing. Please install one of the below modules.","","","False","","",""
 "src/Commands/WebformCliService.php:1504","Webform @id not recognized.","","","False","","",""
 "src/WebformEntityAddForm.php:207","Webform @label created.","","","False","","",""
-"src/WebformEntityElementsForm.php:159","Webform @label elements saved.","","","False","","",""
+"modules/webform_ui/src/WebformUiEntityElementsForm.php:262","Webform @label elements saved.","","","False","","",""
 "src/WebformEntityHandlersForm.php:242","Webform @label handler saved.","","","False","","",""
 "src/WebformEntityVariantsForm.php:380","Webform @label variant saved.","","","False","","",""
 "src/WebformAddonsManager.php:919","Webform API Handler","","","False","","",""
@@ -6302,7 +6306,7 @@ Saturday: Saturday
 "modules/webform_shortcuts/config/schema/webform_shortcuts.settings.schema.yml:0","Webform shortcuts settings","","","False","","",""
 "src/Form/AdminConfig/WebformAdminConfigFormsForm.php:614","Webform specific dialog links will be included on all webform settings form.","","","False","","",""
 "modules/webform_node/src/Controller/WebformNodeReferencesListController.php:154","Webform status","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:176","Webform submission","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:177","Webform submission","","","False","","",""
 "config/schema/webform.views.schema.yml:0","Webform submission bulk form","","","False","","",""
 "src/ContextProvider/WebformSubmissionRouteContext.php:63","Webform submission from URL","","","False","","",""
 "config/install/webform.settings.yml:0","Webform submission from: [webform_submission:source-title]","","","False","","",""
@@ -6335,7 +6339,7 @@ Saturday: Saturday
 "src/WebformHelpManager.php:1327","Webform: There is this for that","","","False","","",""
 "src/WebformHelpManager.php:1948","Webform: Translate","","","False","","",""
 "includes/webform.install.requirements.inc:183;193","Webform: jQuery UI Datepicker","","","False","","",""
-"src/Plugin/Condition/Webform.php:12","Webforms","","","False","","",""
+"webform.tokens.inc:323","Webforms","","","False","","",""
 "src/WebformOptionsDeleteForm.php:72","Webforms affected","","","False","","",""
 "config/schema/webform.block.schema.yml:0","Webforms block","","","False","","",""
 "includes/webform.translation.inc:49","Webforms can only be translated via the Webform's (Configuration) Translate tab.","","","False","","",""
@@ -6358,6 +6362,7 @@ Saturday: Saturday
 "modules/webform_image_select/webform_image_select.routing.yml:0","Webforms: Images","","","False","","",""
 "webform.routing.yml:0","Webforms: Libraries configuration","","","False","","",""
 "webform.routing.yml:0","Webforms: Options","","","False","","",""
+"webform.routing.yml:0","Webforms: Repair webform configuration","","","False","","",""
 "webform.routing.yml:0","Webforms: Submissions","","","False","","",""
 "webform.routing.yml:0","Webforms: Submissions configuration","","","False","","",""
 "modules/webform_submission_log/webform_submission_log.routing.yml:0","Webforms: Submissions log","","","False","","",""
@@ -6368,7 +6373,7 @@ Saturday: Saturday
 "src/Utility/WebformDateHelper.php:202","Week","Semaine","","False","","",""
 "src/EntitySettings/WebformEntitySettingsGeneralForm.php:486","Weight","","","False","","",""
 "src/Form/WebformResultsCustomForm.php:379","Weight for @label","","","False","","",""
-"src/Element/WebformTableSort.php:173","Weight for @title","","","False","","",""
+"modules/webform_ui/src/WebformUiEntityElementsForm.php:611","Weight for @title","","","False","","",""
 "src/EntitySettings/WebformEntitySettingsGeneralForm.php:487","Weight is used when multiple webforms are associated to the same webform node.","","","False","","",""
 "src/WebformAddonsManager.php:717","WetBoew Webform Example","","","False","","",""
 "src/WebformHelpManager.php:1099","What Are Drupal Entities? | Drupalize.me","","","False","","",""
@@ -6477,7 +6482,7 @@ No: No
 "modules/webform_demo/webform_demo_event_registration/config/install/webform.webform.demo_event_registration.yml:0","[@remaining shirts remaining]","","","False","","",""
 "modules/webform_demo/webform_demo_event_registration/config/install/webform.webform.demo_event_registration.yml:0","[Unlimited]","","","False","","",""
 "src/Plugin/WebformElement/WebformMapping.php:164;187;232","[blank]","","","False","","",""
-"src/EntitySettings/WebformEntitySettingsBaseForm.php:98","[none]","","","False","","",""
+"src/WebformMessageManager.php:359","[none]","","","False","","",""
 "config/install/webform.settings.yml:0","[site:name]","","","False","","",""
 "modules/webform_demo/webform_demo_event_registration/config/optional/block.block.bartik_webform_demo_event_registration.yml:0","[total]/[limit]","","","False","","",""
 "config/install/webform.settings.yml:0","[webform:title]: Preview","","","False","","",""
@@ -6573,11 +6578,11 @@ email_settings:
   '#type': webform_section
   email:
     '#type': email
-    '#title': 'Primary E-mail Address'
+    '#title': 'Primary Email Address'
     '#description': 'Enter your primary email addresses, which will be used for all email communications.'
   emails:
     '#type': webform_email_multiple
-    '#title': 'Secondary E-mail Addresses'
+    '#title': 'Secondary Email Addresses'
     '#description': 'Enter multiple email addresses separated by commas.'
 regional_settings:
   '#title': 'Regional Settings'
@@ -7018,6 +7023,19 @@ evaluation_details:
 "src/Plugin/WebformElement/WebformMapping.php:444","destinations","","","False","","",""
 "src/WebformEntityVariantsForm.php:426","disabled","","","False","","",""
 "src/WebformEntityConditionsManager.php:74","does not match","","","False","","",""
+"modules/webform_image_select/config/install/webform_image_select.webform_image_select_images.dogs.yml:0","dog_1:
+  text: 'Cute Dog 1'
+  src: 'https://placedog.net/220/200'
+dog_2:
+  text: 'Cute Dog 2'
+  src: 'https://placedog.net/180/200'
+dog_3:
+  text: 'Cute Dog 3'
+  src: 'https://placedog.net/130/200'
+dog_4:
+  text: 'Cute Dog 4'
+  src: 'https://placedog.net/270/200'
+","","","False","","",""
 "src/WebformSubmissionListBuilder.php:935","draft","","","False","","",""
 "src/Plugin/WebformHandler/RemotePostWebformHandler.php:215","draft created","","","False","","",""
 "src/Plugin/WebformHandler/RemotePostWebformHandler.php:221","draft updated","","","False","","",""
@@ -8757,19 +8775,6 @@ information:
 "modules/webform_toggles/webform_toggles.module:16","jQuery: Toggles","","","False","","",""
 "modules/webform_icheck/webform_icheck.module:18","jQuery: iCheck","","","False","","",""
 "src/WebformHelpManager.php:1175","jQueryUI Dialog Documentation","","","False","","",""
-"modules/webform_image_select/config/install/webform_image_select.webform_image_select_images.kittens.yml:0","kitten_1:
-  text: 'Cute Kitten 1'
-  src: 'http://placekitten.com/220/200'
-kitten_2:
-  text: 'Cute Kitten 2'
-  src: 'http://placekitten.com/180/200'
-kitten_3:
-  text: 'Cute Kitten 3'
-  src: 'http://placekitten.com/130/200'
-kitten_4:
-  text: 'Cute Kitten 4'
-  src: 'http://placekitten.com/270/200'
-","","","False","","",""
 "src/WebformHelpManager.php:655","known accessibility issues","","","False","","",""
 "src/WebformEntityElementsValidator.php:278","letters, numbers, and underscores","","","False","","",""
 "src/WebformEntityElementsValidator.php:286","letters, numbers, underscores, and dashes","","","False","","",""
@@ -9065,7 +9070,7 @@ bmi_calculator:
           tags: tags
         auto_create: 1
         auto_create_bundle: tags
-summary_and_relationshsips_details:
+summary_and_relationships_details:
   '#title': 'Issue Summary'
   '#type': details
   '#open': true
@@ -9358,11 +9363,11 @@ actions:
 "src/Plugin/WebformElement/WebformActions.php:158","preview previous","","","False","","",""
 "src/Plugin/WebformElement/WebformLikert.php:419","question","","","False","","",""
 "src/Plugin/WebformElement/WebformLikert.php:420","questions","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:78","queued to be sent.","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:79","queued to be sent.","","","False","","",""
 "src/WebformAddonsManager.php:1409","reCAPTCHA","","","False","","",""
 "src/WebformEntityConditionsManager.php:58","read-only","","","False","","",""
 "src/WebformEntityConditionsManager.php:57","read/write","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:82","ready to be sent.","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:83","ready to be sent.","","","False","","",""
 "src/WebformEntityConditionsManager.php:61","required","","","False","","",""
 "modules/webform_scheduled_email/src/WebformScheduledEmailManager.php:259;479","rescheduled","","","False","","",""
 "src/Plugin/WebformElement/WebformActions.php:130","reset","","","False","","",""
@@ -9550,7 +9555,7 @@ actions:
 "config/optional/views.view.webform_submissions.yml:0;0;0","view","","","False","","",""
 "src/Plugin/WebformElement/WebformDisplayOnTrait.php:76","viewed submission only","","","False","","",""
 "src/WebformEntityConditionsManager.php:51;53","visible","","","False","","",""
-"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:74","waiting to be scheduled.","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:75","waiting to be scheduled.","","","False","","",""
 "modules/webform_demo/webform_demo_event_registration/config/optional/block.block.bartik_webform_demo_event_registration.yml:0","webform","","","False","","",""
 "src/Entity/WebformOptions.php:14;14","webform options","","","False","","",""
 "src/Plugin/Condition/Webform.php:78","webform submission","","","False","","",""
@@ -9593,6 +9598,259 @@ webform_example_element_multiple:
 "templates/webform-submission-navigation.html.twig:28","›","","","False","","",""
 "modules/webform_demo/webform_demo_event_registration/config/install/views.view.webform_demo_events.yml:0","››","","","False","","",""
 "src/Form/WebformHelpVideoForm.php:106","▶ Watch more videos","","","False","","",""
+"modules/webform_access/webform_access.tokens.inc:62","'@label (Adminstrators)'","","","False","","",""
+"modules/webform_access/webform_access.tokens.inc:66","'@label (Users, custom email addresses, Adminstrators)'","","","False","","",""
+"src/Plugin/WebformElement/TextBase.php:247","'@name must be longer than %min @type but is currently %length @type long.'","","","False","","",""
+"src/WebformAddonsManager.php:1455","A light-weight, non-intrusive spam protection module that enables rejection of webform submissions which contain preset patterns.","","","False","","",""
+"modules/webform_access/webform_access.tokens.inc:40","All adminstrators","","","False","","",""
+"src/Form/AdminConfig/WebformAdminConfigAdvancedForm.php:301","Are you sure you want to repair and remove older webform configuration?","","","False","","",""
+"modules/webform_image_select/config/install/webform_image_select.webform_image_select_images.kittens.yml:0","Cute Kittens","","","False","","",""
+"src/WebformAddonsManager.php:171","Defines a new plugin type to manage tax number valitation. Additionally provides a webform element that uses the same plugin","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:195","Enter a valid ISO @type (@format) or token which returns a valid ISO @type.","","","False","","",""
+"templates/webform-help-support.html.twig:34","Hire the Webform module's subject matter expert (SME) to ensure the success of your project. I can review your project plan, recommend solutions, and implement custom features.","","","False","","",""
+"src/Plugin/WebformElement/WebformVariant.php:207","If checked, variants will be availalbe using query string parameters.","","","False","","",""
+"src/WebformHelpManager.php:1583","If you enjoy and value Drupal and the Webform module consider <a href="":href_involved"">getting involved in the Drupal community</a>, <a href="":href_opencollective"">contributing funds to the Webform module's Open Collective</a>, and <a href="":href_support"">hiring professional support</a>.","","","False","","",""
+"config/install/webform.settings.yml:0","Please login to access the uploaded file.","","","False","","",""
+"config/install/webform.settings.yml:0","Please login to access this form.","","","False","","",""
+"config/install/webform.settings.yml:0","Please login to access this submission.","","","False","","",""
+"templates/webform-help-support.html.twig:33","Professional support","","","False","","",""
+"src/WebformAddonsManager.php:1454;1528","Protected Submissions","","","False","","",""
+"src/WebformAddonsManager.php:728","Provides a Webform handler to add contact to the list of direct e-mailing service Ecomail.cz.","","","False","","",""
+"src/WebformAddonsManager.php:1545","Provides e-mail double opt-in functionality.","","","False","","",""
+"templates/webform-help-support.html.twig:36","Starting at $800","","","False","","",""
+"modules/webform_scheduled_email/src/Plugin/WebformHandler/ScheduleEmailWebformHandler.php:321","The %field date is required. Please enter a @type in the format %format.","","","False","","",""
+"modules/webform_attachment/src/Plugin/WebformElement/WebformAttachmentBase.php:184","The attachment's link will only be diplayed on the form after the submission is completed.","","","False","","",""
+"src/EntitySettings/WebformEntitySettingsFormForm.php:199","This behavior is not supoported when Ajax is enabled.","","","False","","",""
+"src/Form/AdminConfig/WebformAdminConfigAdvancedForm.php:303","This cannot be undone!!!","","","False","","",""
+"src/Plugin/WebformElement/WebformWizardPage.php:118","This is used for the Next Page button on the page before this page break.","","","False","","",""
+"src/Plugin/WebformElement/WebformWizardPage.php:124","This is used for the Previous Page button on the page after this page break.","","","False","","",""
+"modules/webform_access/webform_access.tokens.inc:20","Tokens related to webform access group types. <em>This token is only available to a Webform email handler's 'To', 'CC', and 'BCC' email recipents.</em>","","","False","","",""
+"modules/webform_templates/config/install/webform.webform.template_user_profile.yml:0","account_information:
+  '#title': 'Your Account Information'
+  '#type': webform_section
+  user_name:
+    '#type': textfield
+    '#title': 'User Name'
+  picture:
+    '#type': managed_file
+    '#title': Picture
+    '#description': 'Your virtual face or picture. Pictures larger than 1024x1024 pixels will be scaled down.'
+    '#max_filesize': '2'
+    '#file_extensions': 'gif jpg png svg'
+personal_information:
+  '#title': 'Your Personal Information'
+  '#type': webform_section
+  first_name:
+    '#title': 'First Name'
+    '#type': textfield
+    '#required': true
+  last_name:
+    '#type': textfield
+    '#title': 'Last Name'
+    '#required': true
+  country:
+    '#type': select
+    '#title': Country
+    '#options': country_names
+  languages:
+    '#type': select
+    '#title': 'Languages Spoken'
+    '#description': 'Select one or more languages you speak.'
+    '#multiple': true
+    '#select2': true
+    '#options': languages
+  sex:
+    '#type': webform_radios_other
+    '#title': Sex
+    '#options': sex
+  biography:
+    '#type': text_format
+    '#title': Biography
+    '#description': 'Please include a short blurb about yourself to let us know who you are outside of Drupal.'
+  website:
+    '#type': url
+    '#title': Website
+  irc:
+    '#type': textfield
+    '#title': IRC
+    '#description': 'The nickname you use on various channels of irc.freenode.net'
+  twitter:
+    '#type': textfield
+    '#title': Twitter
+    '#description': 'Your Twitter handle.'
+  github:
+    '#type': textfield
+    '#title': GitHub
+    '#description': 'Your GitHub user name.'
+work_information:
+  '#title': 'Your Work Information'
+  '#type': webform_section
+  current_organization:
+    '#type': textfield
+    '#title': 'Current Organization'
+  current_title:
+    '#type': textfield
+    '#title': 'Current Job Title'
+  organizations:
+    '#type': textarea
+    '#title': 'Past Organizations'
+    '#description': 'List companies or institutions you have worked for.'
+  industries:
+    '#type': webform_select_other
+    '#title': 'Industries Worked In'
+    '#options': industry
+    '#multiple': true
+    '#select2': true
+email_settings:
+  '#title': 'Email addresses'
+  '#type': webform_section
+  email:
+    '#type': email
+    '#title': 'Primary E-mail Address'
+    '#description': 'Enter your primary email addresses, which will be used for all email communications.'
+  emails:
+    '#type': webform_email_multiple
+    '#title': 'Secondary E-mail Addresses'
+    '#description': 'Enter multiple email addresses separated by commas.'
+regional_settings:
+  '#title': 'Regional Settings'
+  '#type': webform_section
+  time_zone:
+    '#type': select
+    '#title': Timezone
+    '#options': time_zones
+  language:
+    '#type': select
+    '#title': 'Preferred Language'
+    '#description': 'This account''s default language for emails, and preferred language for site presentation.'
+    '#options': languages
+actions:
+  '#type': webform_actions
+  '#title': 'Submit button(s)'
+  '#submit__label': Register
+","","","False","","",""
+"modules/webform_image_select/config/install/webform_image_select.webform_image_select_images.kittens.yml:0","kitten_1:
+  text: 'Cute Kitten 1'
+  src: 'http://placekitten.com/220/200'
+kitten_2:
+  text: 'Cute Kitten 2'
+  src: 'http://placekitten.com/180/200'
+kitten_3:
+  text: 'Cute Kitten 3'
+  src: 'http://placekitten.com/130/200'
+kitten_4:
+  text: 'Cute Kitten 4'
+  src: 'http://placekitten.com/270/200'
+","","","False","","",""
+"modules/webform_templates/config/install/webform.webform.template_issue.yml:0","meta_data_details:
+  '#title': 'Issue Meta Data'
+  '#type': details
+  '#open': true
+  meta_data_01:
+    '#type': webform_flexbox
+    title:
+      '#type': textfield
+      '#title': Title
+      '#required': true
+    project:
+      '#type': select
+      '#title': Project
+      '#required': true
+      '#options':
+        'Project I': 'Project I'
+        'Project II': 'Project II'
+        'Project III': 'Project III'
+  meta_data_02:
+    '#type': webform_flexbox
+    category:
+      '#type': select
+      '#title': Category
+      '#required': true
+      '#options':
+        'Bug report': 'Bug report'
+        Task: Task
+        'Feature request': 'Feature request'
+        'Support request': 'Support request'
+        Plan: Plan
+    priority:
+      '#type': select
+      '#title': Priority
+      '#required': true
+      '#options':
+        4: Critical
+        3: Major
+        2: Normal
+        1: Minor
+    status:
+      '#type': webform_select_other
+      '#title': Status
+      '#required': true
+      '#options':
+        Active: Active
+        'Needs work': 'Needs work'
+        'Needs review': 'Needs review'
+        'Reviewed & tested by the community': 'Reviewed & tested by the community'
+        'Patch (to be ported)': 'Patch (to be ported)'
+        Fixed: Fixed
+        Postponed: Postponed
+        'Postponed (maintainer needs more info)': 'Postponed (maintainer needs more info)'
+        'Closed (duplicate)': 'Closed (duplicate)'
+        'Closed (won''t fix)': 'Closed (won''t fix)'
+        'Closed (works as designed)': 'Closed (works as designed)'
+        'Closed (cannot reproduce)': 'Closed (cannot reproduce)'
+        'Closed (outdated)': 'Closed (outdated)'
+    version:
+      '#type': webform_autocomplete
+      '#title': Version
+      '#required': true
+      '#autocomplete_existing': true
+    component:
+      '#type': webform_select_other
+      '#title': Component
+      '#required': true
+      '#options':
+        Code: Code
+        Documentation: Documentation
+        Miscellaneous: Miscellaneous
+        'User interface': 'User interface'
+    assigned:
+      '#type': entity_autocomplete
+      '#title': Assigned
+      '#target_type': user
+      '#selection_handler': 'default:user'
+      '#selection_settings':
+        include_anonymous: false
+  meta_data_03:
+    '#type': webform_flexbox
+    tags:
+      '#type': entity_autocomplete
+      '#title': 'Issue Tags'
+      '#description': 'Do <strong>NOT</strong> use tags for adding random keywords or duplicating any other fields.  Separate terms with a comma, not a space.'
+      '#tags': true
+      '#target_type': taxonomy_term
+      '#selection_handler': 'default:taxonomy_term'
+      '#selection_settings':
+        target_bundles:
+          tags: tags
+        auto_create: 1
+        auto_create_bundle: tags
+summary_and_relationshsips_details:
+  '#title': 'Issue Summary'
+  '#type': details
+  '#open': true
+  summary:
+    '#type': text_format
+    '#title': Summary
+    '#description': 'An issue summary is a concise overview of a full issue report. Issue summaries need to be written if the issue has more than a few comments and/or an average developer cannot understand the subject matter after a few minutes of study. These summaries are key sources of information for core developers, patch reviewers and users who need to skim large amounts of issues and information quickly.'
+files_details:
+  '#title': Files
+  '#type': details
+  '#open': true
+  files:
+    '#type': managed_file
+    '#title': Files
+    '#multiple': true
+","","","False","","",""
 "src/WebformLibrariesManager.php:197","Please download external libaries using one the <a href="":href"">recommended methods.","","","False","","",""
 "modules/webform_example_custom_form/config/install/webform.webform.webform_example_custom_form.yml:0","'#attributes':
   'class':

@@ -28,7 +28,7 @@
 "social_swiftmail_sendgrid.info.yml:0","Social","","","False","","",""
 "social_swiftmail_sendgrid.info.yml:0","Social Swiftmailer & Sendgrid integration","","","False","","",""
 "src/Form/SendgridDnsOverview.php:99","Status","","","False","","",""
-"src/Plugin/AdvancedQueue/JobType/MassUserMailQueueJob.php:118","The Job was finished correctly, no error thrown.","","","False","","",""
+"src/Plugin/AdvancedQueue/JobType/MassUserMailQueueJob.php:95","The Job was finished correctly, no error thrown.","","","False","","",""
 "src/Plugin/AdvancedQueue/JobType/MassActivitySendEmailJobType.php:177","The Job was has been split up in batches.","","","False","","",""
 "src/Plugin/AdvancedQueue/JobType/MassActivitySendEmailJobType.php:142","The activity was already deleted. We marked it as successful.","","","False","","",""
 "src/Form/SendgridDnsDetails.php:218","The domain could not be verified.","","","False","","",""
@@ -53,9 +53,10 @@
 "src/Form/SendgridDnsOverview.php:168","You are currently using the fallback e-mail <b>@mail_address</b> for Open Social to send e-mails.
                     While e-mails will be delivered correctly we recommend <a href=""@site_settings""><u>Changing the sender e-mail</u></a> to a use the domain that matches the Community domain.
                     This ensures that members recognize the e-mails they get from your platform and improves open rates.","","","False","","",""
+"src/Plugin/QueueWorker/MassUserMailQueueProcessor.php:119","You receive community updates and announcements emails according to your @settings","","","False","","",""
 "src/Form/SendgridDnsOverview.php:34;258","Your community is not correctly configured to send e-mail, please contact Open Social support.","","","False","","",""
 "src/Form/SendgridDnsOverview.php:190","Your platform is configured correctly to send e-mails.","","","False","","",""
 "src/Form/SendgridDnsOverview.php:197","Your platform is configured to use <b>@mail_address</b> for sending e-mails but <b>@domain</b> is not correctly configured.<br/>If this is not the email address you want you can <a href=""@site_settings""><u>change the sender e-mail</u></a>","","","False","","",""
-"src/Plugin/AdvancedQueue/JobType/MassActivitySendEmailJobType.php:518","email notification settings","","","False","","",""
+"src/Plugin/QueueWorker/MassUserMailQueueProcessor.php:113","email notification settings","","","False","","",""
 "src/Form/SendgridDnsOverview.php:113;153","pending","","","False","","",""
 "src/Form/SendgridDnsOverview.php:113","verified","","","False","","",""

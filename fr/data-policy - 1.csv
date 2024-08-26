@@ -117,6 +117,7 @@
 "src/Entity/DataPolicy.php:241","The time that the entity was last edited.","La date à laquelle l'entité a été modifiée pour la dernière fois.","","False","","",""
 "src/Entity/DataPolicy.php:183","The user ID of author of the Data policy entity.","","","False","","",""
 "src/Entity/UserConsent.php:138","The user ID of author of the User consent entity.","","","False","","",""
+"src/Form/DataPolicyDeleteForm.php:30","This action cannot be undone.","","","False","","",""
 "data_policy.module:23","This module helps site managers inform users about data collection.","","","False","","",""
 "src/Form/InformBlockForm.php:52","Title","Titre","","False","","",""
 "modules/data_policy_export/src/Plugin/Action/ExportDataPolicy.php:189","Undecided","Indécis","","False","","",""

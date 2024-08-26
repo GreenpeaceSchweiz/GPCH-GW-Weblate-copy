@@ -11,6 +11,8 @@
 "src/Form/SocialSchedulerSettingsForm.php:86","Enable scheduled publishing","","","False","","",""
 "src/Form/SocialSchedulerSettingsForm.php:113","Enable scheduled unpublishing","","","False","","",""
 "modules/social_scheduler_post/social_scheduler_post.module:106","Post","","","False","","",""
+"modules/social_scheduler_post/src/Plugin/Scheduler/PostScheduler.php:8","Post Scheduler Plugin","","","False","","",""
+"modules/social_scheduler_post/src/Plugin/Scheduler/PostScheduler.php:8","Provides support for scheduling post entities","","","False","","",""
 "social_scheduler.info.yml:0","Provides the ability to schedule content publications","","","False","","",""
 "modules/social_scheduler_post/social_scheduler_post.info.yml:0","Provides the ability to schedule post publications","","","False","","",""
 "modules/social_scheduler_post/social_scheduler_post.module:21","Publish on","","","False","","",""
