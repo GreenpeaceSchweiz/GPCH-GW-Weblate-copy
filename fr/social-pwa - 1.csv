@@ -57,6 +57,7 @@
 "social_pwa.install:14","The Social PWA module has been enabled.","","","False","","",""
 "src/Form/ManifestSettingsForm.php:205","The path '%path' has to start with a slash.","","","False","","",""
 "src/Form/ManifestSettingsForm.php:171","The scope for the Service Worker.","","","False","","",""
+"src/WebPushManager.php:91","The subscription data from user id @user-id is wrong, check this user subscription to fix.","","","False","","",""
 "src/Form/ManifestSettingsForm.php:149","Theme Color","","","False","","",""
 "src/Form/PushNotificationForm.php:106","There are currently no users subscribed to receive push notifications.","","","False","","",""
 "js/main.js:0","There was an error processing your push notification settings.","","","False","","",""

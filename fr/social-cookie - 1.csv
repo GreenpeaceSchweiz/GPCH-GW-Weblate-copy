@@ -1,11 +1,12 @@
 "location","source","target","id","fuzzy","context","translator_comments","developer_comments"
-"social_cookie.install:33","<h2>We value your privacy</h2>
+"social_cookie.install:82","<h2>We value your privacy</h2>
 <p>We and 3rd parties use cookies to enhance your experience. These include
-necessary, analytical and marketing cookies. By clicking ”Accept Cookies” you 
-consent to our use of cookies. You can update your choice at any time in your 
+necessary, analytical and marketing cookies. By clicking ”Accept Cookies” you
+consent to our use of cookies. You can update your choice at any time in your
 settings.</p>","","","False","","",""
 "social_cookie.install:30","Accept All","","","False","","",""
 "social_cookie.permissions.yml:0","Administer Social Cookie settings","","","False","","",""
+"social_cookie.links.menu.yml:0","Administer cookie settings","","","False","","",""
 "social_cookie.permissions.yml:0","Allow to access all avalaible options on the cookie settings form","","","False","","",""
 "config/install/eu_cookie_compliance.cookie_category.analytical_cookies.yml:0","Analytical cookies","","","False","","",""
 "config/install/eu_cookie_compliance.cookie_category.analytical_cookies.yml:0","Any cookies that help us monitor anonymized site traffic and analytics, as well as cookies that let us run tests to optimize our site’s experience. This could be from 3rd party companies, such as Google Analytics.","","","False","","",""
@@ -13,6 +14,7 @@ settings.</p>","","","False","","",""
 "templates/eu-cookie-compliance-popup-info-custom.html.twig:55","Close","","","False","","",""
 "templates/eu-cookie-compliance-popup-info-custom.html.twig:52","Close cookie popup","","","False","","",""
 "social_cookie.install:31","Confirm my choices","","","False","","",""
+"social_cookie.links.menu.yml:0;0","Cookie settings","","","False","","",""
 "config/install/eu_cookie_compliance.cookie_category.marketing_cookies.yml:0","Cookies that allow us to customize and measure the effectiveness of our marketing. These can be used to serve you advertising after you have left our site (retargetting cookies).","","","False","","",""
 "templates/eu-cookie-compliance-popup-info-custom.html.twig:106","Customize","Personnaliser","","False","","",""
 "templates/eu-cookie-compliance-popup-info-custom.html.twig:75","Customize Consent Preference","Personnaliser les options de cookies","","False","","",""
@@ -27,3 +29,8 @@ settings.</p>","","","False","","",""
 "social_cookie.info.yml:0","Social Cookie","","","False","","",""
 "config/install/eu_cookie_compliance.cookie_category.strictly_necessary_cookies.yml:0","Strictly necessary cookies","","","False","","",""
 "templates/eu-cookie-compliance-popup-info-custom.html.twig:86","Toggle arrow","","","False","","",""
+"social_cookie.install:33","<h2>We value your privacy</h2>
+<p>We and 3rd parties use cookies to enhance your experience. These include
+necessary, analytical and marketing cookies. By clicking ”Accept Cookies” you 
+consent to our use of cookies. You can update your choice at any time in your 
+settings.</p>","","","False","","",""
