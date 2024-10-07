@@ -179,7 +179,6 @@
 "src/Plugin/metatag/Tag/Author.php:5","Author","Autore/Autrice","","False","","",""
 "metatag_verification/src/Plugin/metatag/Tag/Baidu.php:7","Baidu","","","False","","",""
 "src/Plugin/metatag/Group/Basic.php:5","Basic tags","","","False","","",""
-"src/Form/MetatagSettingsForm.php:147","Because of how tokens are processed in meta tags, use of the Maxlength module may not provide an accurate representation of the actual current length of each meta tag, so it may cause more problem than it is worth. ","","","False","","",""
 "metatag_dc_advanced/src/Plugin/metatag/Tag/BibliographicCitation.php:7","Bibliographic Citation","","","False","","",""
 "metatag_verification/src/Plugin/metatag/Tag/Bing.php:7","Bing","","","False","","",""
 "metatag_open_graph/config/schema/metatag_open_graph.metatag_tag.schema.yml:0","Book Author","","","False","","",""
