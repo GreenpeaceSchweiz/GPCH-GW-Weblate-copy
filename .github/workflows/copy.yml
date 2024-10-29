@@ -2,8 +2,8 @@ name: copy
 
 # Controls when the action will run.
 on:
-  schedule:
-    - cron: '0 20 * * 1' # locked between 22:00 and 00:20
+#  schedule:
+#    - cron: '0 20 * * 1' # locked between 22:00 and 00:20
   workflow_dispatch:
     inputs:
       custom_slug:
